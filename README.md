@@ -30,7 +30,7 @@ MIT License. See `LICENSE.txt` for more information.
 
 
 [build-shield]: https://img.shields.io/github/workflow/status/uebelack/briefe.app/Build.svg?style=for-the-badge
-[build-url]: https://github.com/uebelack/briefe.app/actions/workflows/ci.yml
+[build-url]: https://github.com/uebelack/briefe.app/actions/workflows/ci.yaml
 [language-shield]: https://img.shields.io/github/languages/top/uebelack/briefe.app.svg?style=for-the-badge
 [language-url]: https://github.com/uebelack/briefe.app
 [coverage-shield]: https://img.shields.io/coveralls/github/uebelack/briefe.app.svg?style=for-the-badge
