@@ -1,0 +1,72 @@
+module.exports = {
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    screens: {
+      sm: '480px',
+      md: '768px',
+      lg: '976px',
+      xl: '1024px',
+    },
+    container: {
+      center: true,
+    },
+    colors: {
+      'gray-light': '#FAFAFA',
+      'gray': '#9DA3AE',
+      'gray-dark': '#484848',
+      'red': '#ff595e',
+      'green': '#8ac926',
+      'yellow': '#ffca3a',
+      'blue': '#0080FC',
+      'black': '#000',
+      'white': '#fff',
+    },
+    fontFamily: {
+      sans: ['Lexend', 'sans-serif'],
+    },
+    extend: {
+      typography: ({ theme }) => ({
+        briefe: {
+          css: {
+            '--tw-prose-body': '#000',
+            '--tw-prose-headings': '#000',
+            '--tw-prose-lead': '#000',
+            '--tw-prose-links': '#000',
+            '--tw-prose-bold': '#000',
+            '--tw-prose-counters': '#000',
+            '--tw-prose-bullets': '#000',
+            '--tw-prose-hr': '#000',
+            '--tw-prose-quotes': '#000',
+            '--tw-prose-quote-borders': '#000',
+            '--tw-prose-captions': '#000',
+            '--tw-prose-code': '#000',
+            '--tw-prose-pre-code': '#000',
+            '--tw-prose-pre-bg': '#000',
+            '--tw-prose-th-borders': '#000',
+            '--tw-prose-td-borders': '#000',
+            '--tw-prose-invert-body': '#000',
+            '--tw-prose-invert-headings': '#fff',
+            '--tw-prose-invert-lead': '#000',
+            '--tw-prose-invert-links': '#fff',
+            '--tw-prose-invert-bold': '#fff',
+            '--tw-prose-invert-counters': '#000',
+            '--tw-prose-invert-bullets': '#000',
+            '--tw-prose-invert-hr': '#000',
+            '--tw-prose-invert-quotes': '#000',
+            '--tw-prose-invert-quote-borders': '#000',
+            '--tw-prose-invert-captions': '#000',
+            '--tw-prose-invert-code': '#fff',
+            '--tw-prose-invert-pre-code': '#000',
+            '--tw-prose-invert-pre-bg': 'rgb(0 0 0 / 50%)',
+            '--tw-prose-invert-th-borders': '#000',
+            '--tw-prose-invert-td-borders': '#000',
+          },
+        }
+      }),
+    },
+  },
+  plugins: [require('@tailwindcss/typography')],
+}

@@ -1,0 +1,194 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Imprint/> should render 1`] = `
+<div>
+  <div
+    class="page"
+  >
+    <header
+      class="fixed top-0 w-full bg-blue text-white"
+    >
+      <div
+        class="md:container px-4 my-4 fade-in flex flex-col md:flex-row"
+      >
+        <a
+          class="flex items-center transition ease-in-out delay-150 flex-grow"
+          href="/"
+        >
+          <img
+            alt="Letter logo"
+            data-nimg="1"
+            decoding="async"
+            height="35"
+            loading="lazy"
+            src="/logo.svg"
+            style="color: transparent;"
+            width="50"
+          />
+          <div
+            class="text-2xl ml-2 text-white"
+          >
+            Letter App
+          </div>
+        </a>
+        <ul
+          class="flex md:pl-1 pt-1 md:pt-1.5 "
+        >
+          <li
+            class="mr-2"
+          >
+            <a
+              href="/#details"
+            >
+              Details
+            </a>
+          </li>
+          <li
+            class="mr-2"
+          >
+            <a
+              href="/#features"
+            >
+              Features
+            </a>
+          </li>
+          <li
+            class="mr-2"
+          >
+            <a
+              href="/#contact"
+            >
+              Contact
+            </a>
+          </li>
+          <li>
+            <a
+              class="pr-1"
+              href="/en"
+            >
+              en
+            </a>
+          </li>
+          <li>
+            |
+          </li>
+          <li>
+            <a
+              class="pl-1"
+              href="/de"
+            >
+              de
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <div
+      class="section"
+    >
+      <div
+        class="prose proese-briefe md:container px-4"
+      >
+        <h1>
+          Imprint
+        </h1>
+        <h2>
+          Contact
+        </h2>
+        <p>
+          Übelacker Solutions GmbH
+          <br />
+          Bläsiring 28
+          <br />
+          4057 Basel
+          <br />
+          Switzerland
+        </p>
+        <p>
+          E-Mail: support@briefe.app
+          <br />
+          Webseite: briefe.app
+        </p>
+        <h2>
+          Authorized representative
+        </h2>
+        <p>
+          David Übelacker
+        </p>
+        <h2>
+          Commercial register entry
+        </h2>
+        <h3>
+          Registered company name:
+        </h3>
+        <p>
+          Übelacker Solutions GmbH
+        </p>
+        <h3>
+          Company No. (UID):
+        </h3>
+        <p>
+          CHE-175.183.669
+        </p>
+        <h3>
+          VAT number
+        </h3>
+        <p>
+          CHE-175.183.669 MWST
+        </p>
+        <h2>
+          Disclaimer
+        </h2>
+        <p>
+          The author assumes no responsibility for the correctness, accuracy, timeliness, reliability and completeness of the information.
+        </p>
+        <p>
+          Liability claims regarding damage caused by the use of any information provided, including any kind of information which is incomplete or incorrect, will therefore be rejected.
+        </p>
+        <p>
+          All offers are non-binding. The author expressly reserves the right to change, supplement or delete parts of the pages or the entire offer without special notice, or to cease publication temporarily or permanently.
+        </p>
+        <h3>
+          Disclaimer for links
+        </h3>
+        <p>
+          References and links to third party websites are outside our area of responsibility. Any responsibility for such websites is disclaimed. The access and use of such websites is at the own risk of the respective user.
+        </p>
+        <h3>
+          Copyright
+        </h3>
+        <p>
+          The copyright and all other rights to the content, images, photos or other files on this website, belong exclusively to the company Übelacker Solutions GmbH or the specifically named rights holders. For the reproduction of any elements, the written consent of the copyright holder must be obtained in advance.
+        </p>
+      </div>
+    </div>
+    <footer
+      class="md:container mt-20 mb-20 text-center"
+    >
+      <div
+        class="mb-2 px-4 my-4"
+      >
+        ©
+         
+        2023
+         
+        Übelacker Solutions GmbH
+        <br />
+        <a
+          href="/en/imprint"
+        >
+          Imprint
+        </a>
+         
+        |
+         
+        <a
+          href="/en/privacy"
+        >
+          Privacy Policy
+        </a>
+      </div>
+    </footer>
+  </div>
+</div>
+`;

@@ -1,0 +1,482 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App/> should render 1`] = `
+<div>
+  <div
+    class="CookieConsent"
+    style="align-items: baseline; background: rgb(53, 53, 53); color: white; display: flex; flex-wrap: wrap; justify-content: space-between; left: 0px; position: fixed; width: 100%; z-index: 999; bottom: 0px;"
+  >
+    <div
+      class=""
+      style="flex: 1 0 300px; margin: 15px;"
+    >
+      This website uses cookies to ensure you get the best experience on our website. To learn more, please refer to our
+       
+      <a
+        class="underline underline-offset-2"
+        href="/en/privacy"
+      >
+        Privacy Policy
+      </a>
+      .
+    </div>
+    <div
+      class=""
+    >
+      <button
+        aria-label="Accept cookies"
+        class=""
+        id="rcc-confirm-button"
+        style="background: rgb(255, 212, 45); border: 0px; border-radius: 0px; box-shadow: none; color: black; cursor: pointer; flex: 0 0 auto; padding: 5px 10px; margin: 15px;"
+      >
+        Accept
+      </button>
+    </div>
+  </div>
+  <div
+    class="page"
+  >
+    <header
+      class="fixed top-0 w-full bg-blue text-white"
+    >
+      <div
+        class="md:container px-4 my-4 fade-in flex flex-col md:flex-row"
+      >
+        <a
+          class="flex items-center transition ease-in-out delay-150 flex-grow"
+          href="/"
+        >
+          <img
+            alt="Letter logo"
+            data-nimg="1"
+            decoding="async"
+            height="35"
+            loading="lazy"
+            src="/logo.svg"
+            style="color: transparent;"
+            width="50"
+          />
+          <div
+            class="text-2xl ml-2 text-white"
+          >
+            Letter App
+          </div>
+        </a>
+        <ul
+          class="flex md:pl-1 pt-1 md:pt-1.5 "
+        >
+          <li
+            class="mr-2"
+          >
+            <a
+              href="/#details"
+            >
+              Details
+            </a>
+          </li>
+          <li
+            class="mr-2"
+          >
+            <a
+              href="/#features"
+            >
+              Features
+            </a>
+          </li>
+          <li
+            class="mr-2"
+          >
+            <a
+              href="/#contact"
+            >
+              Contact
+            </a>
+          </li>
+          <li>
+            <a
+              class="pr-1"
+              href="/en"
+            >
+              en
+            </a>
+          </li>
+          <li>
+            |
+          </li>
+          <li>
+            <a
+              class="pl-1"
+              href="/de"
+            >
+              de
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <div
+      class="grid place-items-center first bg-blue text-white section"
+    >
+      <div
+        class="grid place-items-center md:container px-4"
+      >
+        <img
+          alt="Letter app"
+          data-nimg="1"
+          decoding="async"
+          height="605"
+          loading="lazy"
+          src="/devices_en.png"
+          style="color: transparent;"
+          width="992"
+        />
+        <a
+          href="http://itunes.apple.com/app/letter/id498506154"
+        >
+          <img
+            alt="App Store"
+            class="mt-5"
+            data-nimg="1"
+            decoding="async"
+            height="50"
+            loading="lazy"
+            src="/app_store_en.svg"
+            style="color: transparent;"
+            width="150"
+          />
+        </a>
+        <div
+          class="p-3 md:w-4/5 pt-10"
+        >
+          <div
+            class="text-2xl md:text-3xl mb-4"
+          >
+            C
+          </div>
+        </div>
+      </div>
+    </div>
+    <button
+      aria-label="Scroll down"
+      class="scroll-button"
+      type="button"
+    />
+    <div
+      class="section"
+    >
+      <div
+        class="md:container px-4"
+      >
+        <div
+          class="flex"
+        >
+          <div
+            class="prose proese-briefe"
+          >
+            <h1
+              class="text-2xl pt-5 mb-6"
+              id="details"
+            >
+              Details
+            </h1>
+            <p>
+              The Letter App allows you to quickly and effortlessly create and print professionally formatted letters. Your letters will have an appealing layout that leaves a professional impression. With a simple click, you can print your letters directly from the app. You also have the option to share your letters digitally or export them as PDF files to distribute them on various platforms. The app syncs seamlessly across your devices through iCloud, allowing you to access your letters anytime and anywhere. Thanks to the straightforward search function, you can easily retrieve previously composed letters.
+            </p>
+            <p>
+              In the Pro version, you'll have access to additional features, such as adding personal signatures directly within the app, effortlessly incorporating contact addresses from your address book, and utilizing a wide range of templates for various occasions. You can customize settings to adapt the format of your letters to your specific needs. The Letter App simplifies your correspondence, enabling you to create, share, and print letters with ease, all while maintaining style and user-friendliness.
+            </p>
+          </div>
+          <div
+            class="pt-32 ml-20 hidden lg:inline"
+          >
+            <img
+              alt="Letter app"
+              data-nimg="1"
+              decoding="async"
+              height="450"
+              loading="lazy"
+              src="/details_en.png"
+              style="color: transparent;"
+              width="225.5"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="md:container px-4"
+      >
+        <h1
+          class="text-2xl pt-5 mb-6"
+          id="features"
+        >
+          Features
+        </h1>
+        <p>
+          To give you a comprehensive overview, we have listed all the features in detail, according to their availability in the different app versions. This way, you can easily see which features each version of the app offers.
+        </p>
+        <div
+          class="flex flex-wrap md:flex-nowrap mt-5"
+        >
+          <div
+            class="grow mt-5 md:mr-5"
+          >
+            <h3
+              class="text-xl font-bold mb-5"
+            >
+              Free Version
+            </h3>
+            <div
+              class="flex mb-5"
+            >
+              <div
+                class="text-4xl mr-5"
+              >
+                📄
+              </div>
+              <div>
+                <div
+                  class="text-lg font-bold"
+                >
+                  Auto Format
+                </div>
+                <div
+                  class="text-lg"
+                >
+                  Letters are automatically formatted in a professional manner
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex mb-5"
+            >
+              <div
+                class="text-4xl mr-5"
+              >
+                🖨️
+              </div>
+              <div>
+                <div
+                  class="text-lg font-bold"
+                >
+                  Print
+                </div>
+                <div
+                  class="text-lg"
+                >
+                  Easily print your letters directly from the app
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex mb-5"
+            >
+              <div
+                class="text-4xl mr-5"
+              >
+                📤
+              </div>
+              <div>
+                <div
+                  class="text-lg font-bold"
+                >
+                  Share & Export
+                </div>
+                <div
+                  class="text-lg"
+                >
+                  Share your letters digitally or export them as PDF files
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex mb-5"
+            >
+              <div
+                class="text-4xl mr-5"
+              >
+                ☁️
+              </div>
+              <div>
+                <div
+                  class="text-lg font-bold"
+                >
+                  Storage
+                </div>
+                <div
+                  class="text-lg"
+                >
+                  Your letters are synchronized across devices using iCloud
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="grow mt-5 md:ml-5"
+          >
+            <h3
+              class="text-xl font-bold mb-5"
+            >
+              PRO Version
+            </h3>
+            <div
+              class="flex mb-5"
+            >
+              <div
+                class="text-4xl mr-5"
+              >
+                ✍️
+              </div>
+              <div>
+                <div
+                  class="text-lg font-bold"
+                >
+                  Signatures
+                </div>
+                <div
+                  class="text-lg"
+                >
+                  Add personal signatures directly within the app
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex mb-5"
+            >
+              <div
+                class="text-4xl mr-5"
+              >
+                📇
+              </div>
+              <div>
+                <div
+                  class="text-lg font-bold"
+                >
+                  Contacts
+                </div>
+                <div
+                  class="text-lg"
+                >
+                  Easily incorporate contact addresses from your address book
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex mb-5"
+            >
+              <div
+                class="text-4xl mr-5"
+              >
+                📋
+              </div>
+              <div>
+                <div
+                  class="text-lg font-bold"
+                >
+                  Templates
+                </div>
+                <div
+                  class="text-lg"
+                >
+                  Utilize a wide range of templates for various occasions
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex mb-5"
+            >
+              <div
+                class="text-4xl mr-5"
+              >
+                📐
+              </div>
+              <div>
+                <div
+                  class="text-lg font-bold"
+                >
+                  Layout
+                </div>
+                <div
+                  class="text-lg"
+                >
+                  Customize the layout of your letters to your specific needs
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="grid place-items-center mt-5"
+        >
+          <a
+            href="http://itunes.apple.com/app/letter/id498506154"
+          >
+            <img
+              alt="App Store"
+              class="mt-5"
+              data-nimg="1"
+              decoding="async"
+              height="50"
+              loading="lazy"
+              src="/app_store_en.svg"
+              style="color: transparent;"
+              width="150"
+            />
+          </a>
+        </div>
+      </div>
+      <div
+        class="md:container px-4"
+      >
+        <div
+          class="flex flex-col items-center"
+        >
+          <div
+            class="w-full md:w-9/12"
+          >
+            <h1
+              class="text-2xl pt-5 mb-6"
+              id="contact"
+            >
+              Contact
+            </h1>
+            <div
+              class="lazyload-wrapper "
+            >
+              <div
+                class="lazyload-placeholder"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer
+      class="md:container mt-20 mb-20 text-center"
+    >
+      <div
+        class="mb-2 px-4 my-4"
+      >
+        ©
+         
+        2023
+         
+        Übelacker Solutions GmbH
+        <br />
+        <a
+          href="/en/imprint"
+        >
+          Imprint
+        </a>
+         
+        |
+         
+        <a
+          href="/en/privacy"
+        >
+          Privacy Policy
+        </a>
+      </div>
+    </footer>
+  </div>
+</div>
+`;

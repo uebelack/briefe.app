@@ -1,0 +1,13 @@
+.section.first {
+  min-height: calc(100vh);
+}
+
+.section h1 {
+  padding-top: 120px;
+}
+
+@media (min-width: 768px) {
+  .section {
+    min-height: calc(100vh - 125px);
+  }
+}
