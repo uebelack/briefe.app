@@ -14,38 +14,38 @@ export default {
   },
   features: {
     title: 'Funktionen',
-    description: 'Um dir einen umfassenden Überblick zu verschaffen, haben wir alle Funktionen im Detail aufgelistet, und zwar entsprechend ihrer Verfügbarkeit in den verschiedenen App-Versionen. So können Sie leicht erkennen, welche Features jede Version der App bietet.',
+    description: 'Um Ihnen einen umfassenden Überblick zu verschaffen, haben wir alle Funktionen im Detail aufgelistet, und zwar entsprechend ihrer Verfügbarkeit in den verschiedenen App-Versionen. So können Sie leicht erkennen, welche Features jede Version der App bietet.',
     format: {
       title: 'Automatische Formatierung',
       description: 'Briefe werden automatisch professionell formatiert',
     },
     print: {
       title: 'Drucken',
-      description: 'Drucke deine Briefe bequem direkt aus der App',
+      description: 'Drucken Sie Ihre Briefe bequem direkt aus der App',
     },
     export: {
       title: 'Teilen & Exportieren',
-      description: 'Teile deine Briefe digital oder exportiere sie als PDF-Dateien',
+      description: 'Teilen Sie Ihre Briefe digital oder exportiere sie als PDF-Dateien',
     },
     sync: {
       title: 'Speicherung',
-      description: 'Deine Briefe werden über die iCloud geräteübergreifend synchronisiert',
+      description: 'Ihre Briefe werden über die iCloud geräteübergreifend synchronisiert',
     },
     signatures: {
       title: 'Unterschriften',
-      description: 'Füge persönliche Unterschriften direkt in der App hinzu',
+      description: 'Fügen Sie persönliche Unterschriften direkt in der App hinzu',
     },
     contacts: {
       title: 'Kontakte',
-      description: 'Verwende Kontaktadressen aus deinem Adressbuch',
+      description: 'Verwenden Sie Ihre Kontaktadressen direkt aus Ihrem Adressbuch',
     },
     templates: {
       title: 'Vorlagen',
-      description: 'Nutze eine breite Palette von Vorlagen für verschiedene Gelegenheiten',
+      description: 'Nutzen Sie eine breite Palette von Vorlagen für verschiedene Gelegenheiten',
     },
     layout: {
       title: 'Layout',
-      description: 'Passe das Layout deiner Briefe individuell an deine Bedürfnisse an',
+      description: 'Passen Sie die Formatierung Ihrer Briefe individuell an Ihre Bedürfnisse an',
     },
   },
   contact: {
