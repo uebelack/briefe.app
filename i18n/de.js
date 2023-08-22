@@ -64,7 +64,7 @@ export default {
     message_error: 'Bitte geben Sie eine Nachricht ein',
     captcha_error: 'Bitte lösen Sie das Captcha',
     privacy_error: 'Bitte akzeptieren Sie die Datenschutzerklärung',
-    success: 'Vielen Dank für Ihre Nachricht! Ich werde mich so schnell wie möglich bei Ihnen melden!',
+    success: 'Vielen Dank für Ihre Nachricht! Wir werden uns so schnell wie möglich bei Ihnen melden!',
     error: 'Entschuldigung, etwas ist schief gelaufen, bitte versuchen Sie es später noch einmal....',
     cookie: 'Bitte akzeptieren Sie die Cookies am unteren Rand des Bildschirms, um eine Nachricht zu übermitteln oder senden Sie eine E-Mail an support@briefe.app.',
   },

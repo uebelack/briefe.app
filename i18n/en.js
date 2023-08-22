@@ -64,7 +64,7 @@ export default {
     message_error: 'Please enter a message',
     captcha_error: 'Please solve this captcha',
     privacy_error: 'Please accept the privacy policy',
-    success: 'Thank you for your message! i will come back to you, as soon as possible!',
+    success: 'Thank you for your message! we will come back to you, as soon as possible!',
     error: 'Sorry, something went wrong, please retry later...',
     cookie: 'Please accept cookies at the bottom of the screen to submit a message or send a mail to support@briefe.app.',
   },
