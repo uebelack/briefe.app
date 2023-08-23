@@ -29,7 +29,7 @@ export default function Home() {
           </a>
           <div className="p-3 md:w-4/5 pt-10">
             <Typist typingDelay={30}>
-              <div className="text-2xl md:text-3xl mb-4">
+              <div className="text-xl md:text-3xl mb-4">
                 { formatMessage({ id: 'home.teaser' }) }
               </div>
             </Typist>

@@ -32,6 +32,7 @@ export default function Header({ title, description }: Props) {
         </title>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
         <meta name="apple-itunes-app" content="app-id=498506154" />
+        <meta name="theme-color" content="#0080FC" />
         {description && (<meta name="description" content={description} />)}
         {typeof window !== 'undefined' && cookiesAccess && (
           <>
