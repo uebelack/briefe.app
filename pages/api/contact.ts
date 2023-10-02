@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import Mailgun from 'mailgun.js';
 import FormData from 'form-data';
 import axios from 'axios';
@@ -50,6 +51,7 @@ export default async function handler(request:{ method: string, body: { email: s
       if (error.errors) {
         response.status(400).send(JSON.stringify({ error: 'validation failed', causes: error.errors }));
       } else {
+        console.error(error);
         response.status(400).send(JSON.stringify({ error: 'unknown error' }));
       }
     }

@@ -65,7 +65,7 @@ export default {
     captcha_error: 'Please solve this captcha',
     privacy_error: 'Please accept the privacy policy',
     success: 'Thank you for your message! we will come back to you, as soon as possible!',
-    error: 'Unfortunately, an unexpected error has occurred. Please try again later or email us at support@briefe.app',
+    error: 'Unfortunately, an unexpected error has occurred. Please try again later or email us at support@briefe.app.',
     cookie: 'Please accept cookies at the bottom of the screen to submit a message or send a mail to support@briefe.app.',
   },
   footer: {
