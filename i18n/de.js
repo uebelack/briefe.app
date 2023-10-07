@@ -3,6 +3,7 @@ export default {
   common: {
     title: 'Briefe App',
     scroll_down: 'Nach unten scrollen',
+    language: 'Deutsch',
   },
   home: {
     teaser: 'Im Handumdrehen professionell formatierte Briefe erstellen und drucken.',

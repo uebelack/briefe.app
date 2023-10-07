@@ -3,6 +3,7 @@ export default {
   common: {
     title: 'Letter App',
     scroll_down: 'Scroll down',
+    language: 'English',
   },
   home: {
     teaser: 'Create and print perfectly formatted letters in no time.',
