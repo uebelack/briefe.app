@@ -12,10 +12,14 @@ import Heading from '@components/Heading';
 import ContactForm from '@components/ContactForm';
 import Feature from '@components/Feature';
 import { useRouter } from 'next/router';
+import features from '../i18n/features';
 
 export default function Home() {
   const { formatMessage } = useIntl();
   const { locale } = useRouter();
+
+  const featuresKey = Object.keys(features).find((key) => key.startsWith(locale ?? 'en-US')) ?? 'en-US' as keyof typeof features;
+  const featureData = features[featuresKey];
 
   const language = locale?.startsWith('de') ? 'de' : 'en';
   return (
@@ -59,50 +63,26 @@ export default function Home() {
           <p><FormattedMessage id="features.description" /></p>
           <div className="flex flex-wrap md:flex-nowrap mt-5">
             <div className="grow mt-5 md:mr-5">
-              <h3 className="text-xl font-bold mb-5">Free Version</h3>
-              <Feature
-                icon="📄"
-                title={formatMessage({ id: 'features.format.title' })}
-                description={formatMessage({ id: 'features.format.description' })}
-              />
-              <Feature
-                icon="🖨️"
-                title={formatMessage({ id: 'features.print.title' })}
-                description={formatMessage({ id: 'features.print.description' })}
-              />
-              <Feature
-                icon="📤"
-                title={formatMessage({ id: 'features.export.title' })}
-                description={formatMessage({ id: 'features.export.description' })}
-              />
-              <Feature
-                icon="☁️"
-                title={formatMessage({ id: 'features.sync.title' })}
-                description={formatMessage({ id: 'features.sync.description' })}
-              />
+              <h3 className="text-xl font-bold mb-5">{featureData.features.title}</h3>
+              {featureData.features.features.map((feature) => (
+                <Feature
+                  key={feature.title}
+                  icon={feature.icon}
+                  title={feature.title}
+                  description={feature.description}
+                />
+              ))}
             </div>
             <div className="grow mt-5 md:ml-5">
-              <h3 className="text-xl font-bold mb-5">PRO Version</h3>
-              <Feature
-                icon="✍️"
-                title={formatMessage({ id: 'features.signatures.title' })}
-                description={formatMessage({ id: 'features.signatures.description' })}
-              />
-              <Feature
-                icon="📇"
-                title={formatMessage({ id: 'features.contacts.title' })}
-                description={formatMessage({ id: 'features.contacts.description' })}
-              />
-              <Feature
-                icon="📋"
-                title={formatMessage({ id: 'features.templates.title' })}
-                description={formatMessage({ id: 'features.templates.description' })}
-              />
-              <Feature
-                icon="📐"
-                title={formatMessage({ id: 'features.layout.title' })}
-                description={formatMessage({ id: 'features.layout.description' })}
-              />
+              <h3 className="text-xl font-bold mb-5">{featureData.proFeatures.title}</h3>
+              {featureData.proFeatures.features.map((feature) => (
+                <Feature
+                  key={feature.title}
+                  icon={feature.icon}
+                  title={feature.title}
+                  description={feature.description}
+                />
+              ))}
             </div>
           </div>
           <div className="grid place-items-center mt-5">
