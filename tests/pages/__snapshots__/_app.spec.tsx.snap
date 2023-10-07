@@ -93,23 +93,59 @@ exports[`<App/> should render 1`] = `
             </a>
           </li>
           <li>
-            <a
-              class="pr-1"
-              href="/en"
-            >
-              en
-            </a>
-          </li>
-          <li>
             |
           </li>
           <li>
-            <a
-              class="pl-1"
-              href="/de"
+            <div
+              class="relative"
             >
-              de
-            </a>
+              <button
+                aria-expanded="false"
+                aria-haspopup="listbox"
+                class="relative w-full cursor-default pl-3 pr-10 text-left w-40"
+                data-headlessui-state=""
+                id="headlessui-listbox-button-:r0:"
+                type="button"
+              >
+                <span
+                  class="pointer-events-none absolute inset-y-0 left-1 flex items-center pr-2"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="h-5 w-5 text-gray-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M16.555 5.412a8.028 8.028 0 00-3.503-2.81 14.899 14.899 0 011.663 4.472 8.547 8.547 0 001.84-1.662zM13.326 7.825a13.43 13.43 0 00-2.413-5.773 8.087 8.087 0 00-1.826 0 13.43 13.43 0 00-2.413 5.773A8.473 8.473 0 0010 8.5c1.18 0 2.304-.24 3.326-.675zM6.514 9.376A9.98 9.98 0 0010 10c1.226 0 2.4-.22 3.486-.624a13.54 13.54 0 01-.351 3.759A13.54 13.54 0 0110 13.5c-1.079 0-2.128-.127-3.134-.366a13.538 13.538 0 01-.352-3.758zM5.285 7.074a14.9 14.9 0 011.663-4.471 8.028 8.028 0 00-3.503 2.81c.529.638 1.149 1.199 1.84 1.66zM17.334 6.798a7.973 7.973 0 01.614 4.115 13.47 13.47 0 01-3.178 1.72 15.093 15.093 0 00.174-3.939 10.043 10.043 0 002.39-1.896zM2.666 6.798a10.042 10.042 0 002.39 1.896 15.196 15.196 0 00.174 3.94 13.472 13.472 0 01-3.178-1.72 7.973 7.973 0 01.615-4.115zM10 15c.898 0 1.778-.079 2.633-.23a13.473 13.473 0 01-1.72 3.178 8.099 8.099 0 01-1.826 0 13.47 13.47 0 01-1.72-3.178c.855.151 1.735.23 2.633.23zM14.357 14.357a14.912 14.912 0 01-1.305 3.04 8.027 8.027 0 004.345-4.345c-.953.542-1.971.981-3.04 1.305zM6.948 17.397a8.027 8.027 0 01-4.345-4.345c.953.542 1.971.981 3.04 1.305a14.912 14.912 0 001.305 3.04z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="block truncate pl-4"
+                >
+                  English
+                </span>
+                <span
+                  class="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="h-5 w-5 text-gray-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M10 3a.75.75 0 01.55.24l3.25 3.5a.75.75 0 11-1.1 1.02L10 4.852 7.3 7.76a.75.75 0 01-1.1-1.02l3.25-3.5A.75.75 0 0110 3zm-3.76 9.2a.75.75 0 011.06.04l2.7 2.908 2.7-2.908a.75.75 0 111.1 1.02l-3.25 3.5a.75.75 0 01-1.1 0l-3.25-3.5a.75.75 0 01.04-1.06z"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </div>
           </li>
         </ul>
       </div>
@@ -149,7 +185,7 @@ exports[`<App/> should render 1`] = `
           class="p-3 md:w-4/5 pt-10"
         >
           <div
-            class="text-2xl md:text-3xl mb-4"
+            class="text-xl md:text-3xl mb-4"
           >
             C
           </div>
