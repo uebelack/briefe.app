@@ -8,16 +8,27 @@ import '@fontsource/lexend/300.css';
 import '../styles/output.css';
 import messages from '../i18n';
 
+const selectLanguage = (locale:string | undefined) => {
+  if (locale) {
+    const language = Object.keys(messages).find((key) => locale.startsWith(key));
+    if (language) {
+      return language;
+    }
+  }
+
+  return 'en';
+};
+
 export default function App({ Component, pageProps }: AppProps) {
   const { locale } = useRouter();
 
-  const language = locale && locale.startsWith('de') ? 'de' : 'en';
+  const language = selectLanguage(locale);
 
   return (
     <IntlProvider
       locale={language}
       defaultLocale="en"
-      messages={messages[language]}
+      messages={(messages as any)[language]}
     >
       <CookieConsent>
         <Component {...pageProps} />

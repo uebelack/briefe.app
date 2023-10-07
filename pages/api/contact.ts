@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import Mailgun from 'mailgun.js';
 import FormData from 'form-data';
 import axios from 'axios';
@@ -39,8 +40,9 @@ export default async function handler(request:{ method: string, body: { email: s
       const mailgun = new Mailgun(FormData);
       await mailgun.client({ username: 'api', key: process.env.MAILGUN_API_KEY! })
         .messages.create('mg.codecowboys.io', {
-          from: message.email,
+          from: 'mailer@briefe.app',
           to: ['support@briefe.app'],
+          'h:Reply-To': message.email,
           subject: message.subject,
           text: message.message,
         });
@@ -49,6 +51,7 @@ export default async function handler(request:{ method: string, body: { email: s
       if (error.errors) {
         response.status(400).send(JSON.stringify({ error: 'validation failed', causes: error.errors }));
       } else {
+        console.error(error);
         response.status(400).send(JSON.stringify({ error: 'unknown error' }));
       }
     }

@@ -10,7 +10,7 @@ const nextConfig = withMDX({
     appDir: true
   },
   i18n: {
-    locales: ['en', 'de'],
+    locales: ['en', 'de', 'es', 'fr', 'it', 'nl', 'pt'],
     defaultLocale: 'en',
   },
   images: {

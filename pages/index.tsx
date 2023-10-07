@@ -17,7 +17,7 @@ export default function Home() {
   const { formatMessage } = useIntl();
   const { locale } = useRouter();
 
-  const language = locale && locale.startsWith('de') ? 'de' : 'en';
+  const language = locale?.startsWith('de') ? 'de' : 'en';
   return (
     <Page>
       <Header description={formatMessage({ id: 'details.p1' })} />

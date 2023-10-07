@@ -8,6 +8,8 @@ import Image from 'next/image';
 import { FormattedMessage, useIntl } from 'react-intl';
 import { scroller } from 'react-scroll';
 import { useCookieConsent } from './CookieConsent';
+import LanguageSelect from './LanguageSelect';
+import languages from '../i18n/languages';
 
 export interface Props {
   title?: string;
@@ -18,7 +20,7 @@ export default function Header({ title, description }: Props) {
   const intl = useIntl();
   const cookiesAccess = useCookieConsent();
   const handleOnClick = (e: any, target: string) => {
-    if (window.location.pathname === '/en' || window.location.pathname === '/de') {
+    if (Object.keys(languages).indexOf(window.location.pathname.substring(1)) >= 0) {
       scroller.scrollTo(target, { duration: 200, smooth: true });
       e.preventDefault();
     }
@@ -59,9 +61,8 @@ export default function Header({ title, description }: Props) {
           <li className="mr-2"><a href="/#details" onClick={(e) => handleOnClick(e, 'details')}><FormattedMessage id="details.title" /></a></li>
           <li className="mr-2"><a href="/#features" onClick={(e) => handleOnClick(e, 'features')}><FormattedMessage id="features.title" /></a></li>
           <li className="mr-2"><a href="/#contact" onClick={(e) => handleOnClick(e, 'contact')}><FormattedMessage id="contact.title" /></a></li>
-          <li><a href="/en" className="pr-1">en</a></li>
           <li>|</li>
-          <li><a href="/de" className="pl-1">de</a></li>
+          <li><LanguageSelect /></li>
         </ul>
       </div>
     </header>

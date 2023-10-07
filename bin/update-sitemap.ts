@@ -7,7 +7,17 @@ const LAST_MODIFIED = new Date().toISOString();
 const DOMAIN = 'https://briefe.app';
 
 const PAGES = [
-  { url: '/', alternates: [{ lang: 'de', url: '/de' }] },
+  {
+    url: '/',
+    alternates: [
+      { lang: 'de', url: '/de' },
+      { lang: 'fr', url: '/fr' },
+      { lang: 'es', url: '/es' },
+      { lang: 'it', url: '/t' },
+      { lang: 'nl', url: '/nl' },
+      { lang: 'pt', url: '/pt' },
+    ],
+  },
   { url: '/imprint', alternates: [{ lang: 'de', url: '/de/impressum' }] },
   { url: '/privacy', alternates: [{ lang: 'de', url: '/de/datenschutz' }] },
 ];

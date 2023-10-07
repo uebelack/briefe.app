@@ -3,6 +3,7 @@ export default {
   common: {
     title: 'Briefe App',
     scroll_down: 'Nach unten scrollen',
+    language: 'Deutsch',
   },
   home: {
     teaser: 'Im Handumdrehen professionell formatierte Briefe erstellen und drucken.',
@@ -65,7 +66,7 @@ export default {
     captcha_error: 'Bitte lösen Sie das Captcha',
     privacy_error: 'Bitte akzeptieren Sie die Datenschutzerklärung',
     success: 'Vielen Dank für Ihre Nachricht! Wir werden uns so schnell wie möglich bei Ihnen melden!',
-    error: 'Entschuldigung, etwas ist schief gelaufen, bitte versuchen Sie es später noch einmal....',
+    error: 'Leider ist ein unerwarteter Fehler aufgetreten. Bitte versuchen Sie es später erneut oder senden Sie uns eine E-Mail an support@briefe.app.',
     cookie: 'Bitte akzeptieren Sie die Cookies am unteren Rand des Bildschirms, um eine Nachricht zu übermitteln oder senden Sie eine E-Mail an support@briefe.app.',
   },
   footer: {
