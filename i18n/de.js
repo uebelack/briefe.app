@@ -2,6 +2,7 @@
 export default {
   common: {
     title: 'Briefe App',
+    title_long: 'Briefe App - Mühelos professionelle Briefe auf iPhone, iPad und Mac erstellen',
     scroll_down: 'Nach unten scrollen',
     language: 'Deutsch',
   },
@@ -10,7 +11,7 @@ export default {
   },
   details: {
     title: 'Details',
-    p1: 'Die Briefe-App ermöglicht es Ihnen, schnell und einfach professionell gestaltete Briefe zu erstellen und auszudrucken. Ihre Briefe erhalten eine ansprechende Formatierung, die einen professionellen Eindruck hinterlässt. Mit einem einfachen Klick können Sie Ihre Briefe direkt aus der App heraus drucken. Sie haben auch die Möglichkeit, Ihre Briefe digital zu teilen oder als PDF-Dateien zu exportieren, um sie auf verschiedenen Plattformen zu teilen. Die App synchronisiert sich nahtlos über Ihre Geräte hinweg über iCloud, sodass Sie jederzeit und überall auf Ihre Briefe zugreifen können. Dank der unkomplizierten Suchfunktion können Sie leicht früher verfasste Briefe wiederfinden.',
+    p1: 'Die Briefe-App ermöglicht es Ihnen, schnell und einfach professionell gestaltete Briefe auf Ihrem iPhone, iPad oder Mac zu erstellen und auszudrucken. Ihre Briefe erhalten eine ansprechende Formatierung, die einen professionellen Eindruck hinterlässt. Mit einem einfachen Klick können Sie Ihre Briefe direkt aus der App heraus drucken. Sie haben auch die Möglichkeit, Ihre Briefe digital zu teilen oder als PDF-Dateien zu exportieren, um sie auf verschiedenen Plattformen zu teilen. Die App synchronisiert sich nahtlos über Ihre Geräte hinweg über iCloud, sodass Sie jederzeit und überall auf Ihre Briefe zugreifen können. Dank der unkomplizierten Suchfunktion können Sie leicht früher verfasste Briefe wiederfinden.',
     p2: 'In der Pro-Version stehen Ihnen zusätzliche Funktionen zur Verfügung, wie das Hinzufügen persönlicher Signaturen direkt in der App, das problemlose Einbinden von Kontaktadressen aus Ihrem Adressbuch und die Nutzung einer breiten Palette von Vorlagen für verschiedene Gelegenheiten. Sie können die Einstellungen anpassen, um das Format Ihrer Briefe Ihren individuellen Bedürfnissen anzupassen. Die Briefe-App vereinfacht Ihre Korrespondenz, sodass Sie problemlos Briefe erstellen, teilen und drucken können, ohne auf Stil und Nutzerfreundlichkeit zu verzichten.',
   },
   features: {
