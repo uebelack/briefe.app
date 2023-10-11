@@ -2,6 +2,7 @@
 export default {
   common: {
     title: 'App Lettere',
+    title_long: "App Lettere - Crea senza problemi lettere professionali su iPhone, iPad e Mac",
     scroll_down: 'Scorri verso il basso',
     language: 'Italiano',
   },
@@ -10,7 +11,7 @@ export default {
   },
   details: {
     title: 'Dettagli',
-    p1: 'L\'App Lettere ti permette di creare e stampare rapidamente e senza sforzo lettere formattate in modo professionale. Le tue lettere avranno un layout accattivante che lascia un\'impressione professionale. Con un semplice clic, puoi stampare le tue lettere direttamente dall\'app. Hai anche l\'opzione di condividere le tue lettere digitalmente o esportarle come file PDF per distribuirle su diverse piattaforme. l\'app si sincronizza senza problemi su tutti i tuoi dispositivi tramite iCloud, consentendoti di accedere alle tue lettere in qualsiasi momento e ovunque. Grazie alla semplice funzione di ricerca, puoi recuperare facilmente le lettere composte in precedenza.',
+    p1: 'L\'App Lettere ti permette di creare e stampare rapidamente e senza sforzo lettere formattate in modo professionale su iPhone, iPad e Mac. Le tue lettere avranno un layout accattivante che lascia un\'impressione professionale. Con un semplice clic, puoi stampare le tue lettere direttamente dall\'app. Hai anche l\'opzione di condividere le tue lettere digitalmente o esportarle come file PDF per distribuirle su diverse piattaforme. l\'app si sincronizza senza problemi su tutti i tuoi dispositivi tramite iCloud, consentendoti di accedere alle tue lettere in qualsiasi momento e ovunque. Grazie alla semplice funzione di ricerca, puoi recuperare facilmente le lettere composte in precedenza.',
     p2: 'Nella versione Pro, avrai accesso a funzionalità aggiuntive, come l\'aggiunta di firme personali direttamente nell\'app, l\'incorporazione senza sforzo degli indirizzi dei contatti dalla tua rubrica e l\'utilizzo di una vasta gamma di modelli per diverse occasioni. Puoi personalizzare le impostazioni per adattare il formato delle tue lettere alle tue esigenze specifiche. l\'app Lettere semplifica la tua corrispondenza, consentendoti di creare, condividere e stampare lettere con facilità, mantenendo stile e facilità d\'uso.',
   },
   features: {

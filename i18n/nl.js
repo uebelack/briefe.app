@@ -2,6 +2,7 @@
 export default {
   common: {
     title: 'Brieven App',
+    title_long: 'Brieven App - Moeiteloos professionele brieven maken op iPhone, iPad en Mac',
     scroll_down: 'Scroll naar beneden',
     language: 'Nederlands',
   },
@@ -10,7 +11,7 @@ export default {
   },
   details: {
     title: 'Details',
-    p1: 'De Brieven App stelt je in staat om snel en moeiteloos professioneel opgemaakte brieven te maken en te printen. Je brieven zullen een aantrekkelijke lay-out hebben die een professionele indruk achterlaat. Met een eenvoudige klik kun je je brieven rechtstreeks vanuit de app printen. Je hebt ook de mogelijkheid om je brieven digitaal te delen of ze als PDF-bestanden te exporteren om ze op verschillende platforms te verspreiden. De app synchroniseert naadloos op al je apparaten via iCloud, waardoor je op elk moment en overal toegang hebt tot je brieven. Dankzij de eenvoudige zoekfunctie kun je eerder opgestelde brieven eenvoudig terughalen.',
+    p1: 'De Brieven App stelt je in staat om snel en moeiteloos professioneel opgemaakte brieven te maken en te printen op iPhone, iPad y Mac. Je brieven zullen een aantrekkelijke lay-out hebben die een professionele indruk achterlaat. Met een eenvoudige klik kun je je brieven rechtstreeks vanuit de app printen. Je hebt ook de mogelijkheid om je brieven digitaal te delen of ze als PDF-bestanden te exporteren om ze op verschillende platforms te verspreiden. De app synchroniseert naadloos op al je apparaten via iCloud, waardoor je op elk moment en overal toegang hebt tot je brieven. Dankzij de eenvoudige zoekfunctie kun je eerder opgestelde brieven eenvoudig terughalen.',
     p2: 'In de Pro-versie heb je toegang tot extra functies, zoals het toevoegen van persoonlijke handtekeningen rechtstreeks in de app, moeiteloos contactadressen uit je adresboek opnemen en het gebruik van een breed scala aan sjablonen voor verschillende gelegenheden. Je kunt de instellingen aanpassen om de opmaak van je brieven aan je specifieke behoeften aan te passen. De Brieven App vereenvoudigt je correspondentie, waardoor je gemakkelijk brieven kunt maken, delen en printen, terwijl je stijl en gebruiksvriendelijkheid behoudt.',
   },
   features: {

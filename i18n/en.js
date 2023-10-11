@@ -2,6 +2,7 @@
 export default {
   common: {
     title: 'Letter App',
+    title_long: 'Letter App - Effortlessly create professional letters on iPhone, iPad and Mac',
     scroll_down: 'Scroll down',
     language: 'English',
   },

@@ -2,6 +2,7 @@
 export default {
   common: {
     title: 'Aplicativo de Cartas',
+    title_long: 'Aplicação de Cartas - Crie cartas profissionais sem esforço no iPhone, iPad e Mac',
     scroll_down: 'Role para baixo',
     language: 'Português',
   },
@@ -10,7 +11,7 @@ export default {
   },
   details: {
     title: 'Detalhes',
-    p1: 'O Aplicativo de Cartas permite que você crie e imprima rapidamente cartas formatadas profissionalmente. Suas cartas terão um layout atraente que deixa uma impressão profissional. Com um simples clique, você pode imprimir suas cartas diretamente do aplicativo. Você também tem a opção de compartilhar suas cartas digitalmente ou exportá-las como arquivos PDF para distribuí-las em várias plataformas. O aplicativo sincroniza perfeitamente em seus dispositivos por meio do iCloud, permitindo que você acesse suas cartas a qualquer momento e em qualquer lugar. Graças à função de pesquisa simples, você pode facilmente recuperar cartas previamente compostas.',
+    p1: 'O Aplicativo de Cartas permite que você crie e imprima rapidamente cartas formatadas profissionalmente no iPhone, iPad e Mac. Suas cartas terão um layout atraente que deixa uma impressão profissional. Com um simples clique, você pode imprimir suas cartas diretamente do aplicativo. Você também tem a opção de compartilhar suas cartas digitalmente ou exportá-las como arquivos PDF para distribuí-las em várias plataformas. O aplicativo sincroniza perfeitamente em seus dispositivos por meio do iCloud, permitindo que você acesse suas cartas a qualquer momento e em qualquer lugar. Graças à função de pesquisa simples, você pode facilmente recuperar cartas previamente compostas.',
     p2: 'Na versão Pro, você terá acesso a recursos adicionais, como adicionar assinaturas pessoais diretamente no aplicativo, incorporar facilmente endereços de contatos de sua agenda de endereços e usar uma ampla variedade de modelos para diferentes ocasiões. Você pode personalizar as configurações para adaptar o formato de suas cartas às suas necessidades específicas. O Aplicativo de Cartas simplifica sua correspondência, permitindo que você crie, compartilhe e imprima cartas com facilidade, mantendo estilo e facilidade de uso.',
   },
   features: {
