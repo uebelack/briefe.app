@@ -30,7 +30,7 @@ export default function Header({ title, description }: Props) {
     <header className="fixed top-0 w-full bg-blue text-white">
       <Head>
         <title>
-          {title ? `${title} | ${intl.formatMessage({ id: 'common.title' })}` : intl.formatMessage({ id: 'common.title' })}
+          {title ? `${title} | ${intl.formatMessage({ id: 'common.title' })}` : intl.formatMessage({ id: 'common.title_long' })}
         </title>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
         <meta name="apple-itunes-app" content="app-id=498506154" />

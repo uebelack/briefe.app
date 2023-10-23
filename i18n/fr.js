@@ -2,6 +2,7 @@
 export default {
   common: {
     title: 'Application de Lettres',
+    title_long: 'Application de Lettres - Créez sans effort des lettres professionnelles sur iPhone, iPad et Mac',
     scroll_down: 'Faites défiler vers le bas',
     language: 'Français',
   },
@@ -10,8 +11,9 @@ export default {
   },
   details: {
     title: 'Détails',
-    p1: 'L\'application de lettres vous permet de créer et d\'imprimer rapidement et facilement des lettres au format professionnel. Vos lettres auront une mise en page attrayante qui laisse une impression professionnelle. En un simple clic, vous pouvez imprimer vos lettres directement depuis l\'application. Vous avez également la possibilité de partager vos lettres numériquement ou de les exporter au format PDF pour les distribuer sur différentes plates-formes. l\'application se synchronise parfaitement sur vos appareils via iCloud, vous permettant d\'accéder à vos lettres à tout moment et en tout lieu. Grâce à la fonction de recherche simple, vous pouvez facilement retrouver les lettres que vous avez précédemment rédigées.',
-    p2: 'Dans la version Pro, vous aurez accès à des fonctionnalités supplémentaires telles que l\'ajout de signatures personnelles directement dans l\'application, l\'intégration facile des adresses de contact de votre carnet d\'adresses, et l\'utilisation d\'une large gamme de modèles pour différentes occasions. Vous pouvez personnaliser les paramètres pour adapter le format de vos lettres à vos besoins spécifiques. l\'application de lettres simplifie votre correspondance, vous permettant de créer, partager et imprimer des lettres en toute simplicité, tout en maintenant le style et la convivialité.',
+    p1: 'Même à une époque définie par la communication numérique et la connectivité instantanée, les lettres traditionnelles restent une forme indispensable de correspondance. Pourquoi ? Parce qu\'elles représentent un mode d\'échange intemporel et authentique. Que vous envoyiez des messages personnels ou professionnels, les lettres véhiculent une profondeur et une signification qui sont souvent perdues dans les courriels ou les messages texte. Elles sont une expression de soin et d\'attention, laissant une impression durable. Notre application de lettres a été conçue pour allier cette tradition intemporelle à la commodité moderne, vous permettant de créer, de partager et de conserver des lettres professionnelles dans un monde numérique.',
+    p2: 'L\'application de lettres vous permet de créer et d\'imprimer rapidement et facilement des lettres au format professionnel sur iPhone, iPad et Mac. Vos lettres auront une mise en page attrayante qui laisse une impression professionnelle. En un simple clic, vous pouvez imprimer vos lettres directement depuis l\'application. Vous avez également la possibilité de partager vos lettres numériquement ou de les exporter au format PDF pour les distribuer sur différentes plates-formes. l\'application se synchronise parfaitement sur vos appareils via iCloud, vous permettant d\'accéder à vos lettres à tout moment et en tout lieu. Grâce à la fonction de recherche simple, vous pouvez facilement retrouver les lettres que vous avez précédemment rédigées.',
+    p3: 'Dans la version Pro, vous aurez accès à des fonctionnalités supplémentaires telles que l\'ajout de signatures personnelles directement dans l\'application, l\'intégration facile des adresses de contact de votre carnet d\'adresses, et l\'utilisation d\'une large gamme de modèles pour différentes occasions. Vous pouvez personnaliser les paramètres pour adapter le format de vos lettres à vos besoins spécifiques. l\'application de lettres simplifie votre correspondance, vous permettant de créer, partager et imprimer des lettres en toute simplicité, tout en maintenant le style et la convivialité.',
   },
   features: {
     title: 'Fonctionnalités',

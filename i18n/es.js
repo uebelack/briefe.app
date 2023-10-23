@@ -2,6 +2,7 @@
 export default {
   common: {
     title: 'Aplicación de Cartas',
+    title_long: 'Aplicación de Cartas - Crea cartas profesionales sin esfuerzo en iPhone, iPad y Mac',
     scroll_down: 'Desplázate hacia abajo',
     language: 'Español',
   },
@@ -10,8 +11,9 @@ export default {
   },
   details: {
     title: 'Detalles',
-    p1: 'La Aplicación de Cartas te permite crear e imprimir cartas con formato profesional de manera rápida y sencilla. Tus cartas tendrán un diseño atractivo que dejará una impresión profesional. Con un simple clic, puedes imprimir tus cartas directamente desde la aplicación. También tienes la opción de compartir tus cartas de forma digital o exportarlas como archivos PDF para distribuirlas en diversas plataformas. La aplicación se sincroniza perfectamente en tus dispositivos a través de iCloud, lo que te permite acceder a tus cartas en cualquier momento y lugar. Gracias a la función de búsqueda sencilla, puedes recuperar fácilmente las cartas que hayas compuesto previamente.',
-    p2: 'En la versión Pro, tendrás acceso a características adicionales, como agregar firmas personales directamente en la aplicación, incorporar direcciones de contacto de tu libreta de direcciones sin esfuerzo y utilizar una amplia gama de plantillas para diversas ocasiones. Puedes personalizar la configuración para adaptar el formato de tus cartas a tus necesidades específicas. La Aplicación de Cartas simplifica tu correspondencia, permitiéndote crear, compartir e imprimir cartas con facilidad, todo manteniendo estilo y facilidad de uso.',
+    p1: 'Incluso en una era definida por la comunicación digital y la conectividad instantánea, las cartas tradicionales siguen siendo una forma indispensable de correspondencia. ¿Por qué? Porque representan una forma de intercambio atemporal y auténtica. Ya sea que esté enviando mensajes personales o comerciales, las cartas transmiten una profundidad y un significado que a menudo se pierden en correos electrónicos o mensajes de texto. Son una expresión de cuidado y atención, dejando una impresión duradera. Nuestra aplicación de cartas fue diseñada para combinar esta tradición atemporal con la comodidad moderna, permitiéndole crear, compartir y preservar cartas profesionales en un mundo digital.',
+    p2: 'La Aplicación de Cartas te permite crear e imprimir cartas con formato profesional de manera rápida y sencilla en iPhone, iPad y Mac. Tus cartas tendrán un diseño atractivo que dejará una impresión profesional. Con un simple clic, puedes imprimir tus cartas directamente desde la aplicación. También tienes la opción de compartir tus cartas de forma digital o exportarlas como archivos PDF para distribuirlas en diversas plataformas. La aplicación se sincroniza perfectamente en tus dispositivos a través de iCloud, lo que te permite acceder a tus cartas en cualquier momento y lugar. Gracias a la función de búsqueda sencilla, puedes recuperar fácilmente las cartas que hayas compuesto previamente.',
+    p3: 'En la versión Pro, tendrás acceso a características adicionales, como agregar firmas personales directamente en la aplicación, incorporar direcciones de contacto de tu libreta de direcciones sin esfuerzo y utilizar una amplia gama de plantillas para diversas ocasiones. Puedes personalizar la configuración para adaptar el formato de tus cartas a tus necesidades específicas. La Aplicación de Cartas simplifica tu correspondencia, permitiéndote crear, compartir e imprimir cartas con facilidad, todo manteniendo estilo y facilidad de uso.',
   },
   features: {
     title: 'Características',

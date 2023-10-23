@@ -52,6 +52,9 @@ export default function Home() {
               <p>
                 <FormattedMessage id="details.p2" />
               </p>
+              <p>
+                <FormattedMessage id="details.p3" />
+              </p>
             </div>
             <div className="pt-32 ml-20 hidden lg:inline">
               <Image src={`/details_${language}.png`} alt="Letter app" width={225.5} height={450} unoptimized />
