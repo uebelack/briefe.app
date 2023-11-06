@@ -1,4 +1,4 @@
-import React, { ReactNode, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { FormattedMessage, useIntl } from 'react-intl';
 import ReactCookieConsent, { getCookieConsentValue } from 'react-cookie-consent';
 
@@ -8,7 +8,7 @@ export function useCookieConsent() {
   return React.useContext(CookieContext);
 }
 
-export default function CookieConsent({ children } : { children: ReactNode }) {
+export default function CookieConsent({ children }) {
   const [cookieConsentAccepted, setCookieConsentAccepted] = useState(false);
 
   useEffect(() => setCookieConsentAccepted(getCookieConsentValue('briefe_app_cookie_consent') === 'true'), []);

@@ -44,6 +44,6 @@ const sitemap = `
     </urlset>
 `;
 
-prettier.format(sitemap, { parser: 'html' }).then((formattedSitemap:string) => {
+prettier.format(sitemap, { parser: 'html' }).then((formattedSitemap) => {
   fs.writeFileSync(path.resolve(path.join(__dirname, '../public/sitemap.xml')), formattedSitemap, 'utf8');
 });

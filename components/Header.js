@@ -11,15 +11,10 @@ import { useCookieConsent } from './CookieConsent';
 import LanguageSelect from './LanguageSelect';
 import languages from '../i18n/languages';
 
-export interface Props {
-  title?: string;
-  description?: string;
-}
-
-export default function Header({ title, description }: Props) {
+export default function Header({ title, description }) {
   const intl = useIntl();
   const cookiesAccess = useCookieConsent();
-  const handleOnClick = (e: any, target: string) => {
+  const handleOnClick = (e, target) => {
     if (Object.keys(languages).indexOf(window.location.pathname.substring(1)) >= 0) {
       scroller.scrollTo(target, { duration: 200, smooth: true });
       e.preventDefault();

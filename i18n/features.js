@@ -1,28 +1,4 @@
-interface Feature {
-  title: string;
-  description: string;
-  icon: string;
-}
-
-interface LocaleFeatures {
-  overview: string;
-  edit: string;
-  features: {
-    title: string;
-    features: Feature[];
-  };
-  proFeatures: {
-    title: string;
-    features: Feature[];
-  };
-  [key: string]: any; // Add index signature
-}
-
-interface Features {
-  [key: string]: LocaleFeatures;
-}
-
-const features: Features = {
+const features = {
   'en-US': {
     overview: 'Create and print perfectly formatted letters in no time.',
     edit: 'Minimalistic editor, so you can focus on the content.',

@@ -8,7 +8,7 @@ import languages from '../i18n/languages';
 
 export default function LanguageSelect() {
   const { locale } = useIntl();
-  const selectLanguage = (key: string) => {
+  const selectLanguage = (key) => {
     const newLocation = new URL(`/${key}`, window.location.origin);
     window.location.assign(newLocation.toString());
   };
@@ -45,7 +45,7 @@ export default function LanguageSelect() {
                 value={key}
               >
                 <span className="block text-black truncate">
-                  {languages[key as keyof typeof languages]}
+                  {languages[key]}
                 </span>
               </Listbox.Option>
             ))}

@@ -1,16 +1,16 @@
 import React from 'react';
 import { useIntl, FormattedMessage } from 'react-intl';
-import Page from '@components/Page';
-import Container from '@components/Container';
-import Section from '@components/Section';
-import Header from '@components/Header';
-import Footer from '@components/Footer';
+import Page from '@/components/Page';
+import Container from '@/components/Container';
+import Section from '@/components/Section';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 import Image from 'next/image';
 import Typist from 'react-typist-component';
-import ScrollButton from '@components/ScrollButton';
-import Heading from '@components/Heading';
-import ContactForm from '@components/ContactForm';
-import Feature from '@components/Feature';
+import ScrollButton from '@/components/ScrollButton';
+import Heading from '@/components/Heading';
+import ContactForm from '@/components/ContactForm';
+import Feature from '@/components/Feature';
 import { useRouter } from 'next/router';
 import features from '../i18n/features';
 
@@ -18,7 +18,7 @@ export default function Home() {
   const { formatMessage } = useIntl();
   const { locale } = useRouter();
 
-  const featuresKey = Object.keys(features).find((key) => key.startsWith(locale ?? 'en-US')) ?? 'en-US' as keyof typeof features;
+  const featuresKey = Object.keys(features).find((key) => key.startsWith(locale ?? 'en-US')) ?? 'en-US';
   const featureData = features[featuresKey];
 
   const language = locale?.startsWith('de') ? 'de' : 'en';
