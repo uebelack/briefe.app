@@ -3,9 +3,12 @@ import fs from 'fs';
 import path from 'path';
 import prettier from 'prettier';
 import { URL } from 'url';
+import config from '../next.config.js';
 
 const LAST_MODIFIED = new Date().toISOString();
 const DOMAIN = 'https://briefe.app';
+const DIRNAME = new URL('.', import.meta.url).pathname;
+const LANGUAGES = config.i18n.locales.filter((locale) => locale !== config.i18n.defaultLocale);
 
 const PAGES = [
   {
@@ -21,9 +24,11 @@ const PAGES = [
   },
   { url: '/imprint', alternates: [{ lang: 'de', url: '/de/impressum' }] },
   { url: '/privacy', alternates: [{ lang: 'de', url: '/de/datenschutz' }] },
+  {
+    url: '/faq',
+    alternates: LANGUAGES.map((language) => ({ lang: language, url: `/${language}/faq` })),
+  },
 ];
-
-const __dirname = new URL('.', import.meta.url).pathname;
 
 const sitemap = `
     <?xml version="1.0" encoding="UTF-8"?>
@@ -48,5 +53,5 @@ const sitemap = `
 `;
 
 prettier.format(sitemap, { parser: 'html' }).then((formattedSitemap) => {
-  fs.writeFileSync(path.resolve(path.join(__dirname, '../public/sitemap.xml')), formattedSitemap, 'utf8');
+  fs.writeFileSync(path.resolve(path.join(DIRNAME, '../public/sitemap.xml')), formattedSitemap, 'utf8');
 });

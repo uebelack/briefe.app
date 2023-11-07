@@ -63,6 +63,7 @@ export default function Header({ title, description }) {
           <li className="mr-2"><a href="/#details" onClick={(e) => handleOnClick(e, 'details')}><FormattedMessage id="details.title" /></a></li>
           <li className="mr-2"><a href="/#features" onClick={(e) => handleOnClick(e, 'features')}><FormattedMessage id="features.title" /></a></li>
           <li className="mr-2"><a href="/#contact" onClick={(e) => handleOnClick(e, 'contact')}><FormattedMessage id="contact.title" /></a></li>
+          <li className="mr-2"><a href="/faq"><FormattedMessage id="faq.menu" /></a></li>
           <li>|</li>
           <li><LanguageSelect /></li>
         </ul>

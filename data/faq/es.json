@@ -1,0 +1,80 @@
+{
+  "categories": [
+    {
+      "title": "Cuestiones generales",
+      "questions": [
+        {
+          "question": "¿Qué es la aplicación Cartas?",
+          "answer": "La aplicación Letter es una herramienta digital diseñada para ayudarle a crear, compartir e imprimir cartas con formato profesional en su iPhone, iPad y Mac. Combina la tradición intemporal de enviar cartas con la comodidad moderna."
+        },
+        {
+          "question": "¿Por qué debería utilizar la aplicación Cartas?",
+          "answer": "Incluso en una era definida por la comunicación digital y la conectividad instantánea, las cartas tradicionales siguen siendo una forma indispensable de correspondencia. La comunicación oficial, como las solicitudes de empleo, las cancelaciones, los asuntos de negocios y mucho más, a menudo sigue haciéndose por carta. Las cartas tradicionales ofrecen una profundidad y autenticidad que a menudo se pierden en la comunicación digital. La aplicación le permite mantener esta tradición al tiempo que disfruta de la facilidad de crear, compartir y conservar cartas en la era digital."
+        },
+        {
+          "question": "¿En qué dispositivos puedo utilizar la aplicación Cartas?",
+          "answer": "La aplicación Letter está disponible para dispositivos iPhone, iPad y Mac, lo que garantiza una accesibilidad perfecta en todo el ecosistema Apple."
+        },
+        {
+          "question": "¿Cuáles son las principales características de la aplicación Cartas?",
+          "answer": "La aplicación Carta ofrece las siguientes funciones:",
+          "items": [
+            "Auto Format: Automatically formats your letters professionally.",
+            "Print: Easily print your letters directly from the app.",
+            "Share & Export: Share letters digitally or export them as PDF files.",
+            "Search: Quickly find previously composed letters.",
+            "Storage: Sync your letters across devices using iCloud."
+          ]
+        },
+        {
+          "question": "¿Qué funciones adicionales están disponibles en la versión PRO de la aplicación Cartas?",
+          "answer": "La versión PRO incluye las siguientes mejoras:",
+          "items": [
+            "Signatures: Add personal signatures directly within the app.",
+            "Sender: Enter your sender information once for convenience.",
+            "Contacts: Easily incorporate contact addresses from your address book.",
+            "Templates: Access a wide range of templates for various occasions.",
+            "Layout: Customize the layout of your letters to suit your specific needs."
+          ]
+        },
+        {
+          "question": "¿Cómo puedo crear y dar formato a una carta con la aplicación Cartas?",
+          "answer": "Basta con abrir la aplicación, crear una nueva carta y empezar a redactar el mensaje. La aplicación le dará automáticamente un formato profesional. Por supuesto, también puedes personalizar los márgenes, la fuente y mucho más en los ajustes de la carta."
+        },
+        {
+          "question": "¿Puedo imprimir cartas directamente desde la aplicación Cartas?",
+          "answer": "Sí, puedes imprimir tus cartas directamente desde la aplicación con un simple toque en el icono de impresión."
+        },
+        {
+          "question": "¿Puedo compartir mis cartas digitalmente con otras personas?",
+          "answer": "Por supuesto. La aplicación te permite compartir tus cartas digitalmente o exportarlas como archivos PDF para distribuirlas en diversas plataformas."
+        },
+        {
+          "question": "¿Se guardan mis cartas de forma segura?",
+          "answer": "Sí, tus cartas se sincronizan en todos tus dispositivos mediante iCloud, lo que garantiza un almacenamiento seguro y un acceso sencillo."
+        },
+        {
+          "question": "¿Puedo acceder rápidamente a cartas redactadas con anterioridad?",
+          "answer": "Sí, la aplicación Cartas incluye una función de búsqueda que facilita la búsqueda y recuperación de las cartas que hayas redactado anteriormente."
+        }
+      ]
+    },
+    {
+      "title": "Suscripción y precios",
+      "questions": [
+        {
+          "question": "¿La aplicación The Letter es gratuita?",
+          "answer": "La aplicación está disponible de forma gratuita, pero hay una versión PRO con funciones adicionales disponible por una cuota de suscripción."
+        },
+        {
+          "question": "¿Cómo me suscribo a la versión PRO de la aplicación Cartas?",
+          "answer": "Puedes suscribirte fácilmente a la versión PRO desde la aplicación. Solo tienes que tocar cualquier función PRO, como ajustes, remitente, contactos o plantillas, y aparecerá una pantalla de selección del plan de suscripción."
+        },
+        {
+          "question": "¿Cuánto cuesta la versión PRO y cómo se factura?",
+          "answer": "El precio de la versión PRO puede variar, y los detalles de facturación se proporcionan dentro de la aplicación. Consulta la información de precios de la aplicación para obtener los detalles más precisos."
+        }
+      ]
+    }
+  ]
+}

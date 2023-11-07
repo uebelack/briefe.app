@@ -7,7 +7,7 @@
 >
   <url>
     <loc>https://briefe.app/</loc>
-    <lastmod>2023-11-07T10:00:50.426Z</lastmod>
+    <lastmod>2023-11-07T20:15:42.279Z</lastmod>
     <xhtml:link rel="alternate" hreflang="de" href="https://briefe.app/de" />
 
     <xhtml:link rel="alternate" hreflang="fr" href="https://briefe.app/fr" />
@@ -23,7 +23,7 @@
 
   <url>
     <loc>https://briefe.app/imprint</loc>
-    <lastmod>2023-11-07T10:00:50.426Z</lastmod>
+    <lastmod>2023-11-07T20:15:42.279Z</lastmod>
     <xhtml:link
       rel="alternate"
       hreflang="de"
@@ -33,11 +33,51 @@
 
   <url>
     <loc>https://briefe.app/privacy</loc>
-    <lastmod>2023-11-07T10:00:50.426Z</lastmod>
+    <lastmod>2023-11-07T20:15:42.279Z</lastmod>
     <xhtml:link
       rel="alternate"
       hreflang="de"
       href="https://briefe.app/de/datenschutz"
+    />
+  </url>
+
+  <url>
+    <loc>https://briefe.app/faq</loc>
+    <lastmod>2023-11-07T20:15:42.279Z</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="https://briefe.app/de/faq"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="fr"
+      href="https://briefe.app/fr/faq"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="https://briefe.app/es/faq"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="it"
+      href="https://briefe.app/it/faq"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="nl"
+      href="https://briefe.app/nl/faq"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="pt"
+      href="https://briefe.app/pt/faq"
     />
   </url>
 </urlset>

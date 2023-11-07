@@ -51,6 +51,10 @@ export default {
       description: 'Customize the layout of your letters to your specific needs',
     },
   },
+  faq: {
+    menu: 'FAQ',
+    title: 'Frequently asked questions',
+  },
   contact: {
     title: 'Contact',
     subtitle: 'Please contact me if you have any questions',

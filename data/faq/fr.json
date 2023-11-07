@@ -1,0 +1,80 @@
+{
+  "categories": [
+    {
+      "title": "Questions générales",
+      "questions": [
+        {
+          "question": "Qu'est-ce que l'application Lettre?",
+          "answer": "L'application Lettre est un outil numérique conçu pour vous aider à créer, partager et imprimer des lettres au format professionnel sur votre iPhone, iPad et Mac. Elle associe la tradition intemporelle de l'envoi de lettres à la commodité moderne."
+        },
+        {
+          "question": "Pourquoi utiliser l'application Lettre?",
+          "answer": "Même à l'ère de la communication numérique et de la connectivité instantanée, les lettres traditionnelles restent une forme de correspondance indispensable. Les communications officielles telles que les demandes d'emploi, les annulations, les affaires commerciales et bien d'autres choses encore se font encore souvent par lettre. Les lettres traditionnelles offrent une profondeur et une authenticité souvent perdues dans la communication numérique. L'application vous permet de maintenir cette tradition tout en profitant de la facilité de création, de partage et de conservation des lettres à l'ère numérique."
+        },
+        {
+          "question": "Sur quels appareils puis-je utiliser l'application Lettre?",
+          "answer": "L'application Lettre est disponible pour iPhone, iPad et Mac, garantissant une accessibilité transparente dans l'ensemble de l'écosystème Apple."
+        },
+        {
+          "question": "Quelles sont les principales caractéristiques de l'application Lettre?",
+          "answer": "L'application Lettre offre les fonctionnalités suivantes :",
+          "items": [
+            "Auto Format: Automatically formats your letters professionally.",
+            "Print: Easily print your letters directly from the app.",
+            "Share & Export: Share letters digitally or export them as PDF files.",
+            "Search: Quickly find previously composed letters.",
+            "Storage: Sync your letters across devices using iCloud."
+          ]
+        },
+        {
+          "question": "Quelles sont les fonctionnalités supplémentaires disponibles dans la version PRO de l'application Lettre?",
+          "answer": "La version PRO comprend les améliorations suivantes :",
+          "items": [
+            "Signatures: Add personal signatures directly within the app.",
+            "Sender: Enter your sender information once for convenience.",
+            "Contacts: Easily incorporate contact addresses from your address book.",
+            "Templates: Access a wide range of templates for various occasions.",
+            "Layout: Customize the layout of your letters to suit your specific needs."
+          ]
+        },
+        {
+          "question": "Comment créer et mettre en forme une lettre à l'aide de l'application Lettre?",
+          "answer": "Il vous suffit d'ouvrir l'application, de créer une nouvelle lettre et de commencer à rédiger votre message. L'application se chargera automatiquement de le mettre en forme de manière professionnelle. Bien entendu, vous pouvez également personnaliser les marges, la police et bien d'autres choses encore dans les paramètres de la lettre."
+        },
+        {
+          "question": "Puis-je imprimer des lettres directement à partir de l'application Lettre?",
+          "answer": "Oui, vous pouvez imprimer vos lettres directement à partir de l'application en appuyant simplement sur l'icône d'impression."
+        },
+        {
+          "question": "Puis-je partager mes lettres sous forme numérique avec d'autres personnes?",
+          "answer": "Absolument ! L'application vous permet de partager vos lettres numériquement ou de les exporter sous forme de fichiers PDF pour les distribuer sur différentes plateformes."
+        },
+        {
+          "question": "Mes lettres sont-elles conservées en toute sécurité?",
+          "answer": "Oui, vos lettres sont synchronisées sur tous vos appareils à l'aide d'iCloud, ce qui garantit un stockage sécurisé et un accès facile."
+        },
+        {
+          "question": "Puis-je accéder rapidement à des lettres déjà rédigées?",
+          "answer": "Oui, l'application Lettre comprend une fonction de recherche qui permet de retrouver et d'extraire facilement les lettres que vous avez déjà composées."
+        }
+      ]
+    },
+    {
+      "title": "Abonnement et tarification",
+      "questions": [
+        {
+          "question": "L'utilisation de l'application Lettre est-elle gratuite?",
+          "answer": "L'application est disponible gratuitement, mais une version PRO avec des fonctionnalités supplémentaires est disponible moyennant un abonnement."
+        },
+        {
+          "question": "Comment puis-je m'abonner à la version PRO de l'application Lettre?",
+          "answer": "Vous pouvez facilement vous abonner à la version PRO à partir de l'application. Il vous suffit d'appuyer sur l'une des fonctions PRO, telles que les paramètres, l'expéditeur, les contacts ou les modèles, et un écran de sélection du plan d'abonnement s'affichera."
+        },
+        {
+          "question": "Quel est le coût de la version PRO et comment est-elle facturée?",
+          "answer": "Le prix de la version PRO peut varier et les détails de facturation sont fournis dans l'application. Veuillez consulter les informations tarifaires de l'application pour obtenir les détails les plus précis."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "categories": [
+    {
+      "title": "Perguntas gerais",
+      "questions": [
+        {
+          "question": "O que é a aplicação Carta?",
+          "answer": "A aplicação Carta é uma ferramenta digital concebida para o ajudar a criar, partilhar e imprimir cartas com um formato profissional no iPhone, iPad e Mac. Combina a tradição intemporal de enviar cartas com a conveniência moderna."
+        },
+        {
+          "question": "Por que razão devo utilizar a aplicação Carta?",
+          "answer": "Mesmo numa era marcada pela comunicação digital e pela conetividade instantânea, as cartas tradicionais continuam a ser uma forma indispensável de correspondência. A comunicação oficial, como candidaturas a emprego, cancelamentos, assuntos de negócios e muito mais, ainda é frequentemente efectuada por carta. As cartas tradicionais oferecem uma profundidade e autenticidade que muitas vezes se perdem na comunicação digital. A aplicação permite-lhe manter esta tradição enquanto desfruta da facilidade de criar, partilhar e preservar cartas na era digital."
+        },
+        {
+          "question": "Em que dispositivos posso utilizar a aplicação Carta?",
+          "answer": "A aplicação Carta está disponível para dispositivos iPhone, iPad e Mac, assegurando uma acessibilidade perfeita em todo o ecossistema Apple."
+        },
+        {
+          "question": "Quais são as principais características da aplicação Carta?",
+          "answer": "A aplicação Carta oferece as seguintes funcionalidades:",
+          "items": [
+            "Auto Format: Automatically formats your letters professionally.",
+            "Print: Easily print your letters directly from the app.",
+            "Share & Export: Share letters digitally or export them as PDF files.",
+            "Search: Quickly find previously composed letters.",
+            "Storage: Sync your letters across devices using iCloud."
+          ]
+        },
+        {
+          "question": "Que funcionalidades adicionais estão disponíveis na versão PRO da aplicação Carta?",
+          "answer": "A versão PRO inclui as seguintes melhorias:",
+          "items": [
+            "Signatures: Add personal signatures directly within the app.",
+            "Sender: Enter your sender information once for convenience.",
+            "Contacts: Easily incorporate contact addresses from your address book.",
+            "Templates: Access a wide range of templates for various occasions.",
+            "Layout: Customize the layout of your letters to suit your specific needs."
+          ]
+        },
+        {
+          "question": "Como posso criar e formatar uma carta utilizando a aplicação a aplicação Carta?",
+          "answer": "Basta abrir a aplicação, criar uma nova carta e começar a escrever a sua mensagem. A aplicação formata-a automaticamente de forma profissional para si. Naturalmente, também pode personalizar as margens, o tipo de letra e muito mais nas definições da carta."
+        },
+        {
+          "question": "Posso imprimir cartas diretamente da aplicação a aplicação Carta?",
+          "answer": "Sim, pode imprimir as suas cartas diretamente a partir da aplicação com um simples toque no ícone de impressão."
+        },
+        {
+          "question": "Posso partilhar as minhas cartas digitalmente com outras pessoas?",
+          "answer": "Sem dúvida! A aplicação permite-lhe partilhar as suas cartas digitalmente ou exportá-las como ficheiros PDF para distribuição em várias plataformas."
+        },
+        {
+          "question": "As minhas cartas são guardadas em segurança?",
+          "answer": "Sim, as suas cartas são sincronizadas entre os seus dispositivos através do iCloud, garantindo um armazenamento seguro e um acesso fácil."
+        },
+        {
+          "question": "Posso aceder rapidamente a cartas compostas anteriormente?",
+          "answer": "Sim, a aplicação a aplicação Carta inclui uma função de pesquisa que facilita a procura e a recuperação das suas cartas previamente compostas."
+        }
+      ]
+    },
+    {
+      "title": "Assinatura e preços",
+      "questions": [
+        {
+          "question": "A utilização da aplicação Carta é gratuita?",
+          "answer": "A aplicação está disponível gratuitamente, mas existe uma versão PRO com funcionalidades adicionais mediante o pagamento de uma taxa de subscrição."
+        },
+        {
+          "question": "Como posso subscrever a versão PRO da aplicação Carta?",
+          "answer": "Pode facilmente subscrever a versão PRO a partir da aplicação. Basta tocar em qualquer funcionalidade PRO, como definições, remetente, contactos ou modelos, e será apresentado um ecrã de seleção do plano de subscrição."
+        },
+        {
+          "question": "Qual é o custo da versão PRO e como é facturada?",
+          "answer": "O preço da versão PRO pode variar e os detalhes de faturação são fornecidos na aplicação. Verifique as informações de preços da aplicação para obter os detalhes mais exactos."
+        }
+      ]
+    }
+  ]
+}
