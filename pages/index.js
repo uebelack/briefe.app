@@ -1,17 +1,17 @@
 import React from 'react';
 import { useIntl, FormattedMessage } from 'react-intl';
+import Image from 'next/image';
+import Typist from 'react-typist-component';
+import { useRouter } from 'next/router';
 import Page from '@/components/Page';
 import Container from '@/components/Container';
 import Section from '@/components/Section';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import Image from 'next/image';
-import Typist from 'react-typist-component';
 import ScrollButton from '@/components/ScrollButton';
 import Heading from '@/components/Heading';
 import ContactForm from '@/components/ContactForm';
 import Feature from '@/components/Feature';
-import { useRouter } from 'next/router';
 import features from '../i18n/features';
 
 export default function Home() {
