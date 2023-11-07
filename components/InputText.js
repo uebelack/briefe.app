@@ -1,26 +1,18 @@
 import React from 'react';
 
 import { Field } from 'formik';
-
 import ErrorMessage from './ErrorMessage';
 
-interface Props {
-  name: string;
-  placeholder: string;
-  disabled: boolean;
-}
-
-function Textarea({
-  name, placeholder, disabled,
-} : Props) {
+function InputText({
+  name, placeholder, disabled = false,
+}) {
   return (
     <div className="w-full">
       <Field
-        className="w-full p-2 h-48 border disabled:border-gra rounded-md"
-        component="textarea"
+        className="w-full p-2 border disabled:border-gray rounded-md"
+        type="text"
         name={name}
         disabled={disabled}
-        maxLength={4000}
         placeholder={placeholder}
       />
       <ErrorMessage name={name} />
@@ -28,4 +20,4 @@ function Textarea({
   );
 }
 
-export default Textarea;
+export default InputText;

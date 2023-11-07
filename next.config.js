@@ -21,7 +21,7 @@ const nextConfig = withMDX({
       },
     ],
   },
-  pageExtensions: ['tsx', 'mdx', 'ts'],
+  pageExtensions: ['js', 'mdx'],
 });
 
 module.exports = nextConfig

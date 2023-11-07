@@ -1,14 +1,13 @@
 /* eslint-disable react/jsx-props-no-spreading */
 import React from 'react';
-import type { AppProps } from 'next/app';
 import { IntlProvider } from 'react-intl';
 import { useRouter } from 'next/router';
-import CookieConsent from '@components/CookieConsent';
+import CookieConsent from '@/components/CookieConsent';
 import '@fontsource/lexend/300.css';
 import '../styles/output.css';
 import messages from '../i18n';
 
-const selectLanguage = (locale:string | undefined) => {
+const selectLanguage = (locale) => {
   if (locale) {
     const language = Object.keys(messages).find((key) => locale.startsWith(key));
     if (language) {
@@ -19,7 +18,7 @@ const selectLanguage = (locale:string | undefined) => {
   return 'en';
 };
 
-export default function App({ Component, pageProps }: AppProps) {
+export default function App({ Component, pageProps }) {
   const { locale } = useRouter();
 
   const language = selectLanguage(locale);
@@ -28,7 +27,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <IntlProvider
       locale={language}
       defaultLocale="en"
-      messages={(messages as any)[language]}
+      messages={(messages)[language]}
     >
       <CookieConsent>
         <Component {...pageProps} />
