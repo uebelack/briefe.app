@@ -216,7 +216,10 @@ exports[`<App/> should render 1`] = `
               Details
             </h1>
             <p>
-              The Letter App allows you to quickly and effortlessly create and print professionally formatted letters. Your letters will have an appealing layout that leaves a professional impression. With a simple click, you can print your letters directly from the app. You also have the option to share your letters digitally or export them as PDF files to distribute them on various platforms. The app syncs seamlessly across your devices through iCloud, allowing you to access your letters anytime and anywhere. Thanks to the straightforward search function, you can easily retrieve previously composed letters.
+              Even in an era defined by digital communication and instant connectivity, traditional letters remain an indispensable form of correspondence. Why? Because they represent a timeless and authentic mode of exchange. Whether you are sending personal or business messages, letters convey a depth and significance that is often lost in emails or text messages. They are an expression of care and attention, leaving a lasting impression. Our letter app was designed to blend this timeless tradition with modern convenience, allowing you to create, share, and preserve professional letters in a digital world.
+            </p>
+            <p>
+              The Letter App allows you to quickly and effortlessly create and print professionally formatted letters on iPhone, iPad and Mac. Your letters will have an appealing layout that leaves a professional impression. With a simple click, you can print your letters directly from the app. You also have the option to share your letters digitally or export them as PDF files to distribute them on various platforms. The app syncs seamlessly across your devices through iCloud, allowing you to access your letters anytime and anywhere. Thanks to the straightforward search function, you can easily retrieve previously composed letters.
             </p>
             <p>
               In the Pro version, you'll have access to additional features, such as adding personal signatures directly within the app, effortlessly incorporating contact addresses from your address book, and utilizing a wide range of templates for various occasions. You can customize settings to adapt the format of your letters to your specific needs. The Letter App simplifies your correspondence, enabling you to create, share, and print letters with ease, all while maintaining style and user-friendliness.
@@ -259,17 +262,21 @@ exports[`<App/> should render 1`] = `
             <h3
               class="text-xl font-bold mb-5"
             >
-              Free Version
+              Features
             </h3>
             <div
               class="flex mb-5"
             >
               <div
-                class="text-4xl mr-5"
+                class="text-4xl mr-5 w-16 pt-2 pl-1"
               >
-                📄
+                <i
+                  class="fa fa-align-justify"
+                />
               </div>
-              <div>
+              <div
+                class="w-full"
+              >
                 <div
                   class="text-lg font-bold"
                 >
@@ -286,11 +293,15 @@ exports[`<App/> should render 1`] = `
               class="flex mb-5"
             >
               <div
-                class="text-4xl mr-5"
+                class="text-4xl mr-5 w-16 pt-2 pl-1"
               >
-                🖨️
+                <i
+                  class="fa fa-print"
+                />
               </div>
-              <div>
+              <div
+                class="w-full"
+              >
                 <div
                   class="text-lg font-bold"
                 >
@@ -307,11 +318,15 @@ exports[`<App/> should render 1`] = `
               class="flex mb-5"
             >
               <div
-                class="text-4xl mr-5"
+                class="text-4xl mr-5 w-16 pt-2 pl-1"
               >
-                📤
+                <i
+                  class="fa fa-arrow-up-right-from-square"
+                />
               </div>
-              <div>
+              <div
+                class="w-full"
+              >
                 <div
                   class="text-lg font-bold"
                 >
@@ -328,11 +343,40 @@ exports[`<App/> should render 1`] = `
               class="flex mb-5"
             >
               <div
-                class="text-4xl mr-5"
+                class="text-4xl mr-5 w-16 pt-2 pl-1"
               >
-                ☁️
+                <i
+                  class="fa fa-magnifying-glass"
+                />
               </div>
-              <div>
+              <div
+                class="w-full"
+              >
+                <div
+                  class="text-lg font-bold"
+                >
+                  Search
+                </div>
+                <div
+                  class="text-lg"
+                >
+                  The search function makes it easy to find letters quickly and conveniently
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex mb-5"
+            >
+              <div
+                class="text-4xl mr-5 w-16 pt-2 pl-1"
+              >
+                <i
+                  class="fa fa-cloud"
+                />
+              </div>
+              <div
+                class="w-full"
+              >
                 <div
                   class="text-lg font-bold"
                 >
@@ -352,17 +396,21 @@ exports[`<App/> should render 1`] = `
             <h3
               class="text-xl font-bold mb-5"
             >
-              PRO Version
+              PRO Features
             </h3>
             <div
               class="flex mb-5"
             >
               <div
-                class="text-4xl mr-5"
+                class="text-4xl mr-5 w-16 pt-2 pl-1"
               >
-                ✍️
+                <i
+                  class="fa fa-signature"
+                />
               </div>
-              <div>
+              <div
+                class="w-full"
+              >
                 <div
                   class="text-lg font-bold"
                 >
@@ -379,11 +427,40 @@ exports[`<App/> should render 1`] = `
               class="flex mb-5"
             >
               <div
-                class="text-4xl mr-5"
+                class="text-4xl mr-5 w-16 pt-2 pl-1"
               >
-                📇
+                <i
+                  class="fa fa-address-card"
+                />
               </div>
-              <div>
+              <div
+                class="w-full"
+              >
+                <div
+                  class="text-lg font-bold"
+                >
+                  Sender
+                </div>
+                <div
+                  class="text-lg"
+                >
+                  Enter your sender information once
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex mb-5"
+            >
+              <div
+                class="text-4xl mr-5 w-16 pt-2 pl-1"
+              >
+                <i
+                  class="fa fa-address-book"
+                />
+              </div>
+              <div
+                class="w-full"
+              >
                 <div
                   class="text-lg font-bold"
                 >
@@ -400,11 +477,15 @@ exports[`<App/> should render 1`] = `
               class="flex mb-5"
             >
               <div
-                class="text-4xl mr-5"
+                class="text-4xl mr-5 w-16 pt-2 pl-1"
               >
-                📋
+                <i
+                  class="fa fa-file-lines"
+                />
               </div>
-              <div>
+              <div
+                class="w-full"
+              >
                 <div
                   class="text-lg font-bold"
                 >
@@ -421,11 +502,15 @@ exports[`<App/> should render 1`] = `
               class="flex mb-5"
             >
               <div
-                class="text-4xl mr-5"
+                class="text-4xl mr-5 w-16 pt-2 pl-1"
               >
-                📐
+                <i
+                  class="fa fa-gear"
+                />
               </div>
-              <div>
+              <div
+                class="w-full"
+              >
                 <div
                   class="text-lg font-bold"
                 >

@@ -8,8 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "test": "jest",
-    "blog:update": "ts-node  -O '{\"module\": \"commonjs\"}' bin/update-blog.ts",
-    "sitemap:update": "ts-node  -O '{\"module\": \"commonjs\"}' bin/update-sitemap.ts"
+    "sitemap:update": "node bin/update-sitemap.mjs"
   },
   "dependencies": {
     "@fontsource/lexend": "^5.0.8",

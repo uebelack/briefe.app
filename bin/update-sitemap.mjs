@@ -2,6 +2,7 @@
 import fs from 'fs';
 import path from 'path';
 import prettier from 'prettier';
+import { URL } from 'url';
 
 const LAST_MODIFIED = new Date().toISOString();
 const DOMAIN = 'https://briefe.app';
@@ -21,6 +22,8 @@ const PAGES = [
   { url: '/imprint', alternates: [{ lang: 'de', url: '/de/impressum' }] },
   { url: '/privacy', alternates: [{ lang: 'de', url: '/de/datenschutz' }] },
 ];
+
+const __dirname = new URL('.', import.meta.url).pathname;
 
 const sitemap = `
     <?xml version="1.0" encoding="UTF-8"?>
