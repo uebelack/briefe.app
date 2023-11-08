@@ -7,6 +7,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { FormattedMessage, useIntl } from 'react-intl';
 import { scroller } from 'react-scroll';
+import { useRouter } from 'next/router';
 import { useCookieConsent } from './CookieConsent';
 import LanguageSelect from './LanguageSelect';
 import languages from '../i18n/languages';
@@ -14,6 +15,10 @@ import languages from '../i18n/languages';
 export default function Header({ title, description }) {
   const intl = useIntl();
   const cookiesAccess = useCookieConsent();
+  const { locale } = useRouter();
+
+  const urlPrefix = locale === 'en' ? '' : `/${locale}`;
+
   const handleOnClick = (e, target) => {
     if (Object.keys(languages).indexOf(window.location.pathname.substring(1)) >= 0) {
       scroller.scrollTo(target, { duration: 200, smooth: true });
@@ -60,10 +65,10 @@ export default function Header({ title, description }) {
           <div className="text-2xl ml-2 text-white"><FormattedMessage id="common.title" /></div>
         </Link>
         <ul className="flex md:pl-1 pt-1 md:pt-1.5 ">
-          <li className="mr-2"><a href="/#details" onClick={(e) => handleOnClick(e, 'details')}><FormattedMessage id="details.title" /></a></li>
-          <li className="mr-2"><a href="/#features" onClick={(e) => handleOnClick(e, 'features')}><FormattedMessage id="features.title" /></a></li>
-          <li className="mr-2"><a href="/#contact" onClick={(e) => handleOnClick(e, 'contact')}><FormattedMessage id="contact.title" /></a></li>
-          <li className="mr-2"><a href="/faq"><FormattedMessage id="faq.menu" /></a></li>
+          <li className="mr-2"><a href={`${urlPrefix}/#details`} onClick={(e) => handleOnClick(e, 'details')}><FormattedMessage id="details.title" /></a></li>
+          <li className="mr-2"><a href={`${urlPrefix}/#features`} onClick={(e) => handleOnClick(e, 'features')}><FormattedMessage id="features.title" /></a></li>
+          <li className="mr-2"><a href={`${urlPrefix}/#contact`} onClick={(e) => handleOnClick(e, 'contact')}><FormattedMessage id="contact.title" /></a></li>
+          <li className="mr-2"><a href={`${urlPrefix}/faq`}><FormattedMessage id="faq.menu" /></a></li>
           <li>|</li>
           <li><LanguageSelect /></li>
         </ul>

@@ -51,6 +51,10 @@ export default {
       description: 'Personalize o layout de suas cartas de acordo com suas necessidades específicas',
     },
   },
+  faq: {
+    menu: 'FAQ',
+    title: 'Perguntas mais frequentes',
+  },
   contact: {
     title: 'Contato',
     subtitle: 'Por favor, entre em contato se tiver alguma dúvida',

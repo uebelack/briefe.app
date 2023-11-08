@@ -51,6 +51,10 @@ export default {
       description: 'Pas de opmaak van je brieven aan aan je specifieke behoeften',
     },
   },
+  faq: {
+    menu: 'FAQ',
+    title: 'Veelgestelde vragen',
+  },
   contact: {
     title: 'Contact',
     subtitle: 'Neem gerust contact met me op als je vragen hebt',

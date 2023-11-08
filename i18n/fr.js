@@ -51,6 +51,10 @@ export default {
       description: 'Personnalisez la mise en page de vos lettres selon vos besoins spécifiques',
     },
   },
+  faq: {
+    menu: 'FAQ',
+    title: 'Questions fréquemment posées',
+  },
   contact: {
     title: 'Contact',
     subtitle: 'N\'hésitez pas à me contacter si vous avez des questions',
