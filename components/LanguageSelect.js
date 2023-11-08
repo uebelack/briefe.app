@@ -16,7 +16,7 @@ export default function LanguageSelect() {
   return (
     <Listbox value={locale} onChange={selectLanguage}>
       <div className="relative">
-        <Listbox.Button className="relative w-full cursor-default pl-3 pr-10 text-left w-40">
+        <Listbox.Button className="relative w-full cursor-default pl-3 pr-8 text-left w-40">
           <span className="pointer-events-none absolute inset-y-0 left-1 flex items-center pr-2">
             <GlobeAltIcon
               className="h-5 w-5 text-gray-400"
@@ -24,7 +24,7 @@ export default function LanguageSelect() {
             />
           </span>
           <span className="block truncate pl-4"><FormattedMessage id="common.language" /></span>
-          <span className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2">
+          <span className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-0">
             <ChevronUpDownIcon
               className="h-5 w-5 text-gray-400"
               aria-hidden="true"

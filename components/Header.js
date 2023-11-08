@@ -60,17 +60,20 @@ export default function Header({ title, description }) {
         )}
       </Head>
       <div className="md:container px-4 my-4 fade-in flex flex-col md:flex-row">
-        <Link href="/" className="flex items-center transition ease-in-out delay-150 flex-grow">
-          <Image src="/logo.svg" alt="Letter logo" width={50} height={35} />
-          <div className="text-2xl ml-2 text-white"><FormattedMessage id="common.title" /></div>
-        </Link>
+        <div className="flex flex-grow">
+          <Link href="/" className="flex items-center transition ease-in-out delay-150 flex-grow">
+            <Image src="/logo.svg" alt="Letter logo" width={50} height={35} />
+            <div className="text-2xl ml-2 text-white"><FormattedMessage id="common.title" /></div>
+          </Link>
+          <div className="md:hidden mt-2"><LanguageSelect /></div>
+        </div>
         <ul className="flex md:pl-1 pt-1 md:pt-1.5 ">
           <li className="mr-2"><a href={`${urlPrefix}/#details`} onClick={(e) => handleOnClick(e, 'details')}><FormattedMessage id="details.title" /></a></li>
           <li className="mr-2"><a href={`${urlPrefix}/#features`} onClick={(e) => handleOnClick(e, 'features')}><FormattedMessage id="features.title" /></a></li>
           <li className="mr-2"><a href={`${urlPrefix}/#contact`} onClick={(e) => handleOnClick(e, 'contact')}><FormattedMessage id="contact.title" /></a></li>
           <li className="mr-2"><a href={`${urlPrefix}/faq`}><FormattedMessage id="faq.menu" /></a></li>
-          <li>|</li>
-          <li><LanguageSelect /></li>
+          <li className="hidden md:block">|</li>
+          <li className="hidden md:block"><LanguageSelect /></li>
         </ul>
       </div>
     </header>
