@@ -2,7 +2,7 @@
 export default {
   common: {
     title: 'App Lettere',
-    title_long: "App Lettere - Crea senza problemi lettere professionali su iPhone, iPad e Mac",
+    title_long: 'App Lettere - Crea senza problemi lettere professionali su iPhone, iPad e Mac',
     scroll_down: 'Scorri verso il basso',
     language: 'Italiano',
   },
@@ -50,6 +50,10 @@ export default {
       title: 'Layout',
       description: 'Personalizza il layout delle tue lettere in base alle tue esigenze specifiche',
     },
+  },
+  faq: {
+    menu: 'FAQ',
+    title: 'Domande frequenti',
   },
   contact: {
     title: 'Contatto',

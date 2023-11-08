@@ -1,0 +1,80 @@
+{
+  "categories": [
+    {
+      "title": "Domande generali",
+      "questions": [
+        {
+          "question": "Che cos'è L'App Lettera?",
+          "answer": "L'App Lettera è uno strumento digitale progettato per aiutarvi a creare, condividere e stampare lettere in formato professionale su iPhone, iPad e Mac. Combina la tradizione senza tempo dell'invio di lettere con la comodità moderna."
+        },
+        {
+          "question": "Perché dovrei usare L'App Lettera?",
+          "answer": "Anche in un'epoca definita dalla comunicazione digitale e dalla connettività istantanea, le lettere tradizionali rimangono una forma di corrispondenza indispensabile. Le comunicazioni ufficiali, come le domande di lavoro, le cancellazioni, le questioni commerciali e molto altro ancora, spesso avvengono ancora per lettera. Le lettere tradizionali offrono una profondità e un'autenticità che spesso si perdono nella comunicazione digitale. L'applicazione consente di mantenere questa tradizione, godendo della facilità di creare, condividere e conservare le lettere nell'era digitale."
+        },
+        {
+          "question": "Su quali dispositivi posso utilizzare l'App The Letter?",
+          "answer": "L'applicazione Letter è disponibile per iPhone, iPad e Mac, per garantire un'accessibilità senza soluzione di continuità in tutto l'ecosistema Apple."
+        },
+        {
+          "question": "Quali sono le caratteristiche principali di L'App Lettera?",
+          "answer": "L'App Lettera offre le seguenti funzionalità:",
+          "items": [
+            "Auto Format: Automatically formats your letters professionally.",
+            "Print: Easily print your letters directly from the app.",
+            "Share & Export: Share letters digitally or export them as PDF files.",
+            "Search: Quickly find previously composed letters.",
+            "Storage: Sync your letters across devices using iCloud."
+          ]
+        },
+        {
+          "question": "Quali funzioni aggiuntive sono disponibili nella versione PRO di L'App Lettera?",
+          "answer": "La versione PRO include i seguenti miglioramenti:",
+          "items": [
+            "Signatures: Add personal signatures directly within the app.",
+            "Sender: Enter your sender information once for convenience.",
+            "Contacts: Easily incorporate contact addresses from your address book.",
+            "Templates: Access a wide range of templates for various occasions.",
+            "Layout: Customize the layout of your letters to suit your specific needs."
+          ]
+        },
+        {
+          "question": "Come si crea e si formatta una lettera con L'App Lettera?",
+          "answer": "È sufficiente aprire l'applicazione, creare una nuova lettera e iniziare a comporre il messaggio. L'applicazione provvederà automaticamente a formattarlo in modo professionale. Naturalmente, è possibile personalizzare i margini, il carattere e molto altro nelle impostazioni della lettera."
+        },
+        {
+          "question": "Posso stampare le lettere direttamente da L'App Lettera?",
+          "answer": "Sì, è possibile stampare le lettere direttamente dall'app con un semplice tocco sull'icona di stampa."
+        },
+        {
+          "question": "Posso condividere le mie lettere in formato digitale con altri?",
+          "answer": "Assolutamente! L'applicazione consente di condividere le lettere in formato digitale o di esportarle in formato PDF per distribuirle su varie piattaforme."
+        },
+        {
+          "question": "Le mie lettere sono conservate in modo sicuro?",
+          "answer": "Sì, le vostre lettere sono sincronizzate tra i vostri dispositivi grazie a iCloud, per garantire un'archiviazione sicura e un facile accesso."
+        },
+        {
+          "question": "Posso accedere rapidamente alle lettere composte in precedenza?",
+          "answer": "Sì, L'App Lettera include una funzione di ricerca che consente di trovare e recuperare facilmente le lettere composte in precedenza."
+        }
+      ]
+    },
+    {
+      "title": "Abbonamento e prezzi",
+      "questions": [
+        {
+          "question": "L'applicazione The Letter è gratuita?",
+          "answer": "L'applicazione è disponibile gratuitamente, ma è disponibile una versione PRO con funzioni aggiuntive a pagamento."
+        },
+        {
+          "question": "Come posso abbonarmi alla versione PRO di L'App Lettera?",
+          "answer": "È possibile abbonarsi facilmente alla versione PRO dall'interno dell'applicazione. È sufficiente toccare una qualsiasi funzione PRO, come le impostazioni, il mittente, i contatti o i modelli, per visualizzare la schermata di selezione del piano di abbonamento."
+        },
+        {
+          "question": "Qual è il costo della versione PRO e come viene fatturata?",
+          "answer": "I prezzi della versione PRO possono variare e i dettagli di fatturazione sono forniti all'interno dell'applicazione. Per i dettagli più precisi, consultare le informazioni sui prezzi dell'applicazione."
+        }
+      ]
+    }
+  ]
+}

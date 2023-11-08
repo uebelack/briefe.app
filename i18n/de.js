@@ -51,6 +51,10 @@ export default {
       description: 'Passen Sie die Formatierung Ihrer Briefe individuell an Ihre Bedürfnisse an',
     },
   },
+  faq: {
+    menu: 'FAQ',
+    title: 'Häufig gestellte Fragen',
+  },
   contact: {
     title: 'Kontakt',
     subtitle: 'Bitte kontaktieren Sie mich, wenn Sie Fragen haben',

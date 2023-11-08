@@ -1,0 +1,80 @@
+{
+  "categories": [
+    {
+      "title": "Algemene vragen",
+      "questions": [
+        {
+          "question": "Wat is de Brieven App?",
+          "answer": "De Brieven App is een digitale tool waarmee je professioneel opgemaakte brieven kunt maken, delen en afdrukken op je iPhone, iPad en Mac. Het combineert de tijdloze traditie van het versturen van brieven met modern gemak."
+        },
+        {
+          "question": "Waarom zou ik de Brieven App gebruiken?",
+          "answer": "Zelfs in een tijdperk dat gekenmerkt wordt door digitale communicatie en instant connectiviteit, blijven traditionele brieven een onmisbare vorm van correspondentie. Officiële communicatie zoals sollicitaties, annuleringen, zakelijke aangelegenheden en nog veel meer gebeurt vaak nog steeds per brief. Traditionele brieven bieden een diepgang en authenticiteit die vaak verloren gaat in digitale communicatie. Met de app kun je deze traditie in ere houden en tegelijkertijd genieten van het gemak van het maken, delen en bewaren van brieven in het digitale tijdperk."
+        },
+        {
+          "question": "Op welke apparaten kan ik de Brieven App gebruiken?",
+          "answer": "De Letter-app is beschikbaar voor iPhone, iPad en Mac-apparaten, zodat de app naadloos toegankelijk is in het hele Apple ecosysteem."
+        },
+        {
+          "question": "Wat zijn de belangrijkste functies van de Brieven App?",
+          "answer": "De Brieven App biedt de volgende functies:",
+          "items": [
+            "Auto Format: Automatically formats your letters professionally.",
+            "Print: Easily print your letters directly from the app.",
+            "Share & Export: Share letters digitally or export them as PDF files.",
+            "Search: Quickly find previously composed letters.",
+            "Storage: Sync your letters across devices using iCloud."
+          ]
+        },
+        {
+          "question": "Welke extra functies zijn beschikbaar in de PRO-versie van de Brieven App?",
+          "answer": "De PRO-versie bevat de volgende verbeteringen:",
+          "items": [
+            "Signatures: Add personal signatures directly within the app.",
+            "Sender: Enter your sender information once for convenience.",
+            "Contacts: Easily incorporate contact addresses from your address book.",
+            "Templates: Access a wide range of templates for various occasions.",
+            "Layout: Customize the layout of your letters to suit your specific needs."
+          ]
+        },
+        {
+          "question": "Hoe maak en formatteer ik een brief met de Brieven App?",
+          "answer": "Open gewoon de app, maak een nieuwe brief en begin met het opstellen van je bericht. De app zal hem automatisch professioneel voor je opmaken. Natuurlijk kun je ook de marges, het lettertype en nog veel meer aanpassen in de briefinstellingen."
+        },
+        {
+          "question": "Kan ik brieven rechtstreeks vanuit de Brieven App afdrukken?",
+          "answer": "Ja, je kunt je brieven rechtstreeks vanuit de app afdrukken met een simpele tik op het afdrukpictogram."
+        },
+        {
+          "question": "Kan ik mijn brieven digitaal delen met anderen?",
+          "answer": "Absoluut! Met de app kun je je brieven digitaal delen of exporteren als PDF-bestanden voor verspreiding op verschillende platforms."
+        },
+        {
+          "question": "Worden mijn brieven veilig opgeslagen?",
+          "answer": "Ja, je brieven worden op al je apparaten gesynchroniseerd met iCloud, waardoor ze veilig worden opgeslagen en gemakkelijk toegankelijk zijn."
+        },
+        {
+          "question": "Heb ik snel toegang tot eerder samengestelde brieven?",
+          "answer": "Ja, de Brieven App heeft een zoekfunctie waarmee je gemakkelijk je eerder samengestelde brieven kunt terugvinden."
+        }
+      ]
+    },
+    {
+      "title": "Abonnement en prijzen",
+      "questions": [
+        {
+          "question": "Is de Brieven App gratis te gebruiken?",
+          "answer": "De app is gratis beschikbaar, maar er is een PRO-versie met extra functies beschikbaar tegen betaling van een abonnement."
+        },
+        {
+          "question": "Hoe abonneer ik me op de PRO-versie van de Brieven App?",
+          "answer": "Je kunt je eenvoudig abonneren op de PRO-versie vanuit de app. Tik gewoon op een PRO-functie, zoals instellingen, afzender, contactpersonen of sjablonen, en er verschijnt een selectiescherm voor het abonnement."
+        },
+        {
+          "question": "Wat kost de PRO-versie en hoe wordt deze gefactureerd?",
+          "answer": "De prijzen voor de PRO-versie kunnen variëren en factureringsgegevens worden verstrekt in de app. Controleer de prijsinformatie van de app voor de meest nauwkeurige details."
+        }
+      ]
+    }
+  ]
+}

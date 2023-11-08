@@ -38,7 +38,7 @@ exports[`<Impressum/> should render 1`] = `
             class="mr-2"
           >
             <a
-              href="/#details"
+              href="/undefined/#details"
             >
               Details
             </a>
@@ -47,7 +47,7 @@ exports[`<Impressum/> should render 1`] = `
             class="mr-2"
           >
             <a
-              href="/#features"
+              href="/undefined/#features"
             >
               Features
             </a>
@@ -56,9 +56,18 @@ exports[`<Impressum/> should render 1`] = `
             class="mr-2"
           >
             <a
-              href="/#contact"
+              href="/undefined/#contact"
             >
               Contact
+            </a>
+          </li>
+          <li
+            class="mr-2"
+          >
+            <a
+              href="/undefined/faq"
+            >
+              FAQ
             </a>
           </li>
           <li>

@@ -1,0 +1,80 @@
+{
+  "categories": [
+    {
+      "title": "Allgemeine Fragen",
+      "questions": [
+        {
+          "question": "Was ist die Briefe App?",
+          "answer": "Die Letter App ist ein digitales Tool, mit dem Sie professionell formatierte Briefe auf Ihrem iPhone, iPad und Mac erstellen, weitergeben und drucken können. Sie verbindet die zeitlose Tradition des Briefversands mit modernem Komfort."
+        },
+        {
+          "question": "Warum sollte ich die Briefe App verwenden?",
+          "answer": "Auch im Zeitalter der digitalen Kommunikation und der sofortigen Konnektivität bleibt der traditionelle Brief eine unverzichtbare Form der Korrespondenz. Offizielle Kommunikation wie Bewerbungen, Kündigungen, geschäftliche Angelegenheiten und vieles mehr wird oft noch per Brief erledigt. Traditionelle Briefe bieten eine Tiefe und Authentizität, die in der digitalen Kommunikation oft verloren geht. Mit der App können Sie diese Tradition aufrechterhalten und gleichzeitig die Einfachheit des Erstellens, Teilens und Bewahrens von Briefen im digitalen Zeitalter genießen."
+        },
+        {
+          "question": "Auf welchen Geräten kann ich die die Briefe App verwenden?",
+          "answer": "Die Letter App ist für iPhone, iPad und Mac-Geräte verfügbar, so dass ein nahtloser Zugriff über Ihr Apple-Ökosystem gewährleistet ist."
+        },
+        {
+          "question": "Was sind die wichtigsten Funktionen von der Briefe App?",
+          "answer": "Die Brief-App bietet die folgenden Funktionen:",
+          "items": [
+            "Auto Format: Automatically formats your letters professionally.",
+            "Print: Easily print your letters directly from the app.",
+            "Share & Export: Share letters digitally or export them as PDF files.",
+            "Search: Quickly find previously composed letters.",
+            "Storage: Sync your letters across devices using iCloud."
+          ]
+        },
+        {
+          "question": "Welche zusätzlichen Funktionen sind in der PRO-Version von der Briefe App verfügbar?",
+          "answer": "Die PRO-Version enthält die folgenden Erweiterungen:",
+          "items": [
+            "Signatures: Add personal signatures directly within the app.",
+            "Sender: Enter your sender information once for convenience.",
+            "Contacts: Easily incorporate contact addresses from your address book.",
+            "Templates: Access a wide range of templates for various occasions.",
+            "Layout: Customize the layout of your letters to suit your specific needs."
+          ]
+        },
+        {
+          "question": "Wie erstelle und formatiere ich einen Brief mit der Briefe App?",
+          "answer": "Öffnen Sie einfach die App, erstellen Sie einen neuen Brief und beginnen Sie, Ihre Nachricht zu verfassen. Die App formatiert ihn automatisch professionell für Sie. Natürlich können Sie auch die Ränder, die Schriftart und vieles mehr in den Briefeinstellungen anpassen."
+        },
+        {
+          "question": "Kann ich Briefe direkt aus der Briefe App drucken?",
+          "answer": "Ja, Sie können Ihre Briefe direkt in der App ausdrucken, indem Sie einfach auf das Drucksymbol tippen."
+        },
+        {
+          "question": "Kann ich meine Briefe in digitaler Form mit anderen teilen?",
+          "answer": "Auf jeden Fall! Mit der App können Sie Ihre Briefe digital weitergeben oder als PDF-Dateien exportieren, um sie auf verschiedenen Plattformen zu verteilen."
+        },
+        {
+          "question": "Werden meine Briefe sicher aufbewahrt?",
+          "answer": "Ja, Ihre Briefe werden mit iCloud über Ihre Geräte hinweg synchronisiert, sodass eine sichere Speicherung und ein einfacher Zugriff gewährleistet sind."
+        },
+        {
+          "question": "Kann ich schnell auf bereits verfasste Briefe zugreifen?",
+          "answer": "Ja, die Briefe App verfügt über eine Suchfunktion, mit der Sie Ihre bereits verfassten Briefe leicht finden und wiederfinden können."
+        }
+      ]
+    },
+    {
+      "title": "Abonnement und Preisgestaltung",
+      "questions": [
+        {
+          "question": "Ist die Nutzung von der Briefe App kostenlos?",
+          "answer": "Die App ist kostenlos erhältlich, aber es gibt eine PRO-Version mit zusätzlichen Funktionen, die gegen eine Abonnementgebühr erhältlich ist."
+        },
+        {
+          "question": "Wie kann ich die PRO-Version von der Briefe App abonnieren?",
+          "answer": "Sie können die PRO-Version ganz einfach innerhalb der App abonnieren. Tippen Sie einfach auf eine PRO-Funktion, z. B. Einstellungen, Absender, Kontakte oder Vorlagen, und ein Bildschirm zur Auswahl des Abonnementplans wird angezeigt."
+        },
+        {
+          "question": "Wie hoch sind die Kosten für die PRO-Version und wie wird sie abgerechnet?",
+          "answer": "Die Preise für die PRO-Version können variieren, und die Rechnungsdetails werden in der App bereitgestellt. Bitte prüfen Sie die Preisinformationen der App für die genauesten Details."
+        }
+      ]
+    }
+  ]
+}
