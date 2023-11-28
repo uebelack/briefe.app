@@ -75,6 +75,23 @@
           "answer": "De prijzen voor de PRO-versie kunnen variëren en factureringsgegevens worden verstrekt in de app. Controleer de prijsinformatie van de app voor de meest nauwkeurige details."
         }
       ]
+    },
+    {
+      "title": "Gebruik",
+      "questions": [
+        {
+          "question": "Hoe kan ik het lettertype van een brief wijzigen?",
+          "answer": "Om het lettertype te wijzigen, selecteer je de betreffende letter en tik je op ⚙️. Dit opent de letterinstellingen waar je onder andere het lettertype en de lettergrootte kunt aanpassen. Als je het lettertype niet voor elke brief wilt wijzigen, kun je ook een afzender definiëren en daar het gewenste lettertype opslaan."
+        },
+        {
+          "question": "Moet ik voor elke brief opnieuw de afzender invoeren?",
+          "answer": "Nee, je kunt één of meerdere afzenders opslaan. De standaardafzender wordt dan automatisch opgeslagen bij elke nieuwe brief. Om de afzenders te beheren, tikt u op het visitekaartsymbool in het afzenderveld in de briefeditor."
+        },
+        {
+          "question": "Hoe kan ik de datum van de brief aanpassen?",
+          "answer": "Om de datum aan te passen, selecteer je de betreffende letter en tik je op ⚙️. Dit opent de letterinstellingen waar u onder andere de datum kunt aanpassen."
+        }
+      ]
     }
   ]
 }
