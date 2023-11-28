@@ -15,9 +15,8 @@ const translator = new deepl.Translator(process.env.DEEPL_API_KEY);
 const faq = JSON.parse(fs.readFileSync(path.resolve(path.join(DIRNAME, '../data/faq/en.json')), 'utf8'));
 
 async function translateString(value, language) {
-  // const result = await translator.translateText(value, 'en', language === 'pt' ? 'pt-PT' : language);
-  // return result.text;
-  return 'SHITUB';
+  const result = await translator.translateText(value, 'en', language === 'pt' ? 'pt-PT' : language);
+  return result.text;
 }
 
 async function translateArray(values, language, result = [], index = 0) {
