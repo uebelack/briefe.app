@@ -75,6 +75,23 @@
           "answer": "Le prix de la version PRO peut varier et les détails de facturation sont fournis dans l'application. Veuillez consulter les informations tarifaires de l'application pour obtenir les détails les plus précis."
         }
       ]
+    },
+    {
+      "title": "Utilisation",
+      "questions": [
+        {
+          "question": "Comment modifier la police d'une lettre ?",
+          "answer": "Pour modifier la police, sélectionnez la lettre concernée et tapez sur ⚙️. Les paramètres de la lettre s'ouvrent alors et vous pouvez, entre autres, modifier la police et la taille de la police. Si vous ne souhaitez pas modifier la police pour chaque lettre, vous pouvez également définir un expéditeur et y enregistrer la police souhaitée."
+        },
+        {
+          "question": "Dois-je saisir à nouveau l'expéditeur pour chaque lettre ?",
+          "answer": "Non, vous pouvez enregistrer un ou plusieurs expéditeurs. L'expéditeur par défaut est alors automatiquement enregistré avec chaque nouvelle lettre. Pour gérer les expéditeurs, tapez sur le symbole de la carte de visite dans le champ de l'expéditeur dans l'éditeur de lettres."
+        },
+        {
+          "question": "Comment puis-je modifier la date de la lettre ?",
+          "answer": "Pour ajuster la date, sélectionnez la lettre concernée et tapez sur ⚙️. Les paramètres de la lettre s'ouvrent alors et vous pouvez, entre autres, ajuster la date."
+        }
+      ]
     }
   ]
 }

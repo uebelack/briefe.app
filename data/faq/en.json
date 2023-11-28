@@ -75,6 +75,23 @@
                     "answer": "Pricing for the PRO version may vary, and billing details are provided within the app. Please check the app's pricing information for the most accurate details."
                 }
             ]
+        },
+        {
+            "title": "Usage",
+            "questions": [
+                {
+                    "question": "How can I change the font of a letter?",
+                    "answer": "To change the font, select the relevant letter and tap on ⚙️. This opens the letter settings where you can adjust the font and font size, among other things. If you do not want to change the font for every letter, you can also define a sender and store the desired font there. "
+                },
+                {
+                    "question": "Do I have to enter the sender again for each letter?",
+                    "answer": "No, you can store one or more senders. The default sender is then automatically stored with every new letter. To manage the senders, tap on the business card symbol in the sender field in the letter editor."
+                },
+                {
+                    "question": "How can I adjust the date of the letter?",
+                    "answer": "To adjust the date, select the relevant letter and tap on ⚙️. This opens the letter settings where you can adjust the date, among other things.."
+                }
+            ]
         }
     ]
 }
