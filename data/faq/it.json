@@ -75,6 +75,23 @@
           "answer": "I prezzi della versione PRO possono variare e i dettagli di fatturazione sono forniti all'interno dell'applicazione. Per i dettagli più precisi, consultare le informazioni sui prezzi dell'applicazione."
         }
       ]
+    },
+    {
+      "title": "Utilizzo",
+      "questions": [
+        {
+          "question": "Come posso cambiare il carattere di una lettera?",
+          "answer": "Per modificare il carattere, selezionare la lettera in questione e toccare ⚙️. Si apriranno così le impostazioni della lettera, dove è possibile regolare, tra l'altro, il carattere e la dimensione dei caratteri. In questo modo si aprono le impostazioni della lettera, dove è possibile regolare, tra l'altro, il carattere e la dimensione del carattere. Se non si desidera cambiare il carattere per ogni lettera, è possibile definire un mittente e memorizzare il carattere desiderato."
+        },
+        {
+          "question": "Devo inserire nuovamente il mittente per ogni lettera?",
+          "answer": "No, è possibile memorizzare uno o più mittenti. Il mittente predefinito viene memorizzato automaticamente con ogni nuova lettera. Per gestire i mittenti, toccare il simbolo del biglietto da visita nel campo del mittente nell'editor di lettere."
+        },
+        {
+          "question": "Come posso modificare la data della lettera?",
+          "answer": "Per regolare la data, selezionare la lettera in questione e toccare ⚙️. Si apre così la finestra delle impostazioni della lettera in cui è possibile regolare, tra l'altro, la data. In questo modo si aprono le impostazioni della lettera, dove è possibile regolare la data, tra le altre cose."
+        }
+      ]
     }
   ]
 }
