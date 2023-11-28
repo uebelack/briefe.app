@@ -75,6 +75,23 @@
           "answer": "Die Preise für die PRO-Version können variieren, und die Rechnungsdetails werden in der App bereitgestellt. Bitte prüfen Sie die Preisinformationen der App für die genauesten Details."
         }
       ]
+    },
+    {
+      "title": "Verwendung",
+      "questions": [
+        {
+          "question": "Wie kann ich die Schriftart eines Briefes ändern?",
+          "answer": "Um die Schriftart zu ändern, wählen Sie den entsprechenden Buchstaben aus und tippen Sie auf ⚙️. Dadurch öffnen sich die Briefeinstellungen, in denen Sie unter anderem die Schriftart und -größe anpassen können. Wenn Sie nicht für jeden Buchstaben die Schriftart ändern möchten, können Sie auch einen Absender definieren und dort die gewünschte Schriftart speichern."
+        },
+        {
+          "question": "Muss ich den Absender für jeden Brief neu eingeben?",
+          "answer": "Nein, Sie können einen oder mehrere Absender speichern. Der Standardabsender wird dann automatisch bei jedem neuen Brief gespeichert. Um die Absender zu verwalten, tippen Sie auf das Visitenkartensymbol im Absenderfeld im Briefeditor."
+        },
+        {
+          "question": "Wie kann ich das Datum des Briefes anpassen?",
+          "answer": "Um das Datum einzustellen, wählen Sie den entsprechenden Buchstaben und tippen Sie auf ⚙️. Dies öffnet die Briefeinstellungen, in denen Sie u. a. das Datum anpassen können."
+        }
+      ]
     }
   ]
 }
