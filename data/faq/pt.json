@@ -75,6 +75,23 @@
           "answer": "O preço da versão PRO pode variar e os detalhes de faturação são fornecidos na aplicação. Verifique as informações de preços da aplicação para obter os detalhes mais exactos."
         }
       ]
+    },
+    {
+      "title": "Utilização",
+      "questions": [
+        {
+          "question": "Como posso alterar o tipo de letra de uma carta?",
+          "answer": "Para alterar o tipo de letra, seleccione a letra relevante e toque em ⚙️. Isto abre as definições da carta, onde pode ajustar o tipo e o tamanho do tipo de letra, entre outras coisas. Se não pretender alterar o tipo de letra para cada carta, também pode definir um remetente e guardar o tipo de letra pretendido."
+        },
+        {
+          "question": "Tenho de introduzir novamente o remetente para cada letra?",
+          "answer": "Não, pode guardar um ou mais remetentes. O remetente predefinido é então guardado automaticamente em cada nova carta. Para gerir os remetentes, toque no símbolo do cartão de visita no campo do remetente no editor de cartas."
+        },
+        {
+          "question": "Como é que posso ajustar a data da carta?",
+          "answer": "Para ajustar a data, seleccione a letra relevante e toque em ⚙️. Isto abre as definições da carta, onde pode ajustar a data, entre outras coisas..."
+        }
+      ]
     }
   ]
 }
