@@ -11,7 +11,7 @@
     "sitemap:update": "node bin/update-sitemap.mjs"
   },
   "dependencies": {
-    "@fontsource/lexend": "^5.0.17",
+    "@fontsource/lexend": "^5.0.18",
     "@headlessui/react": "^1.7.17",
     "@heroicons/react": "^2.0.18",
     "@mdx-js/loader": "^3.0.0",
