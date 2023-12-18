@@ -46,7 +46,7 @@
     "concurrently": "^8.2.2",
     "deepl-node": "^1.11.0",
     "dotenv": "^16.3.1",
-    "eslint": "8.55.0",
+    "eslint": "8.56.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-next": "14.0.4",
