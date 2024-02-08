@@ -91,4 +91,12 @@ export default {
     description: 'A página que você procura não existe',
     button: 'Voltar para a Página Inicial',
   },
+  help: {
+    menu: 'Ajuda',
+    title: 'Ajuda',
+    how_to_title: 'Como escrever uma carta com a aplicação de cartas',
+    how_to_001: 'Para começar a escrever a sua carta, basta tocar no botão mais no canto superior direito do ecrã principal. Depois de tocar no botão, abre-se um novo ecrã onde pode compor facilmente a sua carta',
+    how_to_002: 'Introduza o endereço do remetente e do destinatário, adicione um assunto e escreva a sua mensagem no campo "Mensagem". Quando tiver terminado a sua carta, toque em "Guardar" no canto superior direito',
+    how_to_003: 'A sua carta será automaticamente formatada e apresentada. Agora pode imprimi-la tocando no ícone da impressora ou enviá-la por correio eletrónico utilizando o botão "Partilhar" (o ícone quadrado com uma seta)',
+  },
 };

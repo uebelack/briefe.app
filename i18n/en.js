@@ -91,4 +91,12 @@ export default {
     description: "The page your are looking for doesn't exist",
     button: 'Go Home',
   },
+  help: {
+    menu: 'Help',
+    title: 'Help',
+    how_to_title: 'How to write a letter with the letter app',
+    how_to_001: 'To start composing your letter, simply tap the plus button located in the top right corner of the main screen. Once you\'ve tapped the button, a new screen will open where you can craft your letter with ease.',
+    how_to_002: 'While on the letter editor screen, input the sender and recipient addresses, include a subject, and compose your message in the \'Message\' field. Once you\'ve completed your letter, tap \'Save\' located in the top right corner.',
+    how_to_003: 'Your letter is automatically formatted and displayed. To proceed, you can either print it by tapping on the printer icon or share it via email using the share button (the square icon with an arrow).',
+  },
 };

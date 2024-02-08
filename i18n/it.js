@@ -91,4 +91,12 @@ export default {
     description: 'La pagina che stai cercando non esiste',
     button: 'Torna alla Home',
   },
+  help: {
+    menu: 'Aiuto',
+    title: 'Aiuto',
+    how_to_title: 'Come scrivere una lettera con l\'app lettere',
+    how_to_001: 'Per iniziare a comporre la lettera, è sufficiente toccare il pulsante più nell\'angolo superiore destro della schermata principale. Una volta toccato il pulsante, si aprirà una nuova schermata in cui potrete comporre facilmente la vostra lettera',
+    how_to_002: 'Inserire l\'indirizzo del mittente e del destinatario, aggiungere un oggetto e comporre il messaggio nel campo "Messaggio". Una volta terminata la lettera, toccare "Salva" nell\'angolo in alto a destra',
+    how_to_003: 'La lettera verrà formattata e visualizzata automaticamente. A questo punto è possibile stamparla toccando l\'icona della stampante o inviarla via e-mail utilizzando il pulsante "Condividi" (l\'icona quadrata con una freccia)',
+  },
 };

@@ -91,4 +91,12 @@ export default {
     description: 'La página que buscas no existe',
     button: 'Ir a Inicio',
   },
+  help: {
+    menu: 'Ayuda',
+    title: 'Ayuda',
+    how_to_title: 'Cómo escribir una carta con la aplicación de cartas',
+    how_to_001: 'Para empezar a redactar tu carta, simplemente pulsa el botón más en la esquina superior derecha de la pantalla principal. Una vez que hayas pulsado el botón, se abrirá una nueva pantalla en la que podrás redactar fácilmente tu carta',
+    how_to_002: 'Introduce la dirección del remitente y del destinatario, añade un asunto y redacta tu mensaje en el campo "Mensaje". Una vez que haya terminado su carta, pulse "Guardar" en la esquina superior derecha',
+    how_to_003: 'Su carta será formateada y mostrada automáticamente. Ahora puede imprimirla pulsando el icono de la impresora o enviarla por correo electrónico utilizando el botón "Compartir" (el icono cuadrado con una flecha)',
+  },
 };

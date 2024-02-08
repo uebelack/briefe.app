@@ -91,4 +91,12 @@ export default {
     description: 'Die Seite, die Sie suchen, existiert nicht.',
     button: 'Startseite',
   },
+  help: {
+    menu: 'Hilfe',
+    title: 'Hilfe',
+    how_to_title: 'So schreiben Sie einen Brief mit der Briefe-App',
+    how_to_001: 'Um mit dem Verfassen Ihres Briefes zu beginnen, tippen Sie einfach auf die Plus-Schaltfläche in der oberen rechten Ecke des Hauptbildschirms. Sobald Sie auf die Schaltfläche getippt haben, öffnet sich ein neuer Bildschirm, in dem Sie Ihren Brief ganz einfach verfassen können.',
+    how_to_002: 'Geben Sie Absender- und Empfängeradresse ein, fügen Sie einen Betreff hinzu und verfassen Sie Ihre Nachricht im Feld \'Nachricht\'. Sobald Sie Ihren Brief fertiggestellt haben, tippen Sie auf \'Speichern\' in der oberen rechten Ecke.',
+    how_to_003: 'Ihr Brief wird automatisch formatiert und angezeigt. Nun können Sie ihn entweder ausdrucken, indem Sie auf das Druckersymbol tippen, oder ihn über die Schaltfläche \'Teilen\' (das quadratische Symbol mit einem Pfeil) per E-Mail versenden.',
+  },
 };

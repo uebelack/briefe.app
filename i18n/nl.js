@@ -91,4 +91,12 @@ export default {
     description: 'De pagina die je zoekt, bestaat niet',
     button: 'Terug naar Startpagina',
   },
+  help: {
+    menu: 'Help',
+    title: 'Help',
+    how_to_title: 'Hoe schrijf ik een brief met de letter app?',
+    how_to_001: 'Om te beginnen met het opstellen van je brief, tik je gewoon op de plusknop in de rechterbovenhoek van het hoofdscherm. Zodra je op de knop hebt getikt, wordt er een nieuw scherm geopend waar je gemakkelijk je brief kunt samenstellen',
+    how_to_002: 'Voer het adres van de afzender en de ontvanger in, voeg een onderwerp toe en stel je bericht samen in het veld "Bericht". Als je klaar bent met je brief, tik je op "Opslaan" in de rechterbovenhoek',
+    how_to_003: 'Je brief wordt automatisch opgemaakt en weergegeven. Nu kunt u de brief afdrukken door op het printericoontje te tikken of hem per e-mail versturen met de knop "Delen" (het vierkante icoontje met een pijl)',
+  },
 };

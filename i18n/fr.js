@@ -91,4 +91,12 @@ export default {
     description: 'La page que vous recherchez n\'existe pas',
     button: 'Retourner à l\'accueil',
   },
+  help: {
+    menu: 'Aide',
+    title: 'Aide',
+    how_to_title: "Comment écrire une lettre avec l'application letter",
+    how_to_001: 'Pour commencer à composer votre lettre, appuyez simplement sur le bouton plus situé dans le coin supérieur droit de l\'écran principal. Une fois que vous aurez appuyé sur le bouton, un nouvel écran s\'ouvrira et vous pourrez y rédiger votre lettre en toute simplicité',
+    how_to_002: 'Sur l\'écran de l\'éditeur de lettres, saisissez les adresses de l\'expéditeur et du destinataire, incluez un objet et composez votre message dans le champ "Message". Une fois que vous avez terminé votre lettre, appuyez sur "Enregistrer" dans le coin supérieur droit',
+    how_to_003: 'Votre lettre est automatiquement formatée et affichée. Pour continuer, vous pouvez soit l\'imprimer en tapant sur l\'icône de l\'imprimante, soit la partager par courriel en utilisant le bouton de partage (l\'icône carrée avec une flèche).',
+  },
 };
