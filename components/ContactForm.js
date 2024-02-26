@@ -3,6 +3,7 @@ import { useIntl, FormattedMessage } from 'react-intl';
 import axios from 'axios';
 import { Formik } from 'formik';
 import * as Yup from 'yup';
+import { useRouter } from 'next/router';
 import { GoogleReCaptchaProvider, GoogleReCaptcha } from 'react-google-recaptcha-v3';
 import LazyLoad from 'react-lazyload';
 import { useCookieConsent } from './CookieConsent';
@@ -15,9 +16,12 @@ import Button from './Button';
 
 export default function ContactForm() {
   const cookiesAccepted = useCookieConsent();
+  const { locale } = useRouter();
   const { formatMessage } = useIntl();
   const [state, setState] = useState('initial');
   const [captcha, setCaptcha] = useState(undefined);
+
+  const language = locale?.startsWith('de') ? 'de' : 'en';
 
   const ContactSchema = Yup.object().shape({
     email: Yup.string()
@@ -36,7 +40,7 @@ export default function ContactForm() {
 
   const handleOnSubmit = async (values) => {
     try {
-      await axios.post('/api/contact', { ...values, captcha });
+      await axios.post('/api/contact', { ...values, captcha, language });
       setState('submitted');
     } catch (error) {
       setState('error');

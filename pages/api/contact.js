@@ -18,6 +18,7 @@ const messageSchema = Yup.object({
   email: Yup.string().email().required(),
   subject: Yup.string().required(),
   message: Yup.string().required(),
+  language: Yup.string().required(),
   captcha: (Yup.string().required()).captcha(),
   privacy: Yup.bool().oneOf([true]),
 });
@@ -30,8 +31,8 @@ export default async function handler(request, response) {
       const mailgun = new Mailgun(FormData);
       await mailgun.client({ username: 'api', key: process.env.MAILGUN_API_KEY })
         .messages.create('mg.codecowboys.io', {
-          from: 'mailer@briefe.app',
-          to: ['support@briefe.app'],
+          from: message.language === 'de' ? 'mailer@briefe.app' : 'mailer@letter-app.com',
+          to: message.language === 'de' ? ['support@briefe.app'] : ['support@letter-app.com'],
           'h:Reply-To': message.email,
           subject: message.subject,
           text: message.message,
