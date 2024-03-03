@@ -81,7 +81,7 @@
       "questions": [
         {
           "question": "Wie kann ich die Schriftart eines Briefes ändern?",
-          "answer": "Um die Schriftart zu ändern, wählen Sie den entsprechenden Buchstaben aus und tippen Sie auf ⚙️. Dadurch öffnen sich die Briefeinstellungen, in denen Sie unter anderem die Schriftart und -größe anpassen können. Wenn Sie nicht für jeden Buchstaben die Schriftart ändern möchten, können Sie auch einen Absender definieren und dort die gewünschte Schriftart speichern."
+          "answer": "Um die Schriftart zu ändern, wählen Sie den entsprechenden Brief aus und tippen Sie auf ⚙️. Dadurch öffnen sich die Briefeinstellungen, in denen Sie unter anderem die Schriftart und -größe anpassen können. Wenn Sie nicht für jeden Buchstaben die Schriftart ändern möchten, können Sie auch einen Absender definieren und dort die gewünschte Schriftart speichern."
         },
         {
           "question": "Muss ich den Absender für jeden Brief neu eingeben?",

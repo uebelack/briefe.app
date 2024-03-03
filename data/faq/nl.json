@@ -80,8 +80,8 @@
       "title": "Gebruik",
       "questions": [
         {
-          "question": "Hoe kan ik het lettertype van een brief wijzigen?",
-          "answer": "Om het lettertype te wijzigen, selecteer je de betreffende letter en tik je op ⚙️. Dit opent de letterinstellingen waar je onder andere het lettertype en de lettergrootte kunt aanpassen. Als je het lettertype niet voor elke brief wilt wijzigen, kun je ook een afzender definiëren en daar het gewenste lettertype opslaan."
+          "question": "Hoe kan ik het lettertype van een brieven wijzigen?",
+          "answer": "Om het lettertype te wijzigen, selecteer je de betreffende brieven en tik je op ⚙️. Dit opent de letterinstellingen waar je onder andere het lettertype en de lettergrootte kunt aanpassen. Als je het lettertype niet voor elke brief wilt wijzigen, kun je ook een afzender definiëren en daar het gewenste lettertype opslaan."
         },
         {
           "question": "Moet ik voor elke brief opnieuw de afzender invoeren?",
