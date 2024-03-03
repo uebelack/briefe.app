@@ -6,24 +6,44 @@
   xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
 >
   <url>
-    <loc>https://briefe.app/</loc>
-    <lastmod>2023-11-07T20:15:42.279Z</lastmod>
+    <loc>https://letter-app.com/</loc>
+    <lastmod>2024-03-03T18:26:15.073Z</lastmod>
     <xhtml:link rel="alternate" hreflang="de" href="https://briefe.app/de" />
 
-    <xhtml:link rel="alternate" hreflang="fr" href="https://briefe.app/fr" />
+    <xhtml:link
+      rel="alternate"
+      hreflang="fr"
+      href="https://letter-app.com/fr"
+    />
 
-    <xhtml:link rel="alternate" hreflang="es" href="https://briefe.app/es" />
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="https://letter-app.com/es"
+    />
 
-    <xhtml:link rel="alternate" hreflang="it" href="https://briefe.app/t" />
+    <xhtml:link
+      rel="alternate"
+      hreflang="it"
+      href="https://letter-app.com/it"
+    />
 
-    <xhtml:link rel="alternate" hreflang="nl" href="https://briefe.app/nl" />
+    <xhtml:link
+      rel="alternate"
+      hreflang="nl"
+      href="https://letter-app.com/nl"
+    />
 
-    <xhtml:link rel="alternate" hreflang="pt" href="https://briefe.app/pt" />
+    <xhtml:link
+      rel="alternate"
+      hreflang="pt"
+      href="https://letter-app.com/pt"
+    />
   </url>
 
   <url>
-    <loc>https://briefe.app/imprint</loc>
-    <lastmod>2023-11-07T20:15:42.279Z</lastmod>
+    <loc>https://letter-app.com/imprint</loc>
+    <lastmod>2024-03-03T18:26:15.073Z</lastmod>
     <xhtml:link
       rel="alternate"
       hreflang="de"
@@ -32,8 +52,8 @@
   </url>
 
   <url>
-    <loc>https://briefe.app/privacy</loc>
-    <lastmod>2023-11-07T20:15:42.279Z</lastmod>
+    <loc>https://letter-app.com/privacy</loc>
+    <lastmod>2024-03-03T18:26:15.073Z</lastmod>
     <xhtml:link
       rel="alternate"
       hreflang="de"
@@ -42,8 +62,8 @@
   </url>
 
   <url>
-    <loc>https://briefe.app/faq</loc>
-    <lastmod>2023-11-07T20:15:42.279Z</lastmod>
+    <loc>https://letter-app.com/faq</loc>
+    <lastmod>2024-03-03T18:26:15.073Z</lastmod>
     <xhtml:link
       rel="alternate"
       hreflang="de"
@@ -52,32 +72,72 @@
 
     <xhtml:link
       rel="alternate"
-      hreflang="fr"
-      href="https://briefe.app/fr/faq"
+      hreflang="es"
+      href="https://letter-app.com/es/faq"
     />
 
     <xhtml:link
       rel="alternate"
-      hreflang="es"
-      href="https://briefe.app/es/faq"
+      hreflang="fr"
+      href="https://letter-app.com/fr/faq"
     />
 
     <xhtml:link
       rel="alternate"
       hreflang="it"
-      href="https://briefe.app/it/faq"
+      href="https://letter-app.com/it/faq"
     />
 
     <xhtml:link
       rel="alternate"
       hreflang="nl"
-      href="https://briefe.app/nl/faq"
+      href="https://letter-app.com/nl/faq"
     />
 
     <xhtml:link
       rel="alternate"
       hreflang="pt"
-      href="https://briefe.app/pt/faq"
+      href="https://letter-app.com/pt/faq"
+    />
+  </url>
+
+  <url>
+    <loc>https://letter-app.com/help</loc>
+    <lastmod>2024-03-03T18:26:15.073Z</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="https://briefe.app/de/help"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="https://letter-app.com/es/help"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="fr"
+      href="https://letter-app.com/fr/help"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="it"
+      href="https://letter-app.com/it/help"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="nl"
+      href="https://letter-app.com/nl/help"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="pt"
+      href="https://letter-app.com/pt/help"
     />
   </url>
 </urlset>

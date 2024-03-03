@@ -6,7 +6,8 @@ import { URL } from 'url';
 import config from '../next.config.js';
 
 const LAST_MODIFIED = new Date().toISOString();
-const DOMAIN = 'https://briefe.app';
+const DOMAIN = 'https://letter-app.com';
+const DE_DOMAIN = 'https://briefe.app';
 const DIRNAME = new URL('.', import.meta.url).pathname;
 const LANGUAGES = config.i18n.locales.filter((locale) => locale !== config.i18n.defaultLocale);
 
@@ -17,7 +18,7 @@ const PAGES = [
       { lang: 'de', url: '/de' },
       { lang: 'fr', url: '/fr' },
       { lang: 'es', url: '/es' },
-      { lang: 'it', url: '/t' },
+      { lang: 'it', url: '/it' },
       { lang: 'nl', url: '/nl' },
       { lang: 'pt', url: '/pt' },
     ],
@@ -27,6 +28,10 @@ const PAGES = [
   {
     url: '/faq',
     alternates: LANGUAGES.map((language) => ({ lang: language, url: `/${language}/faq` })),
+  },
+  {
+    url: '/help',
+    alternates: LANGUAGES.map((language) => ({ lang: language, url: `/${language}/help` })),
   },
 ];
 
@@ -45,7 +50,7 @@ const sitemap = `
         <xhtml:link
           rel="alternate"
           hreflang="${alternate.lang}"
-          href="${DOMAIN}${alternate.url}"/>
+          href="${alternate.lang === 'de' ? DE_DOMAIN : DOMAIN}${alternate.url}"/>
         `).join('\n')}
       </url>
     `).join('\n')}
