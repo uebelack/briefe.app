@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://briefe/sitemap.xml
+Sitemap: https://letter-app.com/sitemap.xml
 
