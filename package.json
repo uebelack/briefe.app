@@ -13,7 +13,7 @@
   "dependencies": {
     "@fontsource/lexend": "^5.0.18",
     "@headlessui/react": "^1.7.17",
-    "@heroicons/react": "^2.0.18",
+    "@heroicons/react": "^2.1.3",
     "@mdx-js/loader": "^3.0.0",
     "@mdx-js/react": "^3.0.0",
     "@next/mdx": "^14.0.4",
