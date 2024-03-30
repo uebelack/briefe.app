@@ -12,9 +12,17 @@ import ScrollButton from '@/components/ScrollButton';
 import Heading from '@/components/Heading';
 import ContactForm from '@/components/ContactForm';
 import Feature from '@/components/Feature';
+import Blog from '@/components/Blog';
 import features from '../i18n/features';
 
-export default function Home() {
+import getBlogArticles from '@/functions/getBlogArticles';
+
+export async function getStaticProps({ locale }) {
+  const articles = await getBlogArticles(locale, 3);
+  return { props: { articles } };
+}
+
+export default function Home({ articles }) {
   const { formatMessage } = useIntl();
   const { locale } = useRouter();
 
@@ -93,6 +101,10 @@ export default function Home() {
               <Image src="/app_store_en.svg" alt="App Store" width={150} height={50} className="mt-5" />
             </a>
           </div>
+        </Container>
+        <Container>
+          <Heading id="blog"><FormattedMessage id="blog.title" /></Heading>
+          <Blog articles={articles} />
         </Container>
         <Container>
           <div className="flex flex-col items-center">

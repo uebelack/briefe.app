@@ -99,4 +99,8 @@ export default {
     how_to_002: 'Voer het adres van de afzender en de ontvanger in, voeg een onderwerp toe en stel je bericht samen in het veld "Bericht". Als je klaar bent met je brief, tik je op "Opslaan" in de rechterbovenhoek',
     how_to_003: 'Je brief wordt automatisch opgemaakt en weergegeven. Nu kunt u de brief afdrukken door op het printericoontje te tikken of hem per e-mail versturen met de knop "Delen" (het vierkante icoontje met een pijl)',
   },
+  blog: {
+    menu: 'Blog',
+    title: 'Blog - Gedachten, verhalen en ideeën',
+  },
 };

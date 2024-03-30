@@ -99,4 +99,8 @@ export default {
     how_to_002: 'Sur l\'écran de l\'éditeur de lettres, saisissez les adresses de l\'expéditeur et du destinataire, incluez un objet et composez votre message dans le champ "Message". Une fois que vous avez terminé votre lettre, appuyez sur "Enregistrer" dans le coin supérieur droit',
     how_to_003: 'Votre lettre est automatiquement formatée et affichée. Pour continuer, vous pouvez soit l\'imprimer en tapant sur l\'icône de l\'imprimante, soit la partager par courriel en utilisant le bouton de partage (l\'icône carrée avec une flèche).',
   },
+  blog: {
+    menu: 'Blog',
+    title: 'Blog - Réflexions, histoires et idées',
+  },
 };

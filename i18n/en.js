@@ -99,4 +99,8 @@ export default {
     how_to_002: 'While on the letter editor screen, input the sender and recipient addresses, include a subject, and compose your message in the \'Message\' field. Once you\'ve completed your letter, tap \'Save\' located in the top right corner.',
     how_to_003: 'Your letter is automatically formatted and displayed. To proceed, you can either print it by tapping on the printer icon or share it via email using the share button (the square icon with an arrow).',
   },
+  blog: {
+    menu: 'Blog',
+    title: 'Blog - Gedanken, Geschichten und Ideen',
+  },
 };

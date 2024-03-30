@@ -99,4 +99,8 @@ export default {
     how_to_002: 'Introduce la dirección del remitente y del destinatario, añade un asunto y redacta tu mensaje en el campo "Mensaje". Una vez que haya terminado su carta, pulse "Guardar" en la esquina superior derecha',
     how_to_003: 'Su carta será formateada y mostrada automáticamente. Ahora puede imprimirla pulsando el icono de la impresora o enviarla por correo electrónico utilizando el botón "Compartir" (el icono cuadrado con una flecha)',
   },
+  blog: {
+    menu: 'Blog',
+    title: 'Blog - Pensamientos, historias e ideas',
+  },
 };

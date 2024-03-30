@@ -70,6 +70,7 @@ export default function Header({ title, description }) {
         <ul className="flex md:pl-1 pt-1 md:pt-1.5 ">
           <li className="mr-2"><a href={`${urlPrefix}/#details`} onClick={(e) => handleOnClick(e, 'details')}><FormattedMessage id="details.title" /></a></li>
           <li className="mr-2"><a href={`${urlPrefix}/#features`} onClick={(e) => handleOnClick(e, 'features')}><FormattedMessage id="features.title" /></a></li>
+          <li className="mr-2"><a href={`${urlPrefix}/#contact`} onClick={(e) => handleOnClick(e, 'blog')}><FormattedMessage id="blog.menu" /></a></li>
           <li className="mr-2"><a href={`${urlPrefix}/#contact`} onClick={(e) => handleOnClick(e, 'contact')}><FormattedMessage id="contact.title" /></a></li>
           <li className="mr-2"><a href={`${urlPrefix}/faq`}><FormattedMessage id="faq.menu" /></a></li>
           <li className="mr-2"><a href={`${urlPrefix}/help`}><FormattedMessage id="help.menu" /></a></li>

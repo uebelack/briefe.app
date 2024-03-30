@@ -99,4 +99,8 @@ export default {
     how_to_002: 'Inserire l\'indirizzo del mittente e del destinatario, aggiungere un oggetto e comporre il messaggio nel campo "Messaggio". Una volta terminata la lettera, toccare "Salva" nell\'angolo in alto a destra',
     how_to_003: 'La lettera verrà formattata e visualizzata automaticamente. A questo punto è possibile stamparla toccando l\'icona della stampante o inviarla via e-mail utilizzando il pulsante "Condividi" (l\'icona quadrata con una freccia)',
   },
+  blog: {
+    menu: 'Blog',
+    title: 'Blog - Pensieri, storie e idee',
+  },
 };

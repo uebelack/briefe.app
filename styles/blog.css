@@ -1,0 +1,38 @@
+.blog {
+  margin: auto;
+  max-width: 800px;
+}
+
+.blog-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.blog-card {
+  max-width: 300px;
+  height: 400px;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+.blog-card-image {
+  height: 200px;
+  overflow: hidden;
+
+}
+
+.blog-card h2 {
+  margin: 0;
+  padding: 15px 0;
+  font-size: 20px;
+}
+
+.blog-card p {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
