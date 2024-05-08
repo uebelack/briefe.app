@@ -1,13 +1,12 @@
+'use client';
+
 /* eslint-disable max-len */
 import React, { Fragment } from 'react';
 import { Listbox, Transition } from '@headlessui/react';
-import { FormattedMessage, useIntl } from 'react-intl';
 import { ChevronUpDownIcon, GlobeAltIcon } from '@heroicons/react/20/solid';
+import languages from '@/data/languages';
 
-import languages from '../i18n/languages';
-
-export default function LanguageSelect() {
-  const { locale } = useIntl();
+export default function LanguageSelect({ language, locale }) {
   const selectLanguage = (key) => {
     const newLocation = new URL(`/${key}`, window.location.origin);
     window.location.assign(newLocation.toString());
@@ -23,7 +22,7 @@ export default function LanguageSelect() {
               aria-hidden="true"
             />
           </span>
-          <span className="block truncate pl-4"><FormattedMessage id="common.language" /></span>
+          <span className="block truncate pl-4">{language}</span>
           <span className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-0">
             <ChevronUpDownIcon
               className="h-5 w-5 text-gray-400"

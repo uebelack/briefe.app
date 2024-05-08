@@ -1,7 +1,6 @@
 import React from 'react';
 import '@testing-library/jest-dom';
 import { render } from '@testing-library/react';
-import { IntlProvider } from 'react-intl';
 import messages from '../../i18n';
 import Impressum from '../../pages/impressum';
 

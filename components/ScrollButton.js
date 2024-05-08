@@ -1,14 +1,14 @@
+'use client';
+
 import React from 'react';
 import { scroller } from 'react-scroll';
-import { useIntl } from 'react-intl';
 
-export default function ScrollButton({ target }) {
-  const { formatMessage } = useIntl();
+export default function ScrollButton({ label, target }) {
   return (
     <button
       className="scroll-button"
       type="button"
-      aria-label={formatMessage({ id: 'common.scroll_down' })}
+      aria-label={label}
       onClick={() => scroller.scrollTo(target, { duration: 200, smooth: true })}
     />
   );

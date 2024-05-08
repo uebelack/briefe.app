@@ -1,33 +1,17 @@
-import React, { useEffect, useState } from 'react';
-import { FormattedMessage, useIntl } from 'react-intl';
-import ReactCookieConsent, { getCookieConsentValue } from 'react-cookie-consent';
-
-const CookieContext = React.createContext(getCookieConsentValue('briefe_app_cookie_consent') === 'true');
-
-export function useCookieConsent() {
-  return React.useContext(CookieContext);
-}
+import React from 'react';
+import { useTranslations } from 'next-intl';
+import CookieConsentClient from './CookieConsentClient';
 
 export default function CookieConsent({ children }) {
-  const [cookieConsentAccepted, setCookieConsentAccepted] = useState(false);
-
-  useEffect(() => setCookieConsentAccepted(getCookieConsentValue('briefe_app_cookie_consent') === 'true'), []);
-
-  const { formatMessage } = useIntl();
+  const t = useTranslations();
   return (
-    <CookieContext.Provider value={cookieConsentAccepted}>
-      <ReactCookieConsent
-        location="bottom"
-        buttonText={formatMessage({ id: 'cookie_consent.accept' })}
-        cookieName="briefe_app_cookie_consent"
-        onAccept={() => setCookieConsentAccepted(true)}
-      >
-        <FormattedMessage id="cookie_consent.message" />
-        {' '}
-        <a href={formatMessage({ id: 'footer.privacy_link' })} className="underline underline-offset-2">{formatMessage({ id: 'footer.privacy' })}</a>
-        .
-      </ReactCookieConsent>
+    <CookieConsentClient
+      acceptButtonText={t('cookie_consent.accept')}
+      detailsText={t('cookie_consent.message')}
+      privacyLink={t('footer.privacy_link')}
+      privacyLinkText={t('footer.privacy')}
+    >
       {children}
-    </CookieContext.Provider>
+    </CookieConsentClient>
   );
 }

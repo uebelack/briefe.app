@@ -1,108 +1,27 @@
-import React, { useState, useCallback } from 'react';
-import { useIntl, FormattedMessage } from 'react-intl';
-import axios from 'axios';
-import { Formik } from 'formik';
-import * as Yup from 'yup';
-import { useRouter } from 'next/router';
-import { GoogleReCaptchaProvider, GoogleReCaptcha } from 'react-google-recaptcha-v3';
-import LazyLoad from 'react-lazyload';
-import { useCookieConsent } from './CookieConsent';
-import Form from './Form';
-import InputText from './InputText';
-import Textarea from './Textarea';
-import Checkbox from './Checkbox';
+import React from 'react';
+import { useTranslations, useLocale } from 'next-intl';
+import ContactFormClient from './ContactFormClient';
 
-import Button from './Button';
-
-export default function ContactForm() {
-  const cookiesAccepted = useCookieConsent();
-  const { locale } = useRouter();
-  const { formatMessage } = useIntl();
-  const [state, setState] = useState('initial');
-  const [captcha, setCaptcha] = useState(undefined);
-
-  const language = locale?.startsWith('de') ? 'de' : 'en';
-
-  const ContactSchema = Yup.object().shape({
-    email: Yup.string()
-      .email(formatMessage({ id: 'contact.email_error' }))
-      .required(formatMessage({ id: 'contact.email_error' })),
-    subject: Yup.string()
-      .required(formatMessage({ id: 'contact.subject_error' })),
-    message: Yup.string()
-      .required(formatMessage({ id: 'contact.message_error' })),
-    privacy: Yup.bool().oneOf([true], formatMessage({ id: 'contact.privacy_error' })),
-  });
-
-  const handleOnCaptchaVerify = useCallback((token) => {
-    setCaptcha(token);
-  }, []);
-
-  const handleOnSubmit = async (values) => {
-    try {
-      await axios.post('/api/contact', { ...values, captcha, language });
-      setState('submitted');
-    } catch (error) {
-      setState('error');
-    }
-  };
-
+export default function CookieConsent() {
+  const t = useTranslations();
+  const locale = useLocale();
   return (
-    <LazyLoad offset={100}>
-      { cookiesAccepted ? (
-        <GoogleReCaptchaProvider reCaptchaKey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}>
-          <GoogleReCaptcha onVerify={handleOnCaptchaVerify} />
-        </GoogleReCaptchaProvider>
-      ) : (<p className="mb-5"><FormattedMessage id="contact.cookie" /></p>)}
-      { state === 'initial' && (
-        <Formik
-          initialValues={{
-            email: '', subject: '', message: '', captcha: '', privacy: false,
-          }}
-          validationSchema={ContactSchema}
-          onSubmit={handleOnSubmit}
-        >
-          {({ isSubmitting }) => (
-            <Form>
-              <InputText
-                name="email"
-                placeholder={formatMessage({ id: 'contact.email_placeholder' })}
-                disabled={isSubmitting || !captcha}
-              />
-              <InputText
-                name="subject"
-                placeholder={formatMessage({ id: 'contact.subject_placeholder' })}
-                disabled={isSubmitting || !captcha}
-              />
-              <Textarea
-                name="message"
-                placeholder={formatMessage({ id: 'contact.message_placeholder' })}
-                disabled={isSubmitting || !captcha}
-              />
-              <Checkbox
-                name="privacy"
-                disabled={isSubmitting || !captcha}
-              >
-                <FormattedMessage id="contact.privacy_1" />
-                {' '}
-                <a href={formatMessage({ id: 'contact.privacy_link' })} className="underline" aria-label="Privacy">
-                  <FormattedMessage id="contact.privacy_2" />
-                </a>
-              </Checkbox>
-              <Button id="contact-form-button" type="submit" disabled={isSubmitting || !captcha}>
-                <FormattedMessage id="contact.submit" />
-              </Button>
-            </Form>
-          )}
-        </Formik>
-      )}
-      { state === 'submitted' && (
-        <p className="contact-form-success">{formatMessage({ id: 'contact.success' })}</p>
-      )}
-      { state === 'error' && (
-        <p className="contact-form-error">{formatMessage({ id: 'contact.error' })}</p>
-      )}
-
-    </LazyLoad>
+    <ContactFormClient
+      privacyLink={t('contact.privacy_link')}
+      locale={locale}
+      emailError={t('contact.email_error')}
+      subjectError={t('contact.subject_error')}
+      messageError={t('contact.message_error')}
+      privacyError={t('contact.privacy_error')}
+      cookie={t('contact.cookie')}
+      emailPlaceholder={t('contact.email_placeholder')}
+      subjectPlaceholder={t('contact.subject_placeholder')}
+      messagePlaceholder={t('contact.message_placeholder')}
+      privacy1={t('contact.privacy_1')}
+      privacy2={t('contact.privacy_2')}
+      submit={t('contact.submit')}
+      success={t('contact.success')}
+      error={t('contact.error')}
+    />
   );
 }
