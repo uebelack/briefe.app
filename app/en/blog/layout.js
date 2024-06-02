@@ -1,20 +1,14 @@
 import React from 'react';
-import { getTranslations } from 'next-intl/server';
-import Layout from '@/components/Layout';
+import Page from '@/components/Page';
+import Section from '@/components/Section';
+import Container from '@/components/Container';
 
-export async function generateMetadata({ params: { locale } }) {
-  const t = await getTranslations({ locale });
-
-  return {
-    title: t('common.title_long'),
-    description: t('details.p1'),
-  };
-}
-
-export default function RootLayout({ children }) {
+export default function BlogLayout({ children }) {
   return (
-    <Layout>
-      {children}
-    </Layout>
+    <Page>
+      <Section className="blog">
+        <Container className="prose proese-briefe">{children}</Container>
+      </Section>
+    </Page>
   );
 }
