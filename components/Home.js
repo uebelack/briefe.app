@@ -19,7 +19,7 @@ export default function Home() {
 
   const featuresKey = Object.keys(features).find((key) => key.startsWith(locale ?? 'en-US')) ?? 'en-US';
   const featureData = features[featuresKey];
-  const articles = getBlogArticles(locale, 3);
+  const articles = getBlogArticles(locale);
 
   return (
     <Page>

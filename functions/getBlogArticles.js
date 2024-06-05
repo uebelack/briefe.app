@@ -2,15 +2,13 @@
 /* eslint-disable no-plusplus */
 /* eslint-disable global-require */
 
+import en from '../data/blog/en.json';
+
+const data = { en };
+
 function getBlogArticles(locale, limit = undefined) {
-  const fs = require('fs');
-
-  const dataFile = `./data/blog/${locale}.json`;
-
-  if (fs.existsSync(dataFile)) {
-    const content = (fs.readFileSync(dataFile)).toString();
-
-    let articles = JSON.parse(content);
+  if (data[locale]) {
+    let articles = data[locale];
 
     if (limit) {
       const randomArticles = [];
