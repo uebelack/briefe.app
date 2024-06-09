@@ -8,5 +8,5 @@ export async function generateMetadata() {
 }
 
 export default function FaqPage() {
-  return <Faq />;
+  return <Faq locale="nl" />;
 }

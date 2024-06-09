@@ -1,14 +1,12 @@
 /* eslint-disable global-require */
 import React from 'react';
-import getLocale from '@/functions/getLocale';
 import getTranslations from '@/functions/getTranslations';
 import Page from '@/components/Page';
 import Section from '@/components/Section';
 import Container from '@/components/Container';
 
-export default function Faq() {
-  const locale = getLocale();
-  const t = getTranslations();
+export default function Faq({ locale }) {
+  const t = getTranslations(locale);
   const fs = require('fs');
   const dataFile = `./data/faq/${locale}.json`;
   const content = JSON.parse((fs.readFileSync(dataFile)).toString());

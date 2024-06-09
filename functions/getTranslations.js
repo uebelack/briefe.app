@@ -1,5 +1,4 @@
 import flatten from '@stdlib/utils-flatten-object';
-import getLocale from './getLocale';
 
 import en from '../messages/en.json';
 import de from '../messages/de.json';
@@ -23,6 +22,6 @@ function translate(key, locale) {
   return messages[locale][key];
 }
 
-export default function getTranslations(locale = getLocale()) {
+export default function getTranslations(locale) {
   return (key) => translate(key, locale);
 }

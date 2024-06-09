@@ -2,9 +2,10 @@ import React from 'react';
 import Layout from '@/components/Layout';
 import getTranslations from '@/functions/getTranslations';
 
+const LOCALE = 'nl';
+
 export async function generateMetadata() {
-  // eslint-disable-next-line react-hooks/rules-of-hooks
-  const t = getTranslations();
+  const t = getTranslations(LOCALE);
 
   return {
     title: t('common.title_long'),
@@ -14,7 +15,7 @@ export async function generateMetadata() {
 
 export default function RootLayout({ children }) {
   return (
-    <Layout>
+    <Layout locale={LOCALE}>
       {children}
     </Layout>
   );

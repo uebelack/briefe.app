@@ -1,10 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
-import getLocale from '@/functions/getLocale';
 
-export default function Blog({ articles }) {
-  const locale = getLocale();
-
+export default function Blog({ articles, locale }) {
   return (
     <div className="blog-list">
       {articles.map((article) => (

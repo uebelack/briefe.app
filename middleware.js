@@ -1,4 +1,5 @@
 import { NextResponse } from 'next/server';
+import { resolveAcceptLanguage } from 'resolve-accept-language';
 import { locales } from './config';
 
 export const config = {
@@ -6,16 +7,9 @@ export const config = {
 };
 
 export default function middleware(request) {
-  const urlParts = request.nextUrl.pathname.split('/');
-
-  const locale = urlParts.length > 1 ? urlParts[1] : 'en';
-  if (!locales.includes(locale)) {
-    return NextResponse.redirect('/en');
+  if (request.nextUrl.pathname === '/') {
+    const userLanguage = resolveAcceptLanguage(request.headers.get('accept-language'), locales, 'en-US');
+    return NextResponse.redirect(new URL(`/${userLanguage.substring(0, 2)}`, request.url));
   }
-
-  const response = NextResponse.next();
-  // Set a cookie to hide the banner
-  response.cookies.set('locale', locale);
-  // Response will have a `Set-Cookie:show-banner=false;path=/home` header
-  return response;
+  return NextResponse.next();
 }

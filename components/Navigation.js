@@ -1,12 +1,10 @@
 import React from 'react';
-import getLocale from '@/functions/getLocale';
 import getTranslations from '@/functions/getTranslations';
 import NavigationClient from './NavigationClient';
 import getBlogArticles from '@/functions/getBlogArticles';
 
-export default function Navigation() {
-  const locale = getLocale();
-  const t = getTranslations();
+export default function Navigation({ locale }) {
+  const t = getTranslations(locale);
   const showBlog = getBlogArticles(locale, 3) !== undefined;
   return (
     <NavigationClient

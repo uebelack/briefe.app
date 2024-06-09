@@ -1,11 +1,9 @@
 import React from 'react';
-import getLocale from '@/functions/getLocale';
 import getTranslations from '@/functions/getTranslations';
 import ContactFormClient from './ContactFormClient';
 
-export default function CookieConsent() {
-  const t = getTranslations();
-  const locale = getLocale();
+export default function CookieConsent({ locale }) {
+  const t = getTranslations(locale);
   return (
     <ContactFormClient
       privacyLink={t('contact.privacy_link')}

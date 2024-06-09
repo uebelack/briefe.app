@@ -3,8 +3,8 @@ import React from 'react';
 import Link from 'next/link';
 import getTranslations from '@/functions/getTranslations';
 
-export default function Footer() {
-  const t = getTranslations();
+export default function Footer({ locale }) {
+  const t = getTranslations(locale);
   return (
     <footer className="md:container mt-20 mb-20 text-center">
       <div className="mb-2 px-4 my-4">

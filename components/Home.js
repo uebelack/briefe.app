@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-import getLocale from '@/functions/getLocale';
 import getTranslations from '@/functions/getTranslations';
 import Container from './Container';
 import Feature from './Feature';
@@ -14,9 +13,8 @@ import Blog from './Blog';
 import getBlogArticles from '@/functions/getBlogArticles';
 import ContactForm from './ContactForm';
 
-export default function Home() {
-  const locale = getLocale();
-  const t = getTranslations();
+export default function Home({ locale }) {
+  const t = getTranslations(locale);
 
   const featuresKey = Object.keys(features).find((key) => key.startsWith(locale ?? 'en-US')) ?? 'en-US';
   const featureData = features[featuresKey];
@@ -99,7 +97,7 @@ export default function Home() {
           <div className="flex flex-col items-center">
             <div className="w-full md:w-9/12">
               <Heading id="contact">{t('contact.title')}</Heading>
-              <ContactForm />
+              <ContactForm locale={locale} />
             </div>
           </div>
         </Container>

@@ -6,8 +6,8 @@ import Page from '@/components/Page';
 import Section from '@/components/Section';
 import Container from '@/components/Container';
 
-export default function Help() {
-  const t = getTranslations();
+export default function Help({ locale }) {
+  const t = getTranslations(locale);
 
   return (
     <Page>

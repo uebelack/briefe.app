@@ -1,5 +1,4 @@
 import React from 'react';
-import getLocale from '@/functions/getLocale';
 import CookieConsentProvider from '@/components/CookieConsentProvider';
 import GoogleTagManager from '@/components/GoogleTagManager';
 import CookieConsent from '@/components/CookieConsent';
@@ -17,9 +16,7 @@ export const viewport = {
   themeColor: '#0080FC',
 };
 
-export default function RootLayout({ children }) {
-  const locale = getLocale();
-  console.log('------->', locale);
+export default function RootLayout({ children, locale }) {
   return (
     <CookieConsentProvider>
       <html lang={locale}>
@@ -35,10 +32,10 @@ export default function RootLayout({ children }) {
           <GoogleTagManager />
         </head>
         <body>
-          <Navigation />
+          <Navigation locale={locale} />
           {children}
-          <Footer />
-          <CookieConsent />
+          <Footer locale={locale} />
+          <CookieConsent locale={locale} />
         </body>
       </html>
     </CookieConsentProvider>
