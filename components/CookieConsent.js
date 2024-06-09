@@ -1,9 +1,9 @@
 import React from 'react';
-import { useTranslations } from 'next-intl';
+import getTranslations from '@/functions/getTranslations';
 import CookieConsentClient from './CookieConsentClient';
 
 export default function CookieConsent({ children }) {
-  const t = useTranslations();
+  const t = getTranslations();
   return (
     <CookieConsentClient
       acceptButtonText={t('cookie_consent.accept')}

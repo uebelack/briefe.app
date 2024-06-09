@@ -1,5 +1,5 @@
 import React from 'react';
-import { useLocale } from 'next-intl';
+import getLocale from '@/functions/getLocale';
 import CookieConsentProvider from '@/components/CookieConsentProvider';
 import GoogleTagManager from '@/components/GoogleTagManager';
 import CookieConsent from '@/components/CookieConsent';
@@ -18,7 +18,8 @@ export const viewport = {
 };
 
 export default function RootLayout({ children }) {
-  const locale = useLocale();
+  const locale = getLocale();
+  console.log('------->', locale);
   return (
     <CookieConsentProvider>
       <html lang={locale}>

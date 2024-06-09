@@ -1,11 +1,12 @@
 import React from 'react';
-import { useLocale, useTranslations } from 'next-intl';
+import getLocale from '@/functions/getLocale';
+import getTranslations from '@/functions/getTranslations';
 import NavigationClient from './NavigationClient';
 import getBlogArticles from '@/functions/getBlogArticles';
 
 export default function Navigation() {
-  const locale = useLocale();
-  const t = useTranslations();
+  const locale = getLocale();
+  const t = getTranslations();
   const showBlog = getBlogArticles(locale, 3) !== undefined;
   return (
     <NavigationClient

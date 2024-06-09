@@ -1,9 +1,10 @@
 import React from 'react';
-import { getTranslations } from 'next-intl/server';
 import Layout from '@/components/Layout';
+import getTranslations from '@/functions/getTranslations';
 
-export async function generateMetadata({ params: { locale } }) {
-  const t = await getTranslations({ locale });
+export async function generateMetadata() {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
+  const t = getTranslations();
 
   return {
     title: t('common.title_long'),

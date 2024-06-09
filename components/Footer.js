@@ -1,10 +1,10 @@
 /* eslint-disable jsx-a11y/control-has-associated-label */
 import React from 'react';
 import Link from 'next/link';
-import { useTranslations } from 'next-intl';
+import getTranslations from '@/functions/getTranslations';
 
 export default function Footer() {
-  const t = useTranslations();
+  const t = getTranslations();
   return (
     <footer className="md:container mt-20 mb-20 text-center">
       <div className="mb-2 px-4 my-4">

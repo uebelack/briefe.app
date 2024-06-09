@@ -1,12 +1,8 @@
-const createNextIntlPlugin = require('next-intl/plugin');
-
 const withMDX = require('@next/mdx')({
   extension: /\.mdx?$/,
 });
 
-const withNextIntl = createNextIntlPlugin();
-
-const nextConfig = withNextIntl(withMDX({
+const nextConfig = withMDX({
   reactStrictMode: true,
   swcMinify: true,
   transpilePackages: ['ui'],
@@ -22,6 +18,6 @@ const nextConfig = withNextIntl(withMDX({
     ],
   },
   pageExtensions: ['js', 'mdx'],
-}));
+});
 
 module.exports = nextConfig;

@@ -1,13 +1,13 @@
 /* eslint-disable global-require */
 import React from 'react';
 import Image from 'next/image';
-import { useTranslations } from 'next-intl';
+import getTranslations from '@/functions/getTranslations';
 import Page from '@/components/Page';
 import Section from '@/components/Section';
 import Container from '@/components/Container';
 
 export default function Help() {
-  const t = useTranslations();
+  const t = getTranslations();
 
   return (
     <Page>

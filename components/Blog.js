@@ -1,9 +1,9 @@
 import Image from 'next/image';
 import React from 'react';
-import { useLocale } from 'next-intl';
+import getLocale from '@/functions/getLocale';
 
 export default function Blog({ articles }) {
-  const locale = useLocale();
+  const locale = getLocale();
 
   return (
     <div className="blog-list">
