@@ -90,7 +90,7 @@ export default function Home({ locale }) {
         { articles && (
         <Container>
           <Heading id="blog">{t('blog.title')}</Heading>
-          <Blog articles={articles} />
+          <Blog articles={articles} locale={locale} />
         </Container>
         )}
         <Container>
