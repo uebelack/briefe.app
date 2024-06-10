@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Help/> should render 1`] = `
+<div>
+  <div
+    class="page"
+  >
+    <div
+      class="section"
+    >
+      <div
+        class="prose proese-briefe md:container px-4"
+      >
+        <h1>
+          Help
+        </h1>
+        <h2>
+          How to write a letter with the letter app
+        </h2>
+        <div
+          class="help-block"
+        >
+          <div
+            class="help-text"
+          >
+            To start composing your letter, simply tap the plus button located in the top right corner of the main screen. Once you've tapped the button, a new screen will open where you can craft your letter with ease.
+          </div>
+          <div
+            class="help-image"
+          >
+            <div />
+          </div>
+        </div>
+        <div
+          class="help-block"
+        >
+          <div
+            class="help-text"
+          >
+            While on the letter editor screen, input the sender and recipient addresses, include a subject, and compose your message in the 'Message' field. Once you've completed your letter, tap 'Save' located in the top right corner.
+          </div>
+          <div
+            class="help-image"
+          >
+            <div />
+          </div>
+        </div>
+        <div
+          class="help-block"
+        >
+          <div
+            class="help-text"
+          >
+            Your letter is automatically formatted and displayed. To proceed, you can either print it by tapping on the printer icon or share it via email using the share button (the square icon with an arrow).
+          </div>
+          <div
+            class="help-image"
+          >
+            <div />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

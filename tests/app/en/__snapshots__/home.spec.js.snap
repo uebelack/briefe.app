@@ -1,0 +1,547 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home/> should render 1`] = `
+<div>
+  <div
+    class="page"
+  >
+    <div
+      class="grid place-items-center first bg-blue text-white section"
+    >
+      <div
+        class="grid place-items-center md:container px-4"
+      >
+        <div />
+        <a
+          href="http://itunes.apple.com/app/letter/id498506154"
+        >
+          <div />
+        </a>
+        <div
+          class="p-3 md:w-4/5 pt-10"
+        >
+          <div />
+        </div>
+      </div>
+    </div>
+    <button
+      aria-label="Scroll down"
+      class="scroll-button"
+      type="button"
+    />
+    <div
+      class="section"
+    >
+      <div
+        class="md:container px-4"
+      >
+        <div
+          class="flex"
+        >
+          <div
+            class="prose proese-briefe"
+          >
+            <h1
+              class="text-2xl pt-5 mb-6"
+              id="details"
+            >
+              Details
+            </h1>
+            <p>
+              Even in an era defined by digital communication and instant connectivity, traditional letters remain an indispensable form of correspondence. Why? Because they represent a timeless and authentic mode of exchange. Whether you are sending personal or business messages, letters convey a depth and significance that is often lost in emails or text messages. They are an expression of care and attention, leaving a lasting impression. Our letter app was designed to blend this timeless tradition with modern convenience, allowing you to create, share, and preserve professional letters in a digital world.
+            </p>
+            <p>
+              The Letter App allows you to quickly and effortlessly create and print professionally formatted letters on iPhone, iPad and Mac. Your letters will have an appealing layout that leaves a professional impression. With a simple click, you can print your letters directly from the app. You also have the option to share your letters digitally or export them as PDF files to distribute them on various platforms. The app syncs seamlessly across your devices through iCloud, allowing you to access your letters anytime and anywhere. Thanks to the straightforward search function, you can easily retrieve previously composed letters.
+            </p>
+            <p>
+              In the Pro version, you'll have access to additional features, such as adding personal signatures directly within the app, effortlessly incorporating contact addresses from your address book, and utilizing a wide range of templates for various occasions. You can customize settings to adapt the format of your letters to your specific needs. The Letter App simplifies your correspondence, enabling you to create, share, and print letters with ease, all while maintaining style and user-friendliness.
+            </p>
+          </div>
+          <div
+            class="pt-32 ml-20 hidden lg:inline"
+          >
+            <div />
+          </div>
+        </div>
+      </div>
+      <div
+        class="md:container px-4"
+      >
+        <h1
+          class="text-2xl pt-5 mb-6"
+          id="features"
+        >
+          Features
+        </h1>
+        <p>
+          To give you a comprehensive overview, we have listed all the features in detail, according to their availability in the different app versions. This way, you can easily see which features each version of the app offers.
+        </p>
+        <div
+          class="flex flex-wrap md:flex-nowrap mt-5"
+        >
+          <div
+            class="grow mt-5 md:mr-5"
+          >
+            <h3
+              class="text-xl font-bold mb-5"
+            >
+              Features
+            </h3>
+            <div
+              class="flex mb-5"
+            >
+              <div
+                class="text-4xl mr-5 w-16 pt-2 pl-1"
+              >
+                <i
+                  class="fa fa-align-justify"
+                />
+              </div>
+              <div
+                class="w-full"
+              >
+                <div
+                  class="text-lg font-bold"
+                >
+                  Auto Format
+                </div>
+                <div
+                  class="text-lg"
+                >
+                  Letters are automatically formatted in a professional manner
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex mb-5"
+            >
+              <div
+                class="text-4xl mr-5 w-16 pt-2 pl-1"
+              >
+                <i
+                  class="fa fa-print"
+                />
+              </div>
+              <div
+                class="w-full"
+              >
+                <div
+                  class="text-lg font-bold"
+                >
+                  Print
+                </div>
+                <div
+                  class="text-lg"
+                >
+                  Easily print your letters directly from the app
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex mb-5"
+            >
+              <div
+                class="text-4xl mr-5 w-16 pt-2 pl-1"
+              >
+                <i
+                  class="fa fa-arrow-up-right-from-square"
+                />
+              </div>
+              <div
+                class="w-full"
+              >
+                <div
+                  class="text-lg font-bold"
+                >
+                  Share & Export
+                </div>
+                <div
+                  class="text-lg"
+                >
+                  Share your letters digitally or export them as PDF files
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex mb-5"
+            >
+              <div
+                class="text-4xl mr-5 w-16 pt-2 pl-1"
+              >
+                <i
+                  class="fa fa-magnifying-glass"
+                />
+              </div>
+              <div
+                class="w-full"
+              >
+                <div
+                  class="text-lg font-bold"
+                >
+                  Search
+                </div>
+                <div
+                  class="text-lg"
+                >
+                  The search function makes it easy to find letters quickly and conveniently
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex mb-5"
+            >
+              <div
+                class="text-4xl mr-5 w-16 pt-2 pl-1"
+              >
+                <i
+                  class="fa fa-cloud"
+                />
+              </div>
+              <div
+                class="w-full"
+              >
+                <div
+                  class="text-lg font-bold"
+                >
+                  Storage
+                </div>
+                <div
+                  class="text-lg"
+                >
+                  Your letters are synchronized across devices using iCloud
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="grow mt-5 md:ml-5"
+          >
+            <h3
+              class="text-xl font-bold mb-5"
+            >
+              PRO Features
+            </h3>
+            <div
+              class="flex mb-5"
+            >
+              <div
+                class="text-4xl mr-5 w-16 pt-2 pl-1"
+              >
+                <i
+                  class="fa fa-signature"
+                />
+              </div>
+              <div
+                class="w-full"
+              >
+                <div
+                  class="text-lg font-bold"
+                >
+                  Signatures
+                </div>
+                <div
+                  class="text-lg"
+                >
+                  Add personal signatures directly within the app
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex mb-5"
+            >
+              <div
+                class="text-4xl mr-5 w-16 pt-2 pl-1"
+              >
+                <i
+                  class="fa fa-address-card"
+                />
+              </div>
+              <div
+                class="w-full"
+              >
+                <div
+                  class="text-lg font-bold"
+                >
+                  Sender
+                </div>
+                <div
+                  class="text-lg"
+                >
+                  Enter your sender information once
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex mb-5"
+            >
+              <div
+                class="text-4xl mr-5 w-16 pt-2 pl-1"
+              >
+                <i
+                  class="fa fa-address-book"
+                />
+              </div>
+              <div
+                class="w-full"
+              >
+                <div
+                  class="text-lg font-bold"
+                >
+                  Contacts
+                </div>
+                <div
+                  class="text-lg"
+                >
+                  Easily incorporate contact addresses from your address book
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex mb-5"
+            >
+              <div
+                class="text-4xl mr-5 w-16 pt-2 pl-1"
+              >
+                <i
+                  class="fa fa-file-lines"
+                />
+              </div>
+              <div
+                class="w-full"
+              >
+                <div
+                  class="text-lg font-bold"
+                >
+                  Templates
+                </div>
+                <div
+                  class="text-lg"
+                >
+                  Utilize a wide range of templates for various occasions
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex mb-5"
+            >
+              <div
+                class="text-4xl mr-5 w-16 pt-2 pl-1"
+              >
+                <i
+                  class="fa fa-gear"
+                />
+              </div>
+              <div
+                class="w-full"
+              >
+                <div
+                  class="text-lg font-bold"
+                >
+                  Layout
+                </div>
+                <div
+                  class="text-lg"
+                >
+                  Customize the layout of your letters to your specific needs
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="grid place-items-center mt-5"
+        >
+          <a
+            href="http://itunes.apple.com/app/letter/id498506154"
+          >
+            <div />
+          </a>
+        </div>
+      </div>
+      <div
+        class="md:container px-4"
+      >
+        <h1
+          class="text-2xl pt-5 mb-6"
+          id="blog"
+        >
+          Blog - thoughts, stories and ideas
+        </h1>
+        <div
+          class="blog-list"
+        >
+          <a
+            class="blog-card"
+            href="/en/blog/lost-art-letter-writing"
+          >
+            <div
+              class="blog-card-image"
+            >
+              <div />
+            </div>
+            <h2>
+              The Lost Art of Letter Writing: Why It Still Matters in the Digital Age
+            </h2>
+            <p>
+              In today's fast-paced digital world, where instant messaging and emails dominate our communication landscape, the art of letter writing seems like a relic of the past. Yet, despite the convenience of electronic communication, there's something inherently special about receiving a handwritten letter in the mail.
+            </p>
+          </a>
+          <a
+            class="blog-card"
+            href="/en/blog/write-perfect-letter"
+          >
+            <div
+              class="blog-card-image"
+            >
+              <div />
+            </div>
+            <h2>
+              How to Write the Perfect Letter: Tips and Tricks for Effective Communication
+            </h2>
+            <p>
+              In a world inundated with emails and instant messages, the art of letter writing stands out as a timeless form of communication. Whether you're expressing your thoughts to a friend, conveying gratitude to a loved one, or penning a formal correspondence, mastering the art of letter writing can enhance your communication skills and leave a lasting impression on the recipient.
+            </p>
+          </a>
+          <a
+            class="blog-card"
+            href="/en/blog/power-personalized-letters"
+          >
+            <div
+              class="blog-card-image"
+            >
+              <div />
+            </div>
+            <h2>
+              The Power of Personalized Letters: Strengthening Connections in a Digital World
+            </h2>
+            <p>
+              In an era dominated by digital communication, where emails and text messages often feel impersonal and fleeting, the power of personalized letters shines through as a beacon of sincerity and authenticity. Whether it's a handwritten note from a friend, a heartfelt letter from a loved one, or a personalized message from a colleague, the act of receiving a personalized letter has a profound impact on the recipient.
+            </p>
+          </a>
+          <a
+            class="blog-card"
+            href="/en/blog/letter-writing-etiquette"
+          >
+            <div
+              class="blog-card-image"
+            >
+              <div />
+            </div>
+            <h2>
+              Letter Writing Etiquette: Dos and Don'ts for Polished Correspondence
+            </h2>
+            <p>
+              In the age of digital communication, the art of letter writing may seem like a lost art. However, for formal correspondence, business communications, or personal letters, mastering proper letter writing etiquette is essential to ensure your message is conveyed with clarity, professionalism, and respect.
+            </p>
+          </a>
+          <a
+            class="blog-card"
+            href="/en/blog/digital-tangible-joy-letters"
+          >
+            <div
+              class="blog-card-image"
+            >
+              <div />
+            </div>
+            <h2>
+              From Digital to Tangible: The Joy of Sending and Receiving Physical Letters
+            </h2>
+            <p>
+              In today's digital age, where electronic communication has become the norm, there's something undeniably special about receiving a physical letter in the mail. Unlike emails or text messages that can be easily deleted or forgotten, physical letters offer a tangible connection that engages the senses and creates a lasting impression.
+            </p>
+          </a>
+          <a
+            class="blog-card"
+            href="/en/blog/creative-letter-writing-prompts"
+          >
+            <div
+              class="blog-card-image"
+            >
+              <div />
+            </div>
+            <h2>
+              Creative Letter Writing Prompts to Spark Inspiration
+            </h2>
+            <p>
+              Are you looking to add a personal touch to your correspondence? Whether you're writing a letter to a friend, family member, or pen pal, sometimes it can be challenging to find the right words to express yourself. That's where creative letter writing prompts come in handy! These prompts can help spark inspiration and unleash your creativity, making your letters more meaningful and memorable.
+            </p>
+          </a>
+          <a
+            class="blog-card"
+            href="/en/blog/art-love-letters"
+          >
+            <div
+              class="blog-card-image"
+            >
+              <div />
+            </div>
+            <h2>
+              The Art of Love Letters: Expressing Affection Through the Written Word
+            </h2>
+            <p>
+              In a world filled with digital communication, there's something uniquely intimate and romantic about love letters. Whether handwritten on parchment or composed digitally, love letters have a timeless appeal that transcends generations. They capture the essence of love, longing, and devotion in a way that spoken words often cannot. 
+            </p>
+          </a>
+          <a
+            class="blog-card"
+            href="/en/blog/letter-writing-business"
+          >
+            <div
+              class="blog-card-image"
+            >
+              <div />
+            </div>
+            <h2>
+              Letter Writing for Business: Enhancing Professional Communication
+            </h2>
+            <p>
+              In today's digital age, where emails and instant messages dominate the business landscape, the art of letter writing may seem like a relic of the past. However, for formal business communications, such as proposals, contracts, and official correspondence, mastering the art of letter writing is essential to project professionalism, establish credibility, and foster strong business relationships.
+            </p>
+          </a>
+          <a
+            class="blog-card"
+            href="/en/blog/evolution-letter-writing"
+          >
+            <div
+              class="blog-card-image"
+            >
+              <div />
+            </div>
+            <h2>
+              The Evolution of Letter Writing: From Papyrus Scrolls to Digital Apps
+            </h2>
+            <p>
+              Letter writing has a rich and storied history that spans millennia, evolving from ancient civilizations to the digital age. From the earliest forms of written communication on papyrus scrolls to the instant messaging apps of today, the art of letter writing has adapted and transformed over time, yet its essence remains the same: to connect people across distances and preserve the written word for future generations.
+            </p>
+          </a>
+        </div>
+      </div>
+      <div
+        class="md:container px-4"
+      >
+        <div
+          class="flex flex-col items-center"
+        >
+          <div
+            class="w-full md:w-9/12"
+          >
+            <h1
+              class="text-2xl pt-5 mb-6"
+              id="contact"
+            >
+              Contact
+            </h1>
+            <div
+              class="lazyload-wrapper "
+            >
+              <div
+                class="lazyload-placeholder"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
