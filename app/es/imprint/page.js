@@ -28,7 +28,7 @@ function Imprint() {
             Switzerland
           </p>
           <p>
-            E-Mail: support@briefe.app
+            E-Mail: support@letter-app.com
             <br />
             Webseite: briefe.app
           </p>

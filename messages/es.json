@@ -72,8 +72,8 @@
         "captcha_error": "Por favor, resuelve este captcha",
         "privacy_error": "Por favor, acepta la política de privacidad",
         "success": "¡Gracias por tu mensaje! Nos pondremos en contacto contigo lo antes posible.",
-        "error": "Lamentablemente, ocurrió un error inesperado. Por favor, inténtalo de nuevo más tarde o envíanos un correo electrónico a support@briefe.app.",
-        "cookie": "Por favor, acepta las cookies en la parte inferior de la pantalla para enviar un mensaje o enviar un correo a support@briefe.app."
+        "error": "Lamentablemente, ocurrió un error inesperado. Por favor, inténtalo de nuevo más tarde o envíanos un correo electrónico a support@letter-app.com.",
+        "cookie": "Por favor, acepta las cookies en la parte inferior de la pantalla para enviar un mensaje o enviar un correo a support@letter-app.com."
     },
     "footer": {
         "rights": "todos los derechos reservados.",
