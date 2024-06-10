@@ -6,8 +6,8 @@
   xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
 >
   <url>
-    <loc>https://letter-app.com/</loc>
-    <lastmod>2024-03-03T18:26:15.073Z</lastmod>
+    <loc>https://letter-app.com/en</loc>
+    <lastmod>2024-06-10T20:01:30.864Z</lastmod>
     <xhtml:link rel="alternate" hreflang="de" href="https://briefe.app/de" />
 
     <xhtml:link
@@ -42,28 +42,128 @@
   </url>
 
   <url>
-    <loc>https://letter-app.com/imprint</loc>
-    <lastmod>2024-03-03T18:26:15.073Z</lastmod>
+    <loc>https://letter-app.com/en/imprint</loc>
+    <lastmod>2024-06-10T20:01:30.864Z</lastmod>
     <xhtml:link
       rel="alternate"
       hreflang="de"
       href="https://briefe.app/de/impressum"
     />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="fr"
+      href="https://letter-app.com/fr/imprint"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="https://letter-app.com/es/imprint"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="it"
+      href="https://letter-app.com/it/imprint"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="nl"
+      href="https://letter-app.com/nl/imprint"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="pt"
+      href="https://letter-app.com/pt/imprint"
+    />
   </url>
 
   <url>
-    <loc>https://letter-app.com/privacy</loc>
-    <lastmod>2024-03-03T18:26:15.073Z</lastmod>
+    <loc>https://letter-app.com/en/privacy</loc>
+    <lastmod>2024-06-10T20:01:30.864Z</lastmod>
     <xhtml:link
       rel="alternate"
       hreflang="de"
       href="https://briefe.app/de/datenschutz"
     />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="fr"
+      href="https://letter-app.com/fr/privacy"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="https://letter-app.com/es/privacy"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="it"
+      href="https://letter-app.com/it/privacy"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="nl"
+      href="https://letter-app.com/nl/privacy"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="pt"
+      href="https://letter-app.com/pt/privacy"
+    />
   </url>
 
   <url>
-    <loc>https://letter-app.com/faq</loc>
-    <lastmod>2024-03-03T18:26:15.073Z</lastmod>
+    <loc>https://letter-app.com/en/help</loc>
+    <lastmod>2024-06-10T20:01:30.864Z</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="https://briefe.app/de/hilfe"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="fr"
+      href="https://letter-app.com/fr/aide"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="https://letter-app.com/es/ayuda"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="it"
+      href="https://letter-app.com/it/aiuto"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="nl"
+      href="https://letter-app.com/nl/help"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="pt"
+      href="https://letter-app.com/pt/ajuda"
+    />
+  </url>
+
+  <url>
+    <loc>https://letter-app.com/en/faq</loc>
+    <lastmod>2024-06-10T20:01:30.864Z</lastmod>
     <xhtml:link
       rel="alternate"
       hreflang="de"
@@ -72,14 +172,14 @@
 
     <xhtml:link
       rel="alternate"
-      hreflang="es"
-      href="https://letter-app.com/es/faq"
+      hreflang="fr"
+      href="https://letter-app.com/fr/faq"
     />
 
     <xhtml:link
       rel="alternate"
-      hreflang="fr"
-      href="https://letter-app.com/fr/faq"
+      hreflang="es"
+      href="https://letter-app.com/es/faq"
     />
 
     <xhtml:link
@@ -102,42 +202,47 @@
   </url>
 
   <url>
-    <loc>https://letter-app.com/help</loc>
-    <lastmod>2024-03-03T18:26:15.073Z</lastmod>
-    <xhtml:link
-      rel="alternate"
-      hreflang="de"
-      href="https://briefe.app/de/help"
-    />
+    <loc>https://letter-app.com/en/blog/lost-art-letter-writing</loc>
+    <lastmod>2024-06-10T20:01:30.864Z</lastmod>undefined
+  </url>
 
-    <xhtml:link
-      rel="alternate"
-      hreflang="es"
-      href="https://letter-app.com/es/help"
-    />
+  <url>
+    <loc>https://letter-app.com/en/blog/write-perfect-letter</loc>
+    <lastmod>2024-06-10T20:01:30.864Z</lastmod>undefined
+  </url>
 
-    <xhtml:link
-      rel="alternate"
-      hreflang="fr"
-      href="https://letter-app.com/fr/help"
-    />
+  <url>
+    <loc>https://letter-app.com/en/blog/power-personalized-letters</loc>
+    <lastmod>2024-06-10T20:01:30.864Z</lastmod>undefined
+  </url>
 
-    <xhtml:link
-      rel="alternate"
-      hreflang="it"
-      href="https://letter-app.com/it/help"
-    />
+  <url>
+    <loc>https://letter-app.com/en/blog/letter-writing-etiquette</loc>
+    <lastmod>2024-06-10T20:01:30.864Z</lastmod>undefined
+  </url>
 
-    <xhtml:link
-      rel="alternate"
-      hreflang="nl"
-      href="https://letter-app.com/nl/help"
-    />
+  <url>
+    <loc>https://letter-app.com/en/blog/digital-tangible-joy-letters</loc>
+    <lastmod>2024-06-10T20:01:30.864Z</lastmod>undefined
+  </url>
 
-    <xhtml:link
-      rel="alternate"
-      hreflang="pt"
-      href="https://letter-app.com/pt/help"
-    />
+  <url>
+    <loc>https://letter-app.com/en/blog/creative-letter-writing-prompts</loc>
+    <lastmod>2024-06-10T20:01:30.864Z</lastmod>undefined
+  </url>
+
+  <url>
+    <loc>https://letter-app.com/en/blog/art-love-letters</loc>
+    <lastmod>2024-06-10T20:01:30.864Z</lastmod>undefined
+  </url>
+
+  <url>
+    <loc>https://letter-app.com/en/blog/letter-writing-business</loc>
+    <lastmod>2024-06-10T20:01:30.864Z</lastmod>undefined
+  </url>
+
+  <url>
+    <loc>https://letter-app.com/en/blog/evolution-letter-writing</loc>
+    <lastmod>2024-06-10T20:01:30.864Z</lastmod>undefined
   </url>
 </urlset>

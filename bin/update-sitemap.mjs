@@ -3,17 +3,18 @@ import fs from 'fs';
 import path from 'path';
 import prettier from 'prettier';
 import { URL } from 'url';
-import config from '../next.config.js';
+
+const blogArticlesEn = JSON.parse(fs.readFileSync('./data/blog/en.json', 'utf8'));
 
 const LAST_MODIFIED = new Date().toISOString();
 const DOMAIN = 'https://letter-app.com';
 const DE_DOMAIN = 'https://briefe.app';
 const DIRNAME = new URL('.', import.meta.url).pathname;
-const LANGUAGES = config.i18n.locales.filter((locale) => locale !== config.i18n.defaultLocale);
+const LANGUAGES = ['de', 'fr', 'es', 'it', 'nl', 'pt'];
 
 const PAGES = [
   {
-    url: '/',
+    url: '/en',
     alternates: [
       { lang: 'de', url: '/de' },
       { lang: 'fr', url: '/fr' },
@@ -23,17 +24,50 @@ const PAGES = [
       { lang: 'pt', url: '/pt' },
     ],
   },
-  { url: '/imprint', alternates: [{ lang: 'de', url: '/de/impressum' }] },
-  { url: '/privacy', alternates: [{ lang: 'de', url: '/de/datenschutz' }] },
   {
-    url: '/faq',
+    url: '/en/imprint',
+    alternates: [
+      { lang: 'de', url: '/de/impressum' },
+      { lang: 'fr', url: '/fr/imprint' },
+      { lang: 'es', url: '/es/imprint' },
+      { lang: 'it', url: '/it/imprint' },
+      { lang: 'nl', url: '/nl/imprint' },
+      { lang: 'pt', url: '/pt/imprint' },
+    ],
+  },
+  {
+    url: '/en/privacy',
+    alternates: [
+      { lang: 'de', url: '/de/datenschutz' },
+      { lang: 'fr', url: '/fr/privacy' },
+      { lang: 'es', url: '/es/privacy' },
+      { lang: 'it', url: '/it/privacy' },
+      { lang: 'nl', url: '/nl/privacy' },
+      { lang: 'pt', url: '/pt/privacy' },
+    ],
+  },
+  {
+    url: '/en/help',
+    alternates: [
+      { lang: 'de', url: '/de/hilfe' },
+      { lang: 'fr', url: '/fr/aide' },
+      { lang: 'es', url: '/es/ayuda' },
+      { lang: 'it', url: '/it/aiuto' },
+      { lang: 'nl', url: '/nl/help' },
+      { lang: 'pt', url: '/pt/ajuda' },
+    ],
+  },
+  {
+    url: '/en/faq',
     alternates: LANGUAGES.map((language) => ({ lang: language, url: `/${language}/faq` })),
   },
-  {
-    url: '/help',
-    alternates: LANGUAGES.map((language) => ({ lang: language, url: `/${language}/help` })),
-  },
 ];
+
+blogArticlesEn.forEach((article) => {
+  PAGES.push({
+    url: `/en/blog/${article.slug}`,
+  });
+});
 
 const sitemap = `
     <?xml version="1.0" encoding="UTF-8"?>
@@ -46,7 +80,7 @@ const sitemap = `
       ${PAGES.map((page) => `
       <url>
         <loc>${DOMAIN}${page.url}</loc>
-        <lastmod>${LAST_MODIFIED}</lastmod>${page.alternates.map((alternate) => `
+        <lastmod>${LAST_MODIFIED}</lastmod>${page.alternates?.map((alternate) => `
         <xhtml:link
           rel="alternate"
           hreflang="${alternate.lang}"
