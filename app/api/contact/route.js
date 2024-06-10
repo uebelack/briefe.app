@@ -26,7 +26,7 @@ const messageSchema = Yup.object({
 });
 
 export async function POST(request) {
-  const message = request.body;
+  const message = await request.json();
   try {
     await messageSchema.validate(message);
     const mailgun = new Mailgun(FormData);
