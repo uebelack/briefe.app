@@ -4,7 +4,7 @@ import Mailgun from 'mailgun.js';
 import FormData from 'form-data';
 import axios from 'axios';
 import * as Yup from 'yup';
-import { NextResponse, Response } from 'next/server';
+import { NextResponse } from 'next/server';
 
 Yup.addMethod(Yup.string, 'captcha', function captcha() {
   return this.test('captcha', 'Captcha validation failed', async (value) => {
@@ -38,9 +38,7 @@ export async function POST(request) {
         subject: message.subject,
         text: message.message,
       });
-    return new Response(null, {
-      status: 204,
-    });
+    return new NextResponse(undefined, { status: 204 });
   } catch (error) {
     if (error.errors) {
       return NextResponse.json({ error: 'validation failed', causes: error.errors }, { status: 400 });
