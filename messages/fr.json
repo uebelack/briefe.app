@@ -72,8 +72,8 @@
         "captcha_error": "Veuillez résoudre ce captcha",
         "privacy_error": "Veuillez accepter la politique de confidentialité",
         "success": "Merci pour votre message ! Nous vous répondrons dès que possible.",
-        "error": "Malheureusement, une erreur inattendue s'est produite. Veuillez réessayer ultérieurement ou envoyez-nous un e-mail à support@briefe.app.",
-        "cookie": "Veuillez accepter les cookies en bas de l'écran pour envoyer un message ou envoyez un e-mail à support@briefe.app."
+        "error": "Malheureusement, une erreur inattendue s'est produite. Veuillez réessayer ultérieurement ou envoyez-nous un e-mail à support@letter-app.com.",
+        "cookie": "Veuillez accepter les cookies en bas de l'écran pour envoyer un message ou envoyez un e-mail à support@letter-app.com."
     },
     "footer": {
         "rights": "tous droits réservés.",

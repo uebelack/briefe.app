@@ -72,8 +72,8 @@
         "captcha_error": "Risolvi questo captcha",
         "privacy_error": "Accetta la politica sulla privacy",
         "success": "Grazie per il tuo messaggio! Ti risponderemo al più presto possibile.",
-        "error": "Purtroppo, si è verificato un errore imprevisto. Riprova più tardi o inviaci una email a support@briefe.app.",
-        "cookie": "Accetta i cookie in fondo allo schermo per inviare un messaggio o invia una email a support@briefe.app."
+        "error": "Purtroppo, si è verificato un errore imprevisto. Riprova più tardi o inviaci una email a support@letter-app.com.",
+        "cookie": "Accetta i cookie in fondo allo schermo per inviare un messaggio o invia una email a support@letter-app.com."
     },
     "footer": {
         "rights": "tutti i diritti riservati.",
