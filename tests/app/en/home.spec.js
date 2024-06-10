@@ -1,19 +1,19 @@
 import React from 'react';
 import '@testing-library/jest-dom';
 import { render } from '@testing-library/react';
-import messages from '../../i18n';
-import Home from '../../pages/index';
+import Page from '../../../app/en/page';
 
-const useRouter = jest.spyOn(require('next/router'), 'useRouter');
-
-useRouter.mockImplementation(() => ({
-  pathname: '/',
-}));
+jest.mock('next/image', () => function Image() {
+  return <div />;
+});
+jest.mock('../../../components/Teaser', () => function Teaser() {
+  return <div />;
+});
 
 describe('<Home/>', () => {
   it('should render', async () => {
     const { container } = render(
-      <Home />,
+      <Page />,
     );
     expect(container).toMatchSnapshot();
   });

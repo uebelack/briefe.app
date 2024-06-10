@@ -4,7 +4,7 @@ import getTranslations from '@/functions/getTranslations';
 
 const LOCALE = 'it';
 
-export async function generateMetadata() {
+export function generateMetadata() {
   const t = getTranslations(LOCALE);
 
   return {

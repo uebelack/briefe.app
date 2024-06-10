@@ -1,0 +1,204 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Help/> should render 1`] = `
+<div>
+  <div
+    class="page"
+  >
+    <div
+      class="section"
+    >
+      <div
+        class="prose proese-briefe md:container px-4"
+      >
+        <h1>
+          Frequently asked questions
+        </h1>
+        <div>
+          <h2>
+            General Questions
+          </h2>
+          <ol>
+            <li>
+              <h3>
+                What is The Letter App?
+              </h3>
+              <p>
+                The Letter App is a digital tool designed to help you create, share, and print professionally formatted letters on your iPhone, iPad, and Mac. It combines the timeless tradition of sending letters with modern convenience.
+              </p>
+            </li>
+            <li>
+              <h3>
+                Why should I use The Letter App?
+              </h3>
+              <p>
+                Even in an era defined by digital communication and instant connectivity, traditional letters remain an indispensable form of correspondence. Official communication such as job applications, cancellations, business matters and much more is often still done by letter. Traditional letters offer a depth and authenticity often lost in digital communication. The app allows you to maintain this tradition while enjoying the ease of creating, sharing, and preserving letters in the digital age.
+              </p>
+            </li>
+            <li>
+              <h3>
+                On which devices can I use The Letter App?
+              </h3>
+              <p>
+                The Letter App is available for iPhone, iPad, and Mac devices, ensuring seamless accessibility across your Apple ecosystem.
+              </p>
+            </li>
+            <li>
+              <h3>
+                What are the key features of The Letter App?
+              </h3>
+              <p>
+                The Letter App offers the following features:
+              </p>
+              <ul>
+                <li>
+                  Auto Format: Automatically formats your letters professionally.
+                </li>
+                <li>
+                  Print: Easily print your letters directly from the app.
+                </li>
+                <li>
+                  Share & Export: Share letters digitally or export them as PDF files.
+                </li>
+                <li>
+                  Search: Quickly find previously composed letters.
+                </li>
+                <li>
+                  Storage: Sync your letters across devices using iCloud.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <h3>
+                What additional features are available in the PRO version of The Letter App?
+              </h3>
+              <p>
+                The PRO version includes the following enhancements:
+              </p>
+              <ul>
+                <li>
+                  Signatures: Add personal signatures directly within the app.
+                </li>
+                <li>
+                  Sender: Enter your sender information once for convenience.
+                </li>
+                <li>
+                  Contacts: Easily incorporate contact addresses from your address book.
+                </li>
+                <li>
+                  Templates: Access a wide range of templates for various occasions.
+                </li>
+                <li>
+                  Layout: Customize the layout of your letters to suit your specific needs.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <h3>
+                How do I create and format a letter using The Letter App?
+              </h3>
+              <p>
+                Simply open the app, create a new letter, and begin composing your message. The app will automatically format it professionally for you. Of course, you can also customise the margins, font and much more in the letter settings.
+              </p>
+            </li>
+            <li>
+              <h3>
+                Can I print letters directly from The Letter App?
+              </h3>
+              <p>
+                Yes, you can print your letters directly from the app with a simple tap on the print icon.
+              </p>
+            </li>
+            <li>
+              <h3>
+                Can I share my letters digitally with others?
+              </h3>
+              <p>
+                Absolutely! The app allows you to share your letters digitally or export them as PDF files for distribution on various platforms.
+              </p>
+            </li>
+            <li>
+              <h3>
+                Are my letters stored securely?
+              </h3>
+              <p>
+                Yes, your letters are synchronized across your devices using iCloud, ensuring secure storage and easy access.
+              </p>
+            </li>
+            <li>
+              <h3>
+                Can I access previously composed letters quickly?
+              </h3>
+              <p>
+                Yes, The Letter App includes a search function that makes it easy to find and retrieve your previously composed letters.
+              </p>
+            </li>
+          </ol>
+        </div>
+        <div>
+          <h2>
+            Subscription and Pricing
+          </h2>
+          <ol>
+            <li>
+              <h3>
+                Is The Letter App free to use?
+              </h3>
+              <p>
+                The app is available for free, but there is a PRO version with additional features available for a subscription fee.
+              </p>
+            </li>
+            <li>
+              <h3>
+                How do I subscribe to the PRO version of The Letter App?
+              </h3>
+              <p>
+                You can easily subscribe to the PRO version from within the app. Simply tap on any PRO feature, such as settings, sender, contacts, or templates, and a subscription plan selection screen will appear.
+              </p>
+            </li>
+            <li>
+              <h3>
+                What is the cost of the PRO version, and how is it billed?
+              </h3>
+              <p>
+                Pricing for the PRO version may vary, and billing details are provided within the app. Please check the app's pricing information for the most accurate details.
+              </p>
+            </li>
+          </ol>
+        </div>
+        <div>
+          <h2>
+            Usage
+          </h2>
+          <ol>
+            <li>
+              <h3>
+                How can I change the font of a letter?
+              </h3>
+              <p>
+                To change the font, select the relevant letter and tap on ⚙️. This opens the letter settings where you can adjust the font and font size, among other things. If you do not want to change the font for every letter, you can also define a sender and store the desired font there. 
+              </p>
+            </li>
+            <li>
+              <h3>
+                Do I have to enter the sender again for each letter?
+              </h3>
+              <p>
+                No, you can store one or more senders. The default sender is then automatically stored with every new letter. To manage the senders, tap on the business card symbol in the sender field in the letter editor.
+              </p>
+            </li>
+            <li>
+              <h3>
+                How can I adjust the date of the letter?
+              </h3>
+              <p>
+                To adjust the date, select the relevant letter and tap on ⚙️. This opens the letter settings where you can adjust the date, among other things..
+              </p>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

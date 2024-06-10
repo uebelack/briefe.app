@@ -63,7 +63,7 @@
         "message_placeholder": "Votre message",
         "privacy_1": "J'accepte la",
         "privacy_2": "politique de confidentialité",
-        "privacy_link": "/en/privacy",
+        "privacy_link": "/fr/privacy",
         "privacy_info": "Votre adresse e-mail et votre message seront enregistrés afin que je puisse y répondre. Vos données ne seront pas utilisées à d'autres fins.",
         "submit": "Envoyer",
         "email_error": "Veuillez entrer une adresse e-mail valide",
@@ -78,9 +78,9 @@
     "footer": {
         "rights": "tous droits réservés.",
         "imprint": "Mentions légales",
-        "imprint_link": "/en/imprint",
+        "imprint_link": "/fr/imprint",
         "privacy": "Politique de confidentialité",
-        "privacy_link": "/en/privacy"
+        "privacy_link": "/fr/privacy"
     },
     "cookie_consent": {
         "message": "Ce site web utilise des cookies pour garantir que vous obtenez la meilleure expérience sur notre site web. Pour en savoir plus, veuillez vous référer à notre",

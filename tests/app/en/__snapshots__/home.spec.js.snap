@@ -5,230 +5,22 @@ exports[`<Home/> should render 1`] = `
   <div
     class="page"
   >
-    <header
-      class="fixed top-0 w-full bg-blue text-white"
-    >
-      <div
-        class="md:container px-4 my-4 fade-in flex flex-col md:flex-row"
-      >
-        <div
-          class="flex flex-grow"
-        >
-          <a
-            class="flex items-center transition ease-in-out delay-150 flex-grow"
-            href="/"
-          >
-            <img
-              alt="Letter logo"
-              data-nimg="1"
-              decoding="async"
-              height="35"
-              loading="lazy"
-              src="/logo.svg"
-              style="color: transparent;"
-              width="50"
-            />
-            <div
-              class="text-2xl ml-2 text-white"
-            >
-              Letter App
-            </div>
-          </a>
-          <div
-            class="md:hidden mt-2"
-          >
-            <div
-              class="relative"
-            >
-              <button
-                aria-expanded="false"
-                aria-haspopup="listbox"
-                class="relative w-full cursor-default pl-3 pr-8 text-left w-40"
-                data-headlessui-state=""
-                id="headlessui-listbox-button-:r0:"
-                type="button"
-              >
-                <span
-                  class="pointer-events-none absolute inset-y-0 left-1 flex items-center pr-2"
-                >
-                  <svg
-                    aria-hidden="true"
-                    class="h-5 w-5 text-gray-400"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M16.555 5.412a8.028 8.028 0 00-3.503-2.81 14.899 14.899 0 011.663 4.472 8.547 8.547 0 001.84-1.662zM13.326 7.825a13.43 13.43 0 00-2.413-5.773 8.087 8.087 0 00-1.826 0 13.43 13.43 0 00-2.413 5.773A8.473 8.473 0 0010 8.5c1.18 0 2.304-.24 3.326-.675zM6.514 9.376A9.98 9.98 0 0010 10c1.226 0 2.4-.22 3.486-.624a13.54 13.54 0 01-.351 3.759A13.54 13.54 0 0110 13.5c-1.079 0-2.128-.127-3.134-.366a13.538 13.538 0 01-.352-3.758zM5.285 7.074a14.9 14.9 0 011.663-4.471 8.028 8.028 0 00-3.503 2.81c.529.638 1.149 1.199 1.84 1.66zM17.334 6.798a7.973 7.973 0 01.614 4.115 13.47 13.47 0 01-3.178 1.72 15.093 15.093 0 00.174-3.939 10.043 10.043 0 002.39-1.896zM2.666 6.798a10.042 10.042 0 002.39 1.896 15.196 15.196 0 00.174 3.94 13.472 13.472 0 01-3.178-1.72 7.973 7.973 0 01.615-4.115zM10 15c.898 0 1.778-.079 2.633-.23a13.473 13.473 0 01-1.72 3.178 8.099 8.099 0 01-1.826 0 13.47 13.47 0 01-1.72-3.178c.855.151 1.735.23 2.633.23zM14.357 14.357a14.912 14.912 0 01-1.305 3.04 8.027 8.027 0 004.345-4.345c-.953.542-1.971.981-3.04 1.305zM6.948 17.397a8.027 8.027 0 01-4.345-4.345c.953.542 1.971.981 3.04 1.305a14.912 14.912 0 001.305 3.04z"
-                    />
-                  </svg>
-                </span>
-                <span
-                  class="block truncate pl-4"
-                >
-                  English
-                </span>
-                <span
-                  class="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-0"
-                >
-                  <svg
-                    aria-hidden="true"
-                    class="h-5 w-5 text-gray-400"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      clip-rule="evenodd"
-                      d="M10 3a.75.75 0 01.55.24l3.25 3.5a.75.75 0 11-1.1 1.02L10 4.852 7.3 7.76a.75.75 0 01-1.1-1.02l3.25-3.5A.75.75 0 0110 3zm-3.76 9.2a.75.75 0 011.06.04l2.7 2.908 2.7-2.908a.75.75 0 111.1 1.02l-3.25 3.5a.75.75 0 01-1.1 0l-3.25-3.5a.75.75 0 01.04-1.06z"
-                      fill-rule="evenodd"
-                    />
-                  </svg>
-                </span>
-              </button>
-            </div>
-          </div>
-        </div>
-        <ul
-          class="flex md:pl-1 pt-1 md:pt-1.5 "
-        >
-          <li
-            class="mr-2"
-          >
-            <a
-              href="/undefined/#details"
-            >
-              Details
-            </a>
-          </li>
-          <li
-            class="mr-2"
-          >
-            <a
-              href="/undefined/#features"
-            >
-              Features
-            </a>
-          </li>
-          <li
-            class="mr-2"
-          >
-            <a
-              href="/undefined/#contact"
-            >
-              Contact
-            </a>
-          </li>
-          <li
-            class="mr-2"
-          >
-            <a
-              href="/undefined/faq"
-            >
-              FAQ
-            </a>
-          </li>
-          <li
-            class="hidden md:block"
-          >
-            |
-          </li>
-          <li
-            class="hidden md:block"
-          >
-            <div
-              class="relative"
-            >
-              <button
-                aria-expanded="false"
-                aria-haspopup="listbox"
-                class="relative w-full cursor-default pl-3 pr-8 text-left w-40"
-                data-headlessui-state=""
-                id="headlessui-listbox-button-:r1:"
-                type="button"
-              >
-                <span
-                  class="pointer-events-none absolute inset-y-0 left-1 flex items-center pr-2"
-                >
-                  <svg
-                    aria-hidden="true"
-                    class="h-5 w-5 text-gray-400"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M16.555 5.412a8.028 8.028 0 00-3.503-2.81 14.899 14.899 0 011.663 4.472 8.547 8.547 0 001.84-1.662zM13.326 7.825a13.43 13.43 0 00-2.413-5.773 8.087 8.087 0 00-1.826 0 13.43 13.43 0 00-2.413 5.773A8.473 8.473 0 0010 8.5c1.18 0 2.304-.24 3.326-.675zM6.514 9.376A9.98 9.98 0 0010 10c1.226 0 2.4-.22 3.486-.624a13.54 13.54 0 01-.351 3.759A13.54 13.54 0 0110 13.5c-1.079 0-2.128-.127-3.134-.366a13.538 13.538 0 01-.352-3.758zM5.285 7.074a14.9 14.9 0 011.663-4.471 8.028 8.028 0 00-3.503 2.81c.529.638 1.149 1.199 1.84 1.66zM17.334 6.798a7.973 7.973 0 01.614 4.115 13.47 13.47 0 01-3.178 1.72 15.093 15.093 0 00.174-3.939 10.043 10.043 0 002.39-1.896zM2.666 6.798a10.042 10.042 0 002.39 1.896 15.196 15.196 0 00.174 3.94 13.472 13.472 0 01-3.178-1.72 7.973 7.973 0 01.615-4.115zM10 15c.898 0 1.778-.079 2.633-.23a13.473 13.473 0 01-1.72 3.178 8.099 8.099 0 01-1.826 0 13.47 13.47 0 01-1.72-3.178c.855.151 1.735.23 2.633.23zM14.357 14.357a14.912 14.912 0 01-1.305 3.04 8.027 8.027 0 004.345-4.345c-.953.542-1.971.981-3.04 1.305zM6.948 17.397a8.027 8.027 0 01-4.345-4.345c.953.542 1.971.981 3.04 1.305a14.912 14.912 0 001.305 3.04z"
-                    />
-                  </svg>
-                </span>
-                <span
-                  class="block truncate pl-4"
-                >
-                  English
-                </span>
-                <span
-                  class="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-0"
-                >
-                  <svg
-                    aria-hidden="true"
-                    class="h-5 w-5 text-gray-400"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      clip-rule="evenodd"
-                      d="M10 3a.75.75 0 01.55.24l3.25 3.5a.75.75 0 11-1.1 1.02L10 4.852 7.3 7.76a.75.75 0 01-1.1-1.02l3.25-3.5A.75.75 0 0110 3zm-3.76 9.2a.75.75 0 011.06.04l2.7 2.908 2.7-2.908a.75.75 0 111.1 1.02l-3.25 3.5a.75.75 0 01-1.1 0l-3.25-3.5a.75.75 0 01.04-1.06z"
-                      fill-rule="evenodd"
-                    />
-                  </svg>
-                </span>
-              </button>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </header>
     <div
       class="grid place-items-center first bg-blue text-white section"
     >
       <div
         class="grid place-items-center md:container px-4"
       >
-        <img
-          alt="Letter app"
-          data-nimg="1"
-          decoding="async"
-          height="605"
-          loading="lazy"
-          src="/devices_en.png"
-          style="color: transparent;"
-          width="992"
-        />
+        <div />
         <a
           href="http://itunes.apple.com/app/letter/id498506154"
         >
-          <img
-            alt="App Store"
-            class="mt-5"
-            data-nimg="1"
-            decoding="async"
-            height="50"
-            loading="lazy"
-            src="/app_store_en.svg"
-            style="color: transparent;"
-            width="150"
-          />
+          <div />
         </a>
         <div
           class="p-3 md:w-4/5 pt-10"
         >
-          <div
-            class="text-xl md:text-3xl mb-4"
-          >
-            C
-          </div>
+          <div />
         </div>
       </div>
     </div>
@@ -268,16 +60,7 @@ exports[`<Home/> should render 1`] = `
           <div
             class="pt-32 ml-20 hidden lg:inline"
           >
-            <img
-              alt="Letter app"
-              data-nimg="1"
-              decoding="async"
-              height="450"
-              loading="lazy"
-              src="/details_en.png"
-              style="color: transparent;"
-              width="225.5"
-            />
+            <div />
           </div>
         </div>
       </div>
@@ -571,17 +354,165 @@ exports[`<Home/> should render 1`] = `
           <a
             href="http://itunes.apple.com/app/letter/id498506154"
           >
-            <img
-              alt="App Store"
-              class="mt-5"
-              data-nimg="1"
-              decoding="async"
-              height="50"
-              loading="lazy"
-              src="/app_store_en.svg"
-              style="color: transparent;"
-              width="150"
-            />
+            <div />
+          </a>
+        </div>
+      </div>
+      <div
+        class="md:container px-4"
+      >
+        <h1
+          class="text-2xl pt-5 mb-6"
+          id="blog"
+        >
+          Blog - thoughts, stories and ideas
+        </h1>
+        <div
+          class="blog-list"
+        >
+          <a
+            class="blog-card"
+            href="/en/blog/lost-art-letter-writing"
+          >
+            <div
+              class="blog-card-image"
+            >
+              <div />
+            </div>
+            <h2>
+              The Lost Art of Letter Writing: Why It Still Matters in the Digital Age
+            </h2>
+            <p>
+              In today's fast-paced digital world, where instant messaging and emails dominate our communication landscape, the art of letter writing seems like a relic of the past. Yet, despite the convenience of electronic communication, there's something inherently special about receiving a handwritten letter in the mail.
+            </p>
+          </a>
+          <a
+            class="blog-card"
+            href="/en/blog/write-perfect-letter"
+          >
+            <div
+              class="blog-card-image"
+            >
+              <div />
+            </div>
+            <h2>
+              How to Write the Perfect Letter: Tips and Tricks for Effective Communication
+            </h2>
+            <p>
+              In a world inundated with emails and instant messages, the art of letter writing stands out as a timeless form of communication. Whether you're expressing your thoughts to a friend, conveying gratitude to a loved one, or penning a formal correspondence, mastering the art of letter writing can enhance your communication skills and leave a lasting impression on the recipient.
+            </p>
+          </a>
+          <a
+            class="blog-card"
+            href="/en/blog/power-personalized-letters"
+          >
+            <div
+              class="blog-card-image"
+            >
+              <div />
+            </div>
+            <h2>
+              The Power of Personalized Letters: Strengthening Connections in a Digital World
+            </h2>
+            <p>
+              In an era dominated by digital communication, where emails and text messages often feel impersonal and fleeting, the power of personalized letters shines through as a beacon of sincerity and authenticity. Whether it's a handwritten note from a friend, a heartfelt letter from a loved one, or a personalized message from a colleague, the act of receiving a personalized letter has a profound impact on the recipient.
+            </p>
+          </a>
+          <a
+            class="blog-card"
+            href="/en/blog/letter-writing-etiquette"
+          >
+            <div
+              class="blog-card-image"
+            >
+              <div />
+            </div>
+            <h2>
+              Letter Writing Etiquette: Dos and Don'ts for Polished Correspondence
+            </h2>
+            <p>
+              In the age of digital communication, the art of letter writing may seem like a lost art. However, for formal correspondence, business communications, or personal letters, mastering proper letter writing etiquette is essential to ensure your message is conveyed with clarity, professionalism, and respect.
+            </p>
+          </a>
+          <a
+            class="blog-card"
+            href="/en/blog/digital-tangible-joy-letters"
+          >
+            <div
+              class="blog-card-image"
+            >
+              <div />
+            </div>
+            <h2>
+              From Digital to Tangible: The Joy of Sending and Receiving Physical Letters
+            </h2>
+            <p>
+              In today's digital age, where electronic communication has become the norm, there's something undeniably special about receiving a physical letter in the mail. Unlike emails or text messages that can be easily deleted or forgotten, physical letters offer a tangible connection that engages the senses and creates a lasting impression.
+            </p>
+          </a>
+          <a
+            class="blog-card"
+            href="/en/blog/creative-letter-writing-prompts"
+          >
+            <div
+              class="blog-card-image"
+            >
+              <div />
+            </div>
+            <h2>
+              Creative Letter Writing Prompts to Spark Inspiration
+            </h2>
+            <p>
+              Are you looking to add a personal touch to your correspondence? Whether you're writing a letter to a friend, family member, or pen pal, sometimes it can be challenging to find the right words to express yourself. That's where creative letter writing prompts come in handy! These prompts can help spark inspiration and unleash your creativity, making your letters more meaningful and memorable.
+            </p>
+          </a>
+          <a
+            class="blog-card"
+            href="/en/blog/art-love-letters"
+          >
+            <div
+              class="blog-card-image"
+            >
+              <div />
+            </div>
+            <h2>
+              The Art of Love Letters: Expressing Affection Through the Written Word
+            </h2>
+            <p>
+              In a world filled with digital communication, there's something uniquely intimate and romantic about love letters. Whether handwritten on parchment or composed digitally, love letters have a timeless appeal that transcends generations. They capture the essence of love, longing, and devotion in a way that spoken words often cannot. 
+            </p>
+          </a>
+          <a
+            class="blog-card"
+            href="/en/blog/letter-writing-business"
+          >
+            <div
+              class="blog-card-image"
+            >
+              <div />
+            </div>
+            <h2>
+              Letter Writing for Business: Enhancing Professional Communication
+            </h2>
+            <p>
+              In today's digital age, where emails and instant messages dominate the business landscape, the art of letter writing may seem like a relic of the past. However, for formal business communications, such as proposals, contracts, and official correspondence, mastering the art of letter writing is essential to project professionalism, establish credibility, and foster strong business relationships.
+            </p>
+          </a>
+          <a
+            class="blog-card"
+            href="/en/blog/evolution-letter-writing"
+          >
+            <div
+              class="blog-card-image"
+            >
+              <div />
+            </div>
+            <h2>
+              The Evolution of Letter Writing: From Papyrus Scrolls to Digital Apps
+            </h2>
+            <p>
+              Letter writing has a rich and storied history that spans millennia, evolving from ancient civilizations to the digital age. From the earliest forms of written communication on papyrus scrolls to the instant messaging apps of today, the art of letter writing has adapted and transformed over time, yet its essence remains the same: to connect people across distances and preserve the written word for future generations.
+            </p>
           </a>
         </div>
       </div>
@@ -611,33 +542,6 @@ exports[`<Home/> should render 1`] = `
         </div>
       </div>
     </div>
-    <footer
-      class="md:container mt-20 mb-20 text-center"
-    >
-      <div
-        class="mb-2 px-4 my-4"
-      >
-        ©
-         
-        2023
-         
-        Übelacker Solutions GmbH
-        <br />
-        <a
-          href="/en/imprint"
-        >
-          Imprint
-        </a>
-         
-        |
-         
-        <a
-          href="/en/privacy"
-        >
-          Privacy Policy
-        </a>
-      </div>
-    </footer>
   </div>
 </div>
 `;

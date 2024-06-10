@@ -1,7 +1,7 @@
 import React from 'react';
 import Faq from '@/components/Faq';
 
-export async function generateMetadata() {
+export function generateMetadata() {
   return {
     title: 'Questions fréquemment posées | Application de Lettres',
   };

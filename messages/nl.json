@@ -63,7 +63,7 @@
         "message_placeholder": "Je bericht",
         "privacy_1": "Ik ga akkoord met het",
         "privacy_2": "privacybeleid",
-        "privacy_link": "/en/privacy",
+        "privacy_link": "/nl/privacy",
         "privacy_info": "Je e-mailadres en bericht worden opgeslagen zodat ik erop kan antwoorden. Je gegevens worden niet voor andere doeleinden gebruikt.",
         "submit": "Verzenden",
         "email_error": "Voer een geldig e-mailadres in",
@@ -78,9 +78,9 @@
     "footer": {
         "rights": "alle rechten voorbehouden.",
         "imprint": "Afdruk",
-        "imprint_link": "/en/imprint",
+        "imprint_link": "/nl/imprint",
         "privacy": "Privacybeleid",
-        "privacy_link": "/en/privacy"
+        "privacy_link": "/nl/privacy"
     },
     "cookie_consent": {
         "message": "Deze website maakt gebruik van cookies om ervoor te zorgen dat je de beste ervaring op onze website krijgt. Lees meer in ons",
