@@ -37,7 +37,7 @@ export default function LanguageSelect({ language, locale }) {
           leaveTo="opacity-0"
         >
           <Listbox.Options className="absolute mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg focus:outline-none">
-            {Object.keys(languages).map((key) => (
+            {Object.keys(languages).filter((key) => key !== locale).map((key) => (
               <Listbox.Option
                 key={key}
                 className="relative cursor-default select-none py-2 pl-4 pr-4"
