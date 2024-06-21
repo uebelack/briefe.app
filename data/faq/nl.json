@@ -90,6 +90,10 @@
         {
           "question": "Hoe kan ik de datum van de brief aanpassen?",
           "answer": "Om de datum aan te passen, selecteer je de betreffende letter en tik je op ⚙️. Dit opent de letterinstellingen waar u onder andere de datum kunt aanpassen."
+        },
+        {
+          "question": "Hoe kan ik een logo toevoegen aan mijn brieven?",
+          "answer": "Om een logo aan je brief toe te voegen, kun je de briefpapierfunctie gebruiken. Gebruik het programma van uw voorkeur, zoals Pages of Word, om een PDF te maken met uw logo op de gewenste plaats. Wanneer je de brief bekijkt, tik je op het instellingenpictogram. Zo kun je de PDF met je logo toevoegen als briefpapier. Als je wilt dat het briefpapier automatisch aan alle toekomstige brieven wordt toegevoegd, kun je dit instellen in de instellingen van de app. Maak een afzenderprofiel aan en upload daar je briefpapier PDF. Dit zorgt ervoor dat je logo wordt opgenomen in elke nieuwe brief die je maakt."
         }
       ]
     }

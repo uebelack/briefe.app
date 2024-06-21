@@ -90,6 +90,10 @@
         {
           "question": "Wie kann ich das Datum des Briefes anpassen?",
           "answer": "Um das Datum einzustellen, wählen Sie den entsprechenden Buchstaben und tippen Sie auf ⚙️. Dies öffnet die Briefeinstellungen, in denen Sie u. a. das Datum anpassen können."
+        },
+        {
+          "question": "Wie kann ich ein Logo zu meinen Briefen hinzufügen?",
+          "answer": "Um Ihrem Brief ein Logo hinzuzufügen, können Sie die Funktion Briefpapier verwenden. Verwenden Sie Ihre bevorzugte Anwendung, z. B. Pages oder Word, um eine PDF-Datei zu erstellen, die Ihr Logo an der gewünschten Stelle enthält. Tippen Sie bei der Anzeige des Briefs auf das Einstellungssymbol. Dadurch können Sie die PDF-Datei mit Ihrem Logo als Briefpapier hinzufügen. Wenn Sie möchten, dass das Briefpapier automatisch zu allen zukünftigen Briefen hinzugefügt wird, können Sie dies in den Einstellungen der App einrichten. Erstellen Sie ein Absenderprofil und laden Sie dort Ihr Briefpapier-PDF hoch. So wird sichergestellt, dass Ihr Logo in jedem neuen Brief, den Sie erstellen, enthalten ist."
         }
       ]
     }

@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "test": "jest",
-    "sitemap:update": "node bin/update-sitemap.mjs"
+    "sitemap:update": "node bin/update-sitemap.mjs",
+    "translate": "node bin/translate.mjs"
   },
   "dependencies": {
     "@fontsource/lexend": "^5.0.20",

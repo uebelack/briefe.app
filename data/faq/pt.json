@@ -90,6 +90,10 @@
         {
           "question": "Como é que posso ajustar a data da carta?",
           "answer": "Para ajustar a data, seleccione a letra relevante e toque em ⚙️. Isto abre as definições da carta, onde pode ajustar a data, entre outras coisas..."
+        },
+        {
+          "question": "Como posso acrescentar um logótipo às minhas cartas?",
+          "answer": "Para adicionar um logótipo à sua carta, pode utilizar a funcionalidade de papel de carta. Utilize a sua aplicação preferida, como o Pages ou o Word, para conceber um PDF que inclua o seu logótipo na posição pretendida. Ao visualizar a carta, toque no ícone de definições. Isto permitir-lhe-á adicionar o PDF com o seu logótipo como papel de carta. Se pretender que o papel de carta seja adicionado automaticamente a todas as cartas futuras, pode configurá-lo nas definições da aplicação. Crie um perfil de remetente e carregue aí o seu PDF de papel de carta. Desta forma, o seu logótipo será incluído em todas as novas cartas que criar."
         }
       ]
     }
