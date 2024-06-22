@@ -4,8 +4,6 @@ import path from 'path';
 import prettier from 'prettier';
 import { URL } from 'url';
 
-const blogArticlesEn = JSON.parse(fs.readFileSync('./data/blog/en.json', 'utf8'));
-
 const LAST_MODIFIED = new Date().toISOString();
 const DOMAIN = 'https://letter-app.com';
 const DE_DOMAIN = 'https://briefe.app';
@@ -63,9 +61,23 @@ const PAGES = [
   },
 ];
 
-blogArticlesEn.forEach((article) => {
+const blogArticles = {
+  en: JSON.parse(fs.readFileSync('./data/blog/en.json', 'utf8')),
+};
+
+LANGUAGES.forEach((language) => {
+  blogArticles[language] = JSON.parse(fs.readFileSync(`./data/blog/${language}.json`, 'utf8'));
+});
+
+blogArticles.en.forEach((article) => {
+  const alternates = LANGUAGES.map((language) => ({
+    lang: language,
+    url: `/${language}/blog/${blogArticles[language].find((a) => a.key === article.key).slug}`,
+  }));
+
   PAGES.push({
     url: `/en/blog/${article.slug}`,
+    alternates,
   });
 });
 
