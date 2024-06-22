@@ -103,5 +103,8 @@
     "blog": {
         "menu": "Blog",
         "title": "Blog - Pensamentos, histórias e ideias"
+    },
+    "call_to_action": {
+        "text": "Baixe o aplicação de cartas agora e comece a escrever sua primeira carta — é grátis!"
     }
 }

@@ -103,5 +103,8 @@
     "blog": {
         "menu": "Blog",
         "title": "Blog - Pensamientos, historias e ideas"
+    },
+    "call_to_action": {
+        "text": "Descarga la Letter App ahora y empieza a escribir tu primera carta — ¡es gratis!"
     }
 }

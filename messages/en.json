@@ -104,5 +104,8 @@
     "blog": {
         "menu": "Blog",
         "title": "Blog - thoughts, stories and ideas"
+    },
+    "call_to_action": {
+        "text": "Get the Letter App now and start writing your first letter — it's free!"
     }
 }

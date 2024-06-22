@@ -103,5 +103,8 @@
     "blog": {
         "menu": "Blog",
         "title": "Blog - Gedanken, Geschichten und Ideen"
+    },
+    "call_to_action": {
+        "text": "Laden Sie jetzt die kostenlose Briefe App herunter und schreiben Sie Ihren ersten Brief!"
     }
 }

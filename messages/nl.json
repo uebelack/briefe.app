@@ -103,5 +103,8 @@
     "blog": {
         "menu": "Blog",
         "title": "Blog - Gedachten, verhalen en ideeën"
+    },
+    "call_to_action": {
+        "text": "Download nu de Letter App en begin met het schrijven van je eerste brief — het is gratis!"
     }
 }

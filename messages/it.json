@@ -103,5 +103,8 @@
     "blog": {
         "menu": "Blog",
         "title": "Blog - Pensieri, storie e idee"
+    },
+    "call_to_action": {
+        "text": "Scarica l'app Lettere ora e inizia a scrivere la tua prima lettera — è gratis!"
     }
 }
