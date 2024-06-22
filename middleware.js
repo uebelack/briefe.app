@@ -18,6 +18,10 @@ export default function middleware(request) {
     return NextResponse.redirect(new URL(`/en/${request.nextUrl.pathname}`, request.url));
   }
 
+  if (request.url.indexOf('localhost') !== -1) {
+    return NextResponse.next();
+  }
+
   if (request.url.indexOf('briefe.app') === -1 && request.nextUrl.pathname.indexOf('/de') === 0) {
     return NextResponse.redirect(new URL(request.nextUrl.pathname, 'https://briefe.app'));
   }

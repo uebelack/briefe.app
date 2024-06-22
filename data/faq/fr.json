@@ -90,6 +90,10 @@
         {
           "question": "Comment puis-je modifier la date de la lettre ?",
           "answer": "Pour ajuster la date, sélectionnez la lettre concernée et tapez sur ⚙️. Les paramètres de la lettre s'ouvrent alors et vous pouvez, entre autres, ajuster la date."
+        },
+        {
+          "question": "Comment ajouter un logo à mes lettres ?",
+          "answer": "Pour ajouter un logo à votre lettre, vous pouvez utiliser la fonction de papeterie. Utilisez votre application préférée, telle que Pages ou Word, pour concevoir un PDF qui inclut votre logo à l'endroit souhaité. Lorsque vous visualisez la lettre, appuyez sur l'icône des paramètres. Cela vous permettra d'ajouter le PDF avec votre logo en tant que papier à lettres. Si vous souhaitez que le papier à lettres soit ajouté automatiquement à toutes les lettres futures, vous pouvez le configurer dans les paramètres de l'application. Créez un profil d'expéditeur et téléchargez-y votre PDF de papier à lettres. Vous aurez ainsi la certitude que votre logo est inclus dans chaque nouvelle lettre que vous créez."
         }
       ]
     }

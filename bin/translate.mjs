@@ -6,10 +6,9 @@ import 'dotenv/config';
 import * as deepl from 'deepl-node';
 import fs from 'fs';
 import path from 'path';
-import config from '../next.config.js';
 
 const DIRNAME = new URL('.', import.meta.url).pathname;
-const LANGUAGES = config.i18n.locales.filter((locale) => locale !== config.i18n.defaultLocale);
+const LANGUAGES = ['de', 'es', 'fr', 'it', 'nl', 'pt'];
 
 const translator = new deepl.Translator(process.env.DEEPL_API_KEY);
 const faq = JSON.parse(fs.readFileSync(path.resolve(path.join(DIRNAME, '../data/faq/en.json')), 'utf8'));

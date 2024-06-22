@@ -90,6 +90,10 @@
         {
           "question": "Come posso modificare la data della lettera?",
           "answer": "Per regolare la data, selezionare la lettera in questione e toccare ⚙️. Si apre così la finestra delle impostazioni della lettera in cui è possibile regolare, tra l'altro, la data. In questo modo si aprono le impostazioni della lettera, dove è possibile regolare la data, tra le altre cose."
+        },
+        {
+          "question": "Come posso aggiungere un logo alle mie lettere?",
+          "answer": "Per aggiungere un logo alla lettera, è possibile utilizzare la funzione di cancelleria. Utilizzare l'applicazione preferita, come Pages o Word, per creare un PDF che includa il logo nella posizione desiderata. Quando si visualizza la lettera, toccare l'icona delle impostazioni. In questo modo sarà possibile aggiungere il PDF con il logo come carta intestata. Se si desidera che la carta intestata venga aggiunta automaticamente a tutte le lettere future, è possibile impostarla nelle impostazioni dell'applicazione. Creare un profilo di mittente e caricarvi il PDF della carta intestata. In questo modo il vostro logo sarà incluso in ogni nuova lettera creata."
         }
       ]
     }

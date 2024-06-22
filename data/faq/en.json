@@ -90,6 +90,10 @@
                 {
                     "question": "How can I adjust the date of the letter?",
                     "answer": "To adjust the date, select the relevant letter and tap on ⚙️. This opens the letter settings where you can adjust the date, among other things.."
+                },
+                {
+                    "question": "How can i add a logo to my letters?",
+                    "answer": "To add a logo to your letter, you can use the stationery feature. Use your preferred application, such as Pages or Word, to design a PDF that includes your logo in the desired position. When viewing the letter, tap on the settings icon. This will allow you to add the PDF with your logo as stationery. If you want the stationery to be added automatically to all future letters, you can set it up in the app settings. Create a sender profile and upload your stationery PDF there. This will ensure that your logo is included in every new letter you create."
                 }
             ]
         }

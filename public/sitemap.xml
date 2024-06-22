@@ -7,7 +7,7 @@
 >
   <url>
     <loc>https://letter-app.com/en</loc>
-    <lastmod>2024-06-10T20:01:30.864Z</lastmod>
+    <lastmod>2024-06-22T19:28:09.821Z</lastmod>
     <xhtml:link rel="alternate" hreflang="de" href="https://briefe.app/de" />
 
     <xhtml:link
@@ -43,7 +43,7 @@
 
   <url>
     <loc>https://letter-app.com/en/imprint</loc>
-    <lastmod>2024-06-10T20:01:30.864Z</lastmod>
+    <lastmod>2024-06-22T19:28:09.821Z</lastmod>
     <xhtml:link
       rel="alternate"
       hreflang="de"
@@ -83,7 +83,7 @@
 
   <url>
     <loc>https://letter-app.com/en/privacy</loc>
-    <lastmod>2024-06-10T20:01:30.864Z</lastmod>
+    <lastmod>2024-06-22T19:28:09.821Z</lastmod>
     <xhtml:link
       rel="alternate"
       hreflang="de"
@@ -123,7 +123,7 @@
 
   <url>
     <loc>https://letter-app.com/en/help</loc>
-    <lastmod>2024-06-10T20:01:30.864Z</lastmod>
+    <lastmod>2024-06-22T19:28:09.821Z</lastmod>
     <xhtml:link
       rel="alternate"
       hreflang="de"
@@ -163,7 +163,7 @@
 
   <url>
     <loc>https://letter-app.com/en/faq</loc>
-    <lastmod>2024-06-10T20:01:30.864Z</lastmod>
+    <lastmod>2024-06-22T19:28:09.821Z</lastmod>
     <xhtml:link
       rel="alternate"
       hreflang="de"
@@ -203,46 +203,361 @@
 
   <url>
     <loc>https://letter-app.com/en/blog/lost-art-letter-writing</loc>
-    <lastmod>2024-06-10T20:01:30.864Z</lastmod>undefined
+    <lastmod>2024-06-22T19:28:09.821Z</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="https://briefe.app/de/blog/die-verlorene-kunst-des-briefeschreibens-warum-es-in-digitalen-zeiten-noch-immer-wichtig-ist"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="fr"
+      href="https://letter-app.com/fr/blog/lart-perdu-de-lecriture-de-lettres-pourquoi-cest-encore-important-a-lere-numerique"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="https://letter-app.com/es/blog/el-arte-perdido-de-la-escritura-de-cartas"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="it"
+      href="https://letter-app.com/it/blog/l-arte-perduta-della-scrittura-di-lettere-perche-ancora-conta-nell-era-digitale"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="nl"
+      href="https://letter-app.com/nl/blog/de-verloren-kunst-van-het-brieven-schrijven-waarom-het-nog-steeds-belangrijk-is-in-het-digitale-tijdperk"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="pt"
+      href="https://letter-app.com/pt/blog/a-arte-perdida-da-escrita-de-cartas-por-que-ainda-e-importante-na-era-digital"
+    />
   </url>
 
   <url>
     <loc>https://letter-app.com/en/blog/write-perfect-letter</loc>
-    <lastmod>2024-06-10T20:01:30.864Z</lastmod>undefined
+    <lastmod>2024-06-22T19:28:09.821Z</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="https://briefe.app/de/blog/wie-man-den-perfekten-brief-schreibt-tipps-und-tricks-fuer-effektive-kommunikation"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="fr"
+      href="https://letter-app.com/fr/blog/comment-ecrire-la-lettre-parfaite-tips-et-astuces-pour-une-communication-efficace"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="https://letter-app.com/es/blog/como-escribir-la-carta-perfecta-tips-y-trucos-para-comunicacion-efectiva"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="it"
+      href="https://letter-app.com/it/blog/come-scrivere-la-lettera-perfetta-tips-and-tricks-per-una-comunicazione-effettiva"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="nl"
+      href="https://letter-app.com/nl/blog/hoe-de-perfecte-brief-te-schrijven-tips-en-trucs-voor-effectieve-communicatie"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="pt"
+      href="https://letter-app.com/pt/blog/como-escrever-a-carta-perfeita-dicas-e-truques-para-comunicacao-eficaz"
+    />
   </url>
 
   <url>
     <loc>https://letter-app.com/en/blog/power-personalized-letters</loc>
-    <lastmod>2024-06-10T20:01:30.864Z</lastmod>undefined
+    <lastmod>2024-06-22T19:28:09.821Z</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="https://briefe.app/de/blog/die-kraft-personalisierter-briefe-staerkung-von-verbindungen-in-einer-digitalen-welt"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="fr"
+      href="https://letter-app.com/fr/blog/la-puissance-des-lettres-personnalisees-strengthening-connections-in-a-digital-world"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="https://letter-app.com/es/blog/el-poder-de-las-cartas-personalizadas-fortaleciendo-conexiones-en-un-mundo-digital"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="it"
+      href="https://letter-app.com/it/blog/il-potere-delle-lettere-personalizzate-strengthening-connections-in-un-mondo-digitale"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="nl"
+      href="https://letter-app.com/nl/blog/de-kracht-van-gepersonaliseerde-brieven-het-versterken-van-verbindingen-in-een-digitale-wereld"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="pt"
+      href="https://letter-app.com/pt/blog/poder-cartas-personalizadas"
+    />
   </url>
 
   <url>
     <loc>https://letter-app.com/en/blog/letter-writing-etiquette</loc>
-    <lastmod>2024-06-10T20:01:30.864Z</lastmod>undefined
+    <lastmod>2024-06-22T19:28:09.821Z</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="https://briefe.app/de/blog/etikette-beim-briefeschreiben-dos-und-donts-fuer-eine-gelungene-korrespondenz"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="fr"
+      href="https://letter-app.com/fr/blog/etiquette-d-ecriture-de-lettres-dos-and-donts-pour-une-correspondance-soignee"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="https://letter-app.com/es/blog/etiqueta-de-escritura-de-cartas-dos-and-donts-para-una-correspondencia-pulida"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="it"
+      href="https://letter-app.com/it/blog/etichetta-scrittura-lettera-dos-donts-corrispondenza-lucida"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="nl"
+      href="https://letter-app.com/nl/blog/brief-schrijf-etiquette-dos-en-donts-voor-verzorgde-correspondentie"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="pt"
+      href="https://letter-app.com/pt/blog/etiqueta-de-escrita-de-cartas-dos-e-nao-dos-para-correspondencia-polida"
+    />
   </url>
 
   <url>
     <loc>https://letter-app.com/en/blog/digital-tangible-joy-letters</loc>
-    <lastmod>2024-06-10T20:01:30.864Z</lastmod>undefined
+    <lastmod>2024-06-22T19:28:09.821Z</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="https://briefe.app/de/blog/von-digital-zu-greifbar-die-freude-am-senden-und-empfangen-physischer-briefe"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="fr"
+      href="https://letter-app.com/fr/blog/joie-lettres-numerique-tangible"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="https://letter-app.com/es/blog/de-digital-a-tangible-la-alegria-de-enviar-y-recibir-cartas-fisicas"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="it"
+      href="https://letter-app.com/it/blog/dalla-digitalizzazione-alla-tangibilita-la-gioia-di-inviare-e-ricevere-lettere-fisiche"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="nl"
+      href="https://letter-app.com/nl/blog/van-digitaal-naar-tastbaar-de-vreugde-van-het-versturen-en-ontvangen-van-fysieke-brieven"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="pt"
+      href="https://letter-app.com/pt/blog/da-digital-para-o-tangivel-a-alegria-de-enviar-e-receber-cartas-fisicas"
+    />
   </url>
 
   <url>
     <loc>https://letter-app.com/en/blog/creative-letter-writing-prompts</loc>
-    <lastmod>2024-06-10T20:01:30.864Z</lastmod>undefined
+    <lastmod>2024-06-22T19:28:09.821Z</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="https://briefe.app/de/blog/kreative-briefschreibimpulse-zur-inspiration"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="fr"
+      href="https://letter-app.com/fr/blog/prompts-d-ecriture-de-lettres-creatifs-pour-inspirer"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="https://letter-app.com/es/blog/desafios-de-escritura-de-cartas-creativas"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="it"
+      href="https://letter-app.com/it/blog/creative-letter-writing-prompts"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="nl"
+      href="https://letter-app.com/nl/blog/creatieve-brieven-schrijven-aanmoedigingen"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="pt"
+      href="https://letter-app.com/pt/blog/desafios-de-escrita-de-cartas-criativas"
+    />
   </url>
 
   <url>
     <loc>https://letter-app.com/en/blog/art-love-letters</loc>
-    <lastmod>2024-06-10T20:01:30.864Z</lastmod>undefined
+    <lastmod>2024-06-22T19:28:09.821Z</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="https://briefe.app/de/blog/die-kunst-der-liebesbriefe-ausdruck-von-zuneigung-durch-das-geschriebene-wort"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="fr"
+      href="https://letter-app.com/fr/blog/l-art-des-lettres-d-amour-expressant-l-affection-a-travers-le-mot-ecrit"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="https://letter-app.com/es/blog/el-arte-de-las-cartas-de-amor-expresando-afecto-a-traves-de-la-palabra-escrita"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="it"
+      href="https://letter-app.com/it/blog/larte-delle-lettere-damore-esprimere-affetto-attraverso-la-parola-scritta"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="nl"
+      href="https://letter-app.com/nl/blog/de-kunst-van-liefdesbrieven-uitdrukken-van-genegenheid-door-het-geschreven-woord"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="pt"
+      href="https://letter-app.com/pt/blog/a-arte-das-cartas-de-amor-expressando-afeto-atraves-da-palavra-escrita"
+    />
   </url>
 
   <url>
     <loc>https://letter-app.com/en/blog/letter-writing-business</loc>
-    <lastmod>2024-06-10T20:01:30.864Z</lastmod>undefined
+    <lastmod>2024-06-22T19:28:09.821Z</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="https://briefe.app/de/blog/briefe-schreiben-fuer-unternehmen"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="fr"
+      href="https://letter-app.com/fr/blog/redaction-de-lettres-pour-les-entreprises-ameliorer-la-communication-professionnelle"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="https://letter-app.com/es/blog/redaccion-de-cartas-para-negocios-mejorando-la-comunicacion-profesional"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="it"
+      href="https://letter-app.com/it/blog/letter-writing-for-business-enhancing-professional-communication"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="nl"
+      href="https://letter-app.com/nl/blog/brief-schrijven-voor-zakelijk-gebruik-versterken-van-professionele-communicatie"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="pt"
+      href="https://letter-app.com/pt/blog/cartas-para-negocios-aperfeicoando-comunicacao-profissional"
+    />
   </url>
 
   <url>
     <loc>https://letter-app.com/en/blog/evolution-letter-writing</loc>
-    <lastmod>2024-06-10T20:01:30.864Z</lastmod>undefined
+    <lastmod>2024-06-22T19:28:09.821Z</lastmod>
+    <xhtml:link
+      rel="alternate"
+      hreflang="de"
+      href="https://briefe.app/de/blog/die-evolution-des-briefeschreibens-von-papyrusrollen-zu-digitalen-apps"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="fr"
+      href="https://letter-app.com/fr/blog/evolution-de-l-ecriture-de-lettres"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="https://letter-app.com/es/blog/evolucion-escritura-cartas"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="it"
+      href="https://letter-app.com/it/blog/evoluzione-scrittura-lettere"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="nl"
+      href="https://letter-app.com/nl/blog/evolutie-brieven-schrijven"
+    />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="pt"
+      href="https://letter-app.com/pt/blog/evolucao-da-escrita-de-cartas"
+    />
   </url>
 </urlset>
