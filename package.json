@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@fontsource/lexend": "^5.0.20",
-    "@headlessui/react": "^2.1.1",
+    "@headlessui/react": "^2.1.2",
     "@heroicons/react": "^2.1.4",
     "@mdx-js/loader": "^3.0.1",
     "@mdx-js/react": "^3.0.1",
