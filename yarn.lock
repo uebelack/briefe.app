@@ -1484,10 +1484,10 @@
   dependencies:
     glob "10.3.10"
 
-"@next/mdx@^14.2.4":
-  version "14.2.4"
-  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-14.2.4.tgz#a15ba763f363a5f5b79c1dff0fa742a13bd80cfe"
-  integrity sha512-eklTNNoH08xGy9UiKcohZmoLhmHAYaYm5ndPGQqJybaeNErgYL8fmp2tk5DRD0L54DNqMz97oN+CAEHqfqIVcw==
+"@next/mdx@^14.2.6":
+  version "14.2.6"
+  resolved "https://registry.yarnpkg.com/@next/mdx/-/mdx-14.2.6.tgz#23405d377dd978541f57695499d79bb4fb3d61a4"
+  integrity sha512-59jhA506DXouG5T1lUjG8TAYGIQNia6hDuDgRIJwWfOEzgDvIOZHL3/oUGFH9BS2/Y75a9y0l65Lz0aMvUEWeg==
   dependencies:
     source-map "^0.7.0"
 
