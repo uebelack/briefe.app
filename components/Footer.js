@@ -2,6 +2,7 @@
 import React from 'react';
 import Link from 'next/link';
 import getTranslations from '@/functions/getTranslations';
+import languages from '@/data/languages';
 
 export default function Footer({ locale }) {
   const t = getTranslations(locale);
@@ -19,6 +20,16 @@ export default function Footer({ locale }) {
         |
         {' '}
         <Link href={t('footer.privacy_link')}>{t('footer.privacy')}</Link>
+      </div>
+      <div className="mb-2 px-4 my-4">
+        {Object.keys(languages).filter((key) => key !== locale).map((key, index) => (
+          <span key={key}>
+            {' '}
+            <Link href={`/${key}`}>{languages[key]}</Link>
+            {' '}
+            {index <= Object.keys(languages).length - 3 ? '|' : ''}
+          </span>
+        ))}
       </div>
     </footer>
   );
