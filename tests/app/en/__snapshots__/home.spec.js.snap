@@ -12,11 +12,21 @@ exports[`<Home/> should render 1`] = `
         class="grid place-items-center md:container px-4"
       >
         <div />
-        <a
-          href="http://itunes.apple.com/app/letter/id498506154"
+        <div
+          class="grid grid-cols-2 gap-10"
         >
-          <div />
-        </a>
+          <a
+            href="http://itunes.apple.com/app/letter/id498506154"
+          >
+            <div />
+          </a>
+          <a
+            href="https://play.google.com/store/apps/details?id=dev.uebelacker.letter"
+            style="margin-top: 2px;"
+          >
+            <div />
+          </a>
+        </div>
         <div
           class="p-3 md:w-4/5 pt-10"
         >
@@ -51,7 +61,7 @@ exports[`<Home/> should render 1`] = `
               Even in an era defined by digital communication and instant connectivity, traditional letters remain an indispensable form of correspondence. Why? Because they represent a timeless and authentic mode of exchange. Whether you are sending personal or business messages, letters convey a depth and significance that is often lost in emails or text messages. They are an expression of care and attention, leaving a lasting impression. Our letter app was designed to blend this timeless tradition with modern convenience, allowing you to create, share, and preserve professional letters in a digital world.
             </p>
             <p>
-              The Letter App allows you to quickly and effortlessly create and print professionally formatted letters on iPhone, iPad and Mac. Your letters will have an appealing layout that leaves a professional impression. With a simple click, you can print your letters directly from the app. You also have the option to share your letters digitally or export them as PDF files to distribute them on various platforms. The app syncs seamlessly across your devices through iCloud, allowing you to access your letters anytime and anywhere. Thanks to the straightforward search function, you can easily retrieve previously composed letters.
+              The Letter App allows you to quickly and effortlessly create and print professionally formatted letters on iPhone, iPad, Mac and Android devices. Your letters will have an appealing layout that leaves a professional impression. With a simple click, you can print your letters directly from the app. You also have the option to share your letters digitally or export them as PDF files to distribute them on various platforms. The app syncs seamlessly across your devices through iCloud, allowing you to access your letters anytime and anywhere. Thanks to the straightforward search function, you can easily retrieve previously composed letters.
             </p>
             <p>
               In the Pro version, you'll have access to additional features, such as adding personal signatures directly within the app, effortlessly incorporating contact addresses from your address book, and utilizing a wide range of templates for various occasions. You can customize settings to adapt the format of your letters to your specific needs. The Letter App simplifies your correspondence, enabling you to create, share, and print letters with ease, all while maintaining style and user-friendliness.
@@ -203,7 +213,7 @@ exports[`<Home/> should render 1`] = `
                 <div
                   class="text-lg font-bold"
                 >
-                  Storage
+                  Storage*
                 </div>
                 <div
                   class="text-lg"
@@ -237,7 +247,7 @@ exports[`<Home/> should render 1`] = `
                 <div
                   class="text-lg font-bold"
                 >
-                  Signatures
+                  Signatures*
                 </div>
                 <div
                   class="text-lg"
@@ -262,7 +272,7 @@ exports[`<Home/> should render 1`] = `
                 <div
                   class="text-lg font-bold"
                 >
-                  Sender
+                  Sender*
                 </div>
                 <div
                   class="text-lg"
@@ -287,7 +297,7 @@ exports[`<Home/> should render 1`] = `
                 <div
                   class="text-lg font-bold"
                 >
-                  Contacts
+                  Contacts*
                 </div>
                 <div
                   class="text-lg"
@@ -312,7 +322,7 @@ exports[`<Home/> should render 1`] = `
                 <div
                   class="text-lg font-bold"
                 >
-                  Templates
+                  Templates*
                 </div>
                 <div
                   class="text-lg"
@@ -337,7 +347,7 @@ exports[`<Home/> should render 1`] = `
                 <div
                   class="text-lg font-bold"
                 >
-                  Layout
+                  Layout*
                 </div>
                 <div
                   class="text-lg"
@@ -349,13 +359,28 @@ exports[`<Home/> should render 1`] = `
           </div>
         </div>
         <div
-          class="grid place-items-center mt-5"
+          class="text-xs"
         >
-          <a
-            href="http://itunes.apple.com/app/letter/id498506154"
+          * currently not available on Android devices
+        </div>
+        <div
+          class="grid place-items-center mt-10"
+        >
+          <div
+            class="grid grid-cols-2 gap-10"
           >
-            <div />
-          </a>
+            <a
+              href="http://itunes.apple.com/app/letter/id498506154"
+            >
+              <div />
+            </a>
+            <a
+              href="https://play.google.com/store/apps/details?id=dev.uebelacker.letter"
+              style="margin-top: 2px;"
+            >
+              <div />
+            </a>
+          </div>
         </div>
       </div>
       <div
@@ -512,6 +537,102 @@ exports[`<Home/> should render 1`] = `
             </h2>
             <p>
               Letter writing has a rich and storied history that spans millennia, evolving from ancient civilizations to the digital age. From the earliest forms of written communication on papyrus scrolls to the instant messaging apps of today, the art of letter writing has adapted and transformed over time, yet its essence remains the same: to connect people across distances and preserve the written word for future generations.
+            </p>
+          </a>
+          <a
+            class="blog-card"
+            href="/en/blog/the-art-of-business-letter-writing"
+          >
+            <div
+              class="blog-card-image"
+            >
+              <div />
+            </div>
+            <h2>
+              The Art of Business Letter Writing
+            </h2>
+            <p>
+              Explore the essential elements and best practices for crafting effective and professional business letters that leave a lasting impression on your recipients.
+            </p>
+          </a>
+          <a
+            class="blog-card"
+            href="/en/blog/tips-for-writing-a-thank-you-letter"
+          >
+            <div
+              class="blog-card-image"
+            >
+              <div />
+            </div>
+            <h2>
+              Tips for Writing a Thank You Letter
+            </h2>
+            <p>
+              Discover valuable tips and strategies for expressing gratitude and appreciation through thoughtful and well-written thank you letters for various occasions.
+            </p>
+          </a>
+          <a
+            class="blog-card"
+            href="/en/blog/the-power-of-personalized-letters"
+          >
+            <div
+              class="blog-card-image"
+            >
+              <div />
+            </div>
+            <h2>
+              The Power of Personalized Letters
+            </h2>
+            <p>
+              Learn how personalized letters can strengthen relationships, convey sincerity, and create memorable connections in both personal and professional settings.
+            </p>
+          </a>
+          <a
+            class="blog-card"
+            href="/en/blog/the-importance-of-business-letter-etiquette"
+          >
+            <div
+              class="blog-card-image"
+            >
+              <div />
+            </div>
+            <h2>
+              The Importance of Business Letter Etiquette
+            </h2>
+            <p>
+              Learn why following proper business letter etiquette is crucial for maintaining a professional image and building strong relationships with clients and colleagues.
+            </p>
+          </a>
+          <a
+            class="blog-card"
+            href="/en/blog/the-art-of-thank-you-notes"
+          >
+            <div
+              class="blog-card-image"
+            >
+              <div />
+            </div>
+            <h2>
+              The Art of Thank You Notes
+            </h2>
+            <p>
+              Learn the significance of sending thank you notes and how to master the art of expressing gratitude through thoughtful written messages.
+            </p>
+          </a>
+          <a
+            class="blog-card"
+            href="/en/blog/mastering-the-art-of-cover-letter-writing"
+          >
+            <div
+              class="blog-card-image"
+            >
+              <div />
+            </div>
+            <h2>
+              Mastering the Art of Cover Letter Writing
+            </h2>
+            <p>
+              Learn essential techniques and best practices for creating compelling cover letters that effectively showcase your qualifications and grab the attention of potential employers.
             </p>
           </a>
         </div>

@@ -5,7 +5,7 @@
       "questions": [
         {
           "question": "Qu'est-ce que l'application Lettre?",
-          "answer": "L'application Lettre est un outil numérique conçu pour vous aider à créer, partager et imprimer des lettres au format professionnel sur votre iPhone, iPad et Mac. Elle associe la tradition intemporelle de l'envoi de lettres à la commodité moderne."
+          "answer": "L'application Lettre est un outil numérique conçu pour vous aider à créer, partager et imprimer des lettres au format professionnel sur votre iPhone, iPad, Mac et appareils Android. Elle associe la tradition intemporelle de l'envoi de lettres à la commodité moderne."
         },
         {
           "question": "Pourquoi utiliser l'application Lettre?",
@@ -13,7 +13,7 @@
         },
         {
           "question": "Sur quels appareils puis-je utiliser l'application Lettre?",
-          "answer": "L'application Lettre est disponible pour iPhone, iPad et Mac, garantissant une accessibilité transparente dans l'ensemble de l'écosystème Apple."
+          "answer": "L'application Lettre est disponible pour iPhone, iPad, Mac et appareils Android."
         },
         {
           "question": "Quelles sont les principales caractéristiques de l'application Lettre?",
@@ -80,19 +80,19 @@
       "title": "Utilisation",
       "questions": [
         {
-          "question": "Comment modifier la police d'une lettre ?",
+          "question": "Comment modifier la police d'une lettre?",
           "answer": "Pour modifier la police, sélectionnez la lettre concernée et tapez sur ⚙️. Les paramètres de la lettre s'ouvrent alors et vous pouvez, entre autres, modifier la police et la taille de la police. Si vous ne souhaitez pas modifier la police pour chaque lettre, vous pouvez également définir un expéditeur et y enregistrer la police souhaitée."
         },
         {
-          "question": "Dois-je saisir à nouveau l'expéditeur pour chaque lettre ?",
+          "question": "Dois-je saisir à nouveau l'expéditeur pour chaque lettre?",
           "answer": "Non, vous pouvez enregistrer un ou plusieurs expéditeurs. L'expéditeur par défaut est alors automatiquement enregistré avec chaque nouvelle lettre. Pour gérer les expéditeurs, tapez sur le symbole de la carte de visite dans le champ de l'expéditeur dans l'éditeur de lettres."
         },
         {
-          "question": "Comment puis-je modifier la date de la lettre ?",
+          "question": "Comment puis-je modifier la date de la lettre?",
           "answer": "Pour ajuster la date, sélectionnez la lettre concernée et tapez sur ⚙️. Les paramètres de la lettre s'ouvrent alors et vous pouvez, entre autres, ajuster la date."
         },
         {
-          "question": "Comment ajouter un logo à mes lettres ?",
+          "question": "Comment ajouter un logo à mes lettres?",
           "answer": "Pour ajouter un logo à votre lettre, vous pouvez utiliser la fonction de papeterie. Utilisez votre application préférée, telle que Pages ou Word, pour concevoir un PDF qui inclut votre logo à l'endroit souhaité. Lorsque vous visualisez la lettre, appuyez sur l'icône des paramètres. Cela vous permettra d'ajouter le PDF avec votre logo en tant que papier à lettres. Si vous souhaitez que le papier à lettres soit ajouté automatiquement à toutes les lettres futures, vous pouvez le configurer dans les paramètres de l'application. Créez un profil d'expéditeur et téléchargez-y votre PDF de papier à lettres. Vous aurez ainsi la certitude que votre logo est inclus dans chaque nouvelle lettre que vous créez."
         }
       ]

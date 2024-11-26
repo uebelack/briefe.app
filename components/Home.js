@@ -25,9 +25,14 @@ export default function Home({ locale }) {
       <Section className="grid place-items-center first bg-blue text-white">
         <Container className="grid place-items-center">
           <Image src={`/devices_${locale?.startsWith('de') ? 'de' : 'en'}.png`} alt="Letter app" width={992} height={605} unoptimized />
-          <a href="http://itunes.apple.com/app/letter/id498506154">
-            <Image src="/app_store_en.svg" alt="App Store" width={150} height={50} className="mt-5" />
-          </a>
+          <div className="grid grid-cols-2 gap-10">
+            <a href="http://itunes.apple.com/app/letter/id498506154">
+              <Image src="/app_store_en.svg" alt="App Store" width={150} height={50} className="mt-5" />
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=dev.uebelacker.letter" style={{marginTop: '2px'}}>
+              <Image src="/play_store_en.svg" alt="App Store" width={150} height={50} className="mt-5" />
+            </a>
+          </div>
           <div className="p-3 md:w-4/5 pt-10">
             <Teaser text={t('home.teaser')} />
           </div>
@@ -81,10 +86,16 @@ export default function Home({ locale }) {
               ))}
             </div>
           </div>
-          <div className="grid place-items-center mt-5">
-            <a href="http://itunes.apple.com/app/letter/id498506154">
-              <Image src="/app_store_en.svg" alt="App Store" width={150} height={50} className="mt-5" />
-            </a>
+          <div className="text-xs">{t('common.android_only')}</div>
+          <div className="grid place-items-center mt-10">
+            <div className="grid grid-cols-2 gap-10">
+              <a href="http://itunes.apple.com/app/letter/id498506154">
+                <Image src="/app_store_en.svg" alt="App Store" width={150} height={50} className="mt-5" />
+              </a>
+              <a href="https://play.google.com/store/apps/details?id=dev.uebelacker.letter" style={{marginTop: '2px'}}>
+                <Image src="/play_store_en.svg" alt="App Store" width={150} height={50} className="mt-5" />
+              </a>
+            </div>
           </div>
         </Container>
         { articles && (

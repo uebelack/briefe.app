@@ -1,10 +1,11 @@
 {
     "common": {
         "title": "Briefe App",
-        "title_long": "Briefe App - Mühelos professionelle Briefe auf iPhone, iPad und Mac erstellen",
+        "title_long": "Briefe App - Mühelos professionelle Briefe auf iPhone, iPad, Mac und Android Geräten erstellen",
         "scroll_down": "Nach unten scrollen",
         "language": "Deutsch",
-        "download": "Herunterladen"
+        "download": "Herunterladen",
+        "android_only": "* Aktuell nicht Verfügbar auf Android Geräten"
     },
     "home": {
         "teaser": "Im Handumdrehen professionell formatierte Briefe erstellen und drucken."

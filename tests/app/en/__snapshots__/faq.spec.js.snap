@@ -24,7 +24,7 @@ exports[`<Help/> should render 1`] = `
                 What is The Letter App?
               </h3>
               <p>
-                The Letter App is a digital tool designed to help you create, share, and print professionally formatted letters on your iPhone, iPad, and Mac. It combines the timeless tradition of sending letters with modern convenience.
+                The Letter App is a digital tool designed to help you create, share, and print professionally formatted letters on your iPhone, iPad, Mac and Android devices. It combines the timeless tradition of sending letters with modern convenience.
               </p>
             </li>
             <li>
@@ -40,7 +40,7 @@ exports[`<Help/> should render 1`] = `
                 On which devices can I use The Letter App?
               </h3>
               <p>
-                The Letter App is available for iPhone, iPad, and Mac devices, ensuring seamless accessibility across your Apple ecosystem.
+                The Letter App is available for iPhone, iPad, Mac and Android devices.
               </p>
             </li>
             <li>

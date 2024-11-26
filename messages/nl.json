@@ -1,10 +1,11 @@
 {
     "common": {
         "title": "Brieven App",
-        "title_long": "Brieven App - Moeiteloos professionele brieven maken op iPhone, iPad en Mac",
+        "title_long": "Brieven App - Moeiteloos professionele brieven maken op iPhone, iPad Mac en Android-apparaten",
         "scroll_down": "Scroll naar beneden",
         "language": "Nederlands",
-        "download": "Downloaden"
+        "download": "Downloaden",
+        "android_only": "* momenteel niet beschikbaar op Android-apparaten"
     },
     "home": {
         "teaser": "Maak en print perfect opgemaakte brieven in no-time."
@@ -12,7 +13,7 @@
     "details": {
         "title": "Details",
         "p1": "Zelfs in een tijdperk dat wordt gedefinieerd door digitale communicatie en directe verbondenheid, blijven traditionele brieven een onmisbare vorm van correspondentie. Waarom? Omdat ze een tijdloze en authentieke vorm van uitwisseling vertegenwoordigen. Of u nu persoonlijke of zakelijke berichten verstuurt, brieven brengen een diepgang en betekenis over die vaak verloren gaat in e-mails of tekstberichten. Ze zijn een uiting van zorg en aandacht en laten een blijvende indruk achter. Onze brief-app is ontworpen om deze tijdloze traditie te combineren met moderne gemakken, zodat u professionele brieven kunt maken, delen en bewaren in een digitale wereld.",
-        "p2": "De Brieven App stelt je in staat om snel en moeiteloos professioneel opgemaakte brieven te maken en te printen op iPhone, iPad y Mac. Je brieven zullen een aantrekkelijke lay-out hebben die een professionele indruk achterlaat. Met een eenvoudige klik kun je je brieven rechtstreeks vanuit de app printen. Je hebt ook de mogelijkheid om je brieven digitaal te delen of ze als PDF-bestanden te exporteren om ze op verschillende platforms te verspreiden. De app synchroniseert naadloos op al je apparaten via iCloud, waardoor je op elk moment en overal toegang hebt tot je brieven. Dankzij de eenvoudige zoekfunctie kun je eerder opgestelde brieven eenvoudig terughalen.",
+        "p2": "De Brieven App stelt je in staat om snel en moeiteloos professioneel opgemaakte brieven te maken en te printen op iPhone, iPad Mac en Android-apparaten. Je brieven zullen een aantrekkelijke lay-out hebben die een professionele indruk achterlaat. Met een eenvoudige klik kun je je brieven rechtstreeks vanuit de app printen. Je hebt ook de mogelijkheid om je brieven digitaal te delen of ze als PDF-bestanden te exporteren om ze op verschillende platforms te verspreiden. De app synchroniseert naadloos op al je apparaten via iCloud, waardoor je op elk moment en overal toegang hebt tot je brieven. Dankzij de eenvoudige zoekfunctie kun je eerder opgestelde brieven eenvoudig terughalen.",
         "p3": "In de Pro-versie heb je toegang tot extra functies, zoals het toevoegen van persoonlijke handtekeningen rechtstreeks in de app, moeiteloos contactadressen uit je adresboek opnemen en het gebruik van een breed scala aan sjablonen voor verschillende gelegenheden. Je kunt de instellingen aanpassen om de opmaak van je brieven aan je specifieke behoeften aan te passen. De Brieven App vereenvoudigt je correspondentie, waardoor je gemakkelijk brieven kunt maken, delen en printen, terwijl je stijl en gebruiksvriendelijkheid behoudt."
     },
     "features": {
