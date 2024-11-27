@@ -29,7 +29,7 @@ export default function Home({ locale }) {
             <a href="http://itunes.apple.com/app/letter/id498506154">
               <Image src="/app_store_en.svg" alt="App Store" width={150} height={50} className="mt-5" />
             </a>
-            <a href="https://play.google.com/store/apps/details?id=dev.uebelacker.letter" style={{marginTop: '2px'}}>
+            <a href="https://play.google.com/store/apps/details?id=dev.uebelacker.letter" style={{ marginTop: '2px' }}>
               <Image src="/play_store_en.svg" alt="App Store" width={150} height={50} className="mt-5" />
             </a>
           </div>
@@ -92,7 +92,7 @@ export default function Home({ locale }) {
               <a href="http://itunes.apple.com/app/letter/id498506154">
                 <Image src="/app_store_en.svg" alt="App Store" width={150} height={50} className="mt-5" />
               </a>
-              <a href="https://play.google.com/store/apps/details?id=dev.uebelacker.letter" style={{marginTop: '2px'}}>
+              <a href="https://play.google.com/store/apps/details?id=dev.uebelacker.letter" style={{ marginTop: '2px' }}>
                 <Image src="/play_store_en.svg" alt="App Store" width={150} height={50} className="mt-5" />
               </a>
             </div>
