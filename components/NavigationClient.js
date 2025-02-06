@@ -40,7 +40,7 @@ export default function Navigation({
         </div>
         <ul className="flex flex-wrap md:pl-1 pt-1 md:pt-1.5 ">
           <li className="mr-2"><a href={`/${locale}#details`} onClick={(e) => handleOnClick(e, 'details')}>{details}</a></li>
-          <li className="mr-2"><a href={`${locale}#features`} onClick={(e) => handleOnClick(e, 'features')}>{features}</a></li>
+          <li className="mr-2"><a href={`/${locale}#features`} onClick={(e) => handleOnClick(e, 'features')}>{features}</a></li>
           { showBlog && (<li className="mr-2"><a href={`/${locale}#blog`} onClick={(e) => handleOnClick(e, 'blog')}>{blog}</a></li>) }
           <li className="mr-2"><a href={`/${locale}#contact`} onClick={(e) => handleOnClick(e, 'contact')}>{contact}</a></li>
           <li className="mr-2"><a href={`/${locale}/faq`}>{faq}</a></li>
