@@ -12,6 +12,7 @@ const LANGUAGES = ['de', 'es', 'fr', 'it', 'nl', 'pt'];
 
 const translator = new deepl.Translator(process.env.DEEPL_API_KEY);
 const faq = JSON.parse(fs.readFileSync(path.resolve(path.join(DIRNAME, '../data/faq/en.json')), 'utf8'));
+const messages = JSON.parse(fs.readFileSync(path.resolve(path.join(DIRNAME, '../messages/en.json')), 'utf8'));
 
 async function translateString(value, language) {
   const result = await translator.translateText(value, 'en', language === 'pt' ? 'pt-PT' : language);
@@ -81,4 +82,19 @@ async function translateFAQ(index = 0) {
   translateFAQ(index + 1);
 }
 
-translateFAQ();
+async function translateMessages(index = 0) {
+  if (index === LANGUAGES.length) {
+    return;
+  }
+  const language = LANGUAGES[index];
+  const result = JSON.parse(fs.readFileSync(path.resolve(path.join(DIRNAME, `../messages/${language}.json`)), 'utf8'));
+  // const translatedMessages = await translateObject(messages, language, result);
+  const messagesPath = path.resolve(path.join(DIRNAME, `../messages/${language}.json`));
+  fs.writeFileSync(messagesPath, JSON.stringify(result, null, 2), 'utf8');
+
+  translateMessages(index + 1);
+}
+
+
+// translateFAQ();
+translateMessages();

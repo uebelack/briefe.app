@@ -29,6 +29,10 @@ const features = {
     proFeatures: {
       title: 'PRO Features',
       features: [{
+        title: 'AI Assistant**',
+        description: 'Effortlessly refine or create professional letters with AI-powered precision and style',
+        icon: 'wand-magic-sparkles',
+      }, {
         title: 'Signatures*',
         description: 'Add personal signatures directly within the app',
         icon: 'signature',
@@ -81,6 +85,10 @@ const features = {
     proFeatures: {
       title: 'PRO Funktionen',
       features: [{
+        title: 'KI-Assistent**',
+        description: 'Optimieren oder erstellen Sie mühelos professionelle Briefe mit KI-gestützter Präzision und Stil',
+        icon: 'wand-magic-sparkles',
+      }, {
         title: 'Unterschriften*',
         description: 'Fügen Sie persönliche Unterschriften direkt in der App hinzu',
         icon: 'signature',
@@ -133,6 +141,10 @@ const features = {
     proFeatures: {
       title: 'PRO Functies',
       features: [{
+        title: 'AI-assistent**',
+        description: 'Verbeter of creëer moeiteloos professionele brieven met AI-gestuurde precisie en stijl',
+        icon: 'wand-magic-sparkles',
+      }, {
         title: 'Handtekeningen*',
         description: 'Voeg persoonlijke handtekeningen rechtstreeks toe in de app',
         icon: 'signature',
@@ -185,6 +197,10 @@ const features = {
     proFeatures: {
       title: 'Fonctionnalités PRO',
       features: [{
+        title: 'Assistant IA**',
+        description: 'Affinez ou créez facilement des lettres professionnelles avec la précision et le style optimisés par l\'IA',
+        icon: 'wand-magic-sparkles',
+      }, {
         title: 'Signatures*',
         description: 'Ajoutez des signatures personnelles directement dans l\'application',
         icon: 'signature',
@@ -237,6 +253,10 @@ const features = {
     proFeatures: {
       title: 'Funzionalità PRO',
       features: [{
+        title: 'Assistente AI**',
+        description: 'Affina o crea facilmente lettere professionali con la precisione e lo stile offerti dall\'IA',
+        icon: 'wand-magic-sparkles',
+      }, {
         title: 'Firme*',
         description: 'Aggiungi firme personali direttamente dall\'app',
         icon: 'signature',
@@ -289,6 +309,10 @@ const features = {
     proFeatures: {
       title: 'Funciones PRO',
       features: [{
+        title: 'Asistente de IA**',
+        description: 'Mejora o crea fácilmente cartas profesionales con precisión y estilo impulsados por IA',
+        icon: 'wand-magic-sparkles',
+      }, {
         title: 'Firmas*',
         description: 'Agrega firmas personales directamente dentro de la aplicación',
         icon: 'signature',
@@ -341,6 +365,10 @@ const features = {
     proFeatures: {
       title: 'Funcionalidades PRO',
       features: [{
+        title: 'Assistente AI**',
+        description: 'Aprimore ou crie cartas profissionais com precisão e estilo impulsionados por IA',
+        icon: 'wand-magic-sparkles',
+      }, {
         title: 'Assinaturas*',
         description: 'Adicione assinaturas pessoais diretamente na aplicação',
         icon: 'signature',

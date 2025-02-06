@@ -87,6 +87,7 @@ export default function Home({ locale }) {
             </div>
           </div>
           <div className="text-xs">{t('common.android_only')}</div>
+          <div className="text-xs">{t('common.ios_only')}</div>
           <div className="grid place-items-center mt-10">
             <div className="grid grid-cols-2 gap-10">
               <a href="http://itunes.apple.com/app/letter/id498506154">

@@ -5,7 +5,8 @@
         "scroll_down": "Scroll down",
         "language": "English",
         "download": "Download",
-        "android_only": "* currently not available on Android devices"
+        "android_only": "* currently not available on Android devices",
+        "ios_only": "** currently only on iPhone and iPad"
     },
     "home": {
         "teaser": "Create and print perfectly formatted letters in no time."
