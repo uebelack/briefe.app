@@ -88,9 +88,9 @@ async function translateMessages(index = 0) {
   }
   const language = LANGUAGES[index];
   const result = JSON.parse(fs.readFileSync(path.resolve(path.join(DIRNAME, `../messages/${language}.json`)), 'utf8'));
-  // const translatedMessages = await translateObject(messages, language, result);
+  const translatedMessages = await translateObject(messages, language, result);
   const messagesPath = path.resolve(path.join(DIRNAME, `../messages/${language}.json`));
-  fs.writeFileSync(messagesPath, JSON.stringify(result, null, 2), 'utf8');
+  fs.writeFileSync(messagesPath, JSON.stringify(translatedMessages, null, 2), 'utf8');
 
   translateMessages(index + 1);
 }
