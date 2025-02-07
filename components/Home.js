@@ -46,7 +46,7 @@ export default function Home({ locale }) {
               <Heading id="details">{t('details.title')}</Heading>
               <p>
                 {t('details.p1')}
-              </p>              
+              </p>
               <p>
                 {t('details.p2')}
               </p>
