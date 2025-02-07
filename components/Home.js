@@ -46,12 +46,19 @@ export default function Home({ locale }) {
               <Heading id="details">{t('details.title')}</Heading>
               <p>
                 {t('details.p1')}
-              </p>
+              </p>              
               <p>
                 {t('details.p2')}
               </p>
+              <Heading level={2}>{t('details.pro_title')}</Heading>
               <p>
                 {t('details.p3')}
+              </p>
+              <p>
+                {t('details.p4')}
+              </p>
+              <p>
+                {t('details.p5')}
               </p>
             </div>
             <div className="pt-32 ml-20 hidden lg:inline">
