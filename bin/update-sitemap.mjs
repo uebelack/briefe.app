@@ -65,8 +65,13 @@ const blogArticles = {
   en: JSON.parse(fs.readFileSync('./data/blog/en.json', 'utf8')),
 };
 
+const templates = {
+  en: JSON.parse(fs.readFileSync('./data/templates/en.json', 'utf8')),
+};
+
 LANGUAGES.forEach((language) => {
   blogArticles[language] = JSON.parse(fs.readFileSync(`./data/blog/${language}.json`, 'utf8'));
+  templates[language] = JSON.parse(fs.readFileSync(`./data/templates/${language}.json`, 'utf8'));
 });
 
 blogArticles.en.forEach((article) => {
@@ -77,6 +82,18 @@ blogArticles.en.forEach((article) => {
 
   PAGES.push({
     url: `/en/blog/${article.slug}`,
+    alternates,
+  });
+});
+
+templates.en.forEach((tpl) => {
+  const alternates = LANGUAGES.map((language) => ({
+    lang: language,
+    url: `/${language}/templates/${tpl.uuid.toLowerCase().replace(/_/g, '-')}`,
+  }));
+
+  PAGES.push({
+    url: `/en/templates/${tpl.uuid.toLowerCase().replace(/_/g, '-')}`,
     alternates,
   });
 });
