@@ -5,7 +5,7 @@
       "questions": [
         {
           "question": "O que é a aplicação Carta?",
-          "answer": "A aplicação Carta é uma ferramenta digital concebida para o ajudar a criar, partilhar e imprimir cartas com um formato profissional no iPhone, iPad, Mac e dispositivos andróides. Combina a tradição intemporal de enviar cartas com a conveniência moderna."
+          "answer": "A aplicação Carta é uma ferramenta digital concebida para o ajudar a criar, partilhar e imprimir cartas com um formato profissional no iPhone, iPad, Mac e dispositivos Android. Combina a tradição intemporal de enviar cartas com a conveniência moderna."
         },
         {
           "question": "Por que razão devo utilizar a aplicação Carta?",
@@ -13,7 +13,7 @@
         },
         {
           "question": "Em que dispositivos posso utilizar a aplicação Carta?",
-          "answer": "A aplicação Carta está disponível para dispositivos iPhone, iPad, Mac e dispositivos andróides."
+          "answer": "A aplicação Carta está disponível para dispositivos iPhone, iPad, Mac e dispositivos Android."
         },
         {
           "question": "Quais são as principais características da aplicação Carta?",
@@ -38,11 +38,11 @@
           ]
         },
         {
-          "question": "Como posso criar e formatar uma carta utilizando a aplicação a aplicação Carta?",
+          "question": "Como posso criar e formatar uma carta utilizando a aplicação Carta?",
           "answer": "Basta abrir a aplicação, criar uma nova carta e começar a escrever a sua mensagem. A aplicação formata-a automaticamente de forma profissional para si. Naturalmente, também pode personalizar as margens, o tipo de letra e muito mais nas definições da carta."
         },
         {
-          "question": "Posso imprimir cartas diretamente da aplicação a aplicação Carta?",
+          "question": "Posso imprimir cartas diretamente da aplicação Carta?",
           "answer": "Sim, pode imprimir as suas cartas diretamente a partir da aplicação com um simples toque no ícone de impressão."
         },
         {
@@ -55,7 +55,7 @@
         },
         {
           "question": "Posso aceder rapidamente a cartas compostas anteriormente?",
-          "answer": "Sim, a aplicação a aplicação Carta inclui uma função de pesquisa que facilita a procura e a recuperação das suas cartas previamente compostas."
+          "answer": "Sim, a aplicação Carta inclui uma função de pesquisa que facilita a procura e a recuperação das suas cartas previamente compostas."
         }
       ]
     },
