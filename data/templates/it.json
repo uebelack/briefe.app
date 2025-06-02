@@ -1,0 +1,112 @@
+[
+    {
+        "uuid": "TEMPLATE_SUBSCRIPTIONCANCELLATION",
+        "subject": "Cancellazione dell'Abbonamento a [Nome della Rivista] - Numero Cliente [Numero Cliente]",
+        "text": "Gentile Signore/Signora,\n\nCon la presente, annullo l'abbonamento alla rivista [Nome della Rivista] con effetto dalla data più vicina possibile. La prego di fornirmi una conferma di cancellazione, inclusa la data di fine contratto, nei prossimi giorni.\n\nCordiali saluti,"
+    },
+    {
+        "uuid": "TEMPLATE_ADDRESSCHANGE",
+        "subject": "Comunicazione di Cambio Indirizzo da [Data di Effetto]",
+        "text": "Gentile Signore/Signora,\n\nDesidero informarla che ho cambiato indirizzo. Il nuovo indirizzo, valido dal [Data di Effetto], è il seguente:\n\n[Nuovo Indirizzo]\n\nLa prego di aggiornare i vostri registri di conseguenza.\n\nLa ringrazio per l'attenzione a questa questione.\n\nCordiali saluti,"
+    },
+    {
+        "uuid": "TEMPLATE_JOBCANCELLATION",
+        "subject": "Risoluzione del Contratto di Lavoro",
+        "text": "Gentile Signore/Signora,\n\nCon la presente, esercito il diritto di risoluzione previsto dal contratto di lavoro e notifico la risoluzione del contratto di lavoro stipulato con voi in data [Data], con preavviso che terminerà il [Data]. La prego di confermare tempestivamente la risoluzione per iscritto.\n\nCordiali saluti,"
+    },
+    {
+        "uuid": "TEMPLATE_MOBILECANCELLATION",
+        "subject": "Cancellazione del Contratto Mobile - Numero di Telefono [Numero di Telefono]",
+        "text": "Gentile Signore/Signora,\n\nCon la presente, annullo il mio contratto mobile associato al numero di telefono [Numero di Telefono], con effetto dalla prima occasione disponibile. La prego di confermare tempestivamente la cancellazione per iscritto.\n\nCordiali saluti,"
+    },
+    {
+        "uuid": "TEMPLATE_RENTALCANCELLATION",
+        "subject": "Risoluzione del Contratto di Locazione - [Indirizzo Residenziale]",
+        "text": "Gentile Signore/Signora,\n\nCon la presente, annullo il contratto di locazione per l'immobile sito in [Indirizzo Residenziale]. La risoluzione avrà effetto dal [Data di Risoluzione], in conformità con il preavviso di [Periodo di Preavviso]. La prego di confermare questa risoluzione per iscritto e di fornire informazioni relative alla restituzione dell'immobile e possibili date per ispezioni o visite.\n\nLa ringrazio per la collaborazione.\n\nCordiali saluti,"
+    },
+    {
+        "uuid": "TEMPLATE_SECURITYCANCELLATION",
+        "subject": "Risoluzione del Contratto di Assicurazione - Numero Polizza [Numero Polizza]",
+        "text": "Gentile Signore/Signora,\n\nCon la presente, annullo il contratto di assicurazione con il numero polizza [Numero Polizza], con effetto dalla prima occasione disponibile. La prego di confermare questa risoluzione per iscritto e di fornire eventuali ulteriori passaggi o informazioni richieste dalla mia parte.\n\nLa ringrazio per la pronta attenzione a questa questione.\n\nCordiali saluti,"
+    },
+    {
+        "uuid": "TEMPLATE_APPOINTMENTCANCELLATION",
+        "subject": "Necessaria Posticipazione dell'Appuntamento: Appuntamento del [Data Appuntamento]",
+        "text": "Egregi Signore e Signore [Nome Destinatario],\n\nMi dispiace dover comunicare che non sarò in grado di rispettare l'appuntamento previsto per il [Data Appuntamento] a causa di circostanze impreviste. Mi scuso sinceramente per eventuali disagi. Sarebbe possibile concordare un appuntamento successivo? La vostra comprensione e flessibilità saranno molto apprezzate.\n\nCordiali saluti,"
+    },
+    {
+        "uuid": "TEMPLATE_EVENTRSVP",
+        "subject": "Conferma di Partecipazione a [Nome Evento]",
+        "text": "Egregi Signore e Signore [Nome Organizzatore],\n\nScrivo per confermare la mia partecipazione all'evento imminente [Nome Evento], che si terrà il [Data Evento] presso [Luogo Evento]. Non vedo l'ora di partecipare all'evento e sono entusiasta di incontrarvi. Vi ringrazio per avermi incluso.\n\nCordiali saluti,"
+    },
+    {
+        "uuid": "TEMPLATE_MEMBERSHIPCANCELLATION",
+        "subject": "Risoluzione dell'Abbonamento - ID [ID Abbonamento]",
+        "text": "Egregi Signore e Signore,\n\nScrivo per comunicare ufficialmente la risoluzione del mio abbonamento con ID [ID Abbonamento], valida dal [Data Risoluzione]. Vi prego di confermare questa risoluzione per iscritto e di fornire tutte le informazioni necessarie per rimborsi o importi arretrati.\n\nCordiali saluti,"
+    },
+    {
+        "uuid": "TEMPLATE_EVENTINVITATION",
+        "subject": "Invito all'Evento [Nome Evento]",
+        "text": "Egregi Signore e Signore [Nome Destinatario],\n\nSono lieto/a di invitarvi all'evento [Nome Evento], che si terrà il [Data Evento] presso [Luogo Evento]. L'evento promette compagnia piacevole, intrattenimento e momenti indimenticabili. Vi prego di farmi sapere se potete partecipare, in modo da poter prendere le giuste disposizioni.\n\nNon vedo l'ora della vostra presenza!\n\nCordiali saluti,"
+    },
+    {
+        "uuid": "TEMPLATE_PRODUCTRETURNREQUEST",
+        "subject": "Richiesta di Reso Prodotto - Ordine #[Numero Ordine]",
+        "text": "Egregi Signore e Signore [Nome Destinatario],\n\nScrivo per richiedere il reso del prodotto con il numero ordine #[Numero Ordine]. Ho ricevuto il prodotto [Nome Prodotto] in data [Data Consegna]. Purtroppo, non corrisponde alle mie aspettative. Vi prego di guidarmi nel processo di reso.\n\nCordiali saluti,"
+    },
+    {
+        "uuid": "TEMPLATE_THANKYOUFORHOSPITALITY",
+        "subject": "Grazie per l'Ospitalità",
+        "text": "Egregi Signore e Signore [Nome Destinatario],\n\nDesidero esprimere la mia sincera gratitudine per l'ospitalità calorosa durante la mia recente visita a [Località]. La vostra gentilezza e generosità hanno reso il mio soggiorno davvero piacevole. Apprezzo l'impegno che avete dedicato ad accogliermi.\n\nCordiali saluti,"
+    },
+    {
+        "uuid": "TEMPLATE_BIRTHDAYGREETING",
+        "subject": "Auguri di Buon Compleanno, [Nome Destinatario]!",
+        "text": "Egregi Signore e Signore [Nome Destinatario],\n\nVi auguro un fantastico compleanno pieno di gioia, risate e momenti indimenticabili. Possa quest'anno portarvi successo e felicità. Godetevi la vostra giornata speciale!\n\nCordiali saluti,"
+    },
+    {
+        "uuid": "TEMPLATE_GRADUATIONCONGRATULATION",
+        "subject": "Congratulazioni per la Laurea, [Nome Laureato]!",
+        "text": "Egregi Signore e Signore [Nome Destinatario],\n\nCongratulazioni sincere per il vostro meritato diploma! Il vostro impegno e dedizione hanno dato i loro frutti. Vi auguro successo e realizzazione nelle vostre future imprese. Ottimo lavoro!\n\nCordiali saluti,"
+    },
+    {
+        "uuid": "TEMPLATE_WEDDINGCONGRATULATION",
+        "subject": "Congratulazioni per il Vostro Matrimonio!",
+        "text": "Egregi Signore e Signore [Nome Destinatario],\n\nLe congratulazioni più calorose per questa gioiosa occasione del vostro matrimonio! Possa il vostro viaggio insieme essere caratterizzato dall'amore, dalla comprensione e dai momenti indimenticabili. Vi auguro una vita piena di felicità e unità.\n\nCordiali saluti,"
+    },
+    {
+        "uuid": "TEMPLATE_NEWJOBCONGRATULATION",
+        "subject": "Congratulazioni per il Nuovo Lavoro!",
+        "text": "Egregi Signore e Signore [Nome Destinatario],\n\nCongratulazioni di cuore per il vostro nuovo lavoro! Il vostro impegno e dedizione hanno dato i loro frutti. Possa questa nuova opportunità portarvi crescita, successo e realizzazione nella vostra carriera professionale.\n\nCordiali saluti,"
+    },
+    {
+        "uuid": "TEMPLATE_RETIREMENTWELLWISHES",
+        "subject": "Vi Auguro un Felice Pensionamento!",
+        "text": "Egregi Signore e Signore [Nome Destinatario],\n\nLe più sincere congratulazioni per il vostro pensionamento! Mentre iniziate questo nuovo capitolo, possiate godere della libertà e del relax che meritate. Il vostro impegno e contributi hanno lasciato un'impronta indelebile. Vi auguro infinita gioia nei prossimi anni.\n\nCordiali saluti,"
+    },
+    {
+        "uuid": "TEMPLATE_NEWBABYCONGRATULATION",
+        "subject": "Congratulazioni per l'Arrivo del Nuovo Membro della Famiglia!",
+        "text": "Egregi Signore e Signore [Nome Destinatario],\n\nCongratulazioni di cuore per l'arrivo del vostro prezioso bambino [Nome Bambino]! Possa questo viaggio come genitori portarvi gioia infinita, amore e momenti preziosi. Vi auguro il meglio in questa meravigliosa avventura.\n\nCordiali saluti,"
+    },
+    {
+        "uuid": "TEMPLATE_GRADUATIONPARTYINVITATION",
+        "subject": "Celebriamo la Laurea di [Nome Laureato]!",
+        "text": "Egregi Signore e Signore [Nome Destinatario],\n\nSiamo lieti di invitarvi a una festa in onore della laurea di [Nome Laureato] presso [Università/Scuola Superiore]. Vi preghiamo di unirvi a noi il [Data] alle [Orario] presso [Luogo], mentre celebriamo questo importante traguardo.\n\nVi preghiamo di confermare la vostra partecipazione entro il [Data Conferma].\n\nCordiali saluti,"
+    },
+    {
+        "uuid": "TEMPLATE_SYMPATHYCONDOLENCES",
+        "subject": "Condoglianze Sincere",
+        "text": "Egregi Signore e Signore [Nome Destinatario],\n\nVi preghiamo di accettare le nostre più sincere condoglianze per la perdita di [Nome Deceduto]. Le nostre pensierie sono con voi in questo momento difficile. Possiate trovare conforto nei ricordi condivisi e nel sostegno dei vostri cari.\n\nCon simpatia,"
+    },
+    {
+        "uuid": "TEMPLATE_GRADUATIONTHANKYOU",
+        "subject": "Grazie per la Celebrazione della Mia Laurea",
+        "text": "Egregi Signore e Signore [Nome Destinatario],\n\nDesidero esprimere il mio sincero ringraziamento per la celebrazione della mia laurea. La vostra presenza e i vostri buoni auguri hanno reso la giornata ancora più speciale. Sono grato/a per il vostro supporto mentre inizio questo nuovo percorso.\n\nCordiali saluti,"
+    },
+    {
+        "uuid": "TEMPLATE_BUSINESSINTRODUCTION",
+        "subject": "Introduzione della Mia Attività: [Nome Attività]",
+        "text": "Egregi Signore e Signore,\n\nMi fa piacere presentarvi la mia nuova attività, [Nome Attività]. Siamo dedicati a [Descrizione Attività]. Con [Anni Esperienza] di esperienza nel settore, siamo impegnati a offrire [Valore/Obiettivo]. Saremmo entusiasti di discutere come [Nome Attività] può soddisfare le vostre esigenze.\n\nCordiali saluti,"
+    }
+]

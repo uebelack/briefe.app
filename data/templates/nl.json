@@ -1,0 +1,147 @@
+[
+    {
+        "uuid": "TEMPLATE_SUBSCRIPTIONCANCELLATION",
+        "subject": "Opzegging abonnement voor [Naam tijdschrift] - Klantnummer [Klantnummer]",
+        "text": "Geachte dames en heren,\n\nHierbij zeg ik het abonnement op het tijdschrift [Naam tijdschrift] per direct op. Gelieve mij een bevestiging van de opzegging inclusief de einddatum van het contract toe te sturen in de komende dagen.\n\nMet vriendelijke groet,"
+    },
+    {
+        "uuid": "TEMPLATE_ADDRESSCHANGE",
+        "subject": "Kennisgeving van adreswijziging vanaf [Ingangsdatum]",
+        "text": "Geachte dames en heren,\n\nIk wil u laten weten dat mijn adres is gewijzigd. Het nieuwe adres, geldig vanaf [Ingangsdatum], is als volgt:\n\n[Nieuw adres]\n\nGelieve uw administratie dienovereenkomstig bij te werken.\n\nDank u wel voor uw aandacht voor deze kwestie.\n\nMet vriendelijke groet,"
+    },
+    {
+        "uuid": "TEMPLATE_JOBCANCELLATION",
+        "subject": "Beëindiging van de arbeidsovereenkomst",
+        "text": "Geachte dames en heren,\n\nHierbij maak ik gebruik van mijn opzegrecht zoals vastgelegd in de arbeidsovereenkomst en zeg ik de arbeidsovereenkomst die ik met u heb afgesloten op [Datum] op met inachtneming van de opzegtermijn tot [Datum]. Gelieve de opzegging schriftelijk te bevestigen.\n\nMet vriendelijke groet,"
+    },
+    {
+        "uuid": "TEMPLATE_MOBILECANCELLATION",
+        "subject": "Opzegging van het mobiele contract - Telefoonnummer [Telefoonnummer]",
+        "text": "Geachte dames en heren,\n\nHierbij zeg ik mijn mobiele contract met telefoonnummer [Telefoonnummer] per direct op. Gelieve de opzegging schriftelijk te bevestigen.\n\nMet vriendelijke groet,"
+    },
+    {
+        "uuid": "TEMPLATE_RENTALCANCELLATION",
+        "subject": "Beëindiging van de huurovereenkomst - [Adres]",
+        "text": "Geachte dames en heren,\n\nHierbij zeg ik mijn huurovereenkomst voor het pand op het adres [Adres] op. De opzegging gaat in op [Opzegdatum] conform de opzegtermijn van [Opzegtermijn]. Gelieve deze opzegging schriftelijk te bevestigen en informatie te verstrekken over het retourproces van het pand en mogelijke data voor inspecties of bezichtigingen.\n\nDank u wel voor uw medewerking.\n\nMet vriendelijke groet,"
+    },
+    {
+        "uuid": "TEMPLATE_SECURITYCANCELLATION",
+        "subject": "Beëindiging van de verzekeringspolis - Polisnummer [Polisnummer]",
+        "text": "Geachte dames en heren,\n\nHierbij zeg ik de verzekeringspolis met polisnummer [Polisnummer] per direct op. Gelieve deze opzegging schriftelijk te bevestigen en eventuele aanvullende stappen of informatie van mijn kant te delen.\n\nDank u wel voor uw snelle aandacht voor deze kwestie.\n\nMet vriendelijke groet,"
+    },
+    {
+        "uuid": "TEMPLATE_APPOINTMENTCANCELLATION",
+        "subject": "Vereiste wijziging van afspraak: Afspraak op [Afspraak Datum]",
+        "text": "Geachte dames en heren [Naam ontvanger],\n\nHet spijt me u te moeten informeren dat ik mijn geplande afspraak op [Afspraak Datum] niet kan nakomen vanwege onvoorziene omstandigheden. Mijn oprechte excuses voor eventuele ongemakken. Kunnen we mogelijk een latere afspraak regelen? Uw begrip en flexibiliteit worden zeer gewaardeerd.\n\nMet vriendelijke groet,"
+    },
+    {
+        "uuid": "TEMPLATE_EVENTRSVP",
+        "subject": "Bevestiging voor [Naam evenement]",
+        "text": "Geachte dames en heren [Naam organisator],\n\nIk schrijf om mijn deelname aan het aankomende evenement [Naam evenement] op [Datum evenement] op [Locatie evenement] te bevestigen. Ik kijk uit naar het evenement en ben enthousiast om deel te nemen aan de bijeenkomst. Dank u wel dat u mij heeft uitgenodigd.\n\nMet vriendelijke groet,"
+    },
+    {
+        "uuid": "TEMPLATE_MEMBERSHIPCANCELLATION",
+        "subject": "Opzegging van het lidmaatschap - ID [Lidmaatschaps-ID]",
+        "text": "Geachte dames en heren,\n\nIk schrijf om mijn lidmaatschap met ID [Lidmaatschaps-ID] officieel op te zeggen, met ingang van [Opzegdatum]. Gelieve deze opzegging schriftelijk te bevestigen en alle benodigde informatie over terugbetalingen of openstaande bedragen te verstrekken.\n\nMet vriendelijke groet,"
+    },
+    {
+        "uuid": "TEMPLATE_EVENTINVITATION",
+        "subject": "Uitnodiging voor [Naam evenement]",
+        "text": "Geachte dames en heren [Naam ontvanger],\n\nHet verheugt me u uit te nodigen voor het evenement [Naam evenement] op [Datum evenement] om [Locatie evenement]. Het evenement belooft goed gezelschap, entertainment en onvergetelijke momenten. Laat me weten of u kunt deelnemen, zodat ik passende regelingen kan treffen.\n\nIk kijk uit naar uw aanwezigheid!\n\nMet vriendelijke groet,"
+    },
+    {
+        "uuid": "TEMPLATE_PRODUCTRETURNREQUEST",
+        "subject": "Verzoek tot productretour - Bestelling #[Bestelnummer]",
+        "text": "Geachte dames en heren [Naam ontvanger],\n\nIk schrijf om een retourverzoek in te dienen voor het product met bestelnummer #[Bestelnummer]. Het product [Productnaam] is ontvangen op [Leverdatum]. Helaas voldoet het niet aan mijn verwachtingen. Kunt u mij begeleiden bij het retourproces?\n\nMet vriendelijke groet,"
+    },
+    {
+        "uuid": "TEMPLATE_THANKYOUFORHOSPITALITY",
+        "subject": "Bedankt voor uw gastvrijheid",
+        "text": "Geachte dames en heren [Naam ontvanger],\n\nIk wil mijn oprechte dank uitspreken voor uw warme gastvrijheid tijdens mijn recente bezoek aan [Plaats]. Uw vriendelijkheid en vrijgevigheid hebben mijn verblijf echt aangenaam gemaakt. Ik waardeer de moeite die u heeft gedaan om mij welkom te heten.\n\nMet vriendelijke groet,"
+    },
+    {
+        "uuid": "TEMPLATE_BIRTHDAYGREETING",
+        "subject": "Gelukkige verjaardag, [Naam ontvanger]!",
+        "text": "Geachte dames en heren [Naam ontvanger],\n\nIk wens u een fantastische verjaardag vol vreugde, lachen en onvergetelijke momenten. Moge dit jaar u succes en geluk brengen. Geniet van uw speciale dag!\n\nMet vriendelijke groet,"
+    },
+    {
+        "uuid": "TEMPLATE_GRADUATIONCONGRATULATION",
+        "subject": "Gefeliciteerd met uw afstuderen, [Naam afgestudeerde]!",
+        "text": "Geachte dames en heren [Naam ontvanger],\n\nGefeliciteerd met uw welverdiende afstuderen! Uw harde werk en toewijding hebben zich uitbetaald. Ik wens u succes en vervulling in uw toekomstige ondernemingen. Goed gedaan!\n\nMet vriendelijke groet,"
+    },
+    {
+        "uuid": "TEMPLATE_WEDDINGCONGRATULATION",
+        "subject": "Gefeliciteerd met uw huwelijk!",
+        "text": "Geachte dames en heren [Naam ontvanger],\n\nVan harte gefeliciteerd met deze vreugdevolle gelegenheid van uw huwelijk! Moge uw gezamenlijke reis van liefde, begrip en onvergetelijke momenten zijn. Ik wens u een leven vol geluk en eenheid toe.\n\nMet vriendelijke groet,"
+    },
+    {
+        "uuid": "TEMPLATE_NEWJOBCONGRATULATION",
+        "subject": "Gefeliciteerd met uw nieuwe baan!",
+        "text": "Geachte dames en heren [Naam ontvanger],\n\nVan harte gefeliciteerd met uw nieuwe baan! Uw harde werk en toewijding hebben zich uitbetaald. Moge deze nieuwe kans groei, succes en voldoening in uw professionele carrière brengen.\n\nMet vriendelijke groet,"
+    },
+    {
+        "uuid": "TEMPLATE_RETIREMENTWELLWISHES",
+        "subject": "Ik wens u een gelukkig pensioen toe!",
+        "text": "Geachte dames en heren [Naam ontvanger],\n\nVan harte gefeliciteerd met uw pensioen! Terwijl u dit nieuwe hoofdstuk begint, kunt u genieten van de vrijheid en rust die u verdient. Uw toewijding en bijdragen hebben een blijvende indruk achtergelaten. Ik wens u eindeloos geluk in de komende jaren.\n\nMet vriendelijke groet,"
+    },
+    {
+        "uuid": "TEMPLATE_NEWBABYCONGRATULATION",
+        "subject": "Gefeliciteerd met de komst van uw nieuwe gezinslid!",
+        "text": "Geachte dames en heren [Naam ontvanger],\n\nVan harte gefeliciteerd met de komst van uw kostbare baby [Babynaam]! Moge deze reis als ouders u eindeloos geluk, liefde en dierbare momenten brengen. Ik wens u het allerbeste in dit prachtige avontuur.\n\nMet vriendelijke groet,"
+    },
+    {
+        "uuid": "TEMPLATE_GRADUATIONPARTYINVITATION",
+        "subject": "Vier met ons de afstuderen van [Naam afgestudeerde]!",
+        "text": "Geachte dames en heren [Naam ontvanger],\n\nWij nodigen u uit om deel te nemen aan een viering ter ere van het afstuderen van [Naam afgestudeerde] aan [Universiteit/Middelbare school]. Sluit u alstublieft bij ons aan op [Datum] om [Tijd] in [Locatie] terwijl we deze belangrijke prestatie vieren.\n\nGelieve te RSVP'en tegen [RSVP-datum].\n\nMet vriendelijke groet,"
+    },
+    {
+        "uuid": "TEMPLATE_SYMPATHYCONDOLENCES",
+        "subject": "Met innige deelneming",
+        "text": "Geachte dames en heren [Naam ontvanger],\n\nAccepteer alstublieft onze oprechte deelneming bij het verlies van [Naam overledene]. Onze gedachten zijn in deze moeilijke tijd bij u. Moge u troost vinden in de gedeelde herinneringen en de steun van uw dierbaren.\n\nMet medeleven,"
+    },
+    {
+        "uuid": "TEMPLATE_GRADUATIONTHANKYOU",
+        "subject": "Bedankt voor het vieren van mijn afstuderen",
+        "text": "Geachte dames en heren [Naam ontvanger],\n\nIk wil mijn oprechte dank uitspreken voor het vieren van mijn afstuderen. Uw aanwezigheid en goede wensen hebben de dag nog specialer gemaakt. Ik ben dankbaar voor uw steun terwijl ik aan dit nieuwe avontuur begin.\n\nMet vriendelijke groet,"
+    },
+    {
+        "uuid": "TEMPLATE_THANKYOUFORGIFT",
+        "subject": "Bedankt voor het prachtige cadeau!",
+        "text": "Geachte dames en heren [Naam ontvanger],\n\nIk wil mijn oprechte dank uitspreken voor het prachtige [Beschrijving van het cadeau] dat u mij heeft gegeven. Uw aandacht en vrijgevigheid hebben mijn hart echt geraakt. Ik zal het zeer waarderen. Dank u wel!\n\nMet vriendelijke groet,"
+    },
+    {
+        "uuid": "TEMPLATE_COLLEGEACCEPTANCECONGRATULATION",
+        "subject": "Gefeliciteerd met uw toelating tot de universiteit!",
+        "text": "Geachte dames en heren [Naam ontvanger],\n\nGefeliciteerd met uw toelating tot [Naam universiteit/hogeschool]! Uw harde werk en toewijding hebben zich uitbetaald. Dit is een spannend nieuw hoofdstuk, en ik kijk ernaar uit uw verdere succes te zien.\n\nMet vriendelijke groet,"
+    },
+    {
+        "uuid": "TEMPLATE_FAREWELLGOODBYE",
+        "subject": "Afscheid en de beste wensen!",
+        "text": "Geachte dames en heren [Naam ontvanger],\n\nNu de tijd is gekomen om afscheid van elkaar te nemen, wil ik u bedanken voor de geweldige tijden die we hebben gedeeld. Uw aanwezigheid zal worden gemist, en ik wens u het allerbeste voor uw toekomstige ondernemingen. Blijf in contact!\n\nMet vriendelijke groet,"
+    },
+    {
+        "uuid": "TEMPLATE_JOBINQUIRY",
+        "subject": "Vraag naar jobmogelijkheden",
+        "text": "Geachte dames en heren [Naam ontvanger],\n\nIk schrijf om mijn interesse in de functie van [Functienaam] bij [Bedrijfsnaam] kenbaar te maken. Ik ben enthousiast over de mogelijkheid om mijn vaardigheden en ervaring in uw team in te zetten. U vindt mijn cv in de bijlage. Ik kijk uit naar de gelegenheid om te bespreken hoe ik een waardevolle bijdrage kan leveren.\n\nMet vriendelijke groet,"
+    },
+    {
+        "uuid": "TEMPLATE_VOLUNTEERRECRUITMENT",
+        "subject": "Word vrijwilliger bij ons!",
+        "text": "Geachte dames en heren [Naam ontvanger],\n\nWij nodigen u uit om als vrijwilliger deel te nemen aan [Naam organisatie]. Uw passie en toewijding kunnen een echt verschil maken in onze gemeenschap. Wij geloven dat uw vaardigheden goed zouden passen. Laten we samenwerken om positieve resultaten te bereiken.\n\nMet vriendelijke groet,"
+    },
+    {
+        "uuid": "TEMPLATE_BUSINESSPARTNERSHIPPROPOSAL",
+        "subject": "Verkenning van een potentiële zakelijke samenwerking",
+        "text": "Geachte dames en heren [Naam ontvanger],\n\nIk neem contact met u op om de mogelijkheid van een strategische samenwerking tussen [Uw bedrijfsnaam] en [Naam bedrijf ontvanger] te bespreken. Onze complementaire sterke punten kunnen leiden tot gezamenlijke groei en succes. Ik zou graag deze gelegenheid nader willen verkennen.\n\nMet vriendelijke groet,"
+    },
+    {
+        "uuid": "TEMPLATE_HOMECONGRATULATION",
+        "subject": "Gefeliciteerd met uw nieuwe huis!",
+        "text": "Geachte dames en heren [Naam ontvanger],\n\nVan harte gefeliciteerd met uw nieuwe huis! Dit markeert een belangrijke mijlpaal, en ik ben erg blij voor u. Moge uw nieuwe ruimte gevuld zijn met vreugde, gelach en mooie herinneringen.\n\nMet vriendelijke groet,"
+    },
+    {
+        "uuid": "TEMPLATE_THANKYOUFORINTERVIEW",
+        "subject": "Bedankt voor de sollicitatiegesprekgelegenheid",
+        "text": "Geachte dames en heren [Naam ontvanger],\n\nIk wil mijn dank uitspreken voor de gelegenheid om te solliciteren voor de functie van [Functienaam] bij [Bedrijfsnaam]. Na ons gesprek ben ik nog enthousiaster geworden over de rol. Bedankt voor uw tijd en overweging.\n\nMet vriendelijke groet,"
+    }
+]
