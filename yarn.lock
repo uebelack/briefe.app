@@ -2980,6 +2980,11 @@ acorn@^8.0.0, acorn@^8.1.0, acorn@^8.11.0, acorn@^8.14.0, acorn@^8.8.1:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.14.0.tgz#063e2c70cac5fb4f6467f0b11152e04c682795b0"
   integrity sha512-cl669nCJTZBsL97OF4kUQm5g5hC2uihk0NxY3WENAC0TYdILVkAyHymAntgxGkl7K+t0cXIrH5siy5S4XkFycA==
 
+adm-zip@^0.5.16:
+  version "0.5.16"
+  resolved "https://registry.yarnpkg.com/adm-zip/-/adm-zip-0.5.16.tgz#0b5e4c779f07dedea5805cdccb1147071d94a909"
+  integrity sha512-TGw5yVi4saajsSEgz25grObGHEUaDrniwvA2qwSC060KfqGPdglhvPMA2lPIoxs3PQIItj2iag35fONcQqgUaQ==
+
 agent-base@6:
   version "6.0.2"
   resolved "https://registry.yarnpkg.com/agent-base/-/agent-base-6.0.2.tgz#49fff58577cfee3f37176feab4c22e00f86d7f77"
@@ -3863,15 +3868,17 @@ deep-is@^0.1.3:
   resolved "https://registry.yarnpkg.com/deep-is/-/deep-is-0.1.4.tgz#a6f2dce612fadd2ef1f519b73551f17e85199831"
   integrity sha512-oIPzksmTg4/MriiaYGO+okXDT7ztn/w3Eptv/+gSIdMdKsJo0u4CfYNFJPy+4SKMuCqGw2wxnA+URMg3t8a/bQ==
 
-deepl-node@^1.15.0:
-  version "1.15.0"
-  resolved "https://registry.yarnpkg.com/deepl-node/-/deepl-node-1.15.0.tgz#8af2f11fdbbdac3f18134ab583bd19e98799e8f5"
-  integrity sha512-GDHB9YKXeeL/WOR9OqjORC9drt3ECpo72lJsY8T1lgKMwt3G5cvQ6G2bC315/4o8Q9JseU32w2iaJ7nXkr6cpg==
+deepl-node@^1.18.0:
+  version "1.18.0"
+  resolved "https://registry.yarnpkg.com/deepl-node/-/deepl-node-1.18.0.tgz#8526d2be3ceadd797c7d8cef20e7e45fe410081c"
+  integrity sha512-P2DCGl5Zzx+O3Yny9NqDzArIfuOwAQltWtk7s3CD4EzB1CUSQEcLiGbDDoMRB+QymCwFdE21o0GLyAqf2YTQWw==
   dependencies:
     "@types/node" ">=12.0"
+    adm-zip "^0.5.16"
     axios "^1.7.4"
     form-data "^3.0.0"
     loglevel ">=1.6.2"
+    uuid "^8.3.2"
 
 deepmerge@^2.1.1:
   version "2.2.1"
@@ -8850,6 +8857,11 @@ util-deprecate@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==
+
+uuid@^8.3.2:
+  version "8.3.2"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
+  integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
 
 v8-to-istanbul@^9.0.1:
   version "9.3.0"
