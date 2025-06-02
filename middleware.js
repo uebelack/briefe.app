@@ -25,10 +25,6 @@ export default function middleware(request) {
         new URL(`/${userLanguage.substring(0, 2)}`, request.url)
       );
     } catch (error) {
-      console.error(
-        "Error resolving accept-language from " + acceptHeader + ": ",
-        error
-      );
       return NextResponse.redirect(new URL("/en", request.url));
     }
   }
