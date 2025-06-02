@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function CallToActionClient({ text }) {
   return (
-    <div className="call-to-action bg-blue text-white mt-10 ml-3 mr-3 p-8">
+    <div className="call-to-action bg-gradient-to-r from-blue to-blue-dark text-white mt-10 ml-3 mr-3 p-8 rounded-md shadow-md">
       <div className="text-xl grid place-items-center">
         {text}
       </div>

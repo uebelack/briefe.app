@@ -29,8 +29,8 @@ export default function Navigation({
   };
 
   return (
-    <header className="fixed top-0 w-full bg-blue text-white">
-      <div className="md:container px-4 my-4 fade-in flex flex-col md:flex-row">
+    <header className="fixed top-0 w-full bg-blue/90 backdrop-blur-md shadow-md text-white">
+      <div className="md:container px-4 py-3 fade-in flex flex-col md:flex-row">
         <div className="flex flex-grow">
           <Link href="/" className="flex items-center transition ease-in-out delay-150 flex-grow">
             <Image src="/logo.svg" alt="Letter logo" width={50} height={35} />

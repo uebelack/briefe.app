@@ -28,6 +28,9 @@ module.exports = {
       sans: ['Lexend', 'sans-serif'],
     },
     extend: {
+      colors: {
+        'blue-dark': '#0059b3',
+      },
       typography: ({ theme }) => ({
         briefe: {
           css: {
