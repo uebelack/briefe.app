@@ -1,7 +1,7 @@
 {
   "common": {
     "title": "Brieven App",
-    "title_long": "Brieven App - Moeiteloos professionele brieven maken op iPhone, iPad Mac en Android-apparaten",
+    "title_long": "Brieven App - Moeiteloos professionele brieven maken op iPhone, iPad, Mac en Android-apparaten",
     "scroll_down": "Scroll naar beneden",
     "language": "Nederlands",
     "download": "Downloaden",
@@ -82,7 +82,7 @@
   },
   "footer": {
     "rights": "alle rechten voorbehouden.",
-    "imprint": "Afdruk",
+    "imprint": "Colofon",
     "imprint_link": "/nl/imprint",
     "privacy": "Privacybeleid",
     "privacy_link": "/nl/privacy"
