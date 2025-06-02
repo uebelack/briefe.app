@@ -61,10 +61,21 @@ exports[`<Home/> should render 1`] = `
               Even in an era defined by digital communication and instant connectivity, traditional letters remain an indispensable form of correspondence. Why? Because they represent a timeless and authentic mode of exchange. Whether you are sending personal or business messages, letters convey a depth and significance that is often lost in emails or text messages. They are an expression of care and attention, leaving a lasting impression. Our letter app was designed to blend this timeless tradition with modern convenience, allowing you to create, share, and preserve professional letters in a digital world.
             </p>
             <p>
-              The Letter App allows you to quickly and effortlessly create and print professionally formatted letters on iPhone, iPad, Mac and Android devices. Your letters will have an appealing layout that leaves a professional impression. With a simple click, you can print your letters directly from the app. You also have the option to share your letters digitally or export them as PDF files to distribute them on various platforms. The app syncs seamlessly across your devices through iCloud, allowing you to access your letters anytime and anywhere. Thanks to the straightforward search function, you can easily retrieve previously composed letters.
+              The Letter App allows you to quickly and effortlessly create and print professionally formatted letters on iPhone, iPad, Mac, and Android devices. Your letters will have an appealing layout that leaves a professional impression. With a simple click, you can print your letters directly from the app. You also have the option to share your letters digitally or export them as PDF files to distribute them on various platforms. The app syncs seamlessly across your devices through iCloud, allowing you to access your letters anytime and anywhere. Thanks to the straightforward search function, you can easily retrieve previously composed letters.
+            </p>
+            <h2
+              class="text-xl pt-1 mb-4"
+            >
+              Unlock AI-Powered Letter Assistance with Pro
+            </h2>
+            <p>
+              Upgrade to the Pro version and take your letter writing to the next level with our AI Assistant! Effortlessly refine the structure, clarity, and tone of your letters while keeping your original intent intact. Whether you need to improve a draft, generate a full letter from just a subject, or simply get inspiration, the AI ensures professional and polished results. Supporting multiple languages and adapting to your writing style, it makes correspondence easier than ever.
             </p>
             <p>
-              In the Pro version, you'll have access to additional features, such as adding personal signatures directly within the app, effortlessly incorporating contact addresses from your address book, and utilizing a wide range of templates for various occasions. You can customize settings to adapt the format of your letters to your specific needs. The Letter App simplifies your correspondence, enabling you to create, share, and print letters with ease, all while maintaining style and user-friendliness.
+              The Pro version also unlocks additional premium features, such as adding personal signatures directly within the app, effortlessly incorporating contact addresses from your address book, and utilizing a wide range of templates for various occasions. You can customize settings to adapt the format of your letters to your specific needs.
+            </p>
+            <p>
+              The Letter App simplifies your correspondence, enabling you to create, share, and print letters with ease—all while maintaining style, clarity, and user-friendliness.
             </p>
           </div>
           <div
@@ -238,6 +249,31 @@ exports[`<Home/> should render 1`] = `
                 class="text-4xl mr-5 w-16 pt-2 pl-1"
               >
                 <i
+                  class="fa fa-wand-magic-sparkles"
+                />
+              </div>
+              <div
+                class="w-full"
+              >
+                <div
+                  class="text-lg font-bold"
+                >
+                  AI Assistant**
+                </div>
+                <div
+                  class="text-lg"
+                >
+                  Effortlessly refine or create professional letters with AI-powered precision and style
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex mb-5"
+            >
+              <div
+                class="text-4xl mr-5 w-16 pt-2 pl-1"
+              >
+                <i
                   class="fa fa-signature"
                 />
               </div>
@@ -362,6 +398,11 @@ exports[`<Home/> should render 1`] = `
           class="text-xs"
         >
           * currently not available on Android devices
+        </div>
+        <div
+          class="text-xs"
+        >
+          ** currently only on iPhone and iPad
         </div>
         <div
           class="grid place-items-center mt-10"
