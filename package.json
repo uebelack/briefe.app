@@ -17,7 +17,7 @@
     "@heroicons/react": "^2.2.0",
     "@mdx-js/loader": "^3.1.0",
     "@mdx-js/react": "^3.1.0",
-    "@next/mdx": "^15.0.3",
+    "@next/mdx": "^15.3.3",
     "@stdlib/utils-flatten-object": "^0.2.2",
     "axios": "^1.7.8",
     "flat": "6.0.1",
