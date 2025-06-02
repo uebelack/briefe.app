@@ -70,7 +70,7 @@ const features = {
         icon: 'print',
       }, {
         title: 'Teilen & Exportieren',
-        description: 'Teilen Sie Ihre Briefe digital oder exportiere sie als PDF-Dateien',
+        description: 'Teilen Sie Ihre Briefe digital oder exportieren Sie sie als PDF-Dateien',
         icon: 'arrow-up-right-from-square',
       }, {
         title: 'Suche',
