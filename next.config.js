@@ -4,7 +4,6 @@ const withMDX = require('@next/mdx')({
 
 const nextConfig = withMDX({
   reactStrictMode: true,
-  swcMinify: true,
   transpilePackages: ['ui'],
   images: {
     deviceSizes: [480, 768, 976, 1024],
