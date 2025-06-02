@@ -5,19 +5,19 @@
       "questions": [
         {
           "question": "Was ist die Briefe App?",
-          "answer": "Die Letter App ist ein digitales Tool, mit dem Sie professionell formatierte Briefe auf Ihrem iPhone, iPad, Mac oder Android Gerät erstellen, weitergeben und drucken können. Sie verbindet die zeitlose Tradition des Briefversands mit modernem Komfort."
+          "answer": "Die Briefe App ist ein digitales Tool, mit dem Sie professionell formatierte Briefe auf Ihrem iPhone, iPad, Mac oder Android-Gerät erstellen, weitergeben und drucken können. Sie verbindet die zeitlose Tradition des Briefversands mit modernem Komfort."
         },
         {
           "question": "Warum sollte ich die Briefe App verwenden?",
           "answer": "Auch im Zeitalter der digitalen Kommunikation und der sofortigen Konnektivität bleibt der traditionelle Brief eine unverzichtbare Form der Korrespondenz. Offizielle Kommunikation wie Bewerbungen, Kündigungen, geschäftliche Angelegenheiten und vieles mehr wird oft noch per Brief erledigt. Traditionelle Briefe bieten eine Tiefe und Authentizität, die in der digitalen Kommunikation oft verloren geht. Mit der App können Sie diese Tradition aufrechterhalten und gleichzeitig die Einfachheit des Erstellens, Teilens und Bewahrens von Briefen im digitalen Zeitalter genießen."
         },
         {
-          "question": "Auf welchen Geräten kann ich die die Briefe App verwenden?",
-          "answer": "Die Letter App ist für iPhone, iPad, Mac und Android Geräte verfügbar."
+          "question": "Auf welchen Geräten kann ich die Briefe App verwenden?",
+          "answer": "Die Briefe App ist für iPhone, iPad, Mac und Android-Geräte verfügbar."
         },
         {
           "question": "Was sind die wichtigsten Funktionen von der Briefe App?",
-          "answer": "Die Brief-App bietet die folgenden Funktionen:",
+          "answer": "Die Briefe App bietet die folgenden Funktionen:",
           "items": [
             "Auto Format: Automatically formats your letters professionally.",
             "Print: Easily print your letters directly from the app.",
