@@ -1,0 +1,147 @@
+[
+    {
+        "uuid": "TEMPLATE_SUBSCRIPTIONCANCELLATION",
+        "subject": "Cancellation of Subscription for [Magazine Name] - Customer Number [Customer Number]",
+        "text": "Dear Sir/Madam,\n\nI hereby cancel the subscription of the magazine [Magazine Name] effective at the earliest opportunity. Please provide me with a confirmation of cancellation including the contract end date in the coming days.\n\nBest regards,"
+    },
+    {
+        "uuid": "TEMPLATE_ADDRESSCHANGE",
+        "subject": "Notification of Address Change from [Effective Date]",
+        "text": "Dear Sir/Madam,\n\nI wish to inform you that my address has changed. The new address, effective from [Effective Date], is as follows:\n\n[New Address]\n\nKindly update your records accordingly.\n\nThank you for your attention to this matter.\n\nBest regards,"
+    },
+    {
+        "uuid": "TEMPLATE_JOBCANCELLATION",
+        "subject": "Termination of Employment Contract",
+        "text": "Dear Sir/Madam,\n\nI hereby exercise the termination right stipulated in the employment contract and give notice of the termination of the employment contract entered into with you on [Date], with a notice period ending on [Date]. Kindly confirm the termination in writing promptly.\n\nBest regards,"
+    },
+    {
+        "uuid": "TEMPLATE_MOBILECANCELLATION",
+        "subject": "Cancellation of Mobile Contract - Phone Number [Phone Number]",
+        "text": "Dear Sir/Madam,\n\nI hereby cancel my mobile contract associated with the phone number [Phone Number], effective at the next available opportunity. Please confirm the cancellation in writing promptly.\n\nBest regards,"
+    },
+    {
+        "uuid": "TEMPLATE_RENTALCANCELLATION",
+        "subject": "Termination of Rental Agreement - [Residential Address]",
+        "text": "Dear Sir/Madam,\n\nI hereby cancel my rental agreement for the property located at [Residential Address]. The cancellation will be effective from [Cancellation Date], in accordance with the notice period of [Notice Period]. Please confirm this cancellation in writing and provide information regarding the property return process as well as possible dates for inspections or viewings.\n\nThank you for your cooperation.\n\nBest regards,"
+    },
+    {
+        "uuid": "TEMPLATE_SECURITYCANCELLATION",
+        "subject": "Termination of Insurance Contract - Policy Number [Policy Number]",
+        "text": "Dear Sir/Madam,\n\nI hereby cancel the insurance contract with policy number [Policy Number], effective at the next available opportunity. Please confirm this cancellation in writing and provide any additional steps or information required from my side.\n\nThank you for your prompt attention to this matter.\n\nBest regards,"
+    },
+    {
+        "uuid": "TEMPLATE_ABOCANCELLATION",
+        "subject": "Cancellation of [Magazine Name] Subscription - Client Number [Client Number]",
+        "text": "Dear Sir or Madam,\n\nI would like to cancel my subscription for [Magazine Name]. Please process this cancellation at the earliest possible convenience and provide me with a confirmation, as well as the contract's end date.\n\nThank you for your assistance.\n\nBest regards,"
+    },
+    {
+        "uuid": "TEMPLATE_EVENTRSVP",
+        "subject": "RSVP for [Event Name]",
+        "text": "Dear [Event Organizer's Name],\n\nI am writing to confirm my attendance at the upcoming [Event Name] on [Event Date] at [Event Location]. I am looking forward to the event and am excited to join the gathering. Thank you for including me.\n\nBest Regards,"
+    },
+    {
+        "uuid": "TEMPLATE_MEMBERSHIPCANCELLATION",
+        "subject": "Cancellation of Membership - ID [Membership ID]",
+        "text": "Dear Sir or Madam,\n\nI am writing to officially cancel my membership with ID [Membership ID], effective from [Cancellation Date]. Please confirm this cancellation in writing and provide any necessary information regarding refunds or outstanding balances.\n\nBest Regards,"
+    },
+    {
+        "uuid": "TEMPLATE_EVENTINVITATION",
+        "subject": "Invitation to [Event Name]",
+        "text": "Dear [Recipient's Name],\n\nI am delighted to invite you to [Event Name] on [Event Date] at [Event Location]. The event promises great company, entertainment, and memorable moments. Please let me know if you can attend so that I can make appropriate arrangements.\n\nLooking forward to your presence!\n\nBest Regards,"
+    },
+    {
+        "uuid": "TEMPLATE_PRODUCTRETURNREQUEST",
+        "subject": "Request for Product Return - Order #[Order Number]",
+        "text": "Dear [Recipient's Name],\n\nI am writing to request a return for the product with order number #[Order Number]. The product [Product Name] was received on [Delivery Date]. Unfortunately, it does not meet my expectations. Kindly guide me through the return process.\n\nBest Regards,"
+    },
+    {
+        "uuid": "TEMPLATE_THANKYOUFORHOSPITALITY",
+        "subject": "Thank You for Your Hospitality",
+        "text": "Dear [Recipient's Name],\n\nI wanted to express my heartfelt gratitude for your warm hospitality during my recent visit to [Place]. Your kindness and generosity made my stay truly enjoyable. I appreciate the effort you put into making me feel welcome.\n\nBest Regards,"
+    },  
+    {
+        "uuid": "TEMPLATE_BIRTHDAYGREETING",
+        "subject": "Happy Birthday, [Recipient's Name]!",
+        "text": "Dear [Recipient's Name],\n\nWishing you a fantastic birthday filled with joy, laughter, and memorable moments. May this year bring you success and happiness. Enjoy your special day!\n\nWarmest Wishes,"
+    },
+    {
+        "uuid": "TEMPLATE_GRADUATIONCONGRATULATION",
+        "subject": "Congratulations on Your Graduation, [Graduate's Name]!",
+        "text": "Dear [Recipient's Name],\n\nHeartfelt congratulations on your well-deserved graduation! Your hard work and dedication have paid off. Wishing you success and fulfillment in your future endeavors. Well done!\n\nBest Regards,"
+    },
+    {
+        "uuid": "TEMPLATE_WEDDINGCONGRATULATION",
+        "subject": "Congratulations on Your Wedding!",
+        "text": "Dear [Recipient's Name],\n\nHeartiest congratulations on the joyous occasion of your wedding! May your journey together be filled with love, understanding, and unforgettable moments. Wishing you a lifetime of happiness and unity.\n\nWarmest Wishes,"
+    },
+    {
+        "uuid": "TEMPLATE_NEWJOBCONGRATULATION",
+        "subject": "Congratulations on Your New Job!",
+        "text": "Dear [Recipient's Name],\n\nCongratulations on landing your new job! Your hard work and dedication have paid off. May this new opportunity bring you growth, success, and fulfillment in your career journey.\n\nBest Regards,"
+    },
+    {
+        "uuid": "TEMPLATE_RETIREMENTWELLWISHES",
+        "subject": "Wishing You a Happy Retirement!",
+        "text": "Dear [Recipient's Name],\n\nCongratulations on your retirement! As you embark on this new chapter, may you enjoy the freedom and leisure you deserve. Your dedication and contributions have left a lasting impact. Wishing you endless joy in the years ahead.\n\nWarmest Wishes,"
+    },
+    {
+        "uuid": "TEMPLATE_NEWBABYCONGRATULATION",
+        "subject": "Congratulations on Your New Arrival!",
+        "text": "Dear [Recipient's Name],\n\nHeartfelt congratulations on the arrival of your precious baby [Baby's Name]! May this journey of parenthood bring you endless joy, love, and cherished moments. Wishing you all the best in this wonderful adventure.\n\nWarmest Wishes,"
+    },
+    {
+        "uuid": "TEMPLATE_GRADUATIONPARTYINVITATION",
+        "subject": "Join Us to Celebrate [Graduate's Name]'s Graduation!",
+        "text": "Dear [Recipient's Name],\n\nWe are thrilled to invite you to a celebration in honor of [Graduate's Name]'s graduation from [University/High School]. Please join us on [Date] at [Time] at [Location] as we commemorate this significant achievement.\n\nRSVP by [RSVP Date].\n\nBest Regards,"
+    },
+    {
+        "uuid": "TEMPLATE_SYMPATHYCONDOLENCES",
+        "subject": "With Deepest Sympathy",
+        "text": "Dear [Recipient's Name],\n\nPlease accept our heartfelt condolences on the passing of [Deceased's Name]. Our thoughts are with you during this difficult time. May you find comfort in the memories you shared and the support of your loved ones.\n\nWith Sympathy,"
+    },
+    {
+        "uuid": "TEMPLATE_GRADUATIONTHANKYOU",
+        "subject": "Thank You for Celebrating My Graduation",
+        "text": "Dear [Recipient's Name],\n\nI wanted to express my sincere gratitude for celebrating my graduation with me. Your presence and well wishes made the day even more special. I am grateful for your support as I embark on this new journey.\n\nBest regards,"
+    },  
+    {
+        "uuid": "TEMPLATE_THANKYOUFORGIFT",
+        "subject": "Thank You for the Wonderful Gift!",
+        "text": "Dear [Recipient's Name],\n\nI wanted to express my sincere gratitude for the beautiful [Gift Description] you gave me. Your thoughtfulness and generosity truly touched my heart. I will cherish it dearly. Thank you!\n\nWarmest Regards,"
+    },
+    {
+        "uuid": "TEMPLATE_COLLEGEACCEPTANCECONGRATULATION",
+        "subject": "Congratulations on Your College Acceptance!",
+        "text": "Dear [Recipient's Name],\n\nCongratulations on being accepted into [College/University Name]! Your hard work and dedication have paid off. This is an exciting new chapter, and I can't wait to see your continued success.\n\nBest Regards,"
+    },
+    {
+        "uuid": "TEMPLATE_FAREWELLGOODBYE",
+        "subject": "Farewell and Best Wishes!",
+        "text": "Dear [Recipient's Name],\n\nAs the time comes for us to part ways, I wanted to express my gratitude for the wonderful times we've shared. Your presence will be missed, and I wish you all the best in your future endeavors. Stay in touch!\n\nBest regards,"
+    },
+    {
+        "uuid": "TEMPLATE_JOBINQUIRY",
+        "subject": "Inquiry About Job Opportunities",
+        "text": "Dear [Recipient's Name],\n\nI am writing to express my interest in the [Job Position] at [Company Name]. I am excited about the prospect of contributing my skills and experience to your team. Please find my resume attached. I look forward to the opportunity to discuss how I can be a valuable asset.\n\nBest Regards,"
+    },
+    {
+        "uuid": "TEMPLATE_VOLUNTEERRECRUITMENT",
+        "subject": "Join Us as a Volunteer!",
+        "text": "Dear [Recipient's Name],\n\nWe invite you to become a volunteer at [Organization Name]. Your passion and dedication can make a real difference in our community. We believe your skills would be a great fit. Let's work together to create positive impact.\n\nBest regards,"
+    },
+    {
+        "uuid": "TEMPLATE_BUSINESSPARTNERSHIPPROPOSAL",
+        "subject": "Exploring a Potential Business Partnership",
+        "text": "Dear [Recipient's Name],\n\nI am reaching out to discuss the possibility of a strategic partnership between [Your Company Name] and [Recipient's Company Name]. Our complementary strengths could lead to mutual growth and success. I'd love to explore this opportunity further.\n\nBest Regards,"
+    },
+    {
+        "uuid": "TEMPLATE_HOMECONGRATULATION",
+        "subject": "Congratulations on Your New Home!",
+        "text": "Dear [Recipient's Names],\n\nCongratulations on your new home! This marks a significant milestone, and I am thrilled for you. May your new space be filled with joy, laughter, and beautiful memories.\n\nWarmest Wishes,"
+    },
+    {
+        "uuid": "TEMPLATE_THANKYOUFORINTERVIEW",
+        "subject": "Thank You for the Interview Opportunity",
+        "text": "Dear [Recipient's Name],\n\nI wanted to express my gratitude for the opportunity to interview for the [Job Position] at [Company Name]. I am even more excited about the role after our conversation. Thank you for your time and consideration.\n\nBest Regards,"
+    }
+]

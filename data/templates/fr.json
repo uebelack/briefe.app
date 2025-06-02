@@ -1,0 +1,147 @@
+[
+    {
+        "uuid": "TEMPLATE_SUBSCRIPTIONCANCELLATION",
+        "subject": "Annulation d'abonnement pour [Nom du Magazine] - Numéro de Client [Numéro du Client]",
+        "text": "Cher Monsieur / Chère Madame,\n\nJe résilie par la présente l'abonnement au magazine [Nom du Magazine], à effet dès que possible. Je vous prie de bien vouloir me confirmer l'annulation en incluant la date de fin de contrat dans les prochains jours.\n\nCordialement,"
+    },
+    {
+        "uuid": "TEMPLATE_ADDRESSCHANGE",
+        "subject": "Notification de Changement d'Adresse à partir du [Date d'Effet]",
+        "text": "Cher Monsieur / Chère Madame,\n\nJe souhaite vous informer que mon adresse a changé. La nouvelle adresse, en vigueur à partir du [Date d'Effet], est la suivante :\n\n[Nouvelle Adresse]\n\nVeuillez mettre à jour vos dossiers en conséquence.\n\nJe vous remercie de votre attention à cette question.\n\nCordialement,"
+    },
+    {
+        "uuid": "TEMPLATE_JOBCANCELLATION",
+        "subject": "Résiliation de Contrat de Travail",
+        "text": "Cher Monsieur / Chère Madame,\n\nJe fais valoir par la présente mon droit de résiliation tel que stipulé dans le contrat de travail et je donne avis de la résiliation du contrat de travail conclu avec vous le [Date], avec une période de préavis se terminant le [Date]. Je vous prie de bien vouloir confirmer la résiliation par écrit promptement.\n\nCordialement,"
+    },
+    {
+        "uuid": "TEMPLATE_MOBILECANCELLATION",
+        "subject": "Annulation de Contrat Mobile - Numéro de Téléphone [Numéro de Téléphone]",
+        "text": "Cher Monsieur / Chère Madame,\n\nJe résilie par la présente mon contrat mobile associé au numéro de téléphone [Numéro de Téléphone], à partir de la prochaine opportunité disponible. Je vous prie de bien vouloir confirmer l'annulation par écrit rapidement.\n\nCordialement,"
+    },
+    {
+        "uuid": "TEMPLATE_RENTALCANCELLATION",
+        "subject": "Résiliation de Contrat de Location - [Adresse Résidentielle]",
+        "text": "Cher Monsieur / Chère Madame,\n\nJe résilie par la présente mon contrat de location pour la propriété située à [Adresse Résidentielle]. La résiliation sera effective à partir du [Date d'Annulation], conformément à la période de préavis de [Période de Préavis]. Je vous prie de bien vouloir confirmer cette résiliation par écrit et de fournir des informations concernant le processus de restitution de la propriété ainsi que d'éventuelles dates pour les inspections ou les visites.\n\nJe vous remercie de votre coopération.\n\nCordialement,"
+    },
+    {
+        "uuid": "TEMPLATE_SECURITYCANCELLATION",
+        "subject": "Résiliation de Contrat d'Assurance - Numéro de Police [Numéro de Police]",
+        "text": "Cher Monsieur / Chère Madame,\n\nJe résilie par la présente le contrat d'assurance avec le numéro de police [Numéro de Police], à partir de la prochaine opportunité disponible. Je vous prie de bien vouloir confirmer cette résiliation par écrit et de fournir toutes les étapes supplémentaires ou les informations requises de ma part.\n\nJe vous remercie de votre prompte attention à cette question.\n\nCordialement,"
+    },
+    {
+        "uuid": "TEMPLATE_APPOINTMENTCANCELLATION",
+        "subject": "Report de Rendez-vous requis : Rendez-vous le [Date du Rendez-vous]",
+        "text": "Chères Mesdames et Messieurs [Nom du Destinataire],\n\nJe regrette de devoir vous informer que je ne pourrai pas honorer mon rendez-vous prévu le [Date du Rendez-vous] en raison de circonstances imprévues. Je vous présente mes excuses sincères pour tout inconvénient que cela pourrait causer. Serait-il possible que nous programmions un rendez-vous ultérieur ? Votre compréhension et votre flexibilité sont grandement appréciées.\n\nCordialement,"
+    },
+    {
+        "uuid": "TEMPLATE_EVENTRSVP",
+        "subject": "Confirmation de Participation à [Nom de l'Événement]",
+        "text": "Chères Mesdames et Messieurs [Nom de l'Organisateur],\n\nJe vous écris pour confirmer ma participation à l'événement à venir, [Nom de l'Événement], le [Date de l'Événement] à [Lieu de l'Événement]. J'ai hâte de participer à l'événement et j'attends avec impatience de rencontrer les participants. Merci de m'avoir inclus.\n\nCordialement,"
+    },
+    {
+        "uuid": "TEMPLATE_MEMBERSHIPCANCELLATION",
+        "subject": "Résiliation de l'Adhésion - ID [ID d'Adhésion]",
+        "text": "Chères Mesdames et Messieurs,\n\nJe vous écris pour résilier officiellement mon adhésion avec l'ID [ID d'Adhésion], en vigueur à partir du [Date de Résiliation]. Je vous prie de bien vouloir confirmer cette résiliation par écrit et de fournir toutes les informations nécessaires concernant les remboursements ou les montants impayés.\n\nCordialement,"
+    },
+    {
+        "uuid": "TEMPLATE_EVENTINVITATION",
+        "subject": "Invitation à [Nom de l'Événement]",
+        "text": "Chères Mesdames et Messieurs [Nom du Destinataire],\n\nC'est avec plaisir que je vous invite à l'événement [Nom de l'Événement] qui aura lieu le [Date de l'Événement] à [Lieu de l'Événement]. L'événement promet d'être riche en convivialité, en divertissement et en moments mémorables. Veuillez me faire savoir si vous pourrez être présent(e), afin que je puisse prendre les dispositions nécessaires.\n\nJ'attends avec impatience votre présence!\n\nCordialement,"
+    },
+    {
+        "uuid": "TEMPLATE_PRODUCTRETURNREQUEST",
+        "subject": "Demande de Retour de Produit - Commande #[Numéro de Commande]",
+        "text": "Chères Mesdames et Messieurs [Nom du Destinataire],\n\nJe vous écris pour demander le retour du produit avec le numéro de commande #[Numéro de Commande]. Le produit [Nom du Produit] a été reçu le [Date de Livraison]. Malheureusement, il ne répond pas à mes attentes. Veuillez me guider à travers le processus de retour.\n\nCordialement,"
+    },
+    {
+        "uuid": "TEMPLATE_THANKYOUFORHOSPITALITY",
+        "subject": "Merci pour Votre Hospitalité",
+        "text": "Chères Mesdames et Messieurs [Nom du Destinataire],\n\nJe tiens à exprimer ma sincère gratitude pour votre chaleureuse hospitalité lors de ma récente visite à [Lieu]. Votre gentillesse et votre générosité ont rendu mon séjour vraiment agréable. J'apprécie les efforts que vous avez déployés pour me mettre à l'aise.\n\nCordialement,"
+    },   
+    {
+        "uuid": "TEMPLATE_BIRTHDAYGREETING",
+        "subject": "Joyeux Anniversaire, [Nom du Destinataire]!",
+        "text": "Chères Mesdames et Messieurs [Nom du Destinataire],\n\nJe vous souhaite un anniversaire fantastique rempli de joie, de rires et de moments inoubliables. Que cette année vous apporte succès et bonheur. Profitez de cette journée spéciale!\n\nCordialement,"
+    },
+    {
+        "uuid": "TEMPLATE_GRADUATIONCONGRATULATION",
+        "subject": "Félicitations pour Votre Diplôme, [Nom du Diplômé]!",
+        "text": "Chères Mesdames et Messieurs [Nom du Destinataire],\n\nFélicitations pour l'obtention bien méritée de votre diplôme! Votre travail acharné et votre dévouement ont porté leurs fruits. Je vous souhaite du succès et de l'épanouissement dans vos futures entreprises. Bravo!\n\nCordialement,"
+    },
+    {
+        "uuid": "TEMPLATE_WEDDINGCONGRATULATION",
+        "subject": "Félicitations pour Votre Mariage!",
+        "text": "Chères Mesdames et Messieurs [Nom du Destinataire],\n\nFélicitations les plus chaleureuses à l'occasion de votre mariage! Puissiez-vous connaître un voyage conjugal fait d'amour, de compréhension et de moments inoubliables. Je vous souhaite une vie remplie de bonheur et d'unité.\n\nCordialement,"
+    },
+    {
+        "uuid": "TEMPLATE_NEWJOBCONGRATULATION",
+        "subject": "Félicitations pour Votre Nouvel Emploi!",
+        "text": "Chères Mesdames et Messieurs [Nom du Destinataire],\n\nFélicitations pour votre nouveau poste! Votre travail acharné et votre dévouement ont été récompensés. Puissent cette nouvelle opportunité vous apporter croissance, succès et épanouissement dans votre carrière professionnelle.\n\nCordialement,"
+    },
+    {
+        "uuid": "TEMPLATE_RETIREMENTWELLWISHES",
+        "subject": "Je Vous Souhaite un Heureux Retraite!",
+        "text": "Chères Mesdames et Messieurs [Nom du Destinataire],\n\nFélicitations pour votre retraite! Alors que vous démarrez ce nouveau chapitre, profitez de la liberté et du loisir que vous méritez. Votre dévouement et vos contributions laissent une empreinte durable. Je vous souhaite une joie infinie dans les années à venir.\n\nCordialement,"
+    },
+    {
+        "uuid": "TEMPLATE_NEWBABYCONGRATULATION",
+        "subject": "Félicitations pour l'Arrivée de Votre Nouveau Membre de la Famille!",
+        "text": "Chères Mesdames et Messieurs [Nom du Destinataire],\n\nFélicitations pour l'arrivée de votre précieux bébé [Nom du Bébé]! Puissiez-vous trouver une joie infinie, de l'amour et des moments précieux dans cette aventure parentale. Je vous souhaite tout le meilleur dans cette merveilleuse aventure.\n\nCordialement,"
+    },
+    {
+        "uuid": "TEMPLATE_GRADUATIONPARTYINVITATION",
+        "subject": "Rejoignez-nous pour Célébrer la Diplômation de [Nom du Diplômé]!",
+        "text": "Chères Mesdames et Messieurs [Nom du Destinataire],\n\nNous avons le plaisir de vous inviter à une célébration en l'honneur de la diplomation de [Nom du Diplômé] de [Nom de l'Université/Lycée]. Rejoignez-nous le [Date] à [Heure] à [Lieu], alors que nous célébrons cette réalisation significative.\n\nVeuillez RSVP d'ici le [Date RSVP].\n\nCordialement,"
+    },
+    {
+        "uuid": "TEMPLATE_SYMPATHYCONDOLENCES",
+        "subject": "Avec un Profond Sentiment de Compassion",
+        "text": "Chères Mesdames et Messieurs [Nom du Destinataire],\n\nVeuillez accepter nos plus sincères condoléances pour la perte de [Nom du Défunt]. Nos pensées sont avec vous en ces moments difficiles. Puissiez-vous trouver du réconfort dans les souvenirs partagés et dans le soutien de vos proches.\n\nAvec toute notre sympathie,"
+    },
+    {
+        "uuid": "TEMPLATE_GRADUATIONTHANKYOU",
+        "subject": "Merci pour la Célébration de ma Diplômation",
+        "text": "Chères Mesdames et Messieurs [Nom du Destinataire],\n\nJe tiens à exprimer mes sincères remerciements pour la célébration de ma diplomation. Votre présence et vos bons vœux ont rendu cette journée encore plus spéciale. Je suis reconnaissant de votre soutien alors que je commence ce nouveau voyage.\n\nCordialement,"
+    },
+    {
+        "uuid": "TEMPLATE_THANKYOUFORGIFT",
+        "subject": "Merci pour le Merveilleux Cadeau!",
+        "text": "Chères Mesdames et Messieurs [Nom du Destinataire],\n\nJe tiens à exprimer ma sincère gratitude pour le magnifique [Description du Cadeau] que vous m'avez offert. Votre attention et votre générosité ont touché mon cœur. Je l'apprécierai énormément. Merci!\n\nCordialement,"
+    },
+    {
+        "uuid": "TEMPLATE_COLLEGEACCEPTANCECONGRATULATION",
+        "subject": "Félicitations pour Votre Admission à l'Université!",
+        "text": "Chères Mesdames et Messieurs [Nom du Destinataire],\n\nFélicitations pour votre admission à [Nom de l'Université]! Votre travail acharné et votre dévouement ont porté leurs fruits. C'est un nouveau chapitre passionnant, et j'ai hâte de voir votre succès continu.\n\nCordialement,"
+    },
+    {
+        "uuid": "TEMPLATE_FAREWELLGOODBYE",
+        "subject": "Adieu et Meilleurs Vœux!",
+        "text": "Chères Mesdames et Messieurs [Nom du Destinataire],\n\nLe moment est venu de nous dire au revoir, et je tiens à vous remercier pour les merveilleux moments que nous avons partagés. Votre présence va nous manquer, et je vous souhaite tout le meilleur pour vos futurs projets. Restez en contact!\n\nCordialement,"
+    },
+    {
+        "uuid": "TEMPLATE_JOBINQUIRY",
+        "subject": "Demande d'Opportunités d'Emploi",
+        "text": "Chères Mesdames et Messieurs [Nom du Destinataire],\n\nJe vous écris pour exprimer mon intérêt pour le poste de [Titre du Poste] chez [Nom de l'Entreprise]. Je suis enthousiaste à l'idée de mettre en avant mes compétences et mon expérience au sein de votre équipe. Vous trouverez mon CV en pièce jointe. J'attends avec impatience l'opportunité de discuter de la manière dont je peux apporter une contribution précieuse.\n\nCordialement,"
+    },
+    {
+        "uuid": "TEMPLATE_VOLUNTEERRECRUITMENT",
+        "subject": "Rejoignez-nous en tant que Bénévole!",
+        "text": "Chères Mesdames et Messieurs [Nom du Destinataire],\n\nNous vous invitons à vous joindre à nous en tant que bénévole chez [Nom de l'Organisation]. Votre passion et votre dévouement peuvent faire une réelle différence dans notre communauté. Nous pensons que vos compétences seraient un excellent complément. Travaillons ensemble pour avoir un impact positif.\n\nCordialement,"
+    },
+    {
+        "uuid": "TEMPLATE_BUSINESSPARTNERSHIPPROPOSAL",
+        "subject": "Exploration d'une Potentielle Partenariat Commercial",
+        "text": "Chères Mesdames et Messieurs [Nom du Destinataire],\n\nJe me tourne vers vous pour discuter de la possibilité d'un partenariat stratégique entre [Votre Nom d'Entreprise] et [Nom d'Entreprise du Destinataire]. Nos forces complémentaires pourraient conduire à une croissance et un succès mutuels. J'aimerais explorer cette opportunité plus en détail.\n\nCordialement,"
+    },
+    {
+        "uuid": "TEMPLATE_HOMECONGRATULATION",
+        "subject": "Félicitations pour Votre Nouveau Foyer!",
+        "text": "Chères Mesdames et Messieurs [Nom du Destinataire],\n\nFélicitations pour votre nouvelle maison! Cela marque une étape importante, et je suis vraiment heureux pour vous. Puisse votre nouvel espace être rempli de joie, de rires et de souvenirs précieux.\n\nCordialement,"
+    },
+    {
+        "uuid": "TEMPLATE_THANKYOUFORINTERVIEW",
+        "subject": "Merci pour l'Opportunité d'Entretien",
+        "text": "Chères Mesdames et Messieurs [Nom du Destinataire],\n\nJe tiens à exprimer ma gratitude pour l'opportunité d'entretien pour le poste de [Titre du Poste] chez [Nom de l'Entreprise]. Après notre entretien, mon enthousiasme pour le rôle s'est renforcé. Merci pour votre temps et votre considération.\n\nCordialement,"
+    }
+]
