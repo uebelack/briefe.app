@@ -15,9 +15,8 @@ const BACKWARD_LINKS = ["/help", "/faq", "/imprint", "/privacy"];
 export default function middleware(request) {
   if (request.nextUrl.pathname === "/") {
     try {
-      const acceptHeader = request.headers.get("accept-language") || "";
       const userLanguage = resolveAcceptLanguage(
-        acceptHeader,
+        request.headers.get("accept-language"),
         locales,
         "en-US"
       );
@@ -25,11 +24,7 @@ export default function middleware(request) {
         new URL(`/${userLanguage.substring(0, 2)}`, request.url)
       );
     } catch (error) {
-      console.error(
-        "Error resolving accept-language from " + acceptHeader + ": ",
-        error
-      );
-      return NextResponse.redirect(new URL("/en", request.url));
+      NextResponse.redirect(new URL("/en", request.url));
     }
   }
 
