@@ -8,10 +8,10 @@ import Heading from './Heading';
 import Page from './Page';
 import ScrollButton from './ScrollButton';
 import Section from './Section';
-import Teaser from './Teaser';
 import Blog from './Blog';
 import getBlogArticles from '@/functions/getBlogArticles';
 import ContactForm from './ContactForm';
+import Hero from './Hero';
 
 export default function Home({ locale }) {
   const t = getTranslations(locale);
@@ -22,22 +22,7 @@ export default function Home({ locale }) {
 
   return (
     <Page>
-      <Section className="grid place-items-center first bg-blue text-white">
-        <Container className="grid place-items-center">
-          <Image src={`/devices_${locale?.startsWith('de') ? 'de' : 'en'}.png`} alt="Letter app" width={992} height={605} unoptimized />
-          <div className="grid grid-cols-2 gap-10">
-            <a href="http://itunes.apple.com/app/letter/id498506154">
-              <Image src="/app_store_en.svg" alt="App Store" width={150} height={50} className="mt-5" />
-            </a>
-            <a href="https://play.google.com/store/apps/details?id=dev.uebelacker.letter" style={{ marginTop: '2px' }}>
-              <Image src="/play_store_en.svg" alt="App Store" width={150} height={50} className="mt-5" />
-            </a>
-          </div>
-          <div className="p-3 md:w-4/5 pt-10">
-            <Teaser text={t('home.teaser')} />
-          </div>
-        </Container>
-      </Section>
+      <Hero title={t('common.title')} tagline={t('home.teaser')} locale={locale} />
       <ScrollButton label={t('common.scroll_down')} target="details" />
       <Section>
         <Container>
@@ -69,29 +54,18 @@ export default function Home({ locale }) {
         <Container>
           <Heading id="features">{t('features.title')}</Heading>
           <p>{t('features.description')}</p>
-          <div className="flex flex-wrap md:flex-nowrap mt-5">
-            <div className="grow mt-5 md:mr-5">
-              <h3 className="text-xl font-bold mb-5">{featureData.features.title}</h3>
-              {featureData.features.features.map((feature) => (
-                <Feature
-                  key={feature.title}
-                  icon={feature.icon}
-                  title={feature.title}
-                  description={feature.description}
-                />
-              ))}
-            </div>
-            <div className="grow mt-5 md:ml-5">
-              <h3 className="text-xl font-bold mb-5">{featureData.proFeatures.title}</h3>
-              {featureData.proFeatures.features.map((feature) => (
-                <Feature
-                  key={feature.title}
-                  icon={feature.icon}
-                  title={feature.title}
-                  description={feature.description}
-                />
-              ))}
-            </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-5">
+            {[
+              ...featureData.features.features,
+              ...featureData.proFeatures.features,
+            ].map((feature) => (
+              <Feature
+                key={feature.title}
+                icon={feature.icon}
+                title={feature.title}
+                description={feature.description}
+              />
+            ))}
           </div>
           <div className="text-xs">{t('common.android_only')}</div>
           <div className="text-xs">{t('common.ios_only')}</div>
