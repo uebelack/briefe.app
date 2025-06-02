@@ -22,7 +22,7 @@ export default function Home({ locale }) {
 
   return (
     <Page>
-      <Section className="grid place-items-center first bg-blue text-white">
+      <Section className="grid place-items-center first bg-gradient-to-b from-blue to-blue-dark text-white py-10">
         <Container className="grid place-items-center">
           <Image src={`/devices_${locale?.startsWith('de') ? 'de' : 'en'}.png`} alt="Letter app" width={992} height={605} unoptimized />
           <div className="grid grid-cols-2 gap-10">

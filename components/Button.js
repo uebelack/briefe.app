@@ -12,10 +12,10 @@ function Button({
       className="
       py-2
       px-4
-      border
       rounded-md
-      hover:bg-black
-      hover:text-white
+      text-white
+      bg-gradient-to-r from-blue to-blue-dark
+      hover:from-blue-dark hover:to-blue
       disabled:bg-gray-light
       disabled:text-gray"
     >
