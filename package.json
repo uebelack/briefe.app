@@ -12,7 +12,7 @@
     "translate": "node bin/translate.mjs"
   },
   "dependencies": {
-    "@fontsource/lexend": "^5.2.8",
+    "@fontsource/lexend": "^5.2.9",
     "@headlessui/react": "^2.2.4",
     "@heroicons/react": "^2.2.0",
     "@mdx-js/loader": "^3.1.0",
