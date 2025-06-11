@@ -1,11 +1,11 @@
 {
   "common": {
     "title": "Aplicação de Cartas",
-    "title_long": "Aplicação de Cartas - Crie cartas profissionais sem esforço no iPhone, iPad, Mac e dispositivos andróides",
+    "title_long": "Aplicação de Cartas - Crie cartas profissionais sem esforço no iPhone, iPad, Mac e dispositivos Android",
     "scroll_down": "Role para baixo",
     "language": "Português",
     "download": "Descarregar",
-    "android_only": "* atualmente não disponível em dispositivos andróides",
+    "android_only": "* atualmente não disponível em dispositivos Android",
     "ios_only": "** atualmente apenas no iPhone e no iPad"
   },
   "home": {
@@ -22,14 +22,14 @@
   },
   "features": {
     "title": "Recursos",
-    "description": "Para fornecer uma visão abrangente, listamos todos os recursos em detalhes, de acordo com sua disponibilidade nas diferentes versões do aplicação. Dessa forma, você pode ver facilmente quais recursos cada versão do aplicação oferece.",
+    "description": "Para fornecer uma visão abrangente, listamos todos os recursos em detalhes, de acordo com sua disponibilidade nas diferentes versões da aplicação. Dessa forma, você pode ver facilmente quais recursos cada versão da aplicação oferece.",
     "format": {
       "title": "Formatação Automática",
       "description": "As cartas são formatadas automaticamente de maneira profissional"
     },
     "print": {
       "title": "Imprimir",
-      "description": "Imprima facilmente suas cartas diretamente do aplicação"
+      "description": "Imprima facilmente suas cartas diretamente da aplicação"
     },
     "export": {
       "title": "Compartilhar e Exportar",
@@ -41,7 +41,7 @@
     },
     "signatures": {
       "title": "Assinaturas",
-      "description": "Adicione assinaturas pessoais diretamente no aplicação"
+      "description": "Adicione assinaturas pessoais diretamente na aplicação"
     },
     "contacts": {
       "title": "Contatos",
@@ -114,6 +114,6 @@
     "title": "Blog - Pensamentos, histórias e ideias"
   },
   "call_to_action": {
-    "text": "Baixe o aplicação de cartas agora e comece a escrever sua primeira carta — é grátis!"
+    "text": "Baixe a aplicação de cartas agora e comece a escrever sua primeira carta — é grátis!"
   }
 }
