@@ -4,7 +4,7 @@
     "title_long": "App Lettere - Crea senza problemi lettere professionali su iPhone, iPad, Mac e dispositivi Android",
     "scroll_down": "Scorri verso il basso",
     "language": "Italiano",
-    "download": "Scaricare",
+    "download": "Scarica",
     "android_only": "* attualmente non disponibile su dispositivi Android",
     "ios_only": "** attualmente solo su iPhone e iPad"
   },
@@ -24,7 +24,7 @@
     "title": "Caratteristiche",
     "description": "Per darti una panoramica completa, abbiamo elencato tutte le caratteristiche in dettaglio, in base alla loro disponibilità nelle diverse versioni dell'app. In questo modo, puoi vedere facilmente quali funzionalità offre ciascuna versione dell'app.",
     "format": {
-      "title": "Auto Formato",
+      "title": "Formattazione automatica",
       "description": "Le lettere vengono formattate automaticamente in modo professionale"
     },
     "print": {
@@ -100,7 +100,7 @@
     "menu": "Aiuto",
     "link": "aiuto",
     "title": "Aiuto",
-    "how_to_title": "Come scrivere una lettera con l'app lettere",
+    "how_to_title": "Come scrivere una lettera con l'App Lettere",
     "how_to_001": "Per iniziare a comporre la lettera, è sufficiente toccare il pulsante più nell'angolo superiore destro della schermata principale. Una volta toccato il pulsante, si aprirà una nuova schermata in cui potrete comporre facilmente la vostra lettera",
     "how_to_002": "Inserire l'indirizzo del mittente e del destinatario, aggiungere un oggetto e comporre il messaggio nel campo \"Messaggio\". Una volta terminata la lettera, toccare \"Salva\" nell'angolo in alto a destra",
     "how_to_003": "La lettera verrà formattata e visualizzata automaticamente. A questo punto è possibile stamparla toccando l'icona della stampante o inviarla via e-mail utilizzando il pulsante \"Condividi\" (l'icona quadrata con una freccia)"
