@@ -6343,12 +6343,12 @@ lz-string@^1.5.0:
   resolved "https://registry.yarnpkg.com/lz-string/-/lz-string-1.5.0.tgz#c1ab50f77887b712621201ba9fd4e3a6ed099941"
   integrity sha512-h5bgJWpxJNswbU7qCrV0tIKQCaS3blPDrqKWx+QxzuzL1zGUzij9XCWLrSLsJPu5t+eWA/ycetzYAO5IOMcWAQ==
 
-mailgun.js@^10.2.4:
-  version "10.2.4"
-  resolved "https://registry.yarnpkg.com/mailgun.js/-/mailgun.js-10.2.4.tgz#e3e2a689a3be4c177b3612fabc4871c34c7d76f4"
-  integrity sha512-l1Nth1YWGrUdRIahxsUIzVGoP7waLctS0MKFpd1QPzE8NEZqZ1PafYgw+c4ThombwJFyhF18SN1htOE78Kfv+w==
+mailgun.js@^12.0.3:
+  version "12.0.3"
+  resolved "https://registry.yarnpkg.com/mailgun.js/-/mailgun.js-12.0.3.tgz#d73b0e1e035912feaf420da4ea5006ae3685a476"
+  integrity sha512-ki4+xNDA/MjIQAWHB2TK5t5lJN99l45iIRU4SmTqhkY2RCfwQD04s59R3I5YCKdkY/Y5598XRKdkQOj29+eydw==
   dependencies:
-    axios "^1.7.4"
+    axios "^1.10.0"
     base-64 "^1.0.0"
     url-join "^4.0.1"
 
