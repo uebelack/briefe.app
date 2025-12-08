@@ -76,12 +76,12 @@
         "message_error": "Please enter a message",
         "captcha_error": "Please solve this captcha",
         "privacy_error": "Please accept the privacy policy",
-        "success": "Thank you for your message! we will come back to you, as soon as possible!",
+        "success": "Thank you for your message! We will get back to you as soon as possible!",
         "error": "Unfortunately, an unexpected error has occurred. Please try again later or email us at support@letter-app.com.",
         "cookie": "Please accept cookies at the bottom of the screen to submit a message or send a mail to support@letter-app.com."
     },
     "footer": {
-        "rights": "all rights reserved.",
+        "rights": "All rights reserved.",
         "imprint": "Imprint",
         "imprint_link": "/en/imprint",
         "privacy": "Privacy Policy",
@@ -93,7 +93,7 @@
     },
     "lost": {
         "title": "You're Lost! 404 - Not Found",
-        "description": "The page your are looking for doesn't exist",
+        "description": "The page you are looking for doesn't exist",
         "button": "Go Home"
     },
     "help": {
@@ -104,6 +104,10 @@
         "how_to_001": "To start composing your letter, simply tap the plus button located in the top right corner of the main screen. Once you've tapped the button, a new screen will open where you can craft your letter with ease.",
         "how_to_002": "While on the letter editor screen, input the sender and recipient addresses, include a subject, and compose your message in the 'Message' field. Once you've completed your letter, tap 'Save' located in the top right corner.",
         "how_to_003": "Your letter is automatically formatted and displayed. To proceed, you can either print it by tapping on the printer icon or share it via email using the share button (the square icon with an arrow)."
+    },
+    "templates": {
+        "menu": "Templates",
+        "title": "Templates"
     },
     "blog": {
         "menu": "Blog",

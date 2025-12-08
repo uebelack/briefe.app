@@ -105,6 +105,10 @@
     "how_to_002": "Introduza o endereço do remetente e do destinatário, adicione um assunto e escreva a sua mensagem no campo \"Mensagem\". Quando tiver terminado a sua carta, toque em \"Guardar\" no canto superior direito",
     "how_to_003": "A sua carta será automaticamente formatada e apresentada. Agora pode imprimi-la tocando no ícone da impressora ou enviá-la por correio eletrónico utilizando o botão \"Partilhar\" (o ícone quadrado com uma seta)"
   },
+  "templates": {
+    "menu": "Modelos",
+    "title": "Modelos"
+  },
   "blog": {
     "menu": "Blog",
     "title": "Blog - Pensamentos, histórias e ideias"

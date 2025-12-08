@@ -1,12 +1,12 @@
 {
   "common": {
     "title": "Briefe App",
-    "title_long": "Briefe App - Mühelos professionelle Briefe auf iPhone, iPad, Mac und Android Geräten erstellen",
+    "title_long": "Briefe App - Mühelos professionelle Briefe auf iPhone, iPad, Mac und Android-Geräten erstellen",
     "scroll_down": "Nach unten scrollen",
     "language": "Deutsch",
     "download": "Herunterladen",
-    "android_only": "* Aktuell nicht Verfügbar auf Android Geräten",
-    "ios_only": "** Aktuell nur auf iPhone und iPad verfürgbar"
+    "android_only": "* Aktuell nicht verfügbar auf Android-Geräten",
+    "ios_only": "** Aktuell nur auf iPhone und iPad verfügbar"
   },
   "home": {
     "teaser": "Im Handumdrehen professionell formatierte Briefe erstellen und drucken."
@@ -33,7 +33,7 @@
     },
     "export": {
       "title": "Teilen & Exportieren",
-      "description": "Teilen Sie Ihre Briefe digital oder exportiere sie als PDF-Dateien"
+      "description": "Teilen Sie Ihre Briefe digital oder exportieren Sie sie als PDF-Dateien"
     },
     "sync": {
       "title": "Speicherung",
@@ -63,7 +63,7 @@
   "contact": {
     "title": "Kontakt",
     "subtitle": "Bitte kontaktieren Sie mich, wenn Sie Fragen haben",
-    "email_placeholder": "Ihre E-Mail Adresse",
+    "email_placeholder": "Ihre E-Mail-Adresse",
     "subject_placeholder": "Ihr Anliegen",
     "message_placeholder": "Ihre Nachricht",
     "privacy_1": "Ich akzeptiere die",
@@ -71,7 +71,7 @@
     "privacy_link": "/de/datenschutz",
     "privacy_info": "Ihre E-Mail-Adresse und Ihre Nachricht werden gespeichert, damit ich darauf antworten kann. Ihre Daten werden nicht für andere Zwecke verwendet.",
     "submit": "Senden",
-    "email_error": "Bitte geben Sie eine gültige E-Mail Adrese ein",
+    "email_error": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
     "subject_error": "Bitte geben Sie Ihr Anliegen ein",
     "message_error": "Bitte geben Sie eine Nachricht ein",
     "captcha_error": "Bitte lösen Sie das Captcha",
@@ -81,7 +81,7 @@
     "cookie": "Bitte akzeptieren Sie die Cookies am unteren Rand des Bildschirms, um eine Nachricht zu übermitteln oder senden Sie eine E-Mail an support@briefe.app."
   },
   "footer": {
-    "rights": "alle Rechte vorbehalten.",
+    "rights": "Alle Rechte vorbehalten.",
     "imprint": "Impressum",
     "imprint_link": "/de/impressum",
     "privacy": "Datenschutzerklärung",
@@ -104,6 +104,10 @@
     "how_to_001": "Um mit dem Verfassen Ihres Briefes zu beginnen, tippen Sie einfach auf die Plus-Schaltfläche in der oberen rechten Ecke des Hauptbildschirms. Sobald Sie auf die Schaltfläche getippt haben, öffnet sich ein neuer Bildschirm, in dem Sie Ihren Brief ganz einfach verfassen können.",
     "how_to_002": "Geben Sie Absender- und Empfängeradresse ein, fügen Sie einen Betreff hinzu und verfassen Sie Ihre Nachricht im Feld 'Nachricht'. Sobald Sie Ihren Brief fertiggestellt haben, tippen Sie auf 'Speichern' in der oberen rechten Ecke.",
     "how_to_003": "Ihr Brief wird automatisch formatiert und angezeigt. Nun können Sie ihn entweder ausdrucken, indem Sie auf das Druckersymbol tippen, oder ihn über die Schaltfläche 'Teilen' (das quadratische Symbol mit einem Pfeil) per E-Mail versenden."
+  },
+  "templates": {
+    "menu": "Vorlagen",
+    "title": "Vorlagen"
   },
   "blog": {
     "menu": "Blog",
