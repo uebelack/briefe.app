@@ -9,11 +9,13 @@ import languages from '@/data/languages';
 
 export default function Navigation({
   showBlog,
+  showTemplates,
   language,
   title,
   details,
   features,
   blog,
+  templates,
   contact,
   faq,
   help,
@@ -42,6 +44,7 @@ export default function Navigation({
           <li className="mr-2"><a href={`/${locale}#details`} onClick={(e) => handleOnClick(e, 'details')}>{details}</a></li>
           <li className="mr-2"><a href={`/${locale}#features`} onClick={(e) => handleOnClick(e, 'features')}>{features}</a></li>
           { showBlog && (<li className="mr-2"><a href={`/${locale}#blog`} onClick={(e) => handleOnClick(e, 'blog')}>{blog}</a></li>) }
+          { showTemplates && (<li className="mr-2"><a href={`/${locale}/templates`}>{templates}</a></li>) }
           <li className="mr-2"><a href={`/${locale}#contact`} onClick={(e) => handleOnClick(e, 'contact')}>{contact}</a></li>
           <li className="mr-2"><a href={`/${locale}/faq`}>{faq}</a></li>
           <li className="mr-2"><a href={`/${locale}/${helpLink}`}>{help}</a></li>

@@ -15,7 +15,7 @@
     "title": "Detalles",
     "p1": "Incluso en una era dominada por la comunicación digital y la conectividad instantánea, las cartas tradicionales siguen siendo una forma esencial de correspondencia. ¿Por qué? Porque representan un modo de comunicación atemporal y auténtico. Ya sea para mensajes personales o profesionales, las cartas transmiten una profundidad y significado que a menudo se pierde en los correos electrónicos o mensajes de texto. Son una expresión de cuidado y atención, dejando una impresión duradera. La Aplicación de Cartas combina esta tradición con la comodidad moderna, permitiéndote crear, compartir y gestionar cartas profesionales de manera sencilla.",
     "p2": "La Aplicación de Cartas te permite redactar y imprimir cartas con un formato profesional de manera rápida y sencilla en iPhone, iPad, Mac y dispositivos Android. Tus cartas tendrán un diseño atractivo que dejará una impresión profesional. Con un solo clic, puedes imprimir directamente desde la app. También tienes la opción de compartir tus cartas digitalmente o exportarlas como archivos PDF para distribuirlas en diversas plataformas. La aplicación se sincroniza perfectamente a través de iCloud en todos tus dispositivos, permitiéndote acceder a tus cartas en cualquier momento y lugar. Gracias a su función de búsqueda intuitiva, puedes encontrar fácilmente cartas previamente redactadas.",
-    "pro_title": "Desbloquea la Asistencia de Cartas con IA en la versión Pro",
+    "pro_title": "Desbloquea el Asistente de Cartas con IA en la versión Pro",
     "p3": "¡Lleva tu redacción al siguiente nivel con nuestro Asistente de IA en la versión Pro! Mejora la estructura, claridad y tono de tus cartas de manera sencilla, manteniendo siempre la intención original. Ya sea que necesites perfeccionar un borrador, generar una carta completa a partir de un asunto o simplemente encontrar inspiración, la inteligencia artificial garantiza resultados profesionales y bien elaborados. Además, admite varios idiomas y se adapta a tu estilo de escritura para que la correspondencia sea más fácil y efectiva.",
     "p4": "La versión Pro también desbloquea funciones premium adicionales, como la posibilidad de añadir firmas personales directamente en la aplicación, importar direcciones de contacto desde tu libreta de direcciones y utilizar una amplia variedad de plantillas para distintas ocasiones. Además, puedes personalizar el formato de tus cartas según tus necesidades específicas.",
     "p5": "La Aplicación de Cartas simplifica tu correspondencia, permitiéndote crear, compartir e imprimir cartas de manera fácil, manteniendo siempre un estilo claro, profesional y fácil de usar."
@@ -24,7 +24,7 @@
     "title": "Características",
     "description": "Para brindarte una visión completa, hemos enumerado todas las características en detalle, según su disponibilidad en las diferentes versiones de la aplicación. De esta manera, puedes ver fácilmente qué características ofrece cada versión de la aplicación.",
     "format": {
-      "title": "Auto Formato",
+      "title": "Formato automático",
       "description": "Las cartas se formatean automáticamente de manera profesional"
     },
     "print": {
@@ -36,7 +36,7 @@
       "description": "Comparte tus cartas de forma digital o exporta archivos PDF"
     },
     "sync": {
-      "title": "Almacenamiento",
+      "title": "Sincronización",
       "description": "Tus cartas se sincronizan en tus dispositivos usando iCloud"
     },
     "signatures": {
@@ -102,8 +102,12 @@
     "title": "Ayuda",
     "how_to_title": "Cómo escribir una carta con la aplicación de cartas",
     "how_to_001": "Para empezar a redactar tu carta, simplemente pulsa el botón más en la esquina superior derecha de la pantalla principal. Una vez que hayas pulsado el botón, se abrirá una nueva pantalla en la que podrás redactar fácilmente tu carta",
-    "how_to_002": "Introduce la dirección del remitente y del destinatario, añade un asunto y redacta tu mensaje en el campo \"Mensaje\". Una vez que haya terminado su carta, pulse \"Guardar\" en la esquina superior derecha",
-    "how_to_003": "Su carta será formateada y mostrada automáticamente. Ahora puede imprimirla pulsando el icono de la impresora o enviarla por correo electrónico utilizando el botón \"Compartir\" (el icono cuadrado con una flecha)"
+    "how_to_002": "Introduce la dirección del remitente y del destinatario, añade un asunto y redacta tu mensaje en el campo \"Mensaje\". Una vez que hayas terminado tu carta, pulsa \"Guardar\" en la esquina superior derecha",
+    "how_to_003": "Tu carta será formateada y mostrada automáticamente. Ahora puedes imprimirla pulsando el icono de la impresora o enviarla por correo electrónico utilizando el botón \"Compartir\" (el icono cuadrado con una flecha)"
+  },
+  "templates": {
+    "menu": "Plantillas",
+    "title": "Plantillas"
   },
   "blog": {
     "menu": "Blog",
