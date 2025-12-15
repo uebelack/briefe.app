@@ -1087,10 +1087,10 @@
   resolved "https://registry.yarnpkg.com/@floating-ui/utils/-/utils-0.2.8.tgz#21a907684723bbbaa5f0974cf7730bd797eb8e62"
   integrity sha512-kym7SodPp8/wloecOpcmSnWJsK7M0E5Wg8UcFA+uO4B9s5d0ywXOEro/8HM9x0rW+TljRzul/14UYz3TleT3ig==
 
-"@fontsource/lexend@^5.2.9":
-  version "5.2.9"
-  resolved "https://registry.yarnpkg.com/@fontsource/lexend/-/lexend-5.2.9.tgz#c2be85d8ba846838357014d66079176cff3784aa"
-  integrity sha512-0a5xzwksBilec8Q+QwPvTFKFcXYw31oyf5CthPKd+C5NJZDl1aHw4FcMz9bcRMPhq0LXO69BXI8aVxmj15pzNA==
+"@fontsource/lexend@^5.2.11":
+  version "5.2.11"
+  resolved "https://registry.yarnpkg.com/@fontsource/lexend/-/lexend-5.2.11.tgz#a8276069edae974202056f90b86755430b309021"
+  integrity sha512-bShbQr2g2sWl7GJNyIxdllZST1faVbebXN6H7AEEDCRms/g4orDLxWnmTVodOtiErdZVUJURq4jpafZ34nIkTw==
 
 "@headlessui/react@^2.2.4":
   version "2.2.4"
