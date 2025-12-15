@@ -7751,10 +7751,10 @@ requires-port@^1.0.0:
   resolved "https://registry.yarnpkg.com/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
   integrity sha512-KigOCHcocU3XODJxsu8i/j8T9tzT4adHiecwORRQ0ZZFcp7ahwXuRU1m+yuO90C5ZUyGeGfocHDI14M3L3yDAQ==
 
-resolve-accept-language@^3.1.11:
-  version "3.1.11"
-  resolved "https://registry.yarnpkg.com/resolve-accept-language/-/resolve-accept-language-3.1.11.tgz#681b532342691bbe53b7baa435d5f017a57cc0d7"
-  integrity sha512-7YVsTu6c9i/8nm8JUwIa/YGmSf02lhaPQAa+G3baisj/v09/8gEJIF1aRO0bqVy/dQugYJJfqeyxrGBepg/RcQ==
+resolve-accept-language@^3.1.15:
+  version "3.1.15"
+  resolved "https://registry.yarnpkg.com/resolve-accept-language/-/resolve-accept-language-3.1.15.tgz#06a6e3e882f27508a8344e400eb63d74c24dfa3c"
+  integrity sha512-Gz+ywV27wA1TUae+Bwekmu9UTPcovGkQDjDaS2zQ8qYI4dj7lBbWq9nG/0AXc9mQdvke8PipIG7r8PZ1O5AgfQ==
 
 resolve-cwd@^3.0.0:
   version "3.0.0"
