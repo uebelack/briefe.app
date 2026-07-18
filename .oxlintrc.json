@@ -1,0 +1,14 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["react", "jsx-a11y", "import", "jest", "nextjs"],
+  "env": {
+    "browser": true,
+    "es2024": true,
+    "node": true,
+    "jest": true
+  },
+  "categories": {
+    "correctness": "error"
+  },
+  "ignorePatterns": ["pages.bak", "styles/output.css"]
+}
