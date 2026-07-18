@@ -12,7 +12,7 @@ export const config = {
 
 const BACKWARD_LINKS = ["/help", "/faq", "/imprint", "/privacy"];
 
-export default function middleware(request) {
+export default function proxy(request) {
   if (request.nextUrl.pathname === "/") {
     try {
       const acceptHeader = request.headers.get("accept-language") || "";

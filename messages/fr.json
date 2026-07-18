@@ -1,119 +1,119 @@
 {
-  "common": {
-    "title": "Application de Lettres",
-    "title_long": "Application de Lettres - Créez sans effort des lettres professionnelles sur iPhone, iPad, Mac et appareils Android",
-    "scroll_down": "Faites défiler vers le bas",
-    "language": "Français",
-    "download": "Télécharger",
-    "android_only": "* actuellement non disponible sur les appareils Android",
-    "ios_only": "** actuellement uniquement sur iPhone et iPad"
-  },
-  "home": {
-    "teaser": "Créez et imprimez des lettres parfaitement formatées en un rien de temps."
-  },
-  "details": {
-    "title": "Détails",
-    "p1": "Même à l’ère de la communication numérique et de la connectivité instantanée, les lettres traditionnelles restent un moyen de correspondance incontournable. Pourquoi ? Parce qu’elles représentent une forme d’échange intemporelle et authentique. Qu’il s’agisse de messages personnels ou professionnels, une lettre transmet une profondeur et une signification souvent perdues dans les e-mails ou les messages instantanés. C’est une expression de soin et d’attention qui laisse une impression durable. L’Application de Lettres allie cette tradition à la modernité, vous permettant de rédiger, partager et gérer des lettres professionnelles en toute simplicité.",
-    "p2": "L’Application de Lettres vous permet de créer et d’imprimer des lettres au format professionnel rapidement et facilement sur iPhone, iPad, Mac et appareils Android. Vos lettres bénéficient d’une mise en page soignée qui laisse une impression professionnelle. En un clic, vous pouvez les imprimer directement depuis l’application. Vous avez également la possibilité de les partager numériquement ou de les exporter en PDF pour les envoyer sur différentes plateformes. L’application se synchronise parfaitement via iCloud sur tous vos appareils, vous permettant d’accéder à vos lettres à tout moment et où que vous soyez. Grâce à sa fonction de recherche intuitive, retrouvez facilement vos lettres précédemment rédigées.",
-    "pro_title": "Débloquez l’Assistant IA avec la version Pro",
-    "p3": "Passez à la version Pro et profitez de l’Assistant IA pour améliorer vos lettres ! Affinez la structure, la clarté et le ton de vos courriers tout en conservant leur intention d’origine. Que vous souhaitiez perfectionner un brouillon, générer une lettre complète à partir d’un sujet ou simplement trouver l’inspiration, l’intelligence artificielle garantit un résultat professionnel et bien rédigé. Adapté à plusieurs langues et à votre style d’écriture, il facilite votre correspondance comme jamais auparavant.",
-    "p4": "La version Pro débloque également des fonctionnalités premium supplémentaires, telles que l’ajout de signatures personnelles directement dans l’application, l’importation facile d’adresses depuis votre carnet de contacts et l’accès à une large gamme de modèles pour différentes occasions. Vous pouvez aussi personnaliser le format de vos lettres selon vos besoins spécifiques.",
-    "p5": "L’Application de Lettres simplifie votre correspondance en vous permettant de rédiger, partager et imprimer vos lettres facilement, tout en garantissant un style clair, professionnel et convivial."
-  },
-  "features": {
-    "title": "Fonctionnalités",
-    "description": "Pour vous donner un aperçu complet, nous avons répertorié toutes les fonctionnalités en détail, en fonction de leur disponibilité dans les différentes versions de l'application. Vous pouvez ainsi voir facilement quelles fonctionnalités chaque version de l'application propose.",
-    "format": {
-      "title": "Mise en forme automatique",
-      "description": "Les lettres sont automatiquement mises en forme de manière professionnelle"
-    },
-    "print": {
-      "title": "Imprimer",
-      "description": "Imprimez facilement vos lettres directement depuis l'application"
-    },
-    "export": {
-      "title": "Partager et Exporter",
-      "description": "Partagez vos lettres numériquement ou exportez-les au format PDF"
-    },
-    "sync": {
-      "title": "Stockage",
-      "description": "Vos lettres sont synchronisées sur vos appareils via iCloud"
-    },
-    "signatures": {
-      "title": "Signatures",
-      "description": "Ajoutez des signatures personnelles directement dans l'application"
-    },
-    "contacts": {
-      "title": "Contacts",
-      "description": "Intégrez facilement des adresses de contact depuis votre carnet d'adresses"
-    },
-    "templates": {
-      "title": "Modèles",
-      "description": "Utilisez une large gamme de modèles pour différentes occasions"
-    },
-    "layout": {
-      "title": "Mise en page",
-      "description": "Personnalisez la mise en page de vos lettres selon vos besoins spécifiques"
-    }
-  },
-  "faq": {
-    "menu": "FAQ",
-    "title": "Questions fréquemment posées"
-  },
-  "contact": {
-    "title": "Contact",
-    "subtitle": "N'hésitez pas à me contacter si vous avez des questions",
-    "email_placeholder": "Votre adresse e-mail",
-    "subject_placeholder": "Votre sujet",
-    "message_placeholder": "Votre message",
-    "privacy_1": "J'accepte la",
-    "privacy_2": "politique de confidentialité",
-    "privacy_link": "/fr/privacy",
-    "privacy_info": "Votre adresse e-mail et votre message seront enregistrés afin que je puisse y répondre. Vos données ne seront pas utilisées à d'autres fins.",
-    "submit": "Envoyer",
-    "email_error": "Veuillez entrer une adresse e-mail valide",
-    "subject_error": "Veuillez entrer un sujet",
-    "message_error": "Veuillez entrer un message",
-    "captcha_error": "Veuillez résoudre ce captcha",
-    "privacy_error": "Veuillez accepter la politique de confidentialité",
-    "success": "Merci pour votre message ! Nous vous répondrons dès que possible.",
-    "error": "Malheureusement, une erreur inattendue s'est produite. Veuillez réessayer ultérieurement ou envoyez-nous un e-mail à support@letter-app.com.",
-    "cookie": "Veuillez accepter les cookies en bas de l'écran pour envoyer un message ou envoyez un e-mail à support@letter-app.com."
-  },
-  "footer": {
-    "rights": "tous droits réservés.",
-    "imprint": "Mentions légales",
-    "imprint_link": "/fr/imprint",
-    "privacy": "Politique de confidentialité",
-    "privacy_link": "/fr/privacy"
-  },
-  "cookie_consent": {
-    "message": "Ce site web utilise des cookies pour garantir que vous obtenez la meilleure expérience sur notre site web. Pour en savoir plus, veuillez vous référer à notre",
-    "accept": "Accepter"
-  },
-  "lost": {
-    "title": "Vous êtes perdu ! 404 - Page non trouvée",
-    "description": "La page que vous recherchez n'existe pas",
-    "button": "Retourner à l'accueil"
-  },
-  "help": {
-    "menu": "Aide",
-    "link": "aide",
-    "title": "Aide",
-    "how_to_title": "Comment écrire une lettre avec l'application letter",
-    "how_to_001": "Pour commencer à composer votre lettre, appuyez simplement sur le bouton plus situé dans le coin supérieur droit de l'écran principal. Une fois que vous aurez appuyé sur le bouton, un nouvel écran s'ouvrira et vous pourrez y rédiger votre lettre en toute simplicité",
-    "how_to_002": "Sur l'écran de l'éditeur de lettres, saisissez les adresses de l'expéditeur et du destinataire, incluez un objet et composez votre message dans le champ \"Message\". Une fois que vous avez terminé votre lettre, appuyez sur \"Enregistrer\" dans le coin supérieur droit",
-    "how_to_003": "Votre lettre est automatiquement formatée et affichée. Pour continuer, vous pouvez soit l'imprimer en tapant sur l'icône de l'imprimante, soit la partager par courriel en utilisant le bouton de partage (l'icône carrée avec une flèche)."
-  },
-  "templates": {
-    "menu": "Modèles",
-    "title": "Modèles"
-  },
   "blog": {
     "menu": "Blog",
     "title": "Blog - Réflexions, histoires et idées"
   },
   "call_to_action": {
     "text": "Téléchargez l'application de lettres maintenant et commencez à écrire votre première lettre — c'est gratuit!"
+  },
+  "common": {
+    "android_only": "* actuellement non disponible sur les appareils Android",
+    "download": "Télécharger",
+    "ios_only": "** actuellement uniquement sur iPhone et iPad",
+    "language": "Français",
+    "scroll_down": "Faites défiler vers le bas",
+    "title": "Application de Lettres",
+    "title_long": "Application de Lettres - Créez sans effort des lettres professionnelles sur iPhone, iPad, Mac et appareils Android"
+  },
+  "contact": {
+    "captcha_error": "Veuillez résoudre ce captcha",
+    "cookie": "Veuillez accepter les cookies en bas de l'écran pour envoyer un message ou envoyez un e-mail à support@letter-app.com.",
+    "email_error": "Veuillez entrer une adresse e-mail valide",
+    "email_placeholder": "Votre adresse e-mail",
+    "error": "Malheureusement, une erreur inattendue s'est produite. Veuillez réessayer ultérieurement ou envoyez-nous un e-mail à support@letter-app.com.",
+    "message_error": "Veuillez entrer un message",
+    "message_placeholder": "Votre message",
+    "privacy_1": "J'accepte la",
+    "privacy_2": "politique de confidentialité",
+    "privacy_error": "Veuillez accepter la politique de confidentialité",
+    "privacy_info": "Votre adresse e-mail et votre message seront enregistrés afin que je puisse y répondre. Vos données ne seront pas utilisées à d'autres fins.",
+    "privacy_link": "/fr/privacy",
+    "subject_error": "Veuillez entrer un sujet",
+    "subject_placeholder": "Votre sujet",
+    "submit": "Envoyer",
+    "subtitle": "N'hésitez pas à me contacter si vous avez des questions",
+    "success": "Merci pour votre message ! Nous vous répondrons dès que possible.",
+    "title": "Contact"
+  },
+  "cookie_consent": {
+    "accept": "Accepter",
+    "message": "Ce site web utilise des cookies pour garantir que vous obtenez la meilleure expérience sur notre site web. Pour en savoir plus, veuillez vous référer à notre"
+  },
+  "details": {
+    "p1": "Même à l’ère de la communication numérique et de la connectivité instantanée, les lettres traditionnelles restent un moyen de correspondance incontournable. Pourquoi ? Parce qu’elles représentent une forme d’échange intemporelle et authentique. Qu’il s’agisse de messages personnels ou professionnels, une lettre transmet une profondeur et une signification souvent perdues dans les e-mails ou les messages instantanés. C’est une expression de soin et d’attention qui laisse une impression durable. L’Application de Lettres allie cette tradition à la modernité, vous permettant de rédiger, partager et gérer des lettres professionnelles en toute simplicité.",
+    "p2": "L’Application de Lettres vous permet de créer et d’imprimer des lettres au format professionnel rapidement et facilement sur iPhone, iPad, Mac et appareils Android. Vos lettres bénéficient d’une mise en page soignée qui laisse une impression professionnelle. En un clic, vous pouvez les imprimer directement depuis l’application. Vous avez également la possibilité de les partager numériquement ou de les exporter en PDF pour les envoyer sur différentes plateformes. L’application se synchronise parfaitement via iCloud sur tous vos appareils, vous permettant d’accéder à vos lettres à tout moment et où que vous soyez. Grâce à sa fonction de recherche intuitive, retrouvez facilement vos lettres précédemment rédigées.",
+    "p3": "Passez à la version Pro et profitez de l’Assistant IA pour améliorer vos lettres ! Affinez la structure, la clarté et le ton de vos courriers tout en conservant leur intention d’origine. Que vous souhaitiez perfectionner un brouillon, générer une lettre complète à partir d’un sujet ou simplement trouver l’inspiration, l’intelligence artificielle garantit un résultat professionnel et bien rédigé. Adapté à plusieurs langues et à votre style d’écriture, il facilite votre correspondance comme jamais auparavant.",
+    "p4": "La version Pro débloque également des fonctionnalités premium supplémentaires, telles que l’ajout de signatures personnelles directement dans l’application, l’importation facile d’adresses depuis votre carnet de contacts et l’accès à une large gamme de modèles pour différentes occasions. Vous pouvez aussi personnaliser le format de vos lettres selon vos besoins spécifiques.",
+    "p5": "L’Application de Lettres simplifie votre correspondance en vous permettant de rédiger, partager et imprimer vos lettres facilement, tout en garantissant un style clair, professionnel et convivial.",
+    "pro_title": "Débloquez l’Assistant IA avec la version Pro",
+    "title": "Détails"
+  },
+  "faq": {
+    "menu": "FAQ",
+    "title": "Questions fréquemment posées"
+  },
+  "features": {
+    "contacts": {
+      "description": "Intégrez facilement des adresses de contact depuis votre carnet d'adresses",
+      "title": "Contacts"
+    },
+    "description": "Pour vous donner un aperçu complet, nous avons répertorié toutes les fonctionnalités en détail, en fonction de leur disponibilité dans les différentes versions de l'application. Vous pouvez ainsi voir facilement quelles fonctionnalités chaque version de l'application propose.",
+    "export": {
+      "description": "Partagez vos lettres numériquement ou exportez-les au format PDF",
+      "title": "Partager et Exporter"
+    },
+    "format": {
+      "description": "Les lettres sont automatiquement mises en forme de manière professionnelle",
+      "title": "Mise en forme automatique"
+    },
+    "layout": {
+      "description": "Personnalisez la mise en page de vos lettres selon vos besoins spécifiques",
+      "title": "Mise en page"
+    },
+    "print": {
+      "description": "Imprimez facilement vos lettres directement depuis l'application",
+      "title": "Imprimer"
+    },
+    "signatures": {
+      "description": "Ajoutez des signatures personnelles directement dans l'application",
+      "title": "Signatures"
+    },
+    "sync": {
+      "description": "Vos lettres sont synchronisées sur vos appareils via iCloud",
+      "title": "Stockage"
+    },
+    "templates": {
+      "description": "Utilisez une large gamme de modèles pour différentes occasions",
+      "title": "Modèles"
+    },
+    "title": "Fonctionnalités"
+  },
+  "footer": {
+    "imprint": "Mentions légales",
+    "imprint_link": "/fr/imprint",
+    "privacy": "Politique de confidentialité",
+    "privacy_link": "/fr/privacy",
+    "rights": "tous droits réservés."
+  },
+  "help": {
+    "how_to_001": "Pour commencer à composer votre lettre, appuyez simplement sur le bouton plus situé dans le coin supérieur droit de l'écran principal. Une fois que vous aurez appuyé sur le bouton, un nouvel écran s'ouvrira et vous pourrez y rédiger votre lettre en toute simplicité",
+    "how_to_002": "Sur l'écran de l'éditeur de lettres, saisissez les adresses de l'expéditeur et du destinataire, incluez un objet et composez votre message dans le champ \"Message\". Une fois que vous avez terminé votre lettre, appuyez sur \"Enregistrer\" dans le coin supérieur droit",
+    "how_to_003": "Votre lettre est automatiquement formatée et affichée. Pour continuer, vous pouvez soit l'imprimer en tapant sur l'icône de l'imprimante, soit la partager par courriel en utilisant le bouton de partage (l'icône carrée avec une flèche).",
+    "how_to_title": "Comment écrire une lettre avec l'application letter",
+    "link": "aide",
+    "menu": "Aide",
+    "title": "Aide"
+  },
+  "home": {
+    "teaser": "Créez et imprimez des lettres parfaitement formatées en un rien de temps."
+  },
+  "lost": {
+    "button": "Retourner à l'accueil",
+    "description": "La page que vous recherchez n'existe pas",
+    "title": "Vous êtes perdu ! 404 - Page non trouvée"
+  },
+  "templates": {
+    "menu": "Modèles",
+    "title": "Modèles"
   }
 }

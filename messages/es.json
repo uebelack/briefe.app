@@ -1,119 +1,119 @@
 {
-  "common": {
-    "title": "Aplicación de Cartas",
-    "title_long": "Aplicación de Cartas - Crea cartas profesionales sin esfuerzo en iPhone, iPad, Mac y dispositivos Android",
-    "scroll_down": "Desplázate hacia abajo",
-    "language": "Español",
-    "download": "Descargar",
-    "android_only": "* actualmente no disponible en dispositivos Android",
-    "ios_only": "** actualmente sólo en iPhone y iPad"
-  },
-  "home": {
-    "teaser": "Crea e imprime cartas con formato perfecto en poco tiempo."
-  },
-  "details": {
-    "title": "Detalles",
-    "p1": "Incluso en una era dominada por la comunicación digital y la conectividad instantánea, las cartas tradicionales siguen siendo una forma esencial de correspondencia. ¿Por qué? Porque representan un modo de comunicación atemporal y auténtico. Ya sea para mensajes personales o profesionales, las cartas transmiten una profundidad y significado que a menudo se pierde en los correos electrónicos o mensajes de texto. Son una expresión de cuidado y atención, dejando una impresión duradera. La Aplicación de Cartas combina esta tradición con la comodidad moderna, permitiéndote crear, compartir y gestionar cartas profesionales de manera sencilla.",
-    "p2": "La Aplicación de Cartas te permite redactar y imprimir cartas con un formato profesional de manera rápida y sencilla en iPhone, iPad, Mac y dispositivos Android. Tus cartas tendrán un diseño atractivo que dejará una impresión profesional. Con un solo clic, puedes imprimir directamente desde la app. También tienes la opción de compartir tus cartas digitalmente o exportarlas como archivos PDF para distribuirlas en diversas plataformas. La aplicación se sincroniza perfectamente a través de iCloud en todos tus dispositivos, permitiéndote acceder a tus cartas en cualquier momento y lugar. Gracias a su función de búsqueda intuitiva, puedes encontrar fácilmente cartas previamente redactadas.",
-    "pro_title": "Desbloquea el Asistente de Cartas con IA en la versión Pro",
-    "p3": "¡Lleva tu redacción al siguiente nivel con nuestro Asistente de IA en la versión Pro! Mejora la estructura, claridad y tono de tus cartas de manera sencilla, manteniendo siempre la intención original. Ya sea que necesites perfeccionar un borrador, generar una carta completa a partir de un asunto o simplemente encontrar inspiración, la inteligencia artificial garantiza resultados profesionales y bien elaborados. Además, admite varios idiomas y se adapta a tu estilo de escritura para que la correspondencia sea más fácil y efectiva.",
-    "p4": "La versión Pro también desbloquea funciones premium adicionales, como la posibilidad de añadir firmas personales directamente en la aplicación, importar direcciones de contacto desde tu libreta de direcciones y utilizar una amplia variedad de plantillas para distintas ocasiones. Además, puedes personalizar el formato de tus cartas según tus necesidades específicas.",
-    "p5": "La Aplicación de Cartas simplifica tu correspondencia, permitiéndote crear, compartir e imprimir cartas de manera fácil, manteniendo siempre un estilo claro, profesional y fácil de usar."
-  },
-  "features": {
-    "title": "Características",
-    "description": "Para brindarte una visión completa, hemos enumerado todas las características en detalle, según su disponibilidad en las diferentes versiones de la aplicación. De esta manera, puedes ver fácilmente qué características ofrece cada versión de la aplicación.",
-    "format": {
-      "title": "Formato automático",
-      "description": "Las cartas se formatean automáticamente de manera profesional"
-    },
-    "print": {
-      "title": "Imprimir",
-      "description": "Imprime fácilmente tus cartas directamente desde la aplicación"
-    },
-    "export": {
-      "title": "Compartir y Exportar",
-      "description": "Comparte tus cartas de forma digital o exporta archivos PDF"
-    },
-    "sync": {
-      "title": "Sincronización",
-      "description": "Tus cartas se sincronizan en tus dispositivos usando iCloud"
-    },
-    "signatures": {
-      "title": "Firmas",
-      "description": "Agrega firmas personales directamente en la aplicación"
-    },
-    "contacts": {
-      "title": "Contactos",
-      "description": "Incorpora fácilmente direcciones de contacto desde tu libreta de direcciones"
-    },
-    "templates": {
-      "title": "Plantillas",
-      "description": "Utiliza una amplia gama de plantillas para diversas ocasiones"
-    },
-    "layout": {
-      "title": "Diseño",
-      "description": "Personaliza el diseño de tus cartas según tus necesidades específicas"
-    }
-  },
-  "faq": {
-    "menu": "FAQ",
-    "title": "Preguntas más frecuentes"
-  },
-  "contact": {
-    "title": "Contacto",
-    "subtitle": "Por favor, contáctame si tienes alguna pregunta",
-    "email_placeholder": "Tu dirección de correo electrónico",
-    "subject_placeholder": "Tu asunto",
-    "message_placeholder": "Tu mensaje",
-    "privacy_1": "Acepto la",
-    "privacy_2": "política de privacidad",
-    "privacy_link": "/es/privacy",
-    "privacy_info": "Tu dirección de correo electrónico y mensaje se almacenarán para que pueda responder. Tus datos no se utilizarán para otros fines.",
-    "submit": "Enviar",
-    "email_error": "Por favor, ingresa una dirección de correo electrónico válida",
-    "subject_error": "Por favor, ingresa un asunto",
-    "message_error": "Por favor, ingresa un mensaje",
-    "captcha_error": "Por favor, resuelve este captcha",
-    "privacy_error": "Por favor, acepta la política de privacidad",
-    "success": "¡Gracias por tu mensaje! Nos pondremos en contacto contigo lo antes posible.",
-    "error": "Lamentablemente, ocurrió un error inesperado. Por favor, inténtalo de nuevo más tarde o envíanos un correo electrónico a support@letter-app.com.",
-    "cookie": "Por favor, acepta las cookies en la parte inferior de la pantalla para enviar un mensaje o enviar un correo a support@letter-app.com."
-  },
-  "footer": {
-    "rights": "todos los derechos reservados.",
-    "imprint": "Aviso Legal",
-    "imprint_link": "/es/imprint",
-    "privacy": "Política de Privacidad",
-    "privacy_link": "/es/privacy"
-  },
-  "cookie_consent": {
-    "message": "Este sitio web utiliza cookies para garantizar que obtengas la mejor experiencia en nuestro sitio web. Para obtener más información, consulta nuestra",
-    "accept": "Aceptar"
-  },
-  "lost": {
-    "title": "¡Estás perdido! 404 - No encontrado",
-    "description": "La página que buscas no existe",
-    "button": "Ir a Inicio"
-  },
-  "help": {
-    "menu": "Ayuda",
-    "link": "ayuda",
-    "title": "Ayuda",
-    "how_to_title": "Cómo escribir una carta con la aplicación de cartas",
-    "how_to_001": "Para empezar a redactar tu carta, simplemente pulsa el botón más en la esquina superior derecha de la pantalla principal. Una vez que hayas pulsado el botón, se abrirá una nueva pantalla en la que podrás redactar fácilmente tu carta",
-    "how_to_002": "Introduce la dirección del remitente y del destinatario, añade un asunto y redacta tu mensaje en el campo \"Mensaje\". Una vez que hayas terminado tu carta, pulsa \"Guardar\" en la esquina superior derecha",
-    "how_to_003": "Tu carta será formateada y mostrada automáticamente. Ahora puedes imprimirla pulsando el icono de la impresora o enviarla por correo electrónico utilizando el botón \"Compartir\" (el icono cuadrado con una flecha)"
-  },
-  "templates": {
-    "menu": "Plantillas",
-    "title": "Plantillas"
-  },
   "blog": {
     "menu": "Blog",
     "title": "Blog - Pensamientos, historias e ideas"
   },
   "call_to_action": {
     "text": "Descarga la Aplicación de Cartas ahora y empieza a escribir tu primera carta — ¡es gratis!"
+  },
+  "common": {
+    "android_only": "* actualmente no disponible en dispositivos Android",
+    "download": "Descargar",
+    "ios_only": "** actualmente sólo en iPhone y iPad",
+    "language": "Español",
+    "scroll_down": "Desplázate hacia abajo",
+    "title": "Aplicación de Cartas",
+    "title_long": "Aplicación de Cartas - Crea cartas profesionales sin esfuerzo en iPhone, iPad, Mac y dispositivos Android"
+  },
+  "contact": {
+    "captcha_error": "Por favor, resuelve este captcha",
+    "cookie": "Por favor, acepta las cookies en la parte inferior de la pantalla para enviar un mensaje o enviar un correo a support@letter-app.com.",
+    "email_error": "Por favor, ingresa una dirección de correo electrónico válida",
+    "email_placeholder": "Tu dirección de correo electrónico",
+    "error": "Lamentablemente, ocurrió un error inesperado. Por favor, inténtalo de nuevo más tarde o envíanos un correo electrónico a support@letter-app.com.",
+    "message_error": "Por favor, ingresa un mensaje",
+    "message_placeholder": "Tu mensaje",
+    "privacy_1": "Acepto la",
+    "privacy_2": "política de privacidad",
+    "privacy_error": "Por favor, acepta la política de privacidad",
+    "privacy_info": "Tu dirección de correo electrónico y mensaje se almacenarán para que pueda responder. Tus datos no se utilizarán para otros fines.",
+    "privacy_link": "/es/privacy",
+    "subject_error": "Por favor, ingresa un asunto",
+    "subject_placeholder": "Tu asunto",
+    "submit": "Enviar",
+    "subtitle": "Por favor, contáctame si tienes alguna pregunta",
+    "success": "¡Gracias por tu mensaje! Nos pondremos en contacto contigo lo antes posible.",
+    "title": "Contacto"
+  },
+  "cookie_consent": {
+    "accept": "Aceptar",
+    "message": "Este sitio web utiliza cookies para garantizar que obtengas la mejor experiencia en nuestro sitio web. Para obtener más información, consulta nuestra"
+  },
+  "details": {
+    "p1": "Incluso en una era dominada por la comunicación digital y la conectividad instantánea, las cartas tradicionales siguen siendo una forma esencial de correspondencia. ¿Por qué? Porque representan un modo de comunicación atemporal y auténtico. Ya sea para mensajes personales o profesionales, las cartas transmiten una profundidad y significado que a menudo se pierde en los correos electrónicos o mensajes de texto. Son una expresión de cuidado y atención, dejando una impresión duradera. La Aplicación de Cartas combina esta tradición con la comodidad moderna, permitiéndote crear, compartir y gestionar cartas profesionales de manera sencilla.",
+    "p2": "La Aplicación de Cartas te permite redactar y imprimir cartas con un formato profesional de manera rápida y sencilla en iPhone, iPad, Mac y dispositivos Android. Tus cartas tendrán un diseño atractivo que dejará una impresión profesional. Con un solo clic, puedes imprimir directamente desde la app. También tienes la opción de compartir tus cartas digitalmente o exportarlas como archivos PDF para distribuirlas en diversas plataformas. La aplicación se sincroniza perfectamente a través de iCloud en todos tus dispositivos, permitiéndote acceder a tus cartas en cualquier momento y lugar. Gracias a su función de búsqueda intuitiva, puedes encontrar fácilmente cartas previamente redactadas.",
+    "p3": "¡Lleva tu redacción al siguiente nivel con nuestro Asistente de IA en la versión Pro! Mejora la estructura, claridad y tono de tus cartas de manera sencilla, manteniendo siempre la intención original. Ya sea que necesites perfeccionar un borrador, generar una carta completa a partir de un asunto o simplemente encontrar inspiración, la inteligencia artificial garantiza resultados profesionales y bien elaborados. Además, admite varios idiomas y se adapta a tu estilo de escritura para que la correspondencia sea más fácil y efectiva.",
+    "p4": "La versión Pro también desbloquea funciones premium adicionales, como la posibilidad de añadir firmas personales directamente en la aplicación, importar direcciones de contacto desde tu libreta de direcciones y utilizar una amplia variedad de plantillas para distintas ocasiones. Además, puedes personalizar el formato de tus cartas según tus necesidades específicas.",
+    "p5": "La Aplicación de Cartas simplifica tu correspondencia, permitiéndote crear, compartir e imprimir cartas de manera fácil, manteniendo siempre un estilo claro, profesional y fácil de usar.",
+    "pro_title": "Desbloquea el Asistente de Cartas con IA en la versión Pro",
+    "title": "Detalles"
+  },
+  "faq": {
+    "menu": "FAQ",
+    "title": "Preguntas más frecuentes"
+  },
+  "features": {
+    "contacts": {
+      "description": "Incorpora fácilmente direcciones de contacto desde tu libreta de direcciones",
+      "title": "Contactos"
+    },
+    "description": "Para brindarte una visión completa, hemos enumerado todas las características en detalle, según su disponibilidad en las diferentes versiones de la aplicación. De esta manera, puedes ver fácilmente qué características ofrece cada versión de la aplicación.",
+    "export": {
+      "description": "Comparte tus cartas de forma digital o exporta archivos PDF",
+      "title": "Compartir y Exportar"
+    },
+    "format": {
+      "description": "Las cartas se formatean automáticamente de manera profesional",
+      "title": "Formato automático"
+    },
+    "layout": {
+      "description": "Personaliza el diseño de tus cartas según tus necesidades específicas",
+      "title": "Diseño"
+    },
+    "print": {
+      "description": "Imprime fácilmente tus cartas directamente desde la aplicación",
+      "title": "Imprimir"
+    },
+    "signatures": {
+      "description": "Agrega firmas personales directamente en la aplicación",
+      "title": "Firmas"
+    },
+    "sync": {
+      "description": "Tus cartas se sincronizan en tus dispositivos usando iCloud",
+      "title": "Sincronización"
+    },
+    "templates": {
+      "description": "Utiliza una amplia gama de plantillas para diversas ocasiones",
+      "title": "Plantillas"
+    },
+    "title": "Características"
+  },
+  "footer": {
+    "imprint": "Aviso Legal",
+    "imprint_link": "/es/imprint",
+    "privacy": "Política de Privacidad",
+    "privacy_link": "/es/privacy",
+    "rights": "todos los derechos reservados."
+  },
+  "help": {
+    "how_to_001": "Para empezar a redactar tu carta, simplemente pulsa el botón más en la esquina superior derecha de la pantalla principal. Una vez que hayas pulsado el botón, se abrirá una nueva pantalla en la que podrás redactar fácilmente tu carta",
+    "how_to_002": "Introduce la dirección del remitente y del destinatario, añade un asunto y redacta tu mensaje en el campo \"Mensaje\". Una vez que hayas terminado tu carta, pulsa \"Guardar\" en la esquina superior derecha",
+    "how_to_003": "Tu carta será formateada y mostrada automáticamente. Ahora puedes imprimirla pulsando el icono de la impresora o enviarla por correo electrónico utilizando el botón \"Compartir\" (el icono cuadrado con una flecha)",
+    "how_to_title": "Cómo escribir una carta con la aplicación de cartas",
+    "link": "ayuda",
+    "menu": "Ayuda",
+    "title": "Ayuda"
+  },
+  "home": {
+    "teaser": "Crea e imprime cartas con formato perfecto en poco tiempo."
+  },
+  "lost": {
+    "button": "Ir a Inicio",
+    "description": "La página que buscas no existe",
+    "title": "¡Estás perdido! 404 - No encontrado"
+  },
+  "templates": {
+    "menu": "Plantillas",
+    "title": "Plantillas"
   }
 }

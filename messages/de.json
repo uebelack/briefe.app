@@ -1,119 +1,119 @@
 {
-  "common": {
-    "title": "Briefe App",
-    "title_long": "Briefe App - Mühelos professionelle Briefe auf iPhone, iPad, Mac und Android-Geräten erstellen",
-    "scroll_down": "Nach unten scrollen",
-    "language": "Deutsch",
-    "download": "Herunterladen",
-    "android_only": "* Aktuell nicht verfügbar auf Android-Geräten",
-    "ios_only": "** Aktuell nur auf iPhone und iPad verfügbar"
-  },
-  "home": {
-    "teaser": "Im Handumdrehen professionell formatierte Briefe erstellen und drucken."
-  },
-  "details": {
-    "title": "Details",
-    "p1": "Selbst in einer Zeit digitaler Kommunikation und sofortiger Vernetzung bleiben traditionelle Briefe eine unverzichtbare Form des Austauschs. Warum? Weil sie eine zeitlose und authentische Art der Korrespondenz darstellen. Ob für persönliche oder geschäftliche Nachrichten – Briefe vermitteln eine Tiefe und Bedeutung, die in E-Mails oder Textnachrichten oft verloren geht. Sie sind ein Ausdruck von Sorgfalt und Aufmerksamkeit und hinterlassen einen bleibenden Eindruck. Unsere Brief-App kombiniert diese zeitlose Tradition mit modernem Komfort und ermöglicht es Ihnen, professionelle Briefe einfach zu erstellen, zu teilen und zu verwalten.",
-    "p2": "Die Briefe App ermöglicht es Ihnen, professionell formatierte Briefe schnell und mühelos auf iPhone, iPad, Mac und Android-Geräten zu erstellen und zu drucken. Ihre Briefe erhalten ein ansprechendes Layout, das einen professionellen Eindruck hinterlässt. Mit nur einem Klick können Sie Ihre Briefe direkt aus der App drucken. Sie haben auch die Möglichkeit, Ihre Briefe digital zu teilen oder als PDF zu exportieren, um sie auf verschiedenen Plattformen zu verteilen. Die App synchronisiert sich nahtlos über iCloud auf all Ihren Geräten, sodass Sie jederzeit und überall auf Ihre Briefe zugreifen können. Dank der einfachen Suchfunktion lassen sich bereits verfasste Briefe schnell wiederfinden.",
-    "pro_title": "Mit Pro die KI-gestützte Briefassistenz freischalten",
-    "p3": "Steigen Sie auf die Pro-Version um und heben Sie Ihr Briefschreiben auf ein neues Level mit unserem KI-Assistenten! Optimieren Sie mühelos Struktur, Klarheit und Ton Ihrer Briefe, während die ursprüngliche Intention erhalten bleibt. Egal, ob Sie einen Entwurf verbessern, einen vollständigen Brief nur anhand eines Betreffs generieren oder einfach Inspiration suchen – die KI sorgt für professionelle und perfekt formulierte Ergebnisse. Sie unterstützt mehrere Sprachen und passt sich Ihrem Schreibstil an, um Ihre Korrespondenz noch einfacher zu gestalten.",
-    "p4": "Die Pro-Version bietet zudem weitere Premium-Funktionen wie das Hinzufügen persönlicher Unterschriften direkt in der App, das mühelose Importieren von Kontaktadressen aus Ihrem Adressbuch und eine große Auswahl an Vorlagen für verschiedene Anlässe. Darüber hinaus können Sie das Format Ihrer Briefe individuell anpassen.",
-    "p5": "Die Briefe App vereinfacht Ihre Korrespondenz und ermöglicht es Ihnen, Briefe mühelos zu erstellen, zu teilen und zu drucken – und das mit Stil, Klarheit und Benutzerfreundlichkeit."
-  },
-  "features": {
-    "title": "Funktionen",
-    "description": "Um Ihnen einen umfassenden Überblick zu verschaffen, haben wir alle Funktionen im Detail aufgelistet, und zwar entsprechend ihrer Verfügbarkeit in den verschiedenen App-Versionen. So können Sie leicht erkennen, welche Features jede Version der App bietet.",
-    "format": {
-      "title": "Automatische Formatierung",
-      "description": "Briefe werden automatisch professionell formatiert"
-    },
-    "print": {
-      "title": "Drucken",
-      "description": "Drucken Sie Ihre Briefe bequem direkt aus der App"
-    },
-    "export": {
-      "title": "Teilen & Exportieren",
-      "description": "Teilen Sie Ihre Briefe digital oder exportieren Sie sie als PDF-Dateien"
-    },
-    "sync": {
-      "title": "Speicherung",
-      "description": "Ihre Briefe werden über die iCloud geräteübergreifend synchronisiert"
-    },
-    "signatures": {
-      "title": "Unterschriften",
-      "description": "Fügen Sie persönliche Unterschriften direkt in der App hinzu"
-    },
-    "contacts": {
-      "title": "Kontakte",
-      "description": "Verwenden Sie Ihre Kontaktadressen direkt aus Ihrem Adressbuch"
-    },
-    "templates": {
-      "title": "Vorlagen",
-      "description": "Nutzen Sie eine breite Palette von Vorlagen für verschiedene Gelegenheiten"
-    },
-    "layout": {
-      "title": "Layout",
-      "description": "Passen Sie die Formatierung Ihrer Briefe individuell an Ihre Bedürfnisse an"
-    }
-  },
-  "faq": {
-    "menu": "FAQ",
-    "title": "Häufig gestellte Fragen"
-  },
-  "contact": {
-    "title": "Kontakt",
-    "subtitle": "Bitte kontaktieren Sie mich, wenn Sie Fragen haben",
-    "email_placeholder": "Ihre E-Mail-Adresse",
-    "subject_placeholder": "Ihr Anliegen",
-    "message_placeholder": "Ihre Nachricht",
-    "privacy_1": "Ich akzeptiere die",
-    "privacy_2": "Datenschutzerklärung",
-    "privacy_link": "/de/datenschutz",
-    "privacy_info": "Ihre E-Mail-Adresse und Ihre Nachricht werden gespeichert, damit ich darauf antworten kann. Ihre Daten werden nicht für andere Zwecke verwendet.",
-    "submit": "Senden",
-    "email_error": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
-    "subject_error": "Bitte geben Sie Ihr Anliegen ein",
-    "message_error": "Bitte geben Sie eine Nachricht ein",
-    "captcha_error": "Bitte lösen Sie das Captcha",
-    "privacy_error": "Bitte akzeptieren Sie die Datenschutzerklärung",
-    "success": "Vielen Dank für Ihre Nachricht! Wir werden uns so schnell wie möglich bei Ihnen melden!",
-    "error": "Leider ist ein unerwarteter Fehler aufgetreten. Bitte versuchen Sie es später erneut oder senden Sie uns eine E-Mail an support@briefe.app.",
-    "cookie": "Bitte akzeptieren Sie die Cookies am unteren Rand des Bildschirms, um eine Nachricht zu übermitteln oder senden Sie eine E-Mail an support@briefe.app."
-  },
-  "footer": {
-    "rights": "Alle Rechte vorbehalten.",
-    "imprint": "Impressum",
-    "imprint_link": "/de/impressum",
-    "privacy": "Datenschutzerklärung",
-    "privacy_link": "/de/datenschutz"
-  },
-  "cookie_consent": {
-    "message": "Diese Webseite verwendet Cookies, um Ihnen einen besseren Service bieten zu können. Um mehr zu erfahren, lesen Sie bitte unsere",
-    "accept": "Akzeptieren"
-  },
-  "lost": {
-    "title": "Verloren!? 404 - Nicht gefunden",
-    "description": "Die Seite, die Sie suchen, existiert nicht.",
-    "button": "Startseite"
-  },
-  "help": {
-    "menu": "Hilfe",
-    "link": "hilfe",
-    "title": "Hilfe",
-    "how_to_title": "So schreiben Sie einen Brief mit der Briefe-App",
-    "how_to_001": "Um mit dem Verfassen Ihres Briefes zu beginnen, tippen Sie einfach auf die Plus-Schaltfläche in der oberen rechten Ecke des Hauptbildschirms. Sobald Sie auf die Schaltfläche getippt haben, öffnet sich ein neuer Bildschirm, in dem Sie Ihren Brief ganz einfach verfassen können.",
-    "how_to_002": "Geben Sie Absender- und Empfängeradresse ein, fügen Sie einen Betreff hinzu und verfassen Sie Ihre Nachricht im Feld 'Nachricht'. Sobald Sie Ihren Brief fertiggestellt haben, tippen Sie auf 'Speichern' in der oberen rechten Ecke.",
-    "how_to_003": "Ihr Brief wird automatisch formatiert und angezeigt. Nun können Sie ihn entweder ausdrucken, indem Sie auf das Druckersymbol tippen, oder ihn über die Schaltfläche 'Teilen' (das quadratische Symbol mit einem Pfeil) per E-Mail versenden."
-  },
-  "templates": {
-    "menu": "Vorlagen",
-    "title": "Vorlagen"
-  },
   "blog": {
     "menu": "Blog",
     "title": "Blog - Gedanken, Geschichten und Ideen"
   },
   "call_to_action": {
     "text": "Laden Sie jetzt die kostenlose Briefe App herunter und schreiben Sie Ihren ersten Brief!"
+  },
+  "common": {
+    "android_only": "* Aktuell nicht verfügbar auf Android-Geräten",
+    "download": "Herunterladen",
+    "ios_only": "** Aktuell nur auf iPhone und iPad verfügbar",
+    "language": "Deutsch",
+    "scroll_down": "Nach unten scrollen",
+    "title": "Briefe App",
+    "title_long": "Briefe App - Mühelos professionelle Briefe auf iPhone, iPad, Mac und Android-Geräten erstellen"
+  },
+  "contact": {
+    "captcha_error": "Bitte lösen Sie das Captcha",
+    "cookie": "Bitte akzeptieren Sie die Cookies am unteren Rand des Bildschirms, um eine Nachricht zu übermitteln oder senden Sie eine E-Mail an support@briefe.app.",
+    "email_error": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+    "email_placeholder": "Ihre E-Mail-Adresse",
+    "error": "Leider ist ein unerwarteter Fehler aufgetreten. Bitte versuchen Sie es später erneut oder senden Sie uns eine E-Mail an support@briefe.app.",
+    "message_error": "Bitte geben Sie eine Nachricht ein",
+    "message_placeholder": "Ihre Nachricht",
+    "privacy_1": "Ich akzeptiere die",
+    "privacy_2": "Datenschutzerklärung",
+    "privacy_error": "Bitte akzeptieren Sie die Datenschutzerklärung",
+    "privacy_info": "Ihre E-Mail-Adresse und Ihre Nachricht werden gespeichert, damit ich darauf antworten kann. Ihre Daten werden nicht für andere Zwecke verwendet.",
+    "privacy_link": "/de/datenschutz",
+    "subject_error": "Bitte geben Sie Ihr Anliegen ein",
+    "subject_placeholder": "Ihr Anliegen",
+    "submit": "Senden",
+    "subtitle": "Bitte kontaktieren Sie mich, wenn Sie Fragen haben",
+    "success": "Vielen Dank für Ihre Nachricht! Wir werden uns so schnell wie möglich bei Ihnen melden!",
+    "title": "Kontakt"
+  },
+  "cookie_consent": {
+    "accept": "Akzeptieren",
+    "message": "Diese Webseite verwendet Cookies, um Ihnen einen besseren Service bieten zu können. Um mehr zu erfahren, lesen Sie bitte unsere"
+  },
+  "details": {
+    "p1": "Selbst in einer Zeit digitaler Kommunikation und sofortiger Vernetzung bleiben traditionelle Briefe eine unverzichtbare Form des Austauschs. Warum? Weil sie eine zeitlose und authentische Art der Korrespondenz darstellen. Ob für persönliche oder geschäftliche Nachrichten – Briefe vermitteln eine Tiefe und Bedeutung, die in E-Mails oder Textnachrichten oft verloren geht. Sie sind ein Ausdruck von Sorgfalt und Aufmerksamkeit und hinterlassen einen bleibenden Eindruck. Unsere Brief-App kombiniert diese zeitlose Tradition mit modernem Komfort und ermöglicht es Ihnen, professionelle Briefe einfach zu erstellen, zu teilen und zu verwalten.",
+    "p2": "Die Briefe App ermöglicht es Ihnen, professionell formatierte Briefe schnell und mühelos auf iPhone, iPad, Mac und Android-Geräten zu erstellen und zu drucken. Ihre Briefe erhalten ein ansprechendes Layout, das einen professionellen Eindruck hinterlässt. Mit nur einem Klick können Sie Ihre Briefe direkt aus der App drucken. Sie haben auch die Möglichkeit, Ihre Briefe digital zu teilen oder als PDF zu exportieren, um sie auf verschiedenen Plattformen zu verteilen. Die App synchronisiert sich nahtlos über iCloud auf all Ihren Geräten, sodass Sie jederzeit und überall auf Ihre Briefe zugreifen können. Dank der einfachen Suchfunktion lassen sich bereits verfasste Briefe schnell wiederfinden.",
+    "p3": "Steigen Sie auf die Pro-Version um und heben Sie Ihr Briefschreiben auf ein neues Level mit unserem KI-Assistenten! Optimieren Sie mühelos Struktur, Klarheit und Ton Ihrer Briefe, während die ursprüngliche Intention erhalten bleibt. Egal, ob Sie einen Entwurf verbessern, einen vollständigen Brief nur anhand eines Betreffs generieren oder einfach Inspiration suchen – die KI sorgt für professionelle und perfekt formulierte Ergebnisse. Sie unterstützt mehrere Sprachen und passt sich Ihrem Schreibstil an, um Ihre Korrespondenz noch einfacher zu gestalten.",
+    "p4": "Die Pro-Version bietet zudem weitere Premium-Funktionen wie das Hinzufügen persönlicher Unterschriften direkt in der App, das mühelose Importieren von Kontaktadressen aus Ihrem Adressbuch und eine große Auswahl an Vorlagen für verschiedene Anlässe. Darüber hinaus können Sie das Format Ihrer Briefe individuell anpassen.",
+    "p5": "Die Briefe App vereinfacht Ihre Korrespondenz und ermöglicht es Ihnen, Briefe mühelos zu erstellen, zu teilen und zu drucken – und das mit Stil, Klarheit und Benutzerfreundlichkeit.",
+    "pro_title": "Mit Pro die KI-gestützte Briefassistenz freischalten",
+    "title": "Details"
+  },
+  "faq": {
+    "menu": "FAQ",
+    "title": "Häufig gestellte Fragen"
+  },
+  "features": {
+    "contacts": {
+      "description": "Verwenden Sie Ihre Kontaktadressen direkt aus Ihrem Adressbuch",
+      "title": "Kontakte"
+    },
+    "description": "Um Ihnen einen umfassenden Überblick zu verschaffen, haben wir alle Funktionen im Detail aufgelistet, und zwar entsprechend ihrer Verfügbarkeit in den verschiedenen App-Versionen. So können Sie leicht erkennen, welche Features jede Version der App bietet.",
+    "export": {
+      "description": "Teilen Sie Ihre Briefe digital oder exportieren Sie sie als PDF-Dateien",
+      "title": "Teilen & Exportieren"
+    },
+    "format": {
+      "description": "Briefe werden automatisch professionell formatiert",
+      "title": "Automatische Formatierung"
+    },
+    "layout": {
+      "description": "Passen Sie die Formatierung Ihrer Briefe individuell an Ihre Bedürfnisse an",
+      "title": "Layout"
+    },
+    "print": {
+      "description": "Drucken Sie Ihre Briefe bequem direkt aus der App",
+      "title": "Drucken"
+    },
+    "signatures": {
+      "description": "Fügen Sie persönliche Unterschriften direkt in der App hinzu",
+      "title": "Unterschriften"
+    },
+    "sync": {
+      "description": "Ihre Briefe werden über die iCloud geräteübergreifend synchronisiert",
+      "title": "Speicherung"
+    },
+    "templates": {
+      "description": "Nutzen Sie eine breite Palette von Vorlagen für verschiedene Gelegenheiten",
+      "title": "Vorlagen"
+    },
+    "title": "Funktionen"
+  },
+  "footer": {
+    "imprint": "Impressum",
+    "imprint_link": "/de/impressum",
+    "privacy": "Datenschutzerklärung",
+    "privacy_link": "/de/datenschutz",
+    "rights": "Alle Rechte vorbehalten."
+  },
+  "help": {
+    "how_to_001": "Um mit dem Verfassen Ihres Briefes zu beginnen, tippen Sie einfach auf die Plus-Schaltfläche in der oberen rechten Ecke des Hauptbildschirms. Sobald Sie auf die Schaltfläche getippt haben, öffnet sich ein neuer Bildschirm, in dem Sie Ihren Brief ganz einfach verfassen können.",
+    "how_to_002": "Geben Sie Absender- und Empfängeradresse ein, fügen Sie einen Betreff hinzu und verfassen Sie Ihre Nachricht im Feld 'Nachricht'. Sobald Sie Ihren Brief fertiggestellt haben, tippen Sie auf 'Speichern' in der oberen rechten Ecke.",
+    "how_to_003": "Ihr Brief wird automatisch formatiert und angezeigt. Nun können Sie ihn entweder ausdrucken, indem Sie auf das Druckersymbol tippen, oder ihn über die Schaltfläche 'Teilen' (das quadratische Symbol mit einem Pfeil) per E-Mail versenden.",
+    "how_to_title": "So schreiben Sie einen Brief mit der Briefe-App",
+    "link": "hilfe",
+    "menu": "Hilfe",
+    "title": "Hilfe"
+  },
+  "home": {
+    "teaser": "Im Handumdrehen professionell formatierte Briefe erstellen und drucken."
+  },
+  "lost": {
+    "button": "Startseite",
+    "description": "Die Seite, die Sie suchen, existiert nicht.",
+    "title": "Verloren!? 404 - Nicht gefunden"
+  },
+  "templates": {
+    "menu": "Vorlagen",
+    "title": "Vorlagen"
   }
 }

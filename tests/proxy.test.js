@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import middleware from "../middleware";
+import proxy from "../proxy";
 
 // Mock NextResponse
 jest.mock("next/server", () => ({
@@ -9,7 +9,7 @@ jest.mock("next/server", () => ({
   },
 }));
 
-describe("Middleware", () => {
+describe("Proxy", () => {
   beforeEach(() => {
     jest.clearAllMocks();
   });
@@ -22,7 +22,7 @@ describe("Middleware", () => {
         url: "https://briefe.app",
       };
 
-      middleware(request);
+      proxy(request);
       expect(NextResponse.redirect).toHaveBeenCalledWith(
         new URL("/en", "https://briefe.app")
       );
@@ -35,7 +35,7 @@ describe("Middleware", () => {
         url: "https://briefe.app",
       };
 
-      middleware(request);
+      proxy(request);
       expect(NextResponse.redirect).toHaveBeenCalledWith(
         new URL("/de", "https://briefe.app")
       );
@@ -49,7 +49,7 @@ describe("Middleware", () => {
         url: "https://briefe.app",
       };
 
-      middleware(request);
+      proxy(request);
       expect(NextResponse.redirect).toHaveBeenCalledWith(
         new URL("/en/help", "https://briefe.app")
       );
@@ -61,7 +61,7 @@ describe("Middleware", () => {
         url: "https://briefe.app",
       };
 
-      middleware(request);
+      proxy(request);
       expect(NextResponse.redirect).toHaveBeenCalledWith(
         new URL("/en/privacy", "https://briefe.app")
       );
@@ -75,7 +75,7 @@ describe("Middleware", () => {
         url: "http://localhost:3000",
       };
 
-      middleware(request);
+      proxy(request);
       expect(NextResponse.next).toHaveBeenCalled();
     });
   });
@@ -87,7 +87,7 @@ describe("Middleware", () => {
         url: "https://letter-app.com",
       };
 
-      middleware(request);
+      proxy(request);
       expect(NextResponse.redirect).toHaveBeenCalledWith(
         new URL("/de/test", "https://briefe.app")
       );
@@ -99,7 +99,7 @@ describe("Middleware", () => {
         url: "https://briefe.app",
       };
 
-      middleware(request);
+      proxy(request);
       expect(NextResponse.redirect).toHaveBeenCalledWith(
         new URL("/en/test", "https://letter-app.com")
       );
@@ -111,7 +111,7 @@ describe("Middleware", () => {
         url: "https://briefe.app",
       };
 
-      middleware(request);
+      proxy(request);
       expect(NextResponse.next).toHaveBeenCalled();
     });
   });

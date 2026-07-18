@@ -1,119 +1,119 @@
 {
-  "common": {
-    "title": "Brieven App",
-    "title_long": "Brieven App - Moeiteloos professionele brieven maken op iPhone, iPad, Mac en Android-apparaten",
-    "scroll_down": "Scroll naar beneden",
-    "language": "Nederlands",
-    "download": "Downloaden",
-    "android_only": "* momenteel niet beschikbaar op Android-apparaten",
-    "ios_only": "** momenteel alleen op iPhone en iPad"
-  },
-  "home": {
-    "teaser": "Maak en print perfect opgemaakte brieven in no-time."
-  },
-  "details": {
-    "title": "Details",
-    "p1": "Zelfs in een tijdperk van digitale communicatie en directe connectiviteit blijven traditionele brieven een onmisbare vorm van correspondentie. Waarom? Omdat ze een tijdloze en authentieke manier van uitwisseling vertegenwoordigen. Of het nu gaat om persoonlijke of zakelijke berichten, brieven dragen een diepgang en betekenis over die vaak verloren gaat in e-mails of tekstberichten. Ze zijn een uiting van zorg en aandacht en laten een blijvende indruk achter. De Brieven App combineert deze tijdloze traditie met moderne gemakken, zodat je eenvoudig professionele brieven kunt schrijven, delen en beheren.",
-    "p2": "De Brieven App stelt je in staat om snel en moeiteloos professioneel opgemaakte brieven te maken en af te drukken op iPhone, iPad, Mac en Android-apparaten. Jouw brieven krijgen een aantrekkelijk ontwerp dat een professionele indruk achterlaat. Met één klik kun je je brieven direct vanuit de app afdrukken. Daarnaast kun je ze digitaal delen of exporteren als PDF om ze via verschillende platforms te verspreiden. De app synchroniseert naadloos via iCloud op al je apparaten, zodat je altijd en overal toegang hebt tot je brieven. Dankzij de intuïtieve zoekfunctie kun je eerder geschreven brieven eenvoudig terugvinden.",
-    "pro_title": "Ontgrendel de AI-Assistent met de Pro-versie",
-    "p3": "Upgrade naar de Pro-versie en verbeter je brieven met onze AI-Assistent! Optimaliseer moeiteloos de structuur, helderheid en toon van je teksten terwijl de oorspronkelijke intentie behouden blijft. Of je nu een concept wilt verfijnen, een complete brief wilt genereren op basis van een onderwerp of gewoon inspiratie zoekt, de AI zorgt voor professioneel en vlot geformuleerde resultaten. De assistent ondersteunt meerdere talen en past zich aan jouw schrijfstijl aan, waardoor correspondentie eenvoudiger en effectiever wordt.",
-    "p4": "De Pro-versie ontgrendelt ook extra premium functies, zoals het toevoegen van persoonlijke handtekeningen direct in de app, het eenvoudig importeren van contactadressen uit je adresboek en toegang tot een uitgebreide selectie sjablonen voor verschillende gelegenheden. Daarnaast kun je het formaat van je brieven aanpassen aan jouw specifieke behoeften.",
-    "p5": "De Brieven App vereenvoudigt je correspondentie en stelt je in staat om brieven eenvoudig te schrijven, te delen en af te drukken – altijd in een professionele, duidelijke en gebruiksvriendelijke stijl."
-  },
-  "features": {
-    "title": "Functies",
-    "description": "Om je een uitgebreid overzicht te geven, hebben we alle functies gedetailleerd opgesomd op basis van hun beschikbaarheid in de verschillende app-versies. Op deze manier kun je gemakkelijk zien welke functies elke versie van de app biedt.",
-    "format": {
-      "title": "Automatische opmaak",
-      "description": "Brieven worden automatisch op professionele wijze opgemaakt"
-    },
-    "print": {
-      "title": "Afdrukken",
-      "description": "Print eenvoudig je brieven rechtstreeks vanuit de app"
-    },
-    "export": {
-      "title": "Delen en exporteren",
-      "description": "Deel je brieven digitaal of exporteer ze als PDF-bestanden"
-    },
-    "sync": {
-      "title": "Opslag",
-      "description": "Je brieven worden gesynchroniseerd over apparaten via iCloud"
-    },
-    "signatures": {
-      "title": "Handtekeningen",
-      "description": "Voeg persoonlijke handtekeningen rechtstreeks in de app toe"
-    },
-    "contacts": {
-      "title": "Contacten",
-      "description": "Neem eenvoudig contactadressen op uit je adresboek"
-    },
-    "templates": {
-      "title": "Sjablonen",
-      "description": "Gebruik een breed scala aan sjablonen voor verschillende gelegenheden"
-    },
-    "layout": {
-      "title": "Opmaak",
-      "description": "Pas de opmaak van je brieven aan aan je specifieke behoeften"
-    }
-  },
-  "faq": {
-    "menu": "FAQ",
-    "title": "Veelgestelde vragen"
-  },
-  "contact": {
-    "title": "Contact",
-    "subtitle": "Neem gerust contact met me op als je vragen hebt",
-    "email_placeholder": "Je e-mailadres",
-    "subject_placeholder": "Onderwerp",
-    "message_placeholder": "Je bericht",
-    "privacy_1": "Ik ga akkoord met het",
-    "privacy_2": "privacybeleid",
-    "privacy_link": "/nl/privacy",
-    "privacy_info": "Je e-mailadres en bericht worden opgeslagen zodat ik erop kan antwoorden. Je gegevens worden niet voor andere doeleinden gebruikt.",
-    "submit": "Verzenden",
-    "email_error": "Voer een geldig e-mailadres in",
-    "subject_error": "Voer een onderwerp in",
-    "message_error": "Voer een bericht in",
-    "captcha_error": "Los deze captcha op",
-    "privacy_error": "Accepteer het privacybeleid",
-    "success": "Bedankt voor je bericht! We nemen zo snel mogelijk contact met je op.",
-    "error": "Helaas is er een onverwachte fout opgetreden. Probeer het later opnieuw of stuur ons een e-mail naar support@letter-app.com.",
-    "cookie": "Accepteer cookies onderaan het scherm om een bericht te verzenden of stuur een e-mail naar support@letter-app.com."
-  },
-  "footer": {
-    "rights": "alle rechten voorbehouden.",
-    "imprint": "Colofon",
-    "imprint_link": "/nl/imprint",
-    "privacy": "Privacybeleid",
-    "privacy_link": "/nl/privacy"
-  },
-  "cookie_consent": {
-    "message": "Deze website maakt gebruik van cookies om ervoor te zorgen dat je de beste ervaring op onze website krijgt. Lees meer in ons",
-    "accept": "Accepteren"
-  },
-  "lost": {
-    "title": "Je bent verdwaald! 404 - Pagina niet gevonden",
-    "description": "De pagina die je zoekt, bestaat niet",
-    "button": "Terug naar Startpagina"
-  },
-  "help": {
-    "menu": "Help",
-    "link": "help",
-    "title": "Help",
-    "how_to_title": "Hoe schrijf ik een brief met de letter app?",
-    "how_to_001": "Om te beginnen met het opstellen van je brief, tik je gewoon op de plusknop in de rechterbovenhoek van het hoofdscherm. Zodra je op de knop hebt getikt, wordt er een nieuw scherm geopend waar je gemakkelijk je brief kunt samenstellen",
-    "how_to_002": "Voer het adres van de afzender en de ontvanger in, voeg een onderwerp toe en stel je bericht samen in het veld \"Bericht\". Als je klaar bent met je brief, tik je op \"Opslaan\" in de rechterbovenhoek",
-    "how_to_003": "Je brief wordt automatisch opgemaakt en weergegeven. Nu kunt u de brief afdrukken door op het printericoontje te tikken of hem per e-mail versturen met de knop \"Delen\" (het vierkante icoontje met een pijl)"
-  },
-  "templates": {
-    "menu": "Sjablonen",
-    "title": "Sjablonen"
-  },
   "blog": {
     "menu": "Blog",
     "title": "Blog - Gedachten, verhalen en ideeën"
   },
   "call_to_action": {
     "text": "Download nu de Letter App en begin met het schrijven van je eerste brief — het is gratis!"
+  },
+  "common": {
+    "android_only": "* momenteel niet beschikbaar op Android-apparaten",
+    "download": "Downloaden",
+    "ios_only": "** momenteel alleen op iPhone en iPad",
+    "language": "Nederlands",
+    "scroll_down": "Scroll naar beneden",
+    "title": "Brieven App",
+    "title_long": "Brieven App - Moeiteloos professionele brieven maken op iPhone, iPad, Mac en Android-apparaten"
+  },
+  "contact": {
+    "captcha_error": "Los deze captcha op",
+    "cookie": "Accepteer cookies onderaan het scherm om een bericht te verzenden of stuur een e-mail naar support@letter-app.com.",
+    "email_error": "Voer een geldig e-mailadres in",
+    "email_placeholder": "Je e-mailadres",
+    "error": "Helaas is er een onverwachte fout opgetreden. Probeer het later opnieuw of stuur ons een e-mail naar support@letter-app.com.",
+    "message_error": "Voer een bericht in",
+    "message_placeholder": "Je bericht",
+    "privacy_1": "Ik ga akkoord met het",
+    "privacy_2": "privacybeleid",
+    "privacy_error": "Accepteer het privacybeleid",
+    "privacy_info": "Je e-mailadres en bericht worden opgeslagen zodat ik erop kan antwoorden. Je gegevens worden niet voor andere doeleinden gebruikt.",
+    "privacy_link": "/nl/privacy",
+    "subject_error": "Voer een onderwerp in",
+    "subject_placeholder": "Onderwerp",
+    "submit": "Verzenden",
+    "subtitle": "Neem gerust contact met me op als je vragen hebt",
+    "success": "Bedankt voor je bericht! We nemen zo snel mogelijk contact met je op.",
+    "title": "Contact"
+  },
+  "cookie_consent": {
+    "accept": "Accepteren",
+    "message": "Deze website maakt gebruik van cookies om ervoor te zorgen dat je de beste ervaring op onze website krijgt. Lees meer in ons"
+  },
+  "details": {
+    "p1": "Zelfs in een tijdperk van digitale communicatie en directe connectiviteit blijven traditionele brieven een onmisbare vorm van correspondentie. Waarom? Omdat ze een tijdloze en authentieke manier van uitwisseling vertegenwoordigen. Of het nu gaat om persoonlijke of zakelijke berichten, brieven dragen een diepgang en betekenis over die vaak verloren gaat in e-mails of tekstberichten. Ze zijn een uiting van zorg en aandacht en laten een blijvende indruk achter. De Brieven App combineert deze tijdloze traditie met moderne gemakken, zodat je eenvoudig professionele brieven kunt schrijven, delen en beheren.",
+    "p2": "De Brieven App stelt je in staat om snel en moeiteloos professioneel opgemaakte brieven te maken en af te drukken op iPhone, iPad, Mac en Android-apparaten. Jouw brieven krijgen een aantrekkelijk ontwerp dat een professionele indruk achterlaat. Met één klik kun je je brieven direct vanuit de app afdrukken. Daarnaast kun je ze digitaal delen of exporteren als PDF om ze via verschillende platforms te verspreiden. De app synchroniseert naadloos via iCloud op al je apparaten, zodat je altijd en overal toegang hebt tot je brieven. Dankzij de intuïtieve zoekfunctie kun je eerder geschreven brieven eenvoudig terugvinden.",
+    "p3": "Upgrade naar de Pro-versie en verbeter je brieven met onze AI-Assistent! Optimaliseer moeiteloos de structuur, helderheid en toon van je teksten terwijl de oorspronkelijke intentie behouden blijft. Of je nu een concept wilt verfijnen, een complete brief wilt genereren op basis van een onderwerp of gewoon inspiratie zoekt, de AI zorgt voor professioneel en vlot geformuleerde resultaten. De assistent ondersteunt meerdere talen en past zich aan jouw schrijfstijl aan, waardoor correspondentie eenvoudiger en effectiever wordt.",
+    "p4": "De Pro-versie ontgrendelt ook extra premium functies, zoals het toevoegen van persoonlijke handtekeningen direct in de app, het eenvoudig importeren van contactadressen uit je adresboek en toegang tot een uitgebreide selectie sjablonen voor verschillende gelegenheden. Daarnaast kun je het formaat van je brieven aanpassen aan jouw specifieke behoeften.",
+    "p5": "De Brieven App vereenvoudigt je correspondentie en stelt je in staat om brieven eenvoudig te schrijven, te delen en af te drukken – altijd in een professionele, duidelijke en gebruiksvriendelijke stijl.",
+    "pro_title": "Ontgrendel de AI-Assistent met de Pro-versie",
+    "title": "Details"
+  },
+  "faq": {
+    "menu": "FAQ",
+    "title": "Veelgestelde vragen"
+  },
+  "features": {
+    "contacts": {
+      "description": "Neem eenvoudig contactadressen op uit je adresboek",
+      "title": "Contacten"
+    },
+    "description": "Om je een uitgebreid overzicht te geven, hebben we alle functies gedetailleerd opgesomd op basis van hun beschikbaarheid in de verschillende app-versies. Op deze manier kun je gemakkelijk zien welke functies elke versie van de app biedt.",
+    "export": {
+      "description": "Deel je brieven digitaal of exporteer ze als PDF-bestanden",
+      "title": "Delen en exporteren"
+    },
+    "format": {
+      "description": "Brieven worden automatisch op professionele wijze opgemaakt",
+      "title": "Automatische opmaak"
+    },
+    "layout": {
+      "description": "Pas de opmaak van je brieven aan aan je specifieke behoeften",
+      "title": "Opmaak"
+    },
+    "print": {
+      "description": "Print eenvoudig je brieven rechtstreeks vanuit de app",
+      "title": "Afdrukken"
+    },
+    "signatures": {
+      "description": "Voeg persoonlijke handtekeningen rechtstreeks in de app toe",
+      "title": "Handtekeningen"
+    },
+    "sync": {
+      "description": "Je brieven worden gesynchroniseerd over apparaten via iCloud",
+      "title": "Opslag"
+    },
+    "templates": {
+      "description": "Gebruik een breed scala aan sjablonen voor verschillende gelegenheden",
+      "title": "Sjablonen"
+    },
+    "title": "Functies"
+  },
+  "footer": {
+    "imprint": "Colofon",
+    "imprint_link": "/nl/imprint",
+    "privacy": "Privacybeleid",
+    "privacy_link": "/nl/privacy",
+    "rights": "alle rechten voorbehouden."
+  },
+  "help": {
+    "how_to_001": "Om te beginnen met het opstellen van je brief, tik je gewoon op de plusknop in de rechterbovenhoek van het hoofdscherm. Zodra je op de knop hebt getikt, wordt er een nieuw scherm geopend waar je gemakkelijk je brief kunt samenstellen",
+    "how_to_002": "Voer het adres van de afzender en de ontvanger in, voeg een onderwerp toe en stel je bericht samen in het veld \"Bericht\". Als je klaar bent met je brief, tik je op \"Opslaan\" in de rechterbovenhoek",
+    "how_to_003": "Je brief wordt automatisch opgemaakt en weergegeven. Nu kunt u de brief afdrukken door op het printericoontje te tikken of hem per e-mail versturen met de knop \"Delen\" (het vierkante icoontje met een pijl)",
+    "how_to_title": "Hoe schrijf ik een brief met de letter app?",
+    "link": "help",
+    "menu": "Help",
+    "title": "Help"
+  },
+  "home": {
+    "teaser": "Maak en print perfect opgemaakte brieven in no-time."
+  },
+  "lost": {
+    "button": "Terug naar Startpagina",
+    "description": "De pagina die je zoekt, bestaat niet",
+    "title": "Je bent verdwaald! 404 - Pagina niet gevonden"
+  },
+  "templates": {
+    "menu": "Sjablonen",
+    "title": "Sjablonen"
   }
 }

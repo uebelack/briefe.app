@@ -1,119 +1,119 @@
 {
-  "common": {
-    "title": "App Lettere",
-    "title_long": "App Lettere - Crea senza problemi lettere professionali su iPhone, iPad, Mac e dispositivi Android",
-    "scroll_down": "Scorri verso il basso",
-    "language": "Italiano",
-    "download": "Scarica",
-    "android_only": "* attualmente non disponibile su dispositivi Android",
-    "ios_only": "** attualmente solo su iPhone e iPad"
-  },
-  "home": {
-    "teaser": "Crea e stampa lettere perfettamente formattate in pochissimo tempo."
-  },
-  "details": {
-    "title": "Dettagli",
-    "p1": "Anche nell’era della comunicazione digitale e della connettività istantanea, le lettere tradizionali rimangono un mezzo di corrispondenza indispensabile. Perché? Perché rappresentano una forma di comunicazione autentica e senza tempo. Che si tratti di messaggi personali o professionali, una lettera trasmette una profondità e un significato che spesso si perdono nelle e-mail o nei messaggi di testo. È un’espressione di attenzione e cura che lascia un’impressione duratura. L'App Lettere unisce questa tradizione alla modernità, permettendoti di scrivere, condividere e gestire lettere professionali con facilità.",
-    "p2": "L'App Lettere ti consente di creare e stampare lettere con un formato professionale in modo rapido e semplice su iPhone, iPad, Mac e dispositivi Android. Le tue lettere avranno un layout curato che lascia un’impressione professionale. Con un solo clic, puoi stamparle direttamente dall’app. Inoltre, hai la possibilità di condividerle digitalmente o esportarle in formato PDF per inviarle su diverse piattaforme. L’app si sincronizza perfettamente tramite iCloud su tutti i tuoi dispositivi, permettendoti di accedere alle tue lettere ovunque e in qualsiasi momento. Grazie alla funzione di ricerca intuitiva, puoi trovare facilmente le lettere scritte in precedenza.",
-    "pro_title": "Sblocca l’Assistente AI con la versione Pro",
-    "p3": "Passa alla versione Pro e migliora la scrittura delle tue lettere con l’Assistente AI! Ottimizza facilmente la struttura, la chiarezza e il tono dei tuoi testi mantenendo sempre l’intento originale. Che tu voglia perfezionare una bozza, generare una lettera completa partendo da un semplice oggetto o trovare ispirazione, l’intelligenza artificiale garantisce risultati professionali e ben curati. Supporta più lingue e si adatta al tuo stile di scrittura, rendendo la corrispondenza più semplice ed efficace.",
-    "p4": "La versione Pro sblocca anche altre funzionalità premium, come l’aggiunta di firme personali direttamente nell’app, l’importazione veloce degli indirizzi dalla tua rubrica e l’accesso a un’ampia gamma di modelli per diverse occasioni. Inoltre, puoi personalizzare il formato delle lettere in base alle tue esigenze specifiche.",
-    "p5": "L'App Lettere semplifica la tua corrispondenza, permettendoti di scrivere, condividere e stampare lettere con facilità, mantenendo sempre uno stile chiaro, professionale e intuitivo."
-  },
-  "features": {
-    "title": "Caratteristiche",
-    "description": "Per darti una panoramica completa, abbiamo elencato tutte le caratteristiche in dettaglio, in base alla loro disponibilità nelle diverse versioni dell'app. In questo modo, puoi vedere facilmente quali funzionalità offre ciascuna versione dell'app.",
-    "format": {
-      "title": "Formattazione automatica",
-      "description": "Le lettere vengono formattate automaticamente in modo professionale"
-    },
-    "print": {
-      "title": "Stampa",
-      "description": "Stampa facilmente le tue lettere direttamente dall'app"
-    },
-    "export": {
-      "title": "Condividi ed Esporta",
-      "description": "Condividi le tue lettere digitalmente o esportale come file PDF"
-    },
-    "sync": {
-      "title": "Archiviazione",
-      "description": "Le tue lettere vengono sincronizzate su tutti i dispositivi utilizzando iCloud"
-    },
-    "signatures": {
-      "title": "Firme",
-      "description": "Aggiungi firme personali direttamente nell'app"
-    },
-    "contacts": {
-      "title": "Contatti",
-      "description": "Incorpora facilmente gli indirizzi dei contatti dalla tua rubrica"
-    },
-    "templates": {
-      "title": "Modelli",
-      "description": "Utilizza una vasta gamma di modelli per diverse occasioni"
-    },
-    "layout": {
-      "title": "Layout",
-      "description": "Personalizza il layout delle tue lettere in base alle tue esigenze specifiche"
-    }
-  },
-  "faq": {
-    "menu": "FAQ",
-    "title": "Domande frequenti"
-  },
-  "contact": {
-    "title": "Contatto",
-    "subtitle": "Non esitare a contattarmi se hai domande",
-    "email_placeholder": "Il tuo indirizzo email",
-    "subject_placeholder": "Il tuo argomento",
-    "message_placeholder": "Il tuo messaggio",
-    "privacy_1": "Accetto la",
-    "privacy_2": "politica sulla privacy",
-    "privacy_link": "/it/privacy",
-    "privacy_info": "Il tuo indirizzo email e il messaggio saranno archiviati in modo che io possa rispondere. I tuoi dati non verranno utilizzati per altri scopi.",
-    "submit": "Invia",
-    "email_error": "Inserisci un indirizzo email valido",
-    "subject_error": "Inserisci un argomento",
-    "message_error": "Inserisci un messaggio",
-    "captcha_error": "Risolvi questo captcha",
-    "privacy_error": "Accetta la politica sulla privacy",
-    "success": "Grazie per il tuo messaggio! Ti risponderemo al più presto possibile.",
-    "error": "Purtroppo, si è verificato un errore imprevisto. Riprova più tardi o inviaci una email a support@letter-app.com.",
-    "cookie": "Accetta i cookie in fondo allo schermo per inviare un messaggio o invia una email a support@letter-app.com."
-  },
-  "footer": {
-    "rights": "tutti i diritti riservati.",
-    "imprint": "Impronta",
-    "imprint_link": "/it/imprint",
-    "privacy": "Politica sulla Privacy",
-    "privacy_link": "/it/privacy"
-  },
-  "cookie_consent": {
-    "message": "Questo sito web utilizza i cookie per assicurarti la migliore esperienza sul nostro sito web. Per saperne di più, consulta la nostra",
-    "accept": "Accetta"
-  },
-  "lost": {
-    "title": "Sei perso! 404 - Pagina non trovata",
-    "description": "La pagina che stai cercando non esiste",
-    "button": "Torna alla Home"
-  },
-  "help": {
-    "menu": "Aiuto",
-    "link": "aiuto",
-    "title": "Aiuto",
-    "how_to_title": "Come scrivere una lettera con l'App Lettere",
-    "how_to_001": "Per iniziare a comporre la lettera, è sufficiente toccare il pulsante più nell'angolo superiore destro della schermata principale. Una volta toccato il pulsante, si aprirà una nuova schermata in cui potrete comporre facilmente la vostra lettera",
-    "how_to_002": "Inserire l'indirizzo del mittente e del destinatario, aggiungere un oggetto e comporre il messaggio nel campo \"Messaggio\". Una volta terminata la lettera, toccare \"Salva\" nell'angolo in alto a destra",
-    "how_to_003": "La lettera verrà formattata e visualizzata automaticamente. A questo punto è possibile stamparla toccando l'icona della stampante o inviarla via e-mail utilizzando il pulsante \"Condividi\" (l'icona quadrata con una freccia)"
-  },
-  "templates": {
-    "menu": "Modelli",
-    "title": "Modelli"
-  },
   "blog": {
     "menu": "Blog",
     "title": "Blog - Pensieri, storie e idee"
   },
   "call_to_action": {
     "text": "Scarica l'app Lettere ora e inizia a scrivere la tua prima lettera — è gratis!"
+  },
+  "common": {
+    "android_only": "* attualmente non disponibile su dispositivi Android",
+    "download": "Scaricare",
+    "ios_only": "** attualmente solo su iPhone e iPad",
+    "language": "Italiano",
+    "scroll_down": "Scorri verso il basso",
+    "title": "App Lettere",
+    "title_long": "App Lettere - Crea senza problemi lettere professionali su iPhone, iPad, Mac e dispositivi Android"
+  },
+  "contact": {
+    "captcha_error": "Risolvi questo captcha",
+    "cookie": "Accetta i cookie in fondo allo schermo per inviare un messaggio o invia una email a support@letter-app.com.",
+    "email_error": "Inserisci un indirizzo email valido",
+    "email_placeholder": "Il tuo indirizzo email",
+    "error": "Purtroppo, si è verificato un errore imprevisto. Riprova più tardi o inviaci una email a support@letter-app.com.",
+    "message_error": "Inserisci un messaggio",
+    "message_placeholder": "Il tuo messaggio",
+    "privacy_1": "Accetto la",
+    "privacy_2": "politica sulla privacy",
+    "privacy_error": "Accetta la politica sulla privacy",
+    "privacy_info": "Il tuo indirizzo email e il messaggio saranno archiviati in modo che io possa rispondere. I tuoi dati non verranno utilizzati per altri scopi.",
+    "privacy_link": "/it/privacy",
+    "subject_error": "Inserisci un argomento",
+    "subject_placeholder": "Il tuo argomento",
+    "submit": "Invia",
+    "subtitle": "Non esitare a contattarmi se hai domande",
+    "success": "Grazie per il tuo messaggio! Ti risponderemo al più presto possibile.",
+    "title": "Contatto"
+  },
+  "cookie_consent": {
+    "accept": "Accetta",
+    "message": "Questo sito web utilizza i cookie per assicurarti la migliore esperienza sul nostro sito web. Per saperne di più, consulta la nostra"
+  },
+  "details": {
+    "p1": "Anche nell’era della comunicazione digitale e della connettività istantanea, le lettere tradizionali rimangono un mezzo di corrispondenza indispensabile. Perché? Perché rappresentano una forma di comunicazione autentica e senza tempo. Che si tratti di messaggi personali o professionali, una lettera trasmette una profondità e un significato che spesso si perdono nelle e-mail o nei messaggi di testo. È un’espressione di attenzione e cura che lascia un’impressione duratura. L'App Lettere unisce questa tradizione alla modernità, permettendoti di scrivere, condividere e gestire lettere professionali con facilità.",
+    "p2": "L'App Lettere ti consente di creare e stampare lettere con un formato professionale in modo rapido e semplice su iPhone, iPad, Mac e dispositivi Android. Le tue lettere avranno un layout curato che lascia un’impressione professionale. Con un solo clic, puoi stamparle direttamente dall’app. Inoltre, hai la possibilità di condividerle digitalmente o esportarle in formato PDF per inviarle su diverse piattaforme. L’app si sincronizza perfettamente tramite iCloud su tutti i tuoi dispositivi, permettendoti di accedere alle tue lettere ovunque e in qualsiasi momento. Grazie alla funzione di ricerca intuitiva, puoi trovare facilmente le lettere scritte in precedenza.",
+    "p3": "Passa alla versione Pro e migliora la scrittura delle tue lettere con l’Assistente AI! Ottimizza facilmente la struttura, la chiarezza e il tono dei tuoi testi mantenendo sempre l’intento originale. Che tu voglia perfezionare una bozza, generare una lettera completa partendo da un semplice oggetto o trovare ispirazione, l’intelligenza artificiale garantisce risultati professionali e ben curati. Supporta più lingue e si adatta al tuo stile di scrittura, rendendo la corrispondenza più semplice ed efficace.",
+    "p4": "La versione Pro sblocca anche altre funzionalità premium, come l’aggiunta di firme personali direttamente nell’app, l’importazione veloce degli indirizzi dalla tua rubrica e l’accesso a un’ampia gamma di modelli per diverse occasioni. Inoltre, puoi personalizzare il formato delle lettere in base alle tue esigenze specifiche.",
+    "p5": "L'App Lettere semplifica la tua corrispondenza, permettendoti di scrivere, condividere e stampare lettere con facilità, mantenendo sempre uno stile chiaro, professionale e intuitivo.",
+    "pro_title": "Sblocca l’Assistente AI con la versione Pro",
+    "title": "Dettagli"
+  },
+  "faq": {
+    "menu": "FAQ",
+    "title": "Domande frequenti"
+  },
+  "features": {
+    "contacts": {
+      "description": "Incorpora facilmente gli indirizzi dei contatti dalla tua rubrica",
+      "title": "Contatti"
+    },
+    "description": "Per darti una panoramica completa, abbiamo elencato tutte le caratteristiche in dettaglio, in base alla loro disponibilità nelle diverse versioni dell'app. In questo modo, puoi vedere facilmente quali funzionalità offre ciascuna versione dell'app.",
+    "export": {
+      "description": "Condividi le tue lettere digitalmente o esportale come file PDF",
+      "title": "Condividi ed Esporta"
+    },
+    "format": {
+      "description": "Le lettere vengono formattate automaticamente in modo professionale",
+      "title": "Auto Formato"
+    },
+    "layout": {
+      "description": "Personalizza il layout delle tue lettere in base alle tue esigenze specifiche",
+      "title": "Layout"
+    },
+    "print": {
+      "description": "Stampa facilmente le tue lettere direttamente dall'app",
+      "title": "Stampa"
+    },
+    "signatures": {
+      "description": "Aggiungi firme personali direttamente nell'app",
+      "title": "Firme"
+    },
+    "sync": {
+      "description": "Le tue lettere vengono sincronizzate su tutti i dispositivi utilizzando iCloud",
+      "title": "Archiviazione"
+    },
+    "templates": {
+      "description": "Utilizza una vasta gamma di modelli per diverse occasioni",
+      "title": "Modelli"
+    },
+    "title": "Caratteristiche"
+  },
+  "footer": {
+    "imprint": "Impronta",
+    "imprint_link": "/it/imprint",
+    "privacy": "Politica sulla Privacy",
+    "privacy_link": "/it/privacy",
+    "rights": "tutti i diritti riservati."
+  },
+  "help": {
+    "how_to_001": "Per iniziare a comporre la lettera, è sufficiente toccare il pulsante più nell'angolo superiore destro della schermata principale. Una volta toccato il pulsante, si aprirà una nuova schermata in cui potrete comporre facilmente la vostra lettera",
+    "how_to_002": "Inserire l'indirizzo del mittente e del destinatario, aggiungere un oggetto e comporre il messaggio nel campo \"Messaggio\". Una volta terminata la lettera, toccare \"Salva\" nell'angolo in alto a destra",
+    "how_to_003": "La lettera verrà formattata e visualizzata automaticamente. A questo punto è possibile stamparla toccando l'icona della stampante o inviarla via e-mail utilizzando il pulsante \"Condividi\" (l'icona quadrata con una freccia)",
+    "how_to_title": "Come scrivere una lettera con l'app lettere",
+    "link": "aiuto",
+    "menu": "Aiuto",
+    "title": "Aiuto"
+  },
+  "home": {
+    "teaser": "Crea e stampa lettere perfettamente formattate in pochissimo tempo."
+  },
+  "lost": {
+    "button": "Vai alla Home",
+    "description": "La pagina che stai cercando non esiste",
+    "title": "Sei perso! 404 - Pagina non trovata"
+  },
+  "templates": {
+    "menu": "Modelli",
+    "title": "Modelli"
   }
 }
