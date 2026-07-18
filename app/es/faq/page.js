@@ -1,9 +1,9 @@
-import React from 'react';
-import Faq from '@/components/Faq';
+import React from "react";
+import Faq from "@/components/Faq";
 
 export function generateMetadata() {
   return {
-    title: 'Preguntas más frecuentes | Aplicación de Cartas',
+    title: "Preguntas más frecuentes | Aplicación de Cartas",
   };
 }
 

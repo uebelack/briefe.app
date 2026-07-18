@@ -1,77 +1,77 @@
 /* eslint-disable import/no-extraneous-dependencies */
-import fs from 'fs';
-import path from 'path';
-import prettier from 'prettier';
-import { URL } from 'url';
+import fs from "fs";
+import path from "path";
+import prettier from "prettier";
+import { URL } from "url";
 
 const LAST_MODIFIED = new Date().toISOString();
-const DOMAIN = 'https://letter-app.com';
-const DE_DOMAIN = 'https://briefe.app';
-const DIRNAME = new URL('.', import.meta.url).pathname;
-const LANGUAGES = ['de', 'fr', 'es', 'it', 'nl', 'pt'];
+const DOMAIN = "https://letter-app.com";
+const DE_DOMAIN = "https://briefe.app";
+const DIRNAME = new URL(".", import.meta.url).pathname;
+const LANGUAGES = ["de", "fr", "es", "it", "nl", "pt"];
 
 const PAGES = [
   {
-    url: '/en',
+    url: "/en",
     alternates: [
-      { lang: 'de', url: '/de' },
-      { lang: 'fr', url: '/fr' },
-      { lang: 'es', url: '/es' },
-      { lang: 'it', url: '/it' },
-      { lang: 'nl', url: '/nl' },
-      { lang: 'pt', url: '/pt' },
+      { lang: "de", url: "/de" },
+      { lang: "fr", url: "/fr" },
+      { lang: "es", url: "/es" },
+      { lang: "it", url: "/it" },
+      { lang: "nl", url: "/nl" },
+      { lang: "pt", url: "/pt" },
     ],
   },
   {
-    url: '/en/imprint',
+    url: "/en/imprint",
     alternates: [
-      { lang: 'de', url: '/de/impressum' },
-      { lang: 'fr', url: '/fr/imprint' },
-      { lang: 'es', url: '/es/imprint' },
-      { lang: 'it', url: '/it/imprint' },
-      { lang: 'nl', url: '/nl/imprint' },
-      { lang: 'pt', url: '/pt/imprint' },
+      { lang: "de", url: "/de/impressum" },
+      { lang: "fr", url: "/fr/imprint" },
+      { lang: "es", url: "/es/imprint" },
+      { lang: "it", url: "/it/imprint" },
+      { lang: "nl", url: "/nl/imprint" },
+      { lang: "pt", url: "/pt/imprint" },
     ],
   },
   {
-    url: '/en/privacy',
+    url: "/en/privacy",
     alternates: [
-      { lang: 'de', url: '/de/datenschutz' },
-      { lang: 'fr', url: '/fr/privacy' },
-      { lang: 'es', url: '/es/privacy' },
-      { lang: 'it', url: '/it/privacy' },
-      { lang: 'nl', url: '/nl/privacy' },
-      { lang: 'pt', url: '/pt/privacy' },
+      { lang: "de", url: "/de/datenschutz" },
+      { lang: "fr", url: "/fr/privacy" },
+      { lang: "es", url: "/es/privacy" },
+      { lang: "it", url: "/it/privacy" },
+      { lang: "nl", url: "/nl/privacy" },
+      { lang: "pt", url: "/pt/privacy" },
     ],
   },
   {
-    url: '/en/help',
+    url: "/en/help",
     alternates: [
-      { lang: 'de', url: '/de/hilfe' },
-      { lang: 'fr', url: '/fr/aide' },
-      { lang: 'es', url: '/es/ayuda' },
-      { lang: 'it', url: '/it/aiuto' },
-      { lang: 'nl', url: '/nl/help' },
-      { lang: 'pt', url: '/pt/ajuda' },
+      { lang: "de", url: "/de/hilfe" },
+      { lang: "fr", url: "/fr/aide" },
+      { lang: "es", url: "/es/ayuda" },
+      { lang: "it", url: "/it/aiuto" },
+      { lang: "nl", url: "/nl/help" },
+      { lang: "pt", url: "/pt/ajuda" },
     ],
   },
   {
-    url: '/en/faq',
+    url: "/en/faq",
     alternates: LANGUAGES.map((language) => ({ lang: language, url: `/${language}/faq` })),
   },
 ];
 
 const blogArticles = {
-  en: JSON.parse(fs.readFileSync('./data/blog/en.json', 'utf8')),
+  en: JSON.parse(fs.readFileSync("./data/blog/en.json", "utf8")),
 };
 
 const templates = {
-  en: JSON.parse(fs.readFileSync('./data/templates/en.json', 'utf8')),
+  en: JSON.parse(fs.readFileSync("./data/templates/en.json", "utf8")),
 };
 
 LANGUAGES.forEach((language) => {
-  blogArticles[language] = JSON.parse(fs.readFileSync(`./data/blog/${language}.json`, 'utf8'));
-  templates[language] = JSON.parse(fs.readFileSync(`./data/templates/${language}.json`, 'utf8'));
+  blogArticles[language] = JSON.parse(fs.readFileSync(`./data/blog/${language}.json`, "utf8"));
+  templates[language] = JSON.parse(fs.readFileSync(`./data/templates/${language}.json`, "utf8"));
 });
 
 blogArticles.en.forEach((article) => {
@@ -89,11 +89,11 @@ blogArticles.en.forEach((article) => {
 templates.en.forEach((tpl) => {
   const alternates = LANGUAGES.map((language) => ({
     lang: language,
-    url: `/${language}/templates/${tpl.uuid.toLowerCase().replace(/_/g, '-')}`,
+    url: `/${language}/templates/${tpl.uuid.toLowerCase().replace(/_/g, "-")}`,
   }));
 
   PAGES.push({
-    url: `/en/templates/${tpl.uuid.toLowerCase().replace(/_/g, '-')}`,
+    url: `/en/templates/${tpl.uuid.toLowerCase().replace(/_/g, "-")}`,
     alternates,
   });
 });
@@ -106,20 +106,30 @@ const sitemap = `
       xmlns:xhtml="http://www.w3.org/1999/xhtml"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
     >
-      ${PAGES.map((page) => `
+      ${PAGES.map(
+        (page) => `
       <url>
         <loc>${DOMAIN}${page.url}</loc>
-        <lastmod>${LAST_MODIFIED}</lastmod>${page.alternates?.map((alternate) => `
+        <lastmod>${LAST_MODIFIED}</lastmod>${page.alternates
+          ?.map(
+            (alternate) => `
         <xhtml:link
           rel="alternate"
           hreflang="${alternate.lang}"
-          href="${alternate.lang === 'de' ? DE_DOMAIN : DOMAIN}${alternate.url}"/>
-        `).join('\n')}
+          href="${alternate.lang === "de" ? DE_DOMAIN : DOMAIN}${alternate.url}"/>
+        `,
+          )
+          .join("\n")}
       </url>
-    `).join('\n')}
+    `,
+      ).join("\n")}
     </urlset>
 `;
 
-prettier.format(sitemap, { parser: 'html' }).then((formattedSitemap) => {
-  fs.writeFileSync(path.resolve(path.join(DIRNAME, '../public/sitemap.xml')), formattedSitemap, 'utf8');
+prettier.format(sitemap, { parser: "html" }).then((formattedSitemap) => {
+  fs.writeFileSync(
+    path.resolve(path.join(DIRNAME, "../public/sitemap.xml")),
+    formattedSitemap,
+    "utf8",
+  );
 });

@@ -1,10 +1,10 @@
-import React from 'react';
-import Page from '@/components/Page';
-import Section from '@/components/Section';
-import Container from '@/components/Container';
-import CallToAction from '@/components/CallToAction';
+import React from "react";
+import Page from "@/components/Page";
+import Section from "@/components/Section";
+import Container from "@/components/Container";
+import CallToAction from "@/components/CallToAction";
 
-const LOCALE = 'pt';
+const LOCALE = "pt";
 
 export default function BlogLayout({ children }) {
   return (

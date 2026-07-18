@@ -1,5 +1,5 @@
-import React from 'react';
-import Image from 'next/image';
+import React from "react";
+import Image from "next/image";
 
 export default function MdxImage(props) {
   // eslint-disable-next-line react/jsx-props-no-spreading, react/destructuring-assignment

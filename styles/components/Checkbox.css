@@ -30,14 +30,14 @@
 }
 
 .checkbox:disabled + label {
-  color: #9DA3AE;
+  color: #9da3ae;
   cursor: auto;
 }
 
 .checkbox:disabled + label:before {
   box-shadow: none;
-  background: #FAFAFA;
-  border: solid 1px #9DA3AE;
+  background: #fafafa;
+  border: solid 1px #9da3ae;
 }
 
 .checkbox:checked + label:after {
@@ -48,6 +48,12 @@
   background: white;
   width: 2px;
   height: 2px;
-  box-shadow: 2px 0 0 white, 4px 0 0 white, 4px -2px 0 white, 4px -4px 0 white, 4px -6px 0 white, 4px -8px 0 white;
+  box-shadow:
+    2px 0 0 white,
+    4px 0 0 white,
+    4px -2px 0 white,
+    4px -4px 0 white,
+    4px -6px 0 white,
+    4px -8px 0 white;
   transform: rotate(45deg);
 }

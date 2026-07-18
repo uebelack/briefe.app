@@ -1,19 +1,19 @@
-import React from 'react';
-import CookieConsentProvider from '@/components/CookieConsentProvider';
-import GoogleTagManager from '@/components/GoogleTagManager';
-import CookieConsent from '@/components/CookieConsent';
-import Navigation from '@/components/Navigation';
-import '@fontsource/lexend/300.css';
+import React from "react";
+import CookieConsentProvider from "@/components/CookieConsentProvider";
+import GoogleTagManager from "@/components/GoogleTagManager";
+import CookieConsent from "@/components/CookieConsent";
+import Navigation from "@/components/Navigation";
+import "@fontsource/lexend/300.css";
 
-import '../styles/output.css';
-import Footer from '@/components/Footer';
+import "../styles/output.css";
+import Footer from "@/components/Footer";
 
 export const viewport = {
-  width: 'device-width',
+  width: "device-width",
   initialScale: 1,
   maximumScale: 1,
   userScalable: false,
-  themeColor: '#0080FC',
+  themeColor: "#0080FC",
 };
 
 export default function RootLayout({ children, locale }) {

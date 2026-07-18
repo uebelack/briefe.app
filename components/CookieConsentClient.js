@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import React, { useEffect, useState } from 'react';
-import ReactCookieConsent, { getCookieConsentValue } from 'react-cookie-consent';
+import React, { useEffect, useState } from "react";
+import ReactCookieConsent, { getCookieConsentValue } from "react-cookie-consent";
 
 export default function CookieConsentClient({
   acceptButtonText,
@@ -10,7 +10,10 @@ export default function CookieConsentClient({
   privacyLinkText,
 }) {
   const [cookieConsentAccepted, setCookieConsentAccepted] = useState(false);
-  useEffect(() => setCookieConsentAccepted(getCookieConsentValue('briefe_app_cookie_consent') === 'true'), []);
+  useEffect(
+    () => setCookieConsentAccepted(getCookieConsentValue("briefe_app_cookie_consent") === "true"),
+    [],
+  );
 
   return !cookieConsentAccepted ? (
     <ReactCookieConsent
@@ -19,11 +22,11 @@ export default function CookieConsentClient({
       cookieName="briefe_app_cookie_consent"
       onAccept={() => setCookieConsentAccepted(true)}
     >
-      {detailsText}
-      {' '}
-      <a href={privacyLink} className="underline underline-offset-2">{privacyLinkText}</a>
+      {detailsText}{" "}
+      <a href={privacyLink} className="underline underline-offset-2">
+        {privacyLinkText}
+      </a>
       .
     </ReactCookieConsent>
-
   ) : null;
 }

@@ -1,6 +1,6 @@
 @import "./tailwind.css";
 
-@import "./base.css";
+@import "./base.css" layer(base);
 @import "./animations.css";
 
 @import "./components/Section.css";

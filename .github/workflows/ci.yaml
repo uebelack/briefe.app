@@ -1,14 +1,14 @@
 name: "Continuous Integration"
-on: 
+on:
   pull_request:
-    branches: '*'
+    branches: "*"
 
 permissions:
   contents: read
   packages: write
 
 jobs:
-  test:    
+  test:
     name: Test and Lint
     runs-on: ubuntu-latest
     steps:
@@ -20,7 +20,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22.x
-          cache: 'pnpm'
+          cache: "pnpm"
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
       - name: Lint code

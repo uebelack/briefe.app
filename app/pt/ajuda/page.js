@@ -1,9 +1,9 @@
-import React from 'react';
-import Help from '@/components/Help';
+import React from "react";
+import Help from "@/components/Help";
 
 export function generateMetadata() {
   return {
-    title: 'Ajuda | Aplicação de Cartas',
+    title: "Ajuda | Aplicação de Cartas",
   };
 }
 

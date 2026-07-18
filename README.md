@@ -2,10 +2,10 @@
 
 [![Build][build-shield]][build-url]
 <!--[![Coverage][coverage-shield]][coverage-url]-->
+
 [![Language][language-shield]][build-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-
 
 <br />
 <div align="center">
@@ -21,13 +21,11 @@
 
 ### Built With
 
-* [Next.js](https://nextjs.org/)
-
+- [Next.js](https://nextjs.org/)
 
 ## License
 
 MIT License. See `LICENSE.txt` for more information.
-
 
 [build-shield]: https://img.shields.io/github/workflow/status/uebelack/briefe.app/Build.svg?style=for-the-badge
 [build-url]: https://github.com/uebelack/briefe.app/actions/workflows/ci.yaml

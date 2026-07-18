@@ -1,7 +1,7 @@
-import React from 'react';
-import Page from '@/components/Page';
-import Section from '@/components/Section';
-import Container from '@/components/Container';
+import React from "react";
+import Page from "@/components/Page";
+import Section from "@/components/Section";
+import Container from "@/components/Container";
 
 export default function PrivacyLayout({ children }) {
   return (

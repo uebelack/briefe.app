@@ -1,22 +1,22 @@
-const withMDX = require('@next/mdx')({
+const withMDX = require("@next/mdx")({
   extension: /\.mdx?$/,
 });
 
 const nextConfig = withMDX({
   reactStrictMode: true,
-  transpilePackages: ['ui'],
+  transpilePackages: ["ui"],
   images: {
     deviceSizes: [480, 768, 976, 1024],
     remotePatterns: [
       {
-        protocol: 'https',
-        hostname: '*.medium.com',
-        port: '',
-        pathname: '**/*',
+        protocol: "https",
+        hostname: "*.medium.com",
+        port: "",
+        pathname: "**/*",
       },
     ],
   },
-  pageExtensions: ['js', 'mdx'],
+  pageExtensions: ["js", "mdx"],
 });
 
 module.exports = nextConfig;

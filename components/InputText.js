@@ -1,11 +1,9 @@
-import React from 'react';
+import React from "react";
 
-import { Field } from 'formik';
-import ErrorMessage from './ErrorMessage';
+import { Field } from "formik";
+import ErrorMessage from "./ErrorMessage";
 
-function InputText({
-  name, placeholder, disabled = false,
-}) {
+function InputText({ name, placeholder, disabled = false }) {
   return (
     <div className="w-full">
       <Field

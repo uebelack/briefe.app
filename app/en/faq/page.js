@@ -1,9 +1,9 @@
-import React from 'react';
-import Faq from '@/components/Faq';
+import React from "react";
+import Faq from "@/components/Faq";
 
 export function generateMetadata() {
   return {
-    title: 'Frequently asked questions | Letter App',
+    title: "Frequently asked questions | Letter App",
   };
 }
 

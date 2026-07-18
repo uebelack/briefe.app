@@ -23,9 +23,7 @@ describe("Proxy", () => {
       };
 
       proxy(request);
-      expect(NextResponse.redirect).toHaveBeenCalledWith(
-        new URL("/en", "https://briefe.app")
-      );
+      expect(NextResponse.redirect).toHaveBeenCalledWith(new URL("/en", "https://briefe.app"));
     });
 
     it("should redirect to German when accept-language is de", () => {
@@ -36,9 +34,7 @@ describe("Proxy", () => {
       };
 
       proxy(request);
-      expect(NextResponse.redirect).toHaveBeenCalledWith(
-        new URL("/de", "https://briefe.app")
-      );
+      expect(NextResponse.redirect).toHaveBeenCalledWith(new URL("/de", "https://briefe.app"));
     });
   });
 
@@ -50,9 +46,7 @@ describe("Proxy", () => {
       };
 
       proxy(request);
-      expect(NextResponse.redirect).toHaveBeenCalledWith(
-        new URL("/en/help", "https://briefe.app")
-      );
+      expect(NextResponse.redirect).toHaveBeenCalledWith(new URL("/en/help", "https://briefe.app"));
     });
 
     it("should redirect /privacy to /en/privacy", () => {
@@ -63,7 +57,7 @@ describe("Proxy", () => {
 
       proxy(request);
       expect(NextResponse.redirect).toHaveBeenCalledWith(
-        new URL("/en/privacy", "https://briefe.app")
+        new URL("/en/privacy", "https://briefe.app"),
       );
     });
   });
@@ -88,9 +82,7 @@ describe("Proxy", () => {
       };
 
       proxy(request);
-      expect(NextResponse.redirect).toHaveBeenCalledWith(
-        new URL("/de/test", "https://briefe.app")
-      );
+      expect(NextResponse.redirect).toHaveBeenCalledWith(new URL("/de/test", "https://briefe.app"));
     });
 
     it("should redirect briefe.app domains with non-/de path to letter-app.com", () => {
@@ -101,7 +93,7 @@ describe("Proxy", () => {
 
       proxy(request);
       expect(NextResponse.redirect).toHaveBeenCalledWith(
-        new URL("/en/test", "https://letter-app.com")
+        new URL("/en/test", "https://letter-app.com"),
       );
     });
 

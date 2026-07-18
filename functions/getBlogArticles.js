@@ -2,13 +2,13 @@
 /* eslint-disable no-plusplus */
 /* eslint-disable global-require */
 
-import en from '../data/blog/en.json';
-import de from '../data/blog/de.json';
-import fr from '../data/blog/fr.json';
-import it from '../data/blog/it.json';
-import es from '../data/blog/es.json';
-import pt from '../data/blog/pt.json';
-import nl from '../data/blog/nl.json';
+import en from "../data/blog/en.json";
+import de from "../data/blog/de.json";
+import fr from "../data/blog/fr.json";
+import it from "../data/blog/it.json";
+import es from "../data/blog/es.json";
+import pt from "../data/blog/pt.json";
+import nl from "../data/blog/nl.json";
 
 const data = {
   en,

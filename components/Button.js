@@ -1,9 +1,7 @@
 /* eslint-disable react/button-has-type */
-import React from 'react';
+import React from "react";
 
-function Button({
-  id, type, disabled, children,
-}) {
+function Button({ id, type, disabled, children }) {
   return (
     <button
       id={id}

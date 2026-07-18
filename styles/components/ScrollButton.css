@@ -31,7 +31,7 @@
 .scroll-button::before {
   border: 1px solid #fff;
   border-width: 0 0 1px 1px;
-  content: '';
+  content: "";
   display: block;
   height: 12px;
   left: calc(50% - 6px);

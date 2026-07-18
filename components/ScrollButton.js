@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import React from 'react';
-import { scroller } from 'react-scroll';
+import React from "react";
+import { scroller } from "react-scroll";
 
 export default function ScrollButton({ label, target }) {
   return (

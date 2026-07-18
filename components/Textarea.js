@@ -1,12 +1,10 @@
-import React from 'react';
+import React from "react";
 
-import { Field } from 'formik';
+import { Field } from "formik";
 
-import ErrorMessage from './ErrorMessage';
+import ErrorMessage from "./ErrorMessage";
 
-function Textarea({
-  name, placeholder, disabled,
-}) {
+function Textarea({ name, placeholder, disabled }) {
   return (
     <div className="w-full">
       <Field

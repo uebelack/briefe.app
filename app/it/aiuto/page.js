@@ -1,9 +1,9 @@
-import React from 'react';
-import Help from '@/components/Help';
+import React from "react";
+import Help from "@/components/Help";
 
 export function generateMetadata() {
   return {
-    title: 'Aiuto | App Lettere',
+    title: "Aiuto | App Lettere",
   };
 }
 
