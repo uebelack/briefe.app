@@ -12,7 +12,7 @@ import InputText from "./InputText";
 import Textarea from "./Textarea";
 import Checkbox from "./Checkbox";
 
-import Button from "./Button";
+import { Button } from "@/components/ui/button";
 
 export default function ContactForm({
   locale,

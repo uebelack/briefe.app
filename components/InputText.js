@@ -1,18 +1,13 @@
 import React from "react";
 
 import { Field } from "formik";
+import { Input } from "@/components/ui/input";
 import ErrorMessage from "./ErrorMessage";
 
 function InputText({ name, placeholder, disabled = false }) {
   return (
     <div className="w-full">
-      <Field
-        className="w-full p-2 border disabled:border-gray rounded-md"
-        type="text"
-        name={name}
-        disabled={disabled}
-        placeholder={placeholder}
-      />
+      <Field as={Input} type="text" name={name} disabled={disabled} placeholder={placeholder} />
       <ErrorMessage name={name} />
     </div>
   );

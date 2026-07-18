@@ -9,201 +9,1281 @@ exports[`<Help/> should render 1`] = `
       class="section"
     >
       <div
-        class="prose proese-briefe md:container px-4"
+        class="md:container px-4"
       >
-        <h1>
+        <h1
+          class="text-3xl font-bold mb-8"
+        >
           Frequently asked questions
         </h1>
-        <div>
-          <h2>
+        <div
+          class="mb-8"
+        >
+          <h2
+            class="text-2xl font-semibold mb-4"
+          >
             General Questions
           </h2>
-          <ol>
-            <li>
-              <h3>
-                What is The Letter App?
+          <div
+            class="flex flex-col w-full"
+            data-orientation="vertical"
+            data-slot="accordion"
+          >
+            <div
+              class="not-last:border-b"
+              data-orientation="vertical"
+              data-slot="accordion-item"
+              data-state="closed"
+            >
+              <h3
+                class="flex"
+                data-orientation="vertical"
+                data-state="closed"
+              >
+                <button
+                  aria-expanded="false"
+                  class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground text-left"
+                  data-orientation="vertical"
+                  data-radix-collection-item=""
+                  data-slot="accordion-trigger"
+                  data-state="closed"
+                  id="radix-_r_0_"
+                  type="button"
+                >
+                  What is The Letter App?
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
+                    data-slot="accordion-trigger-icon"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m6 9 6 6 6-6"
+                    />
+                  </svg>
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
+                    data-slot="accordion-trigger-icon"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m18 15-6-6-6 6"
+                    />
+                  </svg>
+                </button>
               </h3>
-              <p>
-                The Letter App is a digital tool designed to help you create, share, and print professionally formatted letters on your iPhone, iPad, Mac and Android devices. It combines the timeless tradition of sending letters with modern convenience.
-              </p>
-            </li>
-            <li>
-              <h3>
-                Why should I use The Letter App?
+              <div
+                aria-labelledby="radix-_r_0_"
+                class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                data-orientation="vertical"
+                data-slot="accordion-content"
+                data-state="closed"
+                hidden=""
+                id="radix-_r_1_"
+                role="region"
+                style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+              />
+            </div>
+            <div
+              class="not-last:border-b"
+              data-orientation="vertical"
+              data-slot="accordion-item"
+              data-state="closed"
+            >
+              <h3
+                class="flex"
+                data-orientation="vertical"
+                data-state="closed"
+              >
+                <button
+                  aria-expanded="false"
+                  class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground text-left"
+                  data-orientation="vertical"
+                  data-radix-collection-item=""
+                  data-slot="accordion-trigger"
+                  data-state="closed"
+                  id="radix-_r_2_"
+                  type="button"
+                >
+                  Why should I use The Letter App?
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
+                    data-slot="accordion-trigger-icon"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m6 9 6 6 6-6"
+                    />
+                  </svg>
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
+                    data-slot="accordion-trigger-icon"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m18 15-6-6-6 6"
+                    />
+                  </svg>
+                </button>
               </h3>
-              <p>
-                Even in an era defined by digital communication and instant connectivity, traditional letters remain an indispensable form of correspondence. Official communication such as job applications, cancellations, business matters and much more is often still done by letter. Traditional letters offer a depth and authenticity often lost in digital communication. The app allows you to maintain this tradition while enjoying the ease of creating, sharing, and preserving letters in the digital age.
-              </p>
-            </li>
-            <li>
-              <h3>
-                On which devices can I use The Letter App?
+              <div
+                aria-labelledby="radix-_r_2_"
+                class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                data-orientation="vertical"
+                data-slot="accordion-content"
+                data-state="closed"
+                hidden=""
+                id="radix-_r_3_"
+                role="region"
+                style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+              />
+            </div>
+            <div
+              class="not-last:border-b"
+              data-orientation="vertical"
+              data-slot="accordion-item"
+              data-state="closed"
+            >
+              <h3
+                class="flex"
+                data-orientation="vertical"
+                data-state="closed"
+              >
+                <button
+                  aria-expanded="false"
+                  class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground text-left"
+                  data-orientation="vertical"
+                  data-radix-collection-item=""
+                  data-slot="accordion-trigger"
+                  data-state="closed"
+                  id="radix-_r_4_"
+                  type="button"
+                >
+                  On which devices can I use The Letter App?
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
+                    data-slot="accordion-trigger-icon"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m6 9 6 6 6-6"
+                    />
+                  </svg>
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
+                    data-slot="accordion-trigger-icon"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m18 15-6-6-6 6"
+                    />
+                  </svg>
+                </button>
               </h3>
-              <p>
-                The Letter App is available for iPhone, iPad, Mac and Android devices.
-              </p>
-            </li>
-            <li>
-              <h3>
-                What are the key features of The Letter App?
+              <div
+                aria-labelledby="radix-_r_4_"
+                class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                data-orientation="vertical"
+                data-slot="accordion-content"
+                data-state="closed"
+                hidden=""
+                id="radix-_r_5_"
+                role="region"
+                style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+              />
+            </div>
+            <div
+              class="not-last:border-b"
+              data-orientation="vertical"
+              data-slot="accordion-item"
+              data-state="closed"
+            >
+              <h3
+                class="flex"
+                data-orientation="vertical"
+                data-state="closed"
+              >
+                <button
+                  aria-expanded="false"
+                  class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground text-left"
+                  data-orientation="vertical"
+                  data-radix-collection-item=""
+                  data-slot="accordion-trigger"
+                  data-state="closed"
+                  id="radix-_r_6_"
+                  type="button"
+                >
+                  What are the key features of The Letter App?
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
+                    data-slot="accordion-trigger-icon"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m6 9 6 6 6-6"
+                    />
+                  </svg>
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
+                    data-slot="accordion-trigger-icon"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m18 15-6-6-6 6"
+                    />
+                  </svg>
+                </button>
               </h3>
-              <p>
-                The Letter App offers the following features:
-              </p>
-              <ul>
-                <li>
-                  Auto Format: Automatically formats your letters professionally.
-                </li>
-                <li>
-                  Print: Easily print your letters directly from the app.
-                </li>
-                <li>
-                  Share & Export: Share letters digitally or export them as PDF files.
-                </li>
-                <li>
-                  Search: Quickly find previously composed letters.
-                </li>
-                <li>
-                  Storage: Sync your letters across devices using iCloud.
-                </li>
-              </ul>
-            </li>
-            <li>
-              <h3>
-                What additional features are available in the PRO version of The Letter App?
+              <div
+                aria-labelledby="radix-_r_6_"
+                class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                data-orientation="vertical"
+                data-slot="accordion-content"
+                data-state="closed"
+                hidden=""
+                id="radix-_r_7_"
+                role="region"
+                style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+              />
+            </div>
+            <div
+              class="not-last:border-b"
+              data-orientation="vertical"
+              data-slot="accordion-item"
+              data-state="closed"
+            >
+              <h3
+                class="flex"
+                data-orientation="vertical"
+                data-state="closed"
+              >
+                <button
+                  aria-expanded="false"
+                  class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground text-left"
+                  data-orientation="vertical"
+                  data-radix-collection-item=""
+                  data-slot="accordion-trigger"
+                  data-state="closed"
+                  id="radix-_r_8_"
+                  type="button"
+                >
+                  What additional features are available in the PRO version of The Letter App?
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
+                    data-slot="accordion-trigger-icon"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m6 9 6 6 6-6"
+                    />
+                  </svg>
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
+                    data-slot="accordion-trigger-icon"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m18 15-6-6-6 6"
+                    />
+                  </svg>
+                </button>
               </h3>
-              <p>
-                The PRO version includes the following enhancements:
-              </p>
-              <ul>
-                <li>
-                  Signatures: Add personal signatures directly within the app.
-                </li>
-                <li>
-                  Sender: Enter your sender information once for convenience.
-                </li>
-                <li>
-                  Contacts: Easily incorporate contact addresses from your address book.
-                </li>
-                <li>
-                  Templates: Access a wide range of templates for various occasions.
-                </li>
-                <li>
-                  Layout: Customize the layout of your letters to suit your specific needs.
-                </li>
-              </ul>
-            </li>
-            <li>
-              <h3>
-                How do I create and format a letter using The Letter App?
+              <div
+                aria-labelledby="radix-_r_8_"
+                class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                data-orientation="vertical"
+                data-slot="accordion-content"
+                data-state="closed"
+                hidden=""
+                id="radix-_r_9_"
+                role="region"
+                style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+              />
+            </div>
+            <div
+              class="not-last:border-b"
+              data-orientation="vertical"
+              data-slot="accordion-item"
+              data-state="closed"
+            >
+              <h3
+                class="flex"
+                data-orientation="vertical"
+                data-state="closed"
+              >
+                <button
+                  aria-expanded="false"
+                  class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground text-left"
+                  data-orientation="vertical"
+                  data-radix-collection-item=""
+                  data-slot="accordion-trigger"
+                  data-state="closed"
+                  id="radix-_r_a_"
+                  type="button"
+                >
+                  How do I create and format a letter using The Letter App?
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
+                    data-slot="accordion-trigger-icon"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m6 9 6 6 6-6"
+                    />
+                  </svg>
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
+                    data-slot="accordion-trigger-icon"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m18 15-6-6-6 6"
+                    />
+                  </svg>
+                </button>
               </h3>
-              <p>
-                Simply open the app, create a new letter, and begin composing your message. The app will automatically format it professionally for you. Of course, you can also customise the margins, font and much more in the letter settings.
-              </p>
-            </li>
-            <li>
-              <h3>
-                Can I print letters directly from The Letter App?
+              <div
+                aria-labelledby="radix-_r_a_"
+                class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                data-orientation="vertical"
+                data-slot="accordion-content"
+                data-state="closed"
+                hidden=""
+                id="radix-_r_b_"
+                role="region"
+                style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+              />
+            </div>
+            <div
+              class="not-last:border-b"
+              data-orientation="vertical"
+              data-slot="accordion-item"
+              data-state="closed"
+            >
+              <h3
+                class="flex"
+                data-orientation="vertical"
+                data-state="closed"
+              >
+                <button
+                  aria-expanded="false"
+                  class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground text-left"
+                  data-orientation="vertical"
+                  data-radix-collection-item=""
+                  data-slot="accordion-trigger"
+                  data-state="closed"
+                  id="radix-_r_c_"
+                  type="button"
+                >
+                  Can I print letters directly from The Letter App?
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
+                    data-slot="accordion-trigger-icon"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m6 9 6 6 6-6"
+                    />
+                  </svg>
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
+                    data-slot="accordion-trigger-icon"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m18 15-6-6-6 6"
+                    />
+                  </svg>
+                </button>
               </h3>
-              <p>
-                Yes, you can print your letters directly from the app with a simple tap on the print icon.
-              </p>
-            </li>
-            <li>
-              <h3>
-                Can I share my letters digitally with others?
+              <div
+                aria-labelledby="radix-_r_c_"
+                class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                data-orientation="vertical"
+                data-slot="accordion-content"
+                data-state="closed"
+                hidden=""
+                id="radix-_r_d_"
+                role="region"
+                style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+              />
+            </div>
+            <div
+              class="not-last:border-b"
+              data-orientation="vertical"
+              data-slot="accordion-item"
+              data-state="closed"
+            >
+              <h3
+                class="flex"
+                data-orientation="vertical"
+                data-state="closed"
+              >
+                <button
+                  aria-expanded="false"
+                  class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground text-left"
+                  data-orientation="vertical"
+                  data-radix-collection-item=""
+                  data-slot="accordion-trigger"
+                  data-state="closed"
+                  id="radix-_r_e_"
+                  type="button"
+                >
+                  Can I share my letters digitally with others?
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
+                    data-slot="accordion-trigger-icon"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m6 9 6 6 6-6"
+                    />
+                  </svg>
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
+                    data-slot="accordion-trigger-icon"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m18 15-6-6-6 6"
+                    />
+                  </svg>
+                </button>
               </h3>
-              <p>
-                Absolutely! The app allows you to share your letters digitally or export them as PDF files for distribution on various platforms.
-              </p>
-            </li>
-            <li>
-              <h3>
-                Are my letters stored securely?
+              <div
+                aria-labelledby="radix-_r_e_"
+                class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                data-orientation="vertical"
+                data-slot="accordion-content"
+                data-state="closed"
+                hidden=""
+                id="radix-_r_f_"
+                role="region"
+                style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+              />
+            </div>
+            <div
+              class="not-last:border-b"
+              data-orientation="vertical"
+              data-slot="accordion-item"
+              data-state="closed"
+            >
+              <h3
+                class="flex"
+                data-orientation="vertical"
+                data-state="closed"
+              >
+                <button
+                  aria-expanded="false"
+                  class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground text-left"
+                  data-orientation="vertical"
+                  data-radix-collection-item=""
+                  data-slot="accordion-trigger"
+                  data-state="closed"
+                  id="radix-_r_g_"
+                  type="button"
+                >
+                  Are my letters stored securely?
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
+                    data-slot="accordion-trigger-icon"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m6 9 6 6 6-6"
+                    />
+                  </svg>
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
+                    data-slot="accordion-trigger-icon"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m18 15-6-6-6 6"
+                    />
+                  </svg>
+                </button>
               </h3>
-              <p>
-                Yes, your letters are synchronized across your devices using iCloud, ensuring secure storage and easy access.
-              </p>
-            </li>
-            <li>
-              <h3>
-                Can I access previously composed letters quickly?
+              <div
+                aria-labelledby="radix-_r_g_"
+                class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                data-orientation="vertical"
+                data-slot="accordion-content"
+                data-state="closed"
+                hidden=""
+                id="radix-_r_h_"
+                role="region"
+                style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+              />
+            </div>
+            <div
+              class="not-last:border-b"
+              data-orientation="vertical"
+              data-slot="accordion-item"
+              data-state="closed"
+            >
+              <h3
+                class="flex"
+                data-orientation="vertical"
+                data-state="closed"
+              >
+                <button
+                  aria-expanded="false"
+                  class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground text-left"
+                  data-orientation="vertical"
+                  data-radix-collection-item=""
+                  data-slot="accordion-trigger"
+                  data-state="closed"
+                  id="radix-_r_i_"
+                  type="button"
+                >
+                  Can I access previously composed letters quickly?
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
+                    data-slot="accordion-trigger-icon"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m6 9 6 6 6-6"
+                    />
+                  </svg>
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
+                    data-slot="accordion-trigger-icon"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m18 15-6-6-6 6"
+                    />
+                  </svg>
+                </button>
               </h3>
-              <p>
-                Yes, The Letter App includes a search function that makes it easy to find and retrieve your previously composed letters.
-              </p>
-            </li>
-          </ol>
+              <div
+                aria-labelledby="radix-_r_i_"
+                class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                data-orientation="vertical"
+                data-slot="accordion-content"
+                data-state="closed"
+                hidden=""
+                id="radix-_r_j_"
+                role="region"
+                style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+              />
+            </div>
+          </div>
         </div>
-        <div>
-          <h2>
+        <div
+          class="mb-8"
+        >
+          <h2
+            class="text-2xl font-semibold mb-4"
+          >
             Subscription and Pricing
           </h2>
-          <ol>
-            <li>
-              <h3>
-                Is The Letter App free to use?
+          <div
+            class="flex flex-col w-full"
+            data-orientation="vertical"
+            data-slot="accordion"
+          >
+            <div
+              class="not-last:border-b"
+              data-orientation="vertical"
+              data-slot="accordion-item"
+              data-state="closed"
+            >
+              <h3
+                class="flex"
+                data-orientation="vertical"
+                data-state="closed"
+              >
+                <button
+                  aria-expanded="false"
+                  class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground text-left"
+                  data-orientation="vertical"
+                  data-radix-collection-item=""
+                  data-slot="accordion-trigger"
+                  data-state="closed"
+                  id="radix-_r_k_"
+                  type="button"
+                >
+                  Is The Letter App free to use?
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
+                    data-slot="accordion-trigger-icon"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m6 9 6 6 6-6"
+                    />
+                  </svg>
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
+                    data-slot="accordion-trigger-icon"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m18 15-6-6-6 6"
+                    />
+                  </svg>
+                </button>
               </h3>
-              <p>
-                The app is available for free, but there is a PRO version with additional features available for a subscription fee.
-              </p>
-            </li>
-            <li>
-              <h3>
-                How do I subscribe to the PRO version of The Letter App?
+              <div
+                aria-labelledby="radix-_r_k_"
+                class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                data-orientation="vertical"
+                data-slot="accordion-content"
+                data-state="closed"
+                hidden=""
+                id="radix-_r_l_"
+                role="region"
+                style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+              />
+            </div>
+            <div
+              class="not-last:border-b"
+              data-orientation="vertical"
+              data-slot="accordion-item"
+              data-state="closed"
+            >
+              <h3
+                class="flex"
+                data-orientation="vertical"
+                data-state="closed"
+              >
+                <button
+                  aria-expanded="false"
+                  class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground text-left"
+                  data-orientation="vertical"
+                  data-radix-collection-item=""
+                  data-slot="accordion-trigger"
+                  data-state="closed"
+                  id="radix-_r_m_"
+                  type="button"
+                >
+                  How do I subscribe to the PRO version of The Letter App?
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
+                    data-slot="accordion-trigger-icon"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m6 9 6 6 6-6"
+                    />
+                  </svg>
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
+                    data-slot="accordion-trigger-icon"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m18 15-6-6-6 6"
+                    />
+                  </svg>
+                </button>
               </h3>
-              <p>
-                You can easily subscribe to the PRO version from within the app. Simply tap on any PRO feature, such as settings, sender, contacts, or templates, and a subscription plan selection screen will appear.
-              </p>
-            </li>
-            <li>
-              <h3>
-                What is the cost of the PRO version, and how is it billed?
+              <div
+                aria-labelledby="radix-_r_m_"
+                class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                data-orientation="vertical"
+                data-slot="accordion-content"
+                data-state="closed"
+                hidden=""
+                id="radix-_r_n_"
+                role="region"
+                style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+              />
+            </div>
+            <div
+              class="not-last:border-b"
+              data-orientation="vertical"
+              data-slot="accordion-item"
+              data-state="closed"
+            >
+              <h3
+                class="flex"
+                data-orientation="vertical"
+                data-state="closed"
+              >
+                <button
+                  aria-expanded="false"
+                  class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground text-left"
+                  data-orientation="vertical"
+                  data-radix-collection-item=""
+                  data-slot="accordion-trigger"
+                  data-state="closed"
+                  id="radix-_r_o_"
+                  type="button"
+                >
+                  What is the cost of the PRO version, and how is it billed?
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
+                    data-slot="accordion-trigger-icon"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m6 9 6 6 6-6"
+                    />
+                  </svg>
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
+                    data-slot="accordion-trigger-icon"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m18 15-6-6-6 6"
+                    />
+                  </svg>
+                </button>
               </h3>
-              <p>
-                Pricing for the PRO version may vary, and billing details are provided within the app. Please check the app's pricing information for the most accurate details.
-              </p>
-            </li>
-          </ol>
+              <div
+                aria-labelledby="radix-_r_o_"
+                class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                data-orientation="vertical"
+                data-slot="accordion-content"
+                data-state="closed"
+                hidden=""
+                id="radix-_r_p_"
+                role="region"
+                style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+              />
+            </div>
+          </div>
         </div>
-        <div>
-          <h2>
+        <div
+          class="mb-8"
+        >
+          <h2
+            class="text-2xl font-semibold mb-4"
+          >
             Usage
           </h2>
-          <ol>
-            <li>
-              <h3>
-                How can I change the font of a letter?
+          <div
+            class="flex flex-col w-full"
+            data-orientation="vertical"
+            data-slot="accordion"
+          >
+            <div
+              class="not-last:border-b"
+              data-orientation="vertical"
+              data-slot="accordion-item"
+              data-state="closed"
+            >
+              <h3
+                class="flex"
+                data-orientation="vertical"
+                data-state="closed"
+              >
+                <button
+                  aria-expanded="false"
+                  class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground text-left"
+                  data-orientation="vertical"
+                  data-radix-collection-item=""
+                  data-slot="accordion-trigger"
+                  data-state="closed"
+                  id="radix-_r_q_"
+                  type="button"
+                >
+                  How can I change the font of a letter?
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
+                    data-slot="accordion-trigger-icon"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m6 9 6 6 6-6"
+                    />
+                  </svg>
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
+                    data-slot="accordion-trigger-icon"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m18 15-6-6-6 6"
+                    />
+                  </svg>
+                </button>
               </h3>
-              <p>
-                To change the font, select the relevant letter and tap on ⚙️. This opens the letter settings where you can adjust the font and font size, among other things. If you do not want to change the font for every letter, you can also define a sender and store the desired font there. 
-              </p>
-            </li>
-            <li>
-              <h3>
-                Do I have to enter the sender again for each letter?
+              <div
+                aria-labelledby="radix-_r_q_"
+                class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                data-orientation="vertical"
+                data-slot="accordion-content"
+                data-state="closed"
+                hidden=""
+                id="radix-_r_r_"
+                role="region"
+                style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+              />
+            </div>
+            <div
+              class="not-last:border-b"
+              data-orientation="vertical"
+              data-slot="accordion-item"
+              data-state="closed"
+            >
+              <h3
+                class="flex"
+                data-orientation="vertical"
+                data-state="closed"
+              >
+                <button
+                  aria-expanded="false"
+                  class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground text-left"
+                  data-orientation="vertical"
+                  data-radix-collection-item=""
+                  data-slot="accordion-trigger"
+                  data-state="closed"
+                  id="radix-_r_s_"
+                  type="button"
+                >
+                  Do I have to enter the sender again for each letter?
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
+                    data-slot="accordion-trigger-icon"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m6 9 6 6 6-6"
+                    />
+                  </svg>
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
+                    data-slot="accordion-trigger-icon"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m18 15-6-6-6 6"
+                    />
+                  </svg>
+                </button>
               </h3>
-              <p>
-                No, you can store one or more senders. The default sender is then automatically stored with every new letter. To manage the senders, tap on the business card symbol in the sender field in the letter editor.
-              </p>
-            </li>
-            <li>
-              <h3>
-                How can I adjust the date of the letter?
+              <div
+                aria-labelledby="radix-_r_s_"
+                class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                data-orientation="vertical"
+                data-slot="accordion-content"
+                data-state="closed"
+                hidden=""
+                id="radix-_r_t_"
+                role="region"
+                style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+              />
+            </div>
+            <div
+              class="not-last:border-b"
+              data-orientation="vertical"
+              data-slot="accordion-item"
+              data-state="closed"
+            >
+              <h3
+                class="flex"
+                data-orientation="vertical"
+                data-state="closed"
+              >
+                <button
+                  aria-expanded="false"
+                  class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground text-left"
+                  data-orientation="vertical"
+                  data-radix-collection-item=""
+                  data-slot="accordion-trigger"
+                  data-state="closed"
+                  id="radix-_r_u_"
+                  type="button"
+                >
+                  How can I adjust the date of the letter?
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
+                    data-slot="accordion-trigger-icon"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m6 9 6 6 6-6"
+                    />
+                  </svg>
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
+                    data-slot="accordion-trigger-icon"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m18 15-6-6-6 6"
+                    />
+                  </svg>
+                </button>
               </h3>
-              <p>
-                To adjust the date, select the relevant letter and tap on ⚙️. This opens the letter settings where you can adjust the date, among other things.
-              </p>
-            </li>
-            <li>
-              <h3>
-                How can I add a logo to my letters?
+              <div
+                aria-labelledby="radix-_r_u_"
+                class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                data-orientation="vertical"
+                data-slot="accordion-content"
+                data-state="closed"
+                hidden=""
+                id="radix-_r_v_"
+                role="region"
+                style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+              />
+            </div>
+            <div
+              class="not-last:border-b"
+              data-orientation="vertical"
+              data-slot="accordion-item"
+              data-state="closed"
+            >
+              <h3
+                class="flex"
+                data-orientation="vertical"
+                data-state="closed"
+              >
+                <button
+                  aria-expanded="false"
+                  class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground text-left"
+                  data-orientation="vertical"
+                  data-radix-collection-item=""
+                  data-slot="accordion-trigger"
+                  data-state="closed"
+                  id="radix-_r_10_"
+                  type="button"
+                >
+                  How can I add a logo to my letters?
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
+                    data-slot="accordion-trigger-icon"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m6 9 6 6 6-6"
+                    />
+                  </svg>
+                  <svg
+                    aria-hidden="true"
+                    class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
+                    data-slot="accordion-trigger-icon"
+                    fill="none"
+                    height="24"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m18 15-6-6-6 6"
+                    />
+                  </svg>
+                </button>
               </h3>
-              <p>
-                To add a logo to your letter, you can use the stationery feature. Use your preferred application, such as Pages or Word, to design a PDF that includes your logo in the desired position. When viewing the letter, tap on the settings icon. This will allow you to add the PDF with your logo as stationery. If you want the stationery to be added automatically to all future letters, you can set it up in the app settings. Create a sender profile and upload your stationery PDF there. This will ensure that your logo is included in every new letter you create.
-              </p>
-            </li>
-          </ol>
+              <div
+                aria-labelledby="radix-_r_10_"
+                class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                data-orientation="vertical"
+                data-slot="accordion-content"
+                data-state="closed"
+                hidden=""
+                id="radix-_r_11_"
+                role="region"
+                style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -4,6 +4,12 @@ import getTranslations from "@/functions/getTranslations";
 import Page from "@/components/Page";
 import Section from "@/components/Section";
 import Container from "@/components/Container";
+import {
+  Accordion,
+  AccordionItem,
+  AccordionTrigger,
+  AccordionContent,
+} from "@/components/ui/accordion";
 
 export default function Faq({ locale }) {
   const t = getTranslations(locale);
@@ -14,26 +20,28 @@ export default function Faq({ locale }) {
   return (
     <Page>
       <Section>
-        <Container className="prose proese-briefe">
-          <h1>{t("faq.title")}</h1>
+        <Container>
+          <h1 className="text-3xl font-bold mb-8">{t("faq.title")}</h1>
           {content.categories.map((category) => (
-            <div key={category.title}>
-              <h2>{category.title}</h2>
-              <ol>
+            <div key={category.title} className="mb-8">
+              <h2 className="text-2xl font-semibold mb-4">{category.title}</h2>
+              <Accordion type="single" collapsible className="w-full">
                 {category.questions.map((question) => (
-                  <li key={question.question}>
-                    <h3>{question.question}</h3>
-                    <p>{question.answer}</p>
-                    {question.items && (
-                      <ul>
-                        {question.items.map((item) => (
-                          <li key={item}>{item}</li>
-                        ))}
-                      </ul>
-                    )}
-                  </li>
+                  <AccordionItem key={question.question} value={question.question}>
+                    <AccordionTrigger className="text-left">{question.question}</AccordionTrigger>
+                    <AccordionContent>
+                      <p>{question.answer}</p>
+                      {question.items && (
+                        <ul className="list-disc pl-6 mt-2">
+                          {question.items.map((item) => (
+                            <li key={item}>{item}</li>
+                          ))}
+                        </ul>
+                      )}
+                    </AccordionContent>
+                  </AccordionItem>
                 ))}
-              </ol>
+              </Accordion>
             </div>
           ))}
         </Container>

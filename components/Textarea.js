@@ -1,6 +1,7 @@
 import React from "react";
 
 import { Field } from "formik";
+import { Textarea as UiTextarea } from "@/components/ui/textarea";
 
 import ErrorMessage from "./ErrorMessage";
 
@@ -8,8 +9,8 @@ function Textarea({ name, placeholder, disabled }) {
   return (
     <div className="w-full">
       <Field
-        className="w-full p-2 h-48 border disabled:border-gra rounded-md"
-        component="textarea"
+        as={UiTextarea}
+        className="h-48"
         name={name}
         disabled={disabled}
         maxLength={4000}
