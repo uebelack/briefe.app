@@ -21,29 +21,34 @@ export default function Faq({ locale }) {
     <Page>
       <Section>
         <Container>
-          <h1 className="text-3xl font-bold mb-8">{t("faq.title")}</h1>
-          {content.categories.map((category) => (
-            <div key={category.title} className="mb-8">
-              <h2 className="text-2xl font-semibold mb-4">{category.title}</h2>
-              <Accordion type="single" collapsible className="w-full">
-                {category.questions.map((question) => (
-                  <AccordionItem key={question.question} value={question.question}>
-                    <AccordionTrigger className="text-left">{question.question}</AccordionTrigger>
-                    <AccordionContent>
-                      <p>{question.answer}</p>
-                      {question.items && (
-                        <ul className="list-disc pl-6 mt-2">
-                          {question.items.map((item) => (
-                            <li key={item}>{item}</li>
-                          ))}
-                        </ul>
-                      )}
-                    </AccordionContent>
-                  </AccordionItem>
-                ))}
-              </Accordion>
-            </div>
-          ))}
+          <div className="faq-wrap">
+            <p className="eyebrow">FAQ</p>
+            <h1 className="headline" style={{ marginTop: 10, marginBottom: 40 }}>
+              {t("faq.title")}
+            </h1>
+            {content.categories.map((category) => (
+              <div key={category.title} style={{ marginBottom: 40 }}>
+                <div className="faq-category-title">{category.title}</div>
+                <Accordion type="single" collapsible className="w-full">
+                  {category.questions.map((question) => (
+                    <AccordionItem key={question.question} value={question.question}>
+                      <AccordionTrigger className="text-left">{question.question}</AccordionTrigger>
+                      <AccordionContent>
+                        <p>{question.answer}</p>
+                        {question.items && (
+                          <ul className="list-disc pl-6 mt-2">
+                            {question.items.map((item) => (
+                              <li key={item}>{item}</li>
+                            ))}
+                          </ul>
+                        )}
+                      </AccordionContent>
+                    </AccordionItem>
+                  ))}
+                </Accordion>
+              </div>
+            ))}
+          </div>
         </Container>
       </Section>
     </Page>

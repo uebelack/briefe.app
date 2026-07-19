@@ -22,8 +22,8 @@ export default function LanguageSelect({ language, locale }) {
 
   return (
     <Select value={locale} onValueChange={selectLanguage}>
-      <SelectTrigger className="h-auto! w-auto gap-1 border-0 bg-transparent p-0! text-white shadow-none hover:bg-transparent focus-visible:ring-0 [&_svg]:text-white">
-        <GlobeAltIcon className="h-5 w-5" aria-hidden="true" />
+      <SelectTrigger className="h-auto! w-auto gap-1 rounded-full border-0 bg-transparent px-2! py-1.5! text-[0.9375rem] font-normal text-foreground/80 shadow-none transition-colors hover:bg-black/5 hover:text-foreground focus-visible:ring-0 [&_svg]:text-foreground/70">
+        <GlobeAltIcon className="h-[18px] w-[18px]" aria-hidden="true" />
         <SelectValue placeholder={language} />
       </SelectTrigger>
       <SelectContent position="popper" sideOffset={8} className="z-[200]">

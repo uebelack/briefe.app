@@ -13,3 +13,6 @@
 @import "./help.css";
 
 @import "./blog.css";
+
+/* Apple-style redesign — loaded last so it layers over legacy CSS */
+@import "./apple.css";

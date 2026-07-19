@@ -9,7 +9,9 @@ export default function ScrollButton({ label, target }) {
       className="scroll-button"
       type="button"
       aria-label={label}
-      onClick={() => scroller.scrollTo(target, { duration: 200, smooth: true })}
+      onClick={() =>
+        scroller.scrollTo(target, { duration: 600, smooth: "easeInOutQuart", offset: -90 })
+      }
     />
   );
 }

@@ -1,17 +1,38 @@
 html {
   scroll-behavior: smooth;
+  /* keep anchored section titles clear of the floating nav */
+  scroll-padding-top: 96px;
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
-  background-color: #fff;
-  color: #000;
+  background-color: var(--background);
+  color: var(--foreground);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern";
+  letter-spacing: -0.01em;
+  overflow-x: hidden;
 }
 
-header {
-  background-color: rgba(255, 255, 255, 0.8);
-  z-index: 100;
+::selection {
+  background: color-mix(in srgb, var(--brand) 22%, transparent);
+  color: var(--foreground);
 }
 
 *:focus {
   outline: none;
+}
+
+*:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }

@@ -1,13 +1,13 @@
-.section.first {
-  min-height: calc(100vh);
-}
-
-.section h1 {
-  padding-top: 120px;
+/* Interior pages: clear the floating nav, comfortable vertical rhythm.
+   The homepage hero opts out with its own .hero class. */
+.section {
+  position: relative;
+  padding-top: 116px;
+  padding-bottom: clamp(56px, 8vw, 96px);
 }
 
 @media (min-width: 768px) {
   .section {
-    min-height: calc(100vh - 125px);
+    padding-top: 132px;
   }
 }

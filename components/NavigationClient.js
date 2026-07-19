@@ -1,8 +1,9 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { Menu, X } from "lucide-react";
 import { scroller } from "react-scroll";
 import LanguageSelect from "./LanguageSelect";
 import languages from "@/data/languages";
@@ -23,67 +24,83 @@ export default function Navigation({
   download,
   locale,
 }) {
+  const [open, setOpen] = useState(false);
+
   const handleOnClick = (e, target) => {
     if (Object.keys(languages).indexOf(window.location.pathname.substring(1)) >= 0) {
-      scroller.scrollTo(target, { duration: 200, smooth: true });
+      scroller.scrollTo(target, { duration: 500, smooth: "easeInOutQuart", offset: -100 });
       e.preventDefault();
     }
+    setOpen(false);
   };
 
+  const anchors = [
+    { key: "details", label: details, target: "details", href: `/${locale}#details` },
+    { key: "features", label: features, target: "features", href: `/${locale}#features` },
+    ...(showBlog ? [{ key: "blog", label: blog, target: "blog", href: `/${locale}#blog` }] : []),
+    ...(showTemplates
+      ? [{ key: "templates", label: templates, href: `/${locale}/templates` }]
+      : []),
+    { key: "contact", label: contact, target: "contact", href: `/${locale}#contact` },
+    { key: "faq", label: faq, href: `/${locale}/faq` },
+    { key: "help", label: help, href: `/${locale}/${helpLink}` },
+  ];
+
+  const renderLink = (item) =>
+    item.target ? (
+      <a key={item.key} href={item.href} onClick={(e) => handleOnClick(e, item.target)}>
+        {item.label}
+      </a>
+    ) : (
+      <a key={item.key} href={item.href} onClick={() => setOpen(false)}>
+        {item.label}
+      </a>
+    );
+
   return (
-    <header className="fixed top-0 w-full bg-blue text-white">
-      <div className="md:container px-4 my-4 fade-in flex flex-col md:flex-row">
-        <div className="flex flex-grow">
-          <Link href="/" className="flex items-center transition ease-in-out delay-150 flex-grow">
-            <Image src="/logo.svg" alt="Letter logo" width={50} height={35} />
-            <div className="text-2xl ml-2 text-white">{title}</div>
-          </Link>
-          <div className="md:hidden mt-2">
-            <LanguageSelect language={language} locale={locale} />
-          </div>
-        </div>
-        <ul className="flex flex-wrap md:pl-1 pt-1 md:pt-1.5 ">
-          <li className="mr-2">
-            <a href={`/${locale}#details`} onClick={(e) => handleOnClick(e, "details")}>
-              {details}
-            </a>
-          </li>
-          <li className="mr-2">
-            <a href={`/${locale}#features`} onClick={(e) => handleOnClick(e, "features")}>
-              {features}
-            </a>
-          </li>
-          {showBlog && (
-            <li className="mr-2">
-              <a href={`/${locale}#blog`} onClick={(e) => handleOnClick(e, "blog")}>
-                {blog}
-              </a>
-            </li>
-          )}
-          {showTemplates && (
-            <li className="mr-2">
-              <a href={`/${locale}/templates`}>{templates}</a>
-            </li>
-          )}
-          <li className="mr-2">
-            <a href={`/${locale}#contact`} onClick={(e) => handleOnClick(e, "contact")}>
-              {contact}
-            </a>
-          </li>
-          <li className="mr-2">
-            <a href={`/${locale}/faq`}>{faq}</a>
-          </li>
-          <li className="mr-2">
-            <a href={`/${locale}/${helpLink}`}>{help}</a>
-          </li>
-          <a className="mr-2" href="http://itunes.apple.com/app/letter/id498506154">
+    <header className="site-header">
+      <nav className="site-nav">
+        <Link href={`/${locale}`} className="nav-brand" aria-label={title}>
+          <Image src="/logo.svg" alt="Letter logo" width={28} height={28} />
+          <span>{title}</span>
+        </Link>
+
+        <div className="nav-links">{anchors.map(renderLink)}</div>
+
+        <div className="nav-sep" aria-hidden="true" />
+
+        <LanguageSelect language={language} locale={locale} />
+
+        <a
+          className="nav-cta"
+          href="http://itunes.apple.com/app/letter/id498506154"
+          style={{ marginLeft: 8 }}
+        >
+          {download}
+        </a>
+
+        <button
+          type="button"
+          className="nav-toggle"
+          aria-label="Menu"
+          aria-expanded={open}
+          onClick={() => setOpen((v) => !v)}
+        >
+          {open ? <X size={22} /> : <Menu size={22} />}
+        </button>
+      </nav>
+
+      <div className={`nav-sheet${open ? " open" : ""}`}>
+        <div className="nav-sheet-inner">
+          {anchors.map(renderLink)}
+          <a
+            href="http://itunes.apple.com/app/letter/id498506154"
+            onClick={() => setOpen(false)}
+            style={{ color: "var(--brand)", fontWeight: 550 }}
+          >
             {download}
           </a>
-          <li className="hidden md:block">|</li>
-          <li className="hidden md:block">
-            <LanguageSelect language={language} locale={locale} />
-          </li>
-        </ul>
+        </div>
       </div>
     </header>
   );

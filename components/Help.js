@@ -12,25 +12,30 @@ export default function Help({ locale }) {
   return (
     <Page>
       <Section>
-        <Container className="prose proese-briefe">
-          <h1>{t("help.title")}</h1>
-          <h2>{t("help.how_to_title")}</h2>
-          <div className="help-block">
-            <div className="help-text">{t("help.how_to_001")}</div>
-            <div className="help-image">
-              <Image src="/help/iphone_001.png" alt="Letter logo" width={393} height={852} />
-            </div>
-          </div>
-          <div className="help-block">
-            <div className="help-text">{t("help.how_to_002")}</div>
-            <div className="help-image">
-              <Image src="/help/iphone_002.png" alt="Letter logo" width={393} height={852} />
-            </div>
-          </div>
-          <div className="help-block">
-            <div className="help-text">{t("help.how_to_003")}</div>
-            <div className="help-image">
-              <Image src="/help/iphone_003.png" alt="Letter logo" width={393} height={852} />
+        <Container>
+          <div className="help-wrap">
+            <p className="eyebrow">{t("help.menu")}</p>
+            <h1 className="headline" style={{ marginTop: 10 }}>
+              {t("help.how_to_title")}
+            </h1>
+
+            <div className="help-steps">
+              {[1, 2, 3].map((n) => (
+                <div className="help-block" key={n}>
+                  <div className="help-text">
+                    <span className="help-step-num">{n}</span>
+                    {t(`help.how_to_00${n}`)}
+                  </div>
+                  <div className="help-image">
+                    <Image
+                      src={`/help/iphone_00${n}.png`}
+                      alt={`Step ${n}`}
+                      width={393}
+                      height={852}
+                    />
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </Container>
