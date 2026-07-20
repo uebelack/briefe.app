@@ -8,7 +8,9 @@ import { scroller } from "react-scroll";
 import LanguageSelect from "./LanguageSelect";
 import languages from "@/data/languages";
 
-const APP_STORE_URL = "http://itunes.apple.com/app/letter/id498506154";
+// iOS and macOS share the Apple App Store listing; Android uses Google Play.
+const APP_STORE_URL = "https://apps.apple.com/us/app/letter-just-write-letters/id498506154";
+const PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=dev.uebelacker.letter";
 
 export default function Navigation({
   showBlog,
@@ -28,6 +30,15 @@ export default function Navigation({
 }) {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
+  // Default to the App Store (iOS/macOS) so server and initial client render
+  // match; switch to Google Play after mount when the UA is Android.
+  const [downloadUrl, setDownloadUrl] = useState(APP_STORE_URL);
+
+  useEffect(() => {
+    if (/android/i.test(navigator.userAgent || "")) {
+      setDownloadUrl(PLAY_STORE_URL);
+    }
+  }, []);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 8);
@@ -80,7 +91,7 @@ export default function Navigation({
           {links.map(renderLink)}
           <span className="nav-divider" />
           <LanguageSelect language={language} locale={locale} />
-          <a className="nav-cta" href={APP_STORE_URL}>
+          <a className="nav-cta" href={downloadUrl}>
             {download}
           </a>
         </nav>
@@ -99,7 +110,7 @@ export default function Navigation({
       <div className="nav-mobile" inert={!open}>
         <nav className="nav-mobile-inner" aria-label="Mobile">
           {links.map(renderLink)}
-          <a className="nav-cta nav-cta-block" href={APP_STORE_URL} onClick={() => setOpen(false)}>
+          <a className="nav-cta nav-cta-block" href={downloadUrl} onClick={() => setOpen(false)}>
             {download}
           </a>
           <div className="nav-mobile-lang">
