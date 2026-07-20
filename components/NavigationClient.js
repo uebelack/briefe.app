@@ -9,7 +9,7 @@ import LanguageSelect from "./LanguageSelect";
 import languages from "@/data/languages";
 
 // iOS and macOS share the Apple App Store listing; Android uses Google Play.
-const APP_STORE_URL = "https://apps.apple.com/us/app/letter-just-write-letters/id498506154";
+const APP_STORE_URL = "https://apps.apple.com/app/id498506154";
 const PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=dev.uebelacker.letter";
 
 export default function Navigation({

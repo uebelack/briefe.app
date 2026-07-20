@@ -1,146 +1,233 @@
 [
   {
     "uuid": "TEMPLATE_SUBSCRIPTIONCANCELLATION",
+    "title": "Kündigung Magazin-Abonnement",
+    "description": "Kündigen Sie Ihr Magazin-Abonnement und bitten Sie um eine schriftliche Bestätigung des Vertragsendes.",
+    "icon": "Newspaper",
     "subject": "Kündigung des Abonnements für [Magazinname] - Kundennummer [Kundennummer]",
     "text": "Sehr geehrte Damen und Herren,\n\nhiermit kündige ich das Abonnement des Magazins [Magazinname] zum nächstmöglichen Zeitpunkt. Bitte senden Sie mir eine Bestätigung der Kündigung inklusive des Vertragsenddatums in den kommenden Tagen.\n\nMit freundlichen Grüßen,"
   },
   {
     "uuid": "TEMPLATE_ADDRESSCHANGE",
+    "title": "Mitteilung Adressänderung",
+    "description": "Teilen Sie einem Unternehmen oder Kontakt mit, dass sich Ihre Adresse geändert hat.",
+    "icon": "MapPin",
     "subject": "Benachrichtigung über Adressänderung ab [Wirksamkeitsdatum]",
     "text": "Sehr geehrte Damen und Herren,\n\nich möchte Sie darüber informieren, dass sich meine Adresse geändert hat. Die neue Adresse, gültig ab dem [Wirksamkeitsdatum], lautet wie folgt:\n\n[Neue Adresse]\n\nBitte aktualisieren Sie Ihre Unterlagen entsprechend.\n\nVielen Dank für Ihre Aufmerksamkeit in dieser Angelegenheit.\n\nMit freundlichen Grüßen,"
   },
   {
     "uuid": "TEMPLATE_JOBCANCELLATION",
+    "title": "Kündigung des Arbeitsvertrags",
+    "description": "Kündigen Sie Ihren Arbeitsvertrag form- und fristgerecht innerhalb der geltenden Kündigungsfrist.",
+    "icon": "Briefcase",
     "subject": "Beendigung des Arbeitsvertrags",
     "text": "Sehr geehrte Damen und Herren,\n\nhiermit mache ich von meinem im Arbeitsvertrag festgelegten Kündigungsrecht Gebrauch und kündige den mit Ihnen am [Datum] abgeschlossenen Arbeitsvertrag fristgerecht zum [Datum]. Bitte bestätigen Sie die Kündigung umgehend schriftlich.\n\nMit freundlichen Grüßen,"
   },
   {
     "uuid": "TEMPLATE_MOBILECANCELLATION",
+    "title": "Kündigung Mobilfunkvertrag",
+    "description": "Kündigen Sie Ihren Mobilfunkvertrag und lassen Sie sich die Kündigung schriftlich bestätigen.",
+    "icon": "Smartphone",
     "subject": "Kündigung des Mobilfunkvertrags - Telefonnummer [Telefonnummer]",
     "text": "Sehr geehrte Damen und Herren,\n\nhiermit kündige ich meinen Mobilfunkvertrag mit der Telefonnummer [Telefonnummer] zum nächstmöglichen Zeitpunkt. Bitte bestätigen Sie die Kündigung umgehend schriftlich.\n\nMit freundlichen Grüßen,"
   },
   {
     "uuid": "TEMPLATE_RENTALCANCELLATION",
+    "title": "Kündigung des Mietvertrags",
+    "description": "Kündigen Sie Ihren Mietvertrag und klären Sie die Rückgabe der Wohnung.",
+    "icon": "KeyRound",
     "subject": "Beendigung des Mietvertrags - [Wohnadresse]",
     "text": "Sehr geehrte Damen und Herren,\n\nhiermit kündige ich meinen Mietvertrag für die Immobilie mit der Adresse [Wohnadresse]. Die Kündigung wird ab dem [Kündigungsdatum] gemäß der Kündigungsfrist von [Kündigungsfrist] wirksam. Bitte bestätigen Sie diese Kündigung schriftlich und teilen Sie Informationen zum Rückgabeprozess der Immobilie sowie mögliche Termine für Inspektionen oder Besichtigungen mit.\n\nVielen Dank für Ihre Kooperation.\n\nMit freundlichen Grüßen,"
   },
   {
     "uuid": "TEMPLATE_SECURITYCANCELLATION",
+    "title": "Kündigung Versicherungsvertrag",
+    "description": "Kündigen Sie Ihren Versicherungsvertrag und bitten Sie um eine schriftliche Bestätigung.",
+    "icon": "Shield",
     "subject": "Beendigung des Versicherungsvertrags - Versicherungsnummer [Versicherungsnummer]",
     "text": "Sehr geehrte Damen und Herren,\n\nhiermit kündige ich den Versicherungsvertrag mit der Versicherungsnummer [Versicherungsnummer] zum nächstmöglichen Zeitpunkt. Bitte bestätigen Sie diese Kündigung schriftlich und teilen Sie eventuelle zusätzliche Schritte oder Informationen von meiner Seite mit.\n\nVielen Dank für Ihre prompte Aufmerksamkeit in dieser Angelegenheit.\n\nMit freundlichen Grüßen,"
   },
   {
     "uuid": "TEMPLATE_APPOINTMENTCANCELLATION",
+    "title": "Bitte um Terminverschiebung",
+    "description": "Bitten Sie höflich um die Verschiebung eines Termins, den Sie nicht wahrnehmen können.",
+    "icon": "CalendarX",
     "subject": "Terminverschiebung erforderlich: Termin am [Termin Datum]",
     "text": "Sehr geehrte Damen und Herren [Empfängername],\n\nich bedaure, Ihnen mitteilen zu müssen, dass ich meinen geplanten Termin am [Termin Datum] aufgrund unvorhergesehener Umstände nicht wahrnehmen kann. Meine aufrichtigen Entschuldigungen für eventuelle Unannehmlichkeiten. Könnten wir möglicherweise einen späteren Termin vereinbaren? Ihre Einsicht und Flexibilität werden sehr geschätzt.\n\nMit freundlichen Grüßen,"
   },
   {
     "uuid": "TEMPLATE_EVENTRSVP",
+    "title": "Zusage zur Veranstaltung",
+    "description": "Bestätigen Sie Ihre Teilnahme an einer bevorstehenden Veranstaltung.",
+    "icon": "CalendarCheck",
     "subject": "Zusagen für [Veranstaltungsname]",
     "text": "Sehr geehrte Damen und Herren [Veranstaltername],\n\nich schreibe, um meine Teilnahme an der bevorstehenden Veranstaltung [Veranstaltungsname] am [Veranstaltungsdatum] um [Veranstaltungsort] zu bestätigen. Ich freue mich auf die Veranstaltung und bin gespannt darauf, an dem Treffen teilzunehmen. Vielen Dank, dass Sie mich eingeschlossen haben.\n\nMit freundlichen Grüßen,"
   },
   {
     "uuid": "TEMPLATE_MEMBERSHIPCANCELLATION",
+    "title": "Kündigung der Mitgliedschaft",
+    "description": "Kündigen Sie Ihre Mitgliedschaft und lassen Sie sich das Enddatum schriftlich bestätigen.",
+    "icon": "IdCard",
     "subject": "Kündigung der Mitgliedschaft - ID [Mitgliedschafts-ID]",
     "text": "Sehr geehrte Damen und Herren,\n\nich schreibe, um meine Mitgliedschaft mit der ID [Mitgliedschafts-ID] offiziell zu kündigen, gültig ab [Kündigungsdatum]. Bitte bestätigen Sie diese Kündigung schriftlich und geben Sie alle notwendigen Informationen zu Rückerstattungen oder ausstehenden Beträgen an.\n\nMit freundlichen Grüßen,"
   },
   {
     "uuid": "TEMPLATE_EVENTINVITATION",
+    "title": "Einladung zur Veranstaltung",
+    "description": "Laden Sie jemanden mit Datum, Uhrzeit und Ort zu einer Veranstaltung ein.",
+    "icon": "Ticket",
     "subject": "Einladung zu [Veranstaltungsname]",
     "text": "Sehr geehrte Damen und Herren [Empfängername],\n\nes freut mich, Sie zur Veranstaltung [Veranstaltungsname] am [Veranstaltungsdatum] um [Veranstaltungsort] einzuladen. Die Veranstaltung verspricht gute Gesellschaft, Unterhaltung und unvergessliche Momente. Bitte lassen Sie mich wissen, ob Sie teilnehmen können, damit ich entsprechende Vorkehrungen treffen kann.\n\nIch freue mich auf Ihre Anwesenheit!\n\nMit freundlichen Grüßen,"
   },
   {
     "uuid": "TEMPLATE_PRODUCTRETURNREQUEST",
+    "title": "Anfrage zur Produktrücksendung",
+    "description": "Fordern Sie die Rücksendung eines Produkts an und klären Sie die Rückerstattung.",
+    "icon": "PackageOpen",
     "subject": "Anfrage zur Produkt Rücksendung - Bestellung #[Bestellnummer]",
     "text": "Sehr geehrte Damen und Herren [Empfängername],\n\nich schreibe, um eine Rücksendung für das Produkt mit der Bestellnummer #[Bestellnummer] anzufordern. Das Produkt [Produktname] wurde am [Lieferdatum] erhalten. Leider entspricht es nicht meinen Erwartungen. Bitte leiten Sie mich durch den Rücksendeprozess.\n\nMit freundlichen Grüßen,"
   },
   {
     "uuid": "TEMPLATE_THANKYOUFORHOSPITALITY",
+    "title": "Dank für Gastfreundschaft",
+    "description": "Bedanken Sie sich herzlich für die Gastfreundschaft während Ihres Besuchs.",
+    "icon": "HandHeart",
     "subject": "Vielen Dank für Ihre Gastfreundschaft",
     "text": "Sehr geehrte Damen und Herren [Empfängername],\n\nich möchte meinen herzlichen Dank für Ihre herzliche Gastfreundschaft während meines kürzlichen Besuchs in [Ort] zum Ausdruck bringen. Ihre Freundlichkeit und Großzügigkeit haben meinen Aufenthalt wirklich angenehm gemacht. Ich schätze die Mühe, die Sie in meine willkommene Aufnahme gesteckt haben.\n\nMit freundlichen Grüßen,"
   },
   {
     "uuid": "TEMPLATE_BIRTHDAYGREETING",
+    "title": "Glückwunsch zum Geburtstag",
+    "description": "Senden Sie herzliche Geburtstagswünsche an einen besonderen Menschen.",
+    "icon": "Cake",
     "subject": "Herzlichen Glückwunsch zum Geburtstag, [Empfängername]!",
     "text": "Sehr geehrte Damen und Herren [Empfängername],\n\nich wünsche Ihnen einen fantastischen Geburtstag voller Freude, Gelächter und unvergesslicher Momente. Möge dieses Jahr Ihnen Erfolg und Glück bringen. Genießen Sie Ihren besonderen Tag!\n\nHerzliche Grüße,"
   },
   {
     "uuid": "TEMPLATE_GRADUATIONCONGRATULATION",
+    "title": "Glückwunsch zum Abschluss",
+    "description": "Gratulieren Sie jemandem herzlich zum bestandenen Abschluss.",
+    "icon": "GraduationCap",
     "subject": "Herzlichen Glückwunsch zu Ihrem Abschluss, [Absolventenname]!",
     "text": "Sehr geehrte Damen und Herren [Empfängername],\n\nherzlichen Glückwunsch zu Ihrem wohlverdienten Abschluss! Ihre harte Arbeit und Hingabe haben sich gelohnt. Ich wünsche Ihnen Erfolg und Erfüllung in Ihren zukünftigen Unternehmungen. Gut gemacht!\n\nMit freundlichen Grüßen,"
   },
   {
     "uuid": "TEMPLATE_WEDDINGCONGRATULATION",
+    "title": "Glückwunsch zur Hochzeit",
+    "description": "Übermitteln Sie herzliche Glückwünsche zur Hochzeit des Brautpaars.",
+    "icon": "Heart",
     "subject": "Herzlichen Glückwunsch zu Ihrer Hochzeit!",
     "text": "Sehr geehrte Damen und Herren [Empfängername],\n\nherzlichste Glückwünsche zu dem freudigen Anlass Ihrer Hochzeit! Möge Ihre gemeinsame Reise von Liebe, Verständnis und unvergesslichen Momenten geprägt sein. Ich wünsche Ihnen ein Leben voller Glück und Einheit.\n\nHerzliche Grüße,"
   },
   {
     "uuid": "TEMPLATE_NEWJOBCONGRATULATION",
+    "title": "Glückwunsch zum neuen Job",
+    "description": "Gratulieren Sie jemandem zum neuen Job und wünschen Sie viel Erfolg.",
+    "icon": "BriefcaseBusiness",
     "subject": "Herzlichen Glückwunsch zu Ihrem neuen Job!",
     "text": "Sehr geehrte Damen und Herren [Empfängername],\n\nherzlichen Glückwunsch zu Ihrem neuen Job! Ihre harte Arbeit und Hingabe haben sich ausgezahlt. Möge diese neue Gelegenheit Ihnen Wachstum, Erfolg und Erfüllung in Ihrer beruflichen Laufbahn bringen.\n\nMit freundlichen Grüßen,"
   },
   {
     "uuid": "TEMPLATE_RETIREMENTWELLWISHES",
+    "title": "Glückwunsch zum Ruhestand",
+    "description": "Wünschen Sie einen glücklichen Ruhestand und würdigen Sie ein erfülltes Berufsleben.",
+    "icon": "Sunset",
     "subject": "Ich wünsche Ihnen einen glücklichen Ruhestand!",
     "text": "Sehr geehrte Damen und Herren [Empfängername],\n\nherzliche Glückwünsche zu Ihrem Ruhestand! Während Sie dieses neue Kapitel beginnen, mögen Sie die Freiheit und die Muße genießen, die Sie verdienen. Ihre Hingabe und Ihre Beiträge haben einen bleibenden Eindruck hinterlassen. Ich wünsche Ihnen unendliche Freude in den kommenden Jahren.\n\nHerzliche Grüße,"
   },
   {
     "uuid": "TEMPLATE_NEWBABYCONGRATULATION",
+    "title": "Glückwunsch zur Geburt",
+    "description": "Gratulieren Sie frischgebackenen Eltern zur Geburt ihres Babys.",
+    "icon": "Baby",
     "subject": "Herzlichen Glückwunsch zur Ankunft Ihres neuen Familienmitglieds!",
     "text": "Sehr geehrte Damen und Herren [Empfängername],\n\nherzliche Glückwünsche zur Ankunft Ihres kostbaren Babys [Babynamen]! Möge diese Reise als Eltern Ihnen endlose Freude, Liebe und geschätzte Momente bringen. Ich wünsche Ihnen alles Gute in diesem wunderbaren Abenteuer.\n\nHerzliche Grüße,"
   },
   {
     "uuid": "TEMPLATE_GRADUATIONPARTYINVITATION",
+    "title": "Einladung zur Abschlussfeier",
+    "description": "Laden Sie Freunde und Familie zu einer Feier des bestandenen Abschlusses ein.",
+    "icon": "PartyPopper",
     "subject": "Feiern Sie mit uns den Abschluss von [Absolventenname]!",
     "text": "Sehr geehrte Damen und Herren [Empfängername],\n\nwir freuen uns, Sie zu einer Feier zu Ehren des Abschlusses von [Absolventenname] von [Universität/Oberschule] einzuladen. Bitte schließen Sie sich uns am [Datum] um [Uhrzeit] im [Ort] an, wenn wir diese bedeutende Leistung würdigen.\n\nBitte RSVP bis [RSVP-Datum].\n\nMit freundlichen Grüßen,"
   },
   {
     "uuid": "TEMPLATE_SYMPATHYCONDOLENCES",
+    "title": "Aufrichtiges Beileid",
+    "description": "Sprechen Sie Ihr aufrichtiges Beileid zum Verlust eines geliebten Menschen aus.",
+    "icon": "Flower2",
     "subject": "In tiefem Mitgefühl",
     "text": "Sehr geehrte Damen und Herren [Empfängername],\n\nbitte akzeptieren Sie unser aufrichtiges Beileid zum Verlust von [Verstorbene/r Name]. Unsere Gedanken sind in dieser schweren Zeit bei Ihnen. Mögen Sie Trost in den Erinnerungen finden, die Sie geteilt haben, und in der Unterstützung Ihrer Lieben.\n\nMit Anteilnahme,"
   },
   {
     "uuid": "TEMPLATE_GRADUATIONTHANKYOU",
+    "title": "Dank für Abschlussfeier",
+    "description": "Bedanken Sie sich bei allen, die Ihren Abschluss mit Ihnen gefeiert haben.",
+    "icon": "Award",
     "subject": "Danke für die Feier zu meinem Abschluss",
     "text": "Sehr geehrte Damen und Herren [Empfängername],\n\nich möchte meinen aufrichtigen Dank für die Feier zu meinem Abschluss aussprechen. Ihre Anwesenheit und Ihre guten Wünsche haben den Tag noch spezieller gemacht. Ich bin dankbar für Ihre Unterstützung, während ich diese neue Reise beginne.\n\nMit freundlichen Grüßen,"
   },
   {
     "uuid": "TEMPLATE_THANKYOUFORGIFT",
+    "title": "Dank für ein Geschenk",
+    "description": "Bedanken Sie sich herzlich für ein liebevoll ausgewähltes Geschenk.",
+    "icon": "Gift",
     "subject": "Vielen Dank für das wundervolle Geschenk!",
     "text": "Sehr geehrte Damen und Herren [Empfängername],\n\nich möchte meinen aufrichtigen Dank für das wunderschöne [Beschreibung des Geschenks], das Sie mir gegeben haben, aussprechen. Ihre Rücksichtnahme und Großzügigkeit haben mein Herz wirklich berührt. Ich werde es sehr schätzen. Danke!\n\nHerzliche Grüße,"
   },
   {
     "uuid": "TEMPLATE_COLLEGEACCEPTANCECONGRATULATION",
+    "title": "Glückwunsch zur Studienzulassung",
+    "description": "Gratulieren Sie jemandem zur erfolgreichen Zulassung an einer Universität.",
+    "icon": "School",
     "subject": "Herzlichen Glückwunsch zur Zulassung an Ihrer Universität!",
     "text": "Sehr geehrte Damen und Herren [Empfängername],\n\nherzlichen Glückwunsch zur Zulassung an [Universitäts-/Hochschulname]! Ihre harte Arbeit und Hingabe haben sich ausgezahlt. Dies ist ein aufregendes neues Kapitel, und ich freue mich darauf, Ihren weiteren Erfolg zu sehen.\n\nMit freundlichen Grüßen,"
   },
   {
     "uuid": "TEMPLATE_FAREWELLGOODBYE",
+    "title": "Abschied und gute Wünsche",
+    "description": "Verabschieden Sie sich und übermitteln Sie Ihre besten Wünsche zum Abschied.",
+    "icon": "PlaneTakeoff",
     "subject": "Abschied und die besten Wünsche!",
     "text": "Sehr geehrte Damen und Herren [Empfängername],\n\nda die Zeit gekommen ist, uns voneinander zu verabschieden, möchte ich Ihnen für die wundervollen Zeiten, die wir geteilt haben, danken. Ihre Anwesenheit wird vermisst werden, und ich wünsche Ihnen alles Gute für Ihre zukünftigen Unternehmungen. Bleiben Sie in Kontakt!\n\nMit freundlichen Grüßen,"
   },
   {
     "uuid": "TEMPLATE_JOBINQUIRY",
+    "title": "Anfrage zu Jobmöglichkeiten",
+    "description": "Zeigen Sie Ihr Interesse an einer Stelle und bewerben Sie sich bei einem Unternehmen.",
+    "icon": "Search",
     "subject": "Anfrage zu Jobmöglichkeiten",
     "text": "Sehr geehrte Damen und Herren [Empfängername],\n\nich schreibe, um mein Interesse an der [Stellenbezeichnung] bei [Firmenname] zum Ausdruck zu bringen. Ich bin begeistert von der Aussicht, meine Fähigkeiten und Erfahrungen in Ihr Team einzubringen. Bitte finden Sie meinen Lebenslauf im Anhang. Ich freue mich auf die Gelegenheit, zu besprechen, wie ich einen wertvollen Beitrag leisten kann.\n\nMit freundlichen Grüßen,"
   },
   {
     "uuid": "TEMPLATE_VOLUNTEERRECRUITMENT",
+    "title": "Aufruf zur ehrenamtlichen Mitarbeit",
+    "description": "Laden Sie jemanden ein, sich ehrenamtlich in Ihrer Organisation zu engagieren.",
+    "icon": "HeartHandshake",
     "subject": "Treten Sie uns als Freiwillige/r bei!",
     "text": "Sehr geehrte Damen und Herren [Empfängername],\n\nwir laden Sie ein, als Freiwillige/r bei [Organisationsname] mitzuwirken. Ihre Leidenschaft und Hingabe können einen echten Unterschied in unserer Gemeinschaft bewirken. Wir glauben, dass Ihre Fähigkeiten gut passen würden. Lassen Sie uns zusammenarbeiten, um positive Auswirkungen zu erzielen.\n\nMit freundlichen Grüßen,"
   },
   {
     "uuid": "TEMPLATE_BUSINESSPARTNERSHIPPROPOSAL",
+    "title": "Vorschlag Geschäftspartnerschaft",
+    "description": "Schlagen Sie einem Unternehmen eine strategische Geschäftspartnerschaft vor.",
+    "icon": "Handshake",
     "subject": "Erkundung einer potenziellen Geschäftspartnerschaft",
     "text": "Sehr geehrte Damen und Herren [Empfängername],\n\nich wende mich an Sie, um die Möglichkeit einer strategischen Partnerschaft zwischen [Ihr Firmenname] und [Firmenname des Empfängers] zu besprechen. Unsere ergänzenden Stärken könnten zu gemeinsamem Wachstum und Erfolg führen. Ich würde gerne diese Gelegenheit näher erkunden.\n\nMit freundlichen Grüßen,"
   },
   {
     "uuid": "TEMPLATE_HOMECONGRATULATION",
+    "title": "Glückwunsch zum neuen Zuhause",
+    "description": "Gratulieren Sie jemandem herzlich zum neuen Zuhause.",
+    "icon": "House",
     "subject": "Herzlichen Glückwunsch zu Ihrem neuen Zuhause!",
     "text": "Sehr geehrte Damen und Herren [Empfängernamen],\n\nherzliche Glückwünsche zu Ihrem neuen Zuhause! Dies markiert einen bedeutenden Meilenstein, und ich freue mich sehr für Sie. Möge Ihr neuer Raum mit Freude, Gelächter und schönen Erinnerungen gefüllt sein.\n\nHerzliche Grüße,"
   },
   {
     "uuid": "TEMPLATE_THANKYOUFORINTERVIEW",
+    "title": "Dank für das Vorstellungsgespräch",
+    "description": "Bedanken Sie sich für die Gelegenheit zum Vorstellungsgespräch.",
+    "icon": "UserCheck",
     "subject": "Danke für die Gelegenheit zum Vorstellungsgespräch",
     "text": "Sehr geehrte Damen und Herren [Empfängername],\n\nich möchte meinen Dank für die Gelegenheit zum Vorstellungsgespräch für die Stelle [Stellenbezeichnung] bei [Firmenname] aussprechen. Nach unserem Gespräch bin ich noch begeisterter von der Rolle. Vielen Dank für Ihre Zeit und Überlegung.\n\nMit freundlichen Grüßen,"
   }
