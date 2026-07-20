@@ -10,7 +10,7 @@ function Textarea({ name, placeholder, disabled }) {
     <div className="w-full">
       <Field
         as={UiTextarea}
-        className="h-48"
+        className="h-40 md:h-48"
         name={name}
         disabled={disabled}
         maxLength={4000}

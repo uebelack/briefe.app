@@ -17,3 +17,21 @@
     margin: 0;
   }
 }
+
+/* Stack text over the phone screenshot on small screens instead of squeezing
+   them side by side. */
+@media (max-width: 640px) {
+  .help-block {
+    flex-direction: column;
+    gap: 1.25rem;
+    padding-bottom: 32px;
+  }
+  .help-text {
+    padding-right: 0;
+  }
+  .help-image img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+  }
+}

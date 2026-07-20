@@ -1,14 +1,45 @@
 import React from "react";
+import {
+  AlignJustify,
+  Printer,
+  ExternalLink,
+  Search,
+  Cloud,
+  WandSparkles,
+  Signature,
+  IdCard,
+  BookUser,
+  LayoutTemplate,
+  Settings,
+  FileText,
+} from "lucide-react";
 
-export default function Feature({ icon, title, description }) {
+// The feature data still uses FontAwesome-style icon names; map them to lucide
+// so we get a single, consistent, crisp icon set (FontAwesome CDN was unused).
+const ICONS = {
+  "align-justify": AlignJustify,
+  print: Printer,
+  "arrow-up-right-from-square": ExternalLink,
+  "magnifying-glass": Search,
+  cloud: Cloud,
+  "wand-magic-sparkles": WandSparkles,
+  signature: Signature,
+  "address-card": IdCard,
+  "address-book": BookUser,
+  "file-lines": LayoutTemplate,
+  gear: Settings,
+};
+
+export default function Feature({ icon, title, description, pro = false }) {
+  const Icon = ICONS[icon] ?? FileText;
   return (
-    <div className="flex mb-5">
-      <div className="text-4xl mr-5 w-16 pt-2 pl-1">
-        <i className={`fa fa-${icon}`} />
+    <div className={`feature-card${pro ? " pro" : ""}`}>
+      <div className="feature-icon">
+        <Icon strokeWidth={1.75} aria-hidden />
       </div>
-      <div className="w-full">
-        <div className="text-lg font-bold">{title}</div>
-        <div className="text-lg">{description}</div>
+      <div>
+        <div className="feature-title">{title}</div>
+        <div className="feature-desc">{description}</div>
       </div>
     </div>
   );

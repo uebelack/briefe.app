@@ -13,3 +13,6 @@
 @import "./help.css";
 
 @import "./blog.css";
+
+/* Refined light & airy redesign layer — imported last so it wins. */
+@import "./main.css";

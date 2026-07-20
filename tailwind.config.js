@@ -22,7 +22,7 @@ module.exports = {
       white: "#fff",
     },
     fontFamily: {
-      sans: ["Lexend", "sans-serif"],
+      sans: ["Helvetica Neue", "Helvetica", "Arial", "sans-serif"],
     },
     extend: {
       typography: ({ theme }) => ({

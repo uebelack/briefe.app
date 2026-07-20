@@ -21,10 +21,10 @@ export default function Faq({ locale }) {
     <Page>
       <Section>
         <Container>
-          <h1 className="text-3xl font-bold mb-8">{t("faq.title")}</h1>
+          <h1 className="text-3xl md:text-4xl font-light tracking-tight mb-8">{t("faq.title")}</h1>
           {content.categories.map((category) => (
             <div key={category.title} className="mb-8">
-              <h2 className="text-2xl font-semibold mb-4">{category.title}</h2>
+              <h2 className="text-2xl font-light tracking-tight mb-4">{category.title}</h2>
               <Accordion type="single" collapsible className="w-full">
                 {category.questions.map((question) => (
                   <AccordionItem key={question.question} value={question.question}>

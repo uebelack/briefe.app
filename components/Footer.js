@@ -7,7 +7,7 @@ import languages from "@/data/languages";
 export default function Footer({ locale }) {
   const t = getTranslations(locale);
   return (
-    <footer className="md:container mt-20 mb-20 text-center">
+    <footer className="md:container mx-auto pt-12 pb-16 text-center">
       <div className="mb-2 px-4 my-4">
         © {new Date().getFullYear()} Übelacker Solutions GmbH
         <br />
