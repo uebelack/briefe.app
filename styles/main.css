@@ -367,7 +367,7 @@ a.hero-eyebrow:active {
   line-height: 1.06;
   letter-spacing: -0.015em;
   font-weight: 300;
-  max-width: 15ch;
+  max-width: 22ch;
   color: var(--ink);
   text-wrap: balance;
 }
@@ -742,6 +742,10 @@ h3 {
   transition:
     border-color 160ms var(--ease-out),
     box-shadow 160ms var(--ease-out);
+}
+.form-wrapper textarea {
+  min-height: 15rem;
+  resize: vertical;
 }
 .form-wrapper input::placeholder,
 .form-wrapper textarea::placeholder {
