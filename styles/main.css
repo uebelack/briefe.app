@@ -287,20 +287,26 @@ header.site-nav[data-scrolled="true"] {
   isolation: isolate;
 }
 
-/* Soft radial blue wash behind everything — depth without a hard edge */
+/* Soft ambient gradient blobs behind everything — depth without a hard edge */
 .hero::before {
   content: "";
   position: absolute;
-  inset: -30% -10% auto -10%;
-  height: 120%;
+  inset: -30% -12% auto -12%;
+  height: 130%;
   z-index: -1;
   background:
-    radial-gradient(60% 55% at 50% 0%, var(--brand-tint) 0%, transparent 70%),
+    radial-gradient(46% 42% at 50% 4%, var(--brand-tint) 0%, transparent 72%),
     radial-gradient(
-      40% 40% at 85% 10%,
-      color-mix(in oklch, var(--brand) 10%, transparent) 0%,
+      34% 46% at 84% 34%,
+      color-mix(in oklch, var(--brand) 16%, transparent) 0%,
+      transparent 62%
+    ),
+    radial-gradient(
+      30% 44% at 14% 44%,
+      color-mix(in oklch, #7c5cff 13%, transparent) 0%,
       transparent 60%
     );
+  filter: blur(6px);
 }
 
 .hero-inner {
@@ -395,16 +401,191 @@ a.hero-eyebrow:active {
   letter-spacing: 0.02em;
 }
 
-.hero-device {
-  margin-top: 2.5rem;
+/* -------------------------------------------------------------------------
+   Hero graphic — a letter that writes itself, framed by floating stationery.
+   ------------------------------------------------------------------------- */
+.hero-stage {
+  --stage-scale: 1.4;
   position: relative;
-  animation: hero-rise 900ms var(--ease-out) both;
+  width: min(560px, 100%);
+  height: calc(560px * var(--stage-scale));
+  margin: 3rem auto 0;
+  animation: hero-fade 800ms var(--ease-out) 320ms both;
 }
-.hero-device img {
-  width: min(920px, 100%);
-  height: auto;
-  filter: drop-shadow(0 30px 60px rgba(16, 45, 90, 0.18))
-    drop-shadow(0 8px 16px rgba(16, 45, 90, 0.08));
+.hero-stage-inner {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: min(560px, 100%);
+  height: 560px;
+  transform: translateX(-50%) scale(var(--stage-scale));
+  transform-origin: top center;
+}
+@media (max-width: 640px) {
+  .hero-stage {
+    --stage-scale: 1;
+  }
+}
+
+.hero-letter {
+  position: absolute;
+  border-radius: 12px;
+  background: var(--surface);
+  border: 1px solid var(--hairline);
+}
+.hero-letter-back {
+  top: 4px;
+  left: 50%;
+  width: 320px;
+  height: 452px;
+  transform: rotate(6deg);
+  opacity: 0.65;
+  box-shadow: 0 20px 42px rgba(16, 45, 90, 0.08);
+}
+.hero-letter-front {
+  top: 24px;
+  left: 50%;
+  width: 358px;
+  height: 506px; /* A4 proportion (1 : 1.414) for a real sheet-of-paper look */
+  transform: translateX(-56%) rotate(-2.5deg);
+  padding: 2.4rem 2.5rem 2.1rem;
+  box-shadow:
+    0 34px 64px rgba(16, 45, 90, 0.16),
+    0 8px 18px rgba(16, 45, 90, 0.08);
+}
+
+.hero-stamp {
+  position: absolute;
+  top: -14px;
+  right: 22px;
+  display: grid;
+  place-items: center;
+  width: 46px;
+  height: 54px;
+  border-radius: 6px;
+  color: #fff;
+  background: linear-gradient(135deg, var(--brand) 0%, var(--brand-strong) 100%);
+  border: 2px dashed color-mix(in oklch, #fff 65%, transparent);
+  box-shadow: 0 6px 14px var(--brand-glow);
+  transform: rotate(6deg);
+}
+.hero-stamp svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* The formal letter, set in Courier like a typed document */
+.hero-doc {
+  font-family: "Courier New", "Courier", "Nimbus Mono PS", monospace;
+  font-size: 0.68rem;
+  line-height: 1.55;
+  text-align: left;
+  color: var(--ink-soft);
+}
+.hl-sender,
+.hl-recipient {
+  font-style: normal;
+}
+.hl-sender {
+  text-align: right;
+  color: var(--ink-muted);
+  margin-top: 1.5rem; /* drop below the stamp in the top-right corner */
+  margin-bottom: 0.9rem;
+}
+.hl-recipient {
+  margin-bottom: 0.85rem;
+}
+.hl-sender span,
+.hl-recipient span {
+  display: block;
+}
+.hl-name {
+  font-weight: 700;
+  color: var(--ink);
+}
+.hl-date {
+  text-align: right;
+  margin-bottom: 0.85rem;
+}
+.hl-subject {
+  font-weight: 700;
+  color: var(--ink);
+  margin-bottom: 0.8rem;
+}
+.hl-body {
+  margin: 0;
+  white-space: pre-wrap;
+  min-height: 6.2em; /* reserve height so the layout doesn't jump while typing */
+}
+.hl-body[data-done="false"]::after {
+  content: "";
+  display: inline-block;
+  width: 2px;
+  height: 1.05em;
+  margin-left: 1px;
+  background: var(--brand);
+  vertical-align: text-bottom;
+  animation: hero-caret 1s steps(1) infinite;
+}
+.hl-sign {
+  display: block;
+  margin-top: 0.15rem;
+  font-family: "Snell Roundhand", "Segoe Script", "Bradley Hand", cursive;
+  font-size: 1.4rem;
+  line-height: 1;
+  color: var(--ink);
+  animation: hero-fade 400ms var(--ease-out) both;
+}
+
+/* Floating stationery chips */
+.hero-chip {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 13px;
+  background: var(--surface);
+  border: 1px solid var(--hairline);
+  color: var(--brand-strong);
+  box-shadow: 0 14px 30px rgba(16, 45, 90, 0.12);
+  animation: chip-float 5s var(--ease-in-out) infinite;
+}
+.hero-chip svg {
+  width: 20px;
+  height: 20px;
+}
+.hero-chip-mail {
+  top: 22px;
+  left: 2px;
+}
+.hero-chip-ai {
+  top: 104px;
+  right: 0;
+  color: #fff;
+  background: linear-gradient(135deg, var(--brand) 0%, var(--brand-strong) 100%);
+  border-color: transparent;
+  animation-delay: 1.4s;
+}
+.hero-chip-send {
+  bottom: 30px;
+  right: 44px;
+  animation-delay: 0.7s;
+}
+
+@keyframes chip-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes hero-caret {
+  50% {
+    opacity: 0;
+  }
 }
 
 @keyframes hero-rise {
@@ -1053,7 +1234,8 @@ footer a:hover {
    Accessibility — reduced motion keeps meaning, drops movement
    ------------------------------------------------------------------------- */
 @media (prefers-reduced-motion: reduce) {
-  .hero-device,
+  .hero-stage,
+  .hero-chip,
   .hero-eyebrow,
   .hero-title,
   .hero-sub,

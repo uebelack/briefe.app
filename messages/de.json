@@ -106,6 +106,8 @@
   },
   "home": {
     "badge": "Jetzt mit KI",
+    "hero_letter": "Sehr geehrte Damen und Herren,\n\nhiermit kündige ich meinen Vertrag zum nächstmöglichen Zeitpunkt. Bitte bestätigen Sie die Kündigung schriftlich.\n\nMit freundlichen Grüßen,",
+    "hero_subject": "Vertragskündigung",
     "teaser": "Im Handumdrehen professionell formatierte Briefe erstellen und drucken."
   },
   "lost": {

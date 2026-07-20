@@ -106,6 +106,8 @@
   },
   "home": {
     "badge": "Ahora con IA",
+    "hero_letter": "Estimados señores:\n\npor la presente cancelo mi contrato con efecto en la fecha más próxima posible. Les ruego que me envíen confirmación por escrito.\n\nAtentamente,",
+    "hero_subject": "Cancelación de contrato",
     "teaser": "Crea e imprime cartas con formato perfecto en poco tiempo."
   },
   "lost": {

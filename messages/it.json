@@ -106,6 +106,8 @@
   },
   "home": {
     "badge": "Ora con l'IA",
+    "hero_letter": "Spettabile Servizio Clienti,\n\ncon la presente disdico il mio contratto alla prima scadenza utile. Vi prego di inviarmi conferma scritta.\n\nCordiali saluti,",
+    "hero_subject": "Disdetta del contratto",
     "teaser": "Crea e stampa lettere perfettamente formattate in pochissimo tempo."
   },
   "lost": {

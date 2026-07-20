@@ -106,6 +106,8 @@
   },
   "home": {
     "badge": "Agora com IA",
+    "hero_letter": "Exmos. Senhores,\n\nvenho por este meio rescindir o meu contrato na data mais próxima possível. Solicito confirmação por escrito.\n\nCom os melhores cumprimentos,",
+    "hero_subject": "Rescisão de contrato",
     "teaser": "Crie e imprima cartas perfeitamente formatadas em pouco tempo."
   },
   "lost": {

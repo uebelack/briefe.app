@@ -106,6 +106,8 @@
   },
   "home": {
     "badge": "Nu met AI",
+    "hero_letter": "Geachte heer/mevrouw,\n\nhierbij zeg ik mijn contract op per de eerst mogelijke datum. Gelieve mij een schriftelijke bevestiging te sturen.\n\nMet vriendelijke groet,",
+    "hero_subject": "Opzegging van het contract",
     "teaser": "Maak en print perfect opgemaakte brieven in no-time."
   },
   "lost": {

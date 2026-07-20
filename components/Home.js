@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import HeroBadge from "./HeroBadge";
+import HeroLetter from "./HeroLetter";
 import getTranslations from "@/functions/getTranslations";
 import Container from "./Container";
 import Feature from "./Feature";
@@ -53,16 +54,11 @@ export default function Home({ locale }) {
               <StoreBadges />
             </div>
             <p className="hero-platforms">iPhone · iPad · Mac · Android</p>
-            <div className="hero-device">
-              <Image
-                src={`/devices_${locale?.startsWith("de") ? "de" : "en"}.png`}
-                alt="Letter app on iPhone, iPad and Mac"
-                width={992}
-                height={605}
-                priority
-                unoptimized
-              />
-            </div>
+            <HeroLetter
+              locale={locale}
+              subject={t("home.hero_subject")}
+              letterText={t("home.hero_letter")}
+            />
           </div>
         </Container>
       </Section>

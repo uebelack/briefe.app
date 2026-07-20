@@ -106,6 +106,8 @@
   },
   "home": {
     "badge": "Maintenant avec l'IA",
+    "hero_letter": "Madame, Monsieur,\n\nje résilie par la présente mon contrat à la première échéance possible. Merci de m'en adresser confirmation écrite.\n\nCordialement,",
+    "hero_subject": "Résiliation de contrat",
     "teaser": "Créez et imprimez des lettres parfaitement formatées en un rien de temps."
   },
   "lost": {

@@ -106,6 +106,8 @@
   },
   "home": {
     "badge": "Now with AI",
+    "hero_letter": "Dear Sir or Madam,\n\nI hereby cancel my contract, effective at the earliest possible date. Please send written confirmation.\n\nSincerely,",
+    "hero_subject": "Cancellation of Contract",
     "teaser": "Create and print perfectly formatted letters in no time."
   },
   "lost": {
