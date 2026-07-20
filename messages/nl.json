@@ -114,7 +114,10 @@
     "title": "Je bent verdwaald! 404 - Pagina niet gevonden"
   },
   "templates": {
+    "intro": "Blader door kant-en-klare brieftemplates voor elke gelegenheid — opzeggingen, formele kennisgevingen, felicitaties, bedankjes en meer. Kies er een, personaliseer hem en print of verstuur hem binnen enkele minuten.",
     "menu": "Sjablonen",
+    "no_results": "Geen templates gevonden.",
+    "search_placeholder": "Templates zoeken…",
     "title": "Sjablonen"
   }
 }

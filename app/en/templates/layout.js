@@ -1,7 +1,7 @@
 import React from "react";
 import Page from "@/components/Page";
 import Section from "@/components/Section";
-import Container from "@/components/Container";
+import Letter from "@/components/Letter";
 import CallToAction from "@/components/CallToAction";
 
 const LOCALE = "en";
@@ -10,7 +10,7 @@ export default function TemplatesLayout({ children }) {
   return (
     <Page>
       <Section className="blog">
-        <Container className="prose proese-briefe">{children}</Container>
+        <Letter locale={LOCALE}>{children}</Letter>
         <CallToAction locale={LOCALE} />
       </Section>
     </Page>

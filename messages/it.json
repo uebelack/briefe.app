@@ -114,7 +114,10 @@
     "title": "Sei perso! 404 - Pagina non trovata"
   },
   "templates": {
+    "intro": "Sfoglia modelli di lettere pronti all'uso per ogni occasione — disdette, comunicazioni formali, congratulazioni, ringraziamenti e altro ancora. Scegline uno, personalizzalo e stampalo o invialo in pochi minuti.",
     "menu": "Modelli",
+    "no_results": "Nessun modello corrisponde alla ricerca.",
+    "search_placeholder": "Cerca modelli…",
     "title": "Modelli"
   }
 }

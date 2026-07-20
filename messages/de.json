@@ -114,7 +114,10 @@
     "title": "Verloren!? 404 - Nicht gefunden"
   },
   "templates": {
+    "intro": "Durchstöbern Sie gebrauchsfertige Briefvorlagen für jeden Anlass – von Kündigungen und offiziellen Mitteilungen bis zu Glückwünschen und Dankesschreiben. Wählen Sie eine aus, passen Sie sie an und drucken oder versenden Sie sie in wenigen Minuten.",
     "menu": "Vorlagen",
+    "no_results": "Keine Vorlagen gefunden.",
+    "search_placeholder": "Vorlagen suchen…",
     "title": "Vorlagen"
   }
 }

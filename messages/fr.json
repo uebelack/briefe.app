@@ -114,7 +114,10 @@
     "title": "Vous êtes perdu ! 404 - Page non trouvée"
   },
   "templates": {
+    "intro": "Parcourez des modèles de lettres prêts à l'emploi pour chaque occasion — résiliations, courriers officiels, félicitations, remerciements et bien plus. Choisissez-en un, personnalisez-le, puis imprimez-le ou envoyez-le en quelques minutes.",
     "menu": "Modèles",
+    "no_results": "Aucun modèle ne correspond à votre recherche.",
+    "search_placeholder": "Rechercher des modèles…",
     "title": "Modèles"
   }
 }

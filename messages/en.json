@@ -114,7 +114,10 @@
     "title": "You're Lost! 404 - Not Found"
   },
   "templates": {
+    "intro": "Browse ready-to-use letter templates for every occasion — cancellations, formal notices, congratulations, thank-you notes and more. Choose one, personalize it, and print or send it in minutes.",
     "menu": "Templates",
+    "no_results": "No templates match your search.",
+    "search_placeholder": "Search templates…",
     "title": "Templates"
   }
 }

@@ -114,7 +114,10 @@
     "title": "Você está perdido! 404 - Página não encontrada"
   },
   "templates": {
+    "intro": "Explore modelos de carta prontos a usar para todas as ocasiões — cancelamentos, avisos formais, felicitações, agradecimentos e muito mais. Escolha um, personalize-o e imprima ou envie em minutos.",
     "menu": "Modelos",
+    "no_results": "Nenhum modelo corresponde à sua pesquisa.",
+    "search_placeholder": "Pesquisar modelos…",
     "title": "Modelos"
   }
 }

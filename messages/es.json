@@ -114,7 +114,10 @@
     "title": "¡Estás perdido! 404 - No encontrado"
   },
   "templates": {
+    "intro": "Explora plantillas de cartas listas para usar para cada ocasión: cancelaciones, avisos formales, felicitaciones, agradecimientos y mucho más. Elige una, personalízala e imprímela o envíala en minutos.",
     "menu": "Plantillas",
+    "no_results": "Ninguna plantilla coincide con tu búsqueda.",
+    "search_placeholder": "Buscar plantillas…",
     "title": "Plantillas"
   }
 }
