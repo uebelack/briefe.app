@@ -905,7 +905,7 @@ h3 {
 
 .phone-mockup__screen {
   display: block;
-  border-radius: 38px;
+  border-radius: 40px;
 }
 
 /* Bezel drawn on top of the screenshot edges — inset:0 keeps it perfectly
