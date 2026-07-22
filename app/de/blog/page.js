@@ -4,7 +4,7 @@ import getBlogArticles from "@/functions/getBlogArticles";
 
 export function generateMetadata() {
   return {
-    title: "Blog | Letter App",
+    title: "Blog | Briefe App",
   };
 }
 

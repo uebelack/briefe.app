@@ -7,7 +7,7 @@ import Page from "@/components/Page";
 
 export function generateMetadata() {
   return {
-    title: "Imprint | Brieven App",
+    title: "Colofon | Brieven App",
   };
 }
 

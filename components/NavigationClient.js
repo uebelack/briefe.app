@@ -49,7 +49,7 @@ export default function Navigation({
 
   // Close the mobile menu once the viewport grows to the desktop layout.
   useEffect(() => {
-    const mq = window.matchMedia("(min-width: 768px)");
+    const mq = window.matchMedia("(min-width: 1024px)");
     const onChange = (e) => e.matches && setOpen(false);
     mq.addEventListener("change", onChange);
     return () => mq.removeEventListener("change", onChange);
@@ -81,7 +81,7 @@ export default function Navigation({
 
   return (
     <header className="site-nav" data-scrolled={scrolled} data-open={open}>
-      <div className="md:container px-4 nav-bar">
+      <div className="lg:container px-4 nav-bar">
         <Link href="/" className="nav-brand" onClick={() => setOpen(false)}>
           <Image src="/logo.svg" alt="Letter logo" width={30} height={21} />
           <span>{title}</span>

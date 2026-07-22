@@ -4,7 +4,7 @@ import getTemplates from "@/functions/getTemplates";
 
 export function generateMetadata() {
   return {
-    title: "Templates | Letter App",
+    title: "Plantillas | Aplicación de Cartas",
   };
 }
 

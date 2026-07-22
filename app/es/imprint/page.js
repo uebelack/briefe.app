@@ -7,7 +7,7 @@ import Page from "@/components/Page";
 
 export function generateMetadata() {
   return {
-    title: "Imprint | Aplicación de Cartas",
+    title: "Aviso legal | Aplicación de Cartas",
   };
 }
 

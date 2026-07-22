@@ -7,7 +7,7 @@ import Page from "@/components/Page";
 
 export function generateMetadata() {
   return {
-    title: "Imprint | App Lettere",
+    title: "Note legali | App Lettere",
   };
 }
 
