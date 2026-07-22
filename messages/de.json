@@ -1,7 +1,9 @@
 {
   "blog": {
     "menu": "Blog",
-    "title": "Blog - Gedanken, Geschichten und Ideen"
+    "title": "Blog - Gedanken, Geschichten und Ideen",
+    "intro": "Gedanken, Geschichten und Ideen rund um die Kunst des Briefeschreibens — Tipps, Inspiration und die kleinen Details, die einen Brief besonders machen.",
+    "view_all": "Alle Artikel ansehen"
   },
   "call_to_action": {
     "text": "Laden Sie jetzt die kostenlose Briefe App herunter und schreiben Sie Ihren ersten Brief!"
@@ -121,5 +123,8 @@
     "no_results": "Keine Vorlagen gefunden.",
     "search_placeholder": "Vorlagen suchen…",
     "title": "Vorlagen"
+  },
+  "screenshots": {
+    "title": "Screenshots"
   }
 }

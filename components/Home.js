@@ -10,6 +10,7 @@ import Heading from "./Heading";
 import Page from "./Page";
 import Section from "./Section";
 import Blog from "./Blog";
+import PhoneScreenshot from "./PhoneScreenshot";
 import getBlogArticles from "@/functions/getBlogArticles";
 import ContactForm from "./ContactForm";
 
@@ -34,7 +35,7 @@ function StoreBadges() {
   );
 }
 
-export default function Home({ locale }) {
+export default function Home({ locale, android }) {
   const t = getTranslations(locale);
 
   const featuresKey =
@@ -65,11 +66,25 @@ export default function Home({ locale }) {
 
       <Section className="sec">
         <Container>
-          <div className="flex flex-col lg:flex-row lg:items-center gap-10 lg:gap-16">
+          <div className="flex flex-col lg:flex-row lg:items-start gap-10 lg:gap-16">
             <div className="prose">
               <Heading id="details">{t("details.title")}</Heading>
               <p>{t("details.p1")}</p>
               <p>{t("details.p2")}</p>
+            </div>
+            <div className="details-media shrink-0 mx-auto">
+              <PhoneScreenshot
+                name="detail"
+                locale={locale}
+                android={android}
+                alt="Letter app editor"
+                width={260}
+              />
+            </div>
+          </div>
+
+          <div className="flex flex-col lg:flex-row-reverse lg:items-start gap-10 lg:gap-16 mt-16 lg:mt-24">
+            <div className="prose">
               <Heading level={2} id="pro">
                 {t("details.pro_title")}
               </Heading>
@@ -77,13 +92,13 @@ export default function Home({ locale }) {
               <p>{t("details.p4")}</p>
               <p>{t("details.p5")}</p>
             </div>
-            <div className="details-media shrink-0 mx-auto hidden lg:block">
-              <Image
-                src={`/details_${locale === "de" ? "de" : "en"}.png`}
-                alt="Letter app editor"
+            <div className="details-media shrink-0 mx-auto">
+              <PhoneScreenshot
+                name="ai"
+                locale={locale}
+                android={android}
+                alt="AI-powered letter assistant"
                 width={260}
-                height={519}
-                unoptimized
               />
             </div>
           </div>
@@ -136,11 +151,34 @@ export default function Home({ locale }) {
           <Container>
             <Heading id="blog">{t("blog.title")}</Heading>
             <div className="mt-8">
-              <Blog articles={articles} locale={locale} />
+              <Blog articles={articles.slice(0, 6)} locale={locale} />
+            </div>
+            <div className="blog-more">
+              <a className="blog-more-link" href={`/${locale}/blog`}>
+                {t("blog.view_all")}
+              </a>
             </div>
           </Container>
         </Section>
       )}
+
+      <Section className="sec">
+        <Container>
+          <Heading id="screenshots">{t("screenshots.title")}</Heading>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-6 justify-items-center mt-10">
+            {["overview", "edit", "detail", "ai"].map((shot) => (
+              <PhoneScreenshot
+                key={shot}
+                name={shot}
+                locale={locale}
+                android={android}
+                alt={`Letter app ${shot} screen`}
+                width={240}
+              />
+            ))}
+          </div>
+        </Container>
+      </Section>
 
       <Section className="sec">
         <Container>

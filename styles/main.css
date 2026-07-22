@@ -762,10 +762,34 @@ h3 {
   letter-spacing: -0.02em;
 }
 
-/* Details phone screenshot — give it a soft floated card feel */
-.details-media img {
-  border-radius: 28px;
-  filter: drop-shadow(0 24px 48px rgba(16, 45, 90, 0.14));
+/* Minimal, modern phone device mockup around the screenshots */
+.phone-mockup {
+  position: relative;
+  display: inline-block;
+  padding: 8px;
+  background: var(--surface);
+  border: 1px solid var(--hairline-strong);
+  border-radius: 42px;
+  box-shadow:
+    0 24px 48px rgba(16, 45, 90, 0.14),
+    inset 0 1px 0 rgba(255, 255, 255, 0.7);
+}
+
+.phone-mockup__screen {
+  display: block;
+  border-radius: 34px;
+}
+
+/* Subtle side button — a hint of physical device, nothing loud */
+.phone-mockup::after {
+  content: "";
+  position: absolute;
+  top: 96px;
+  right: -2px;
+  width: 3px;
+  height: 46px;
+  border-radius: 3px;
+  background: var(--hairline-strong);
 }
 
 /* -------------------------------------------------------------------------
@@ -904,6 +928,61 @@ h3 {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
+}
+
+/* "View all articles" link below the landing-page blog preview grid */
+.blog-more {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.5rem;
+}
+.blog-more-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.7rem 1.6rem;
+  border: 1px solid var(--hairline-strong);
+  border-radius: 999px;
+  color: var(--ink);
+  font-size: 1rem;
+  text-decoration: none;
+  transition:
+    border-color 160ms var(--ease-out),
+    background 160ms var(--ease-out),
+    transform 160ms var(--ease-out);
+}
+.blog-more-link::after {
+  content: "→";
+}
+@media (hover: hover) and (pointer: fine) {
+  .blog-more-link:hover {
+    border-color: var(--brand);
+    background: var(--surface);
+    transform: translateY(-2px);
+  }
+}
+
+/* -------------------------------------------------------------------------
+   Blog index — like the templates index, breaks out of the narrow prose
+   column (the shared blog layout wraps children in a .prose reading column
+   for the MDX article pages) into a full-width card grid.
+   ------------------------------------------------------------------------- */
+.blog-index {
+  --tw: min(64rem, 100vw - 2.5rem);
+  margin-inline: calc((100% - var(--tw)) / 2);
+  margin-top: 0.5rem;
+}
+.blog-index .blog-index-title {
+  font-size: clamp(2rem, 5vw, 2.75rem);
+  letter-spacing: -0.025em;
+  margin: 0 0 0.4rem;
+}
+.blog-index .blog-index-intro {
+  color: var(--ink-muted);
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin: 0.6rem 0 0;
+  max-width: 46rem;
 }
 
 /* -------------------------------------------------------------------------

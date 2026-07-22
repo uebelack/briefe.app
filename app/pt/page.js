@@ -1,6 +1,12 @@
 import React from "react";
 import Home from "@/components/Home";
 
-export default function HomePage() {
-  return <Home locale="pt" />;
+export default async function HomePage({ searchParams }) {
+  const { android } = await searchParams;
+  return (
+    <Home
+      locale="pt"
+      android={android === "true" ? true : android === "false" ? false : undefined}
+    />
+  );
 }

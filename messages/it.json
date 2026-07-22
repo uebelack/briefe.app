@@ -1,7 +1,9 @@
 {
   "blog": {
     "menu": "Blog",
-    "title": "Blog - Pensieri, storie e idee"
+    "title": "Blog - Pensieri, storie e idee",
+    "intro": "Pensieri, storie e idee sull'arte di scrivere lettere — consigli, ispirazione e i piccoli dettagli che rendono speciale una lettera.",
+    "view_all": "Vedi tutti gli articoli"
   },
   "call_to_action": {
     "text": "Scarica l'app Lettere ora e inizia a scrivere la tua prima lettera — è gratis!"
@@ -121,5 +123,8 @@
     "no_results": "Nessun modello corrisponde alla ricerca.",
     "search_placeholder": "Cerca modelli…",
     "title": "Modelli"
+  },
+  "screenshots": {
+    "title": "Screenshot"
   }
 }

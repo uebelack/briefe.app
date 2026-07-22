@@ -1,7 +1,9 @@
 {
   "blog": {
     "menu": "Blog",
-    "title": "Blog - Pensamientos, historias e ideas"
+    "title": "Blog - Pensamientos, historias e ideas",
+    "intro": "Pensamientos, historias e ideas sobre el arte de escribir cartas — consejos, inspiración y los pequeños detalles que hacen especial una carta.",
+    "view_all": "Ver todos los artículos"
   },
   "call_to_action": {
     "text": "Descarga la Aplicación de Cartas ahora y empieza a escribir tu primera carta — ¡es gratis!"
@@ -121,5 +123,8 @@
     "no_results": "Ninguna plantilla coincide con tu búsqueda.",
     "search_placeholder": "Buscar plantillas…",
     "title": "Plantillas"
+  },
+  "screenshots": {
+    "title": "Capturas de pantalla"
   }
 }

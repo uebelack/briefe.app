@@ -1,7 +1,9 @@
 {
   "blog": {
     "menu": "Blog",
-    "title": "Blog - thoughts, stories and ideas"
+    "title": "Blog - thoughts, stories and ideas",
+    "intro": "Thoughts, stories and ideas about the art of letter writing — tips, inspiration and the little details that make a letter special.",
+    "view_all": "View all articles"
   },
   "call_to_action": {
     "text": "Get the Letter App now and start writing your first letter — it's free!"
@@ -121,5 +123,8 @@
     "no_results": "No templates match your search.",
     "search_placeholder": "Search templates…",
     "title": "Templates"
+  },
+  "screenshots": {
+    "title": "Screenshots"
   }
 }

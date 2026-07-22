@@ -1,7 +1,9 @@
 {
   "blog": {
     "menu": "Blog",
-    "title": "Blog - Gedachten, verhalen en ideeën"
+    "title": "Blog - Gedachten, verhalen en ideeën",
+    "intro": "Gedachten, verhalen en ideeën over de kunst van het brieven schrijven — tips, inspiratie en de kleine details die een brief bijzonder maken.",
+    "view_all": "Alle artikelen bekijken"
   },
   "call_to_action": {
     "text": "Download nu de Letter App en begin met het schrijven van je eerste brief — het is gratis!"
@@ -121,5 +123,8 @@
     "no_results": "Geen templates gevonden.",
     "search_placeholder": "Templates zoeken…",
     "title": "Sjablonen"
+  },
+  "screenshots": {
+    "title": "Schermafbeeldingen"
   }
 }

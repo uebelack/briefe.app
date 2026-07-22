@@ -1,7 +1,9 @@
 {
   "blog": {
     "menu": "Blog",
-    "title": "Blog - Réflexions, histoires et idées"
+    "title": "Blog - Réflexions, histoires et idées",
+    "intro": "Réflexions, histoires et idées autour de l'art d'écrire des lettres — conseils, inspiration et les petits détails qui rendent une lettre spéciale.",
+    "view_all": "Voir tous les articles"
   },
   "call_to_action": {
     "text": "Téléchargez l'application de lettres maintenant et commencez à écrire votre première lettre — c'est gratuit!"
@@ -121,5 +123,8 @@
     "no_results": "Aucun modèle ne correspond à votre recherche.",
     "search_placeholder": "Rechercher des modèles…",
     "title": "Modèles"
+  },
+  "screenshots": {
+    "title": "Captures d'écran"
   }
 }
