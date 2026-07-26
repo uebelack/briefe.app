@@ -11,7 +11,7 @@
   "common": {
     "android_only": "* momenteel niet beschikbaar op Android-apparaten",
     "download": "Downloaden",
-    "ios_only": "** momenteel alleen op iPhone en iPad",
+    "ios_only": "** momenteel niet beschikbaar op Mac",
     "language": "Nederlands",
     "scroll_down": "Scroll naar beneden",
     "title": "Brieven App",

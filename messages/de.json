@@ -11,7 +11,7 @@
   "common": {
     "android_only": "* Aktuell nicht verfügbar auf Android-Geräten",
     "download": "Herunterladen",
-    "ios_only": "** Aktuell nur auf iPhone und iPad verfügbar",
+    "ios_only": "** Aktuell nicht verfügbar auf dem Mac",
     "language": "Deutsch",
     "scroll_down": "Nach unten scrollen",
     "title": "Briefe App",

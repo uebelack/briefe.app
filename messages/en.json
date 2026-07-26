@@ -11,7 +11,7 @@
   "common": {
     "android_only": "* currently not available on Android devices",
     "download": "Download",
-    "ios_only": "** currently only on iPhone and iPad",
+    "ios_only": "** currently not available on Mac",
     "language": "English",
     "scroll_down": "Scroll down",
     "title": "Letter App",

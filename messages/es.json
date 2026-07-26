@@ -11,7 +11,7 @@
   "common": {
     "android_only": "* actualmente no disponible en dispositivos Android",
     "download": "Descargar",
-    "ios_only": "** actualmente sólo en iPhone y iPad",
+    "ios_only": "** actualmente no disponible en Mac",
     "language": "Español",
     "scroll_down": "Desplázate hacia abajo",
     "title": "Aplicación de Cartas",

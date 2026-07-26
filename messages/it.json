@@ -11,7 +11,7 @@
   "common": {
     "android_only": "* attualmente non disponibile su dispositivi Android",
     "download": "Scaricare",
-    "ios_only": "** attualmente solo su iPhone e iPad",
+    "ios_only": "** attualmente non disponibile su Mac",
     "language": "Italiano",
     "scroll_down": "Scorri verso il basso",
     "title": "App Lettere",

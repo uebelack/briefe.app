@@ -42,27 +42,27 @@ const features = {
           icon: "wand-magic-sparkles",
         },
         {
-          title: "Signatures*",
+          title: "Signatures",
           description: "Add personal signatures directly within the app",
           icon: "signature",
         },
         {
-          title: "Sender*",
+          title: "Sender",
           description: "Enter your sender information once",
           icon: "address-card",
         },
         {
-          title: "Contacts*",
+          title: "Contacts",
           description: "Easily incorporate contact addresses from your address book",
           icon: "address-book",
         },
         {
-          title: "Templates*",
+          title: "Templates",
           description: "Utilize a wide range of templates for various occasions",
           icon: "file-lines",
         },
         {
-          title: "Layout*",
+          title: "Layout",
           description: "Customize the layout of your letters to your specific needs",
           icon: "gear",
         },
@@ -112,27 +112,27 @@ const features = {
           icon: "wand-magic-sparkles",
         },
         {
-          title: "Unterschriften*",
+          title: "Unterschriften",
           description: "Fügen Sie persönliche Unterschriften direkt in der App hinzu",
           icon: "signature",
         },
         {
-          title: "Absender*",
+          title: "Absender",
           description: "Erfassen Sie einmalig Ihre Absenderinformationen",
           icon: "address-card",
         },
         {
-          title: "Kontakte*",
+          title: "Kontakte",
           description: "Verwenden Sie Ihre Kontaktadressen direkt aus Ihrem Adressbuch",
           icon: "address-book",
         },
         {
-          title: "Templates*",
+          title: "Templates",
           description: "Nutzen Sie viele Vorlagen für verschiedene Gelegenheiten",
           icon: "file-lines",
         },
         {
-          title: "Layout*",
+          title: "Layout",
           description: "Passen Sie die Formatierung Ihrer Briefe an Ihre Bedürfnisse an",
           icon: "gear",
         },
@@ -182,28 +182,28 @@ const features = {
           icon: "wand-magic-sparkles",
         },
         {
-          title: "Handtekeningen*",
+          title: "Handtekeningen",
           description: "Voeg persoonlijke handtekeningen rechtstreeks toe in de app",
           icon: "signature",
         },
         {
-          title: "Afzender*",
+          title: "Afzender",
           description: "Voer je afzenderinformatie eenmalig in",
           icon: "address-card",
         },
         {
-          title: "Contacten*",
+          title: "Contacten",
           description: "Incorporeren van contactadressen uit je adresboek is eenvoudig",
           icon: "address-book",
         },
         {
-          title: "Sjablonen*",
+          title: "Sjablonen",
           description:
             "Maak gebruik van een breed scala aan sjablonen voor verschillende gelegenheden",
           icon: "file-lines",
         },
         {
-          title: "Indeling*",
+          title: "Indeling",
           description: "Pas de indeling van je brieven aan aan je specifieke behoeften",
           icon: "gear",
         },
@@ -254,28 +254,28 @@ const features = {
           icon: "wand-magic-sparkles",
         },
         {
-          title: "Signatures*",
+          title: "Signatures",
           description: "Ajoutez des signatures personnelles directement dans l'application",
           icon: "signature",
         },
         {
-          title: "Expéditeur*",
+          title: "Expéditeur",
           description: "Entrez vos informations d'expéditeur une seule fois",
           icon: "address-card",
         },
         {
-          title: "Contacts*",
+          title: "Contacts",
           description:
             "Intégrez facilement les adresses de vos contacts depuis votre carnet d'adresses",
           icon: "address-book",
         },
         {
-          title: "Modèles*",
+          title: "Modèles",
           description: "Utilisez une large gamme de modèles pour différentes occasions",
           icon: "file-lines",
         },
         {
-          title: "Mise en Page*",
+          title: "Mise en Page",
           description: "Personnalisez la mise en page de vos lettres selon vos besoins spécifiques",
           icon: "gear",
         },
@@ -325,27 +325,27 @@ const features = {
           icon: "wand-magic-sparkles",
         },
         {
-          title: "Firme*",
+          title: "Firme",
           description: "Aggiungi firme personali direttamente dall'app",
           icon: "signature",
         },
         {
-          title: "Mittente*",
+          title: "Mittente",
           description: "Inserisci le tue informazioni come mittente una sola volta",
           icon: "address-card",
         },
         {
-          title: "Contatti*",
+          title: "Contatti",
           description: "Incorpora facilmente gli indirizzi dei contatti dalla tua rubrica",
           icon: "address-book",
         },
         {
-          title: "Modelli*",
+          title: "Modelli",
           description: "Utilizza una vasta gamma di modelli per diverse occasioni",
           icon: "file-lines",
         },
         {
-          title: "Layout*",
+          title: "Layout",
           description:
             "Personalizza il layout delle tue lettere secondo le tue esigenze specifiche",
           icon: "gear",
@@ -396,27 +396,27 @@ const features = {
           icon: "wand-magic-sparkles",
         },
         {
-          title: "Firmas*",
+          title: "Firmas",
           description: "Agrega firmas personales directamente dentro de la aplicación",
           icon: "signature",
         },
         {
-          title: "Remitente*",
+          title: "Remitente",
           description: "Ingresa tu información como remitente una sola vez",
           icon: "address-card",
         },
         {
-          title: "Contactos*",
+          title: "Contactos",
           description: "Utiliza los contactos de tu agenda.",
           icon: "address-book",
         },
         {
-          title: "Plantillas*",
+          title: "Plantillas",
           description: "Utiliza una amplia gama de plantillas para diferentes ocasiones",
           icon: "file-lines",
         },
         {
-          title: "Diseño*",
+          title: "Diseño",
           description: "Personaliza el diseño de tus cartas según tus necesidades específicas",
           icon: "gear",
         },
@@ -466,27 +466,27 @@ const features = {
           icon: "wand-magic-sparkles",
         },
         {
-          title: "Assinaturas*",
+          title: "Assinaturas",
           description: "Adicione assinaturas pessoais diretamente na aplicação",
           icon: "signature",
         },
         {
-          title: "Remetente*",
+          title: "Remetente",
           description: "Introduza as informações do remetente uma vez",
           icon: "address-card",
         },
         {
-          title: "Contactos*",
+          title: "Contactos",
           description: "Incorpore facilmente endereços de contactos da sua lista de contactos",
           icon: "address-book",
         },
         {
-          title: "Modelos*",
+          title: "Modelos",
           description: "Utilize uma ampla gama de modelos para diversas ocasiões",
           icon: "file-lines",
         },
         {
-          title: "Layout*",
+          title: "Layout",
           description:
             "Personalizar o layout das suas cartas de acordo com as suas necessidades específicas",
           icon: "gear",

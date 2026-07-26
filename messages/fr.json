@@ -11,7 +11,7 @@
   "common": {
     "android_only": "* actuellement non disponible sur les appareils Android",
     "download": "Télécharger",
-    "ios_only": "** actuellement uniquement sur iPhone et iPad",
+    "ios_only": "** actuellement non disponible sur Mac",
     "language": "Français",
     "scroll_down": "Faites défiler vers le bas",
     "title": "Application de Lettres",
