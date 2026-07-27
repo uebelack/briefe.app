@@ -1,37 +1,417 @@
-.help-block {
+/* =========================================================================
+   User manual / Help page
+   Docs-style layout: hero, sticky table of contents, numbered sections with
+   alternating phone screenshots. Uses the shared design tokens from main.css.
+   ========================================================================= */
+
+/* ---- Shared PRO pill --------------------------------------------------- */
+.manual-pro {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  line-height: 1;
+  padding: 0.28em 0.5em;
+  border-radius: 999px;
+  color: var(--brand-strong);
+  background: var(--brand-tint);
+  border: 1px solid color-mix(in oklch, var(--brand) 24%, transparent);
+}
+
+/* ---- Hero -------------------------------------------------------------- */
+/* The shared title layout lives in `.page-hero` (styles/main.css). Here we
+   only tune the manual's hero section spacing and the PRO callout that sits
+   under the shared hero. The JSON-LD <script> is the first child of `.page`,
+   so the generic `.section:first-child` nav clearance doesn't apply — set the
+   top padding explicitly so the hero clears the fixed navigation bar. */
+.manual-hero-section {
+  padding-top: calc(var(--nav-h) + 2.5rem);
+  padding-bottom: 1rem;
+}
+
+.manual-callout.manual-hero__pro {
+  margin-top: 1.75rem;
+  max-width: none;
+}
+
+/* ---- Layout: sticky TOC + content ------------------------------------- */
+.manual-body-section {
+  padding-top: 1.5rem;
+  padding-bottom: clamp(3rem, 8vw, 6rem);
+}
+
+.manual-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+}
+
+@media (min-width: 1024px) {
+  .manual-layout {
+    grid-template-columns: 15rem minmax(0, 1fr);
+    gap: 4rem;
+  }
+}
+
+/* ---- Table of contents ------------------------------------------------- */
+.manual-toc {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .manual-toc {
+    display: block;
+  }
+  .manual-toc__inner {
+    position: sticky;
+    top: calc(var(--nav-h) + 1.5rem);
+    max-height: calc(100vh - var(--nav-h) - 3rem);
+    overflow-y: auto;
+    padding-right: 0.5rem;
+  }
+}
+
+.manual-toc__title {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+  margin-bottom: 1rem;
+}
+
+.manual-toc__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
   display: flex;
-  padding-bottom: 50px;
+  flex-direction: column;
+  gap: 0.1rem;
+  border-left: 1px solid var(--hairline);
 }
 
-.help-text {
-  font-size: 18px;
-  flex: 2;
-  padding-right: 20px;
+.manual-toc__link {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  padding: 0.4rem 0.75rem;
+  margin-left: -1px;
+  border-left: 2px solid transparent;
+  font-size: 0.9rem;
+  line-height: 1.35;
+  color: var(--ink-soft);
+  text-decoration: none;
+  transition:
+    color 0.18s var(--ease-out),
+    border-color 0.18s var(--ease-out);
 }
 
-.help-image {
-  flex: 1;
-  img {
-    border: solid 1px #ccc;
-    padding: 0;
-    margin: 0;
+.manual-toc__link:hover {
+  color: var(--brand-strong);
+  border-left-color: var(--brand);
+}
+
+.manual-toc__num {
+  flex-shrink: 0;
+  font-variant-numeric: tabular-nums;
+  font-size: 0.75rem;
+  color: var(--ink-muted);
+}
+
+.manual-toc__pro {
+  font-size: 0.55rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--brand-strong);
+  align-self: center;
+}
+
+/* ---- Content column ---------------------------------------------------- */
+.manual-content {
+  min-width: 0;
+}
+
+.manual-section {
+  padding: 2.5rem 0;
+  border-top: 1px solid var(--hairline);
+  scroll-margin-top: calc(var(--nav-h) + 1.5rem);
+}
+
+.manual-content > .manual-section:first-child {
+  border-top: none;
+  padding-top: 0.5rem;
+}
+
+.manual-section__body {
+  min-width: 0;
+}
+
+.manual-section__head {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  margin-bottom: 1.25rem;
+}
+
+.manual-section__num {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+  color: var(--brand-strong);
+  background: var(--brand-tint);
+}
+
+.manual-section__title {
+  scroll-margin-top: calc(var(--nav-h) + 1.5rem);
+  font-size: clamp(1.4rem, 2.6vw, 1.75rem);
+  font-weight: 300;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  flex-wrap: wrap;
+}
+
+/* Split sections place the screenshot beside the text on wide screens.
+   The phone lives in an `auto` track so it keeps its natural size; the text
+   takes the flexible `1fr` track. Swapping sides swaps the tracks (not just
+   the order) so the phone never lands in the collapsing column. */
+@media (min-width: 768px) {
+  .manual-section--split {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 3rem;
+    align-items: start;
+  }
+  .manual-section--split .manual-section__body {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .manual-section--split .manual-section__media {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .manual-section--split.manual-section--flip {
+    grid-template-columns: auto minmax(0, 1fr);
+  }
+  .manual-section--split.manual-section--flip .manual-section__body {
+    grid-column: 2;
+  }
+  .manual-section--split.manual-section--flip .manual-section__media {
+    grid-column: 1;
   }
 }
 
-/* Stack text over the phone screenshot on small screens instead of squeezing
-   them side by side. */
-@media (max-width: 640px) {
-  .help-block {
-    flex-direction: column;
-    gap: 1.25rem;
-    padding-bottom: 32px;
-  }
-  .help-text {
-    padding-right: 0;
-  }
-  .help-image img {
-    width: 100%;
-    height: auto;
-    max-width: 300px;
-  }
+/* Sections without a screenshot have no narrow text column, so let the prose
+   and callouts stretch across the full content width. */
+.manual-section:not(.manual-section--split) .manual-p,
+.manual-section:not(.manual-section--split) .manual-list,
+.manual-section:not(.manual-section--split) .manual-steps,
+.manual-section:not(.manual-section--split) .manual-callout {
+  max-width: none;
+}
+
+.manual-section__media {
+  display: flex;
+  justify-content: center;
+}
+
+.manual-section__media-inner {
+  position: sticky;
+  top: calc(var(--nav-h) + 2rem);
+}
+
+/* ---- Prose elements ---------------------------------------------------- */
+.manual-link {
+  color: var(--brand-strong);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 1px;
+  text-decoration-color: color-mix(in oklch, var(--brand) 40%, transparent);
+  transition: text-decoration-color 0.18s var(--ease-out);
+}
+
+.manual-link:hover {
+  text-decoration-color: var(--brand);
+}
+
+.manual-p {
+  font-size: 1.02rem;
+  line-height: 1.72;
+  color: var(--ink-soft);
+  margin: 0 0 1rem;
+  max-width: 60ch;
+}
+
+.manual-p strong,
+.manual-list strong,
+.manual-steps strong,
+.manual-callout strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.manual-list {
+  list-style: none;
+  margin: 0 0 1.25rem;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  max-width: 60ch;
+}
+
+.manual-list li {
+  position: relative;
+  padding-left: 1.4rem;
+  font-size: 1.02rem;
+  line-height: 1.6;
+  color: var(--ink-soft);
+}
+
+.manual-list li::before {
+  content: "";
+  position: absolute;
+  left: 0.15rem;
+  top: 0.68em;
+  width: 6px;
+  height: 6px;
+  border-radius: 999px;
+  background: var(--brand);
+}
+
+/* ---- Numbered steps ---------------------------------------------------- */
+.manual-steps {
+  list-style: none;
+  counter-reset: none;
+  margin: 0 0 1.25rem;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  max-width: 60ch;
+}
+
+.manual-steps li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.85rem;
+  font-size: 1.02rem;
+  line-height: 1.6;
+  color: var(--ink-soft);
+}
+
+.manual-steps__num {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.6rem;
+  height: 1.6rem;
+  margin-top: 0.05rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  color: var(--surface);
+  background: var(--brand);
+}
+
+/* ---- Callouts ---------------------------------------------------------- */
+.manual-callout {
+  border-radius: 14px;
+  padding: 1rem 1.15rem;
+  margin: 0 0 1.25rem;
+  max-width: 60ch;
+  background: var(--canvas);
+  border: 1px solid var(--hairline);
+}
+
+.manual-callout p {
+  margin: 0;
+  font-size: 0.98rem;
+  line-height: 1.62;
+  color: var(--ink-soft);
+}
+
+.manual-callout__label {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--brand-strong);
+  margin-bottom: 0.35rem;
+}
+
+.manual-callout--tip {
+  background: var(--brand-tint);
+  border-color: color-mix(in oklch, var(--brand) 22%, transparent);
+}
+
+.manual-callout--note {
+  border-left: 3px solid var(--hairline-strong);
+}
+
+.manual-callout--pro {
+  display: flex;
+  gap: 0.9rem;
+  align-items: flex-start;
+  background: var(--brand-tint);
+  border-color: color-mix(in oklch, var(--brand) 22%, transparent);
+}
+
+.manual-callout--pro .manual-pro {
+  margin-top: 0.15rem;
+  flex-shrink: 0;
+}
+
+/* ---- Table ------------------------------------------------------------- */
+.manual-table-wrap {
+  margin: 0 0 1.25rem;
+  max-width: 40rem;
+  overflow-x: auto;
+  border: 1px solid var(--hairline);
+  border-radius: 14px;
+}
+
+.manual-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.98rem;
+}
+
+.manual-table th,
+.manual-table td {
+  padding: 0.7rem 1rem;
+  text-align: left;
+  color: var(--ink-soft);
+}
+
+.manual-table thead th {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+  background: var(--canvas);
+}
+
+.manual-table tbody tr + tr td {
+  border-top: 1px solid var(--hairline);
+}
+
+.manual-table tbody td:first-child {
+  color: var(--ink);
+  font-weight: 500;
 }

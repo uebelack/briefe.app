@@ -1,5 +1,6 @@
 import React from "react";
 import getTranslations from "@/functions/getTranslations";
+import PageHero from "@/components/PageHero";
 import TemplatesClient from "./TemplatesClient";
 
 export default function Templates({ templates, locale }) {
@@ -7,8 +8,7 @@ export default function Templates({ templates, locale }) {
 
   return (
     <div className="templates-index">
-      <h1 className="templates-title">{t("templates.title")}</h1>
-      <p className="templates-intro">{t("templates.intro")}</p>
+      <PageHero title={t("templates.title")} subtitle={t("templates.intro")} />
       <TemplatesClient
         templates={templates}
         locale={locale}

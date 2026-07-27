@@ -1,12 +1,26 @@
 import React from "react";
 import Help from "@/components/Help";
+import manual from "@/data/manual";
+
+const LOCALE = "es";
 
 export function generateMetadata() {
+  const m = manual[LOCALE] ?? manual.en;
   return {
-    title: "Ayuda | Aplicación de Cartas",
+    title: m.metaTitle,
+    description: m.metaDescription,
+    keywords: m.keywords,
+    alternates: { canonical: m.canonical },
+    openGraph: {
+      title: m.metaTitle,
+      description: m.metaDescription,
+      url: m.canonical,
+      type: "article",
+    },
+    twitter: { card: "summary", title: m.metaTitle, description: m.metaDescription },
   };
 }
 
 export default function HelpPage() {
-  return <Help locale="es" />;
+  return <Help locale={LOCALE} />;
 }

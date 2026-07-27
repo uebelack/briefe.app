@@ -4,6 +4,7 @@ import getTranslations from "@/functions/getTranslations";
 import Page from "@/components/Page";
 import Section from "@/components/Section";
 import Container from "@/components/Container";
+import PageHero from "@/components/PageHero";
 import {
   Accordion,
   AccordionItem,
@@ -21,29 +22,31 @@ export default function Faq({ locale }) {
     <Page>
       <Section>
         <Container>
-          <h1 className="text-3xl md:text-4xl font-light tracking-tight mb-8">{t("faq.title")}</h1>
-          {content.categories.map((category) => (
-            <div key={category.title} className="mb-8">
-              <h2 className="text-2xl font-light tracking-tight mb-4">{category.title}</h2>
-              <Accordion type="single" collapsible className="w-full">
-                {category.questions.map((question) => (
-                  <AccordionItem key={question.question} value={question.question}>
-                    <AccordionTrigger className="text-left">{question.question}</AccordionTrigger>
-                    <AccordionContent>
-                      <p>{question.answer}</p>
-                      {question.items && (
-                        <ul className="list-disc pl-6 mt-2">
-                          {question.items.map((item) => (
-                            <li key={item}>{item}</li>
-                          ))}
-                        </ul>
-                      )}
-                    </AccordionContent>
-                  </AccordionItem>
-                ))}
-              </Accordion>
-            </div>
-          ))}
+          <PageHero title={t("faq.title")} subtitle={t("faq.intro")} />
+          <div className="mt-10">
+            {content.categories.map((category) => (
+              <div key={category.title} className="mb-8">
+                <h2 className="text-2xl font-light tracking-tight mb-4">{category.title}</h2>
+                <Accordion type="single" collapsible className="w-full">
+                  {category.questions.map((question) => (
+                    <AccordionItem key={question.question} value={question.question}>
+                      <AccordionTrigger className="text-left">{question.question}</AccordionTrigger>
+                      <AccordionContent>
+                        <p>{question.answer}</p>
+                        {question.items && (
+                          <ul className="list-disc pl-6 mt-2">
+                            {question.items.map((item) => (
+                              <li key={item}>{item}</li>
+                            ))}
+                          </ul>
+                        )}
+                      </AccordionContent>
+                    </AccordionItem>
+                  ))}
+                </Accordion>
+              </div>
+            ))}
+          </div>
         </Container>
       </Section>
     </Page>
