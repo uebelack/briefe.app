@@ -60,23 +60,6 @@
       ]
     },
     {
-      "title": "Assinatura e preços",
-      "questions": [
-        {
-          "question": "A utilização da aplicação Carta é gratuita?",
-          "answer": "A aplicação está disponível gratuitamente, mas existe uma versão PRO com funcionalidades adicionais mediante o pagamento de uma taxa de subscrição."
-        },
-        {
-          "question": "Como posso subscrever a versão PRO da aplicação Carta?",
-          "answer": "Pode facilmente subscrever a versão PRO a partir da aplicação. Basta tocar em qualquer funcionalidade PRO, como definições, remetente, contactos ou modelos, e será apresentado um ecrã de seleção do plano de subscrição."
-        },
-        {
-          "question": "Qual é o custo da versão PRO e como é facturada?",
-          "answer": "O preço da versão PRO pode variar e os detalhes de faturação são fornecidos na aplicação. Verifique as informações de preços da aplicação para obter os detalhes mais exactos."
-        }
-      ]
-    },
-    {
       "title": "Utilização",
       "questions": [
         {
@@ -94,6 +77,74 @@
         {
           "question": "Como posso acrescentar um logótipo às minhas cartas?",
           "answer": "Para adicionar um logótipo à sua carta, pode utilizar a funcionalidade de papel de carta. Utilize a sua aplicação preferida, como o Pages ou o Word, para conceber um PDF que inclua o seu logótipo na posição pretendida. Ao visualizar a carta, toque no ícone de definições. Isto permitir-lhe-á adicionar o PDF com o seu logótipo como papel de carta. Se pretender que o papel de carta seja adicionado automaticamente a todas as cartas futuras, pode configurá-lo nas definições da aplicação. Crie um perfil de remetente e carregue aí o seu PDF de papel de carta. Desta forma, o seu logótipo será incluído em todas as novas cartas que criar."
+        },
+        {
+          "question": "Como posso formatar o texto a negrito, itálico ou sublinhado?",
+          "answer": "No editor, selecione o texto que pretende alterar e toque no botão Negrito, Itálico ou Sublinhado na barra de formatação. Se tiver um teclado físico, também pode utilizar Ctrl + B, Ctrl + I e Ctrl + U. Prefere uma carta simples, sem qualquer formatação? Ative a opção Apenas texto nas definições da carta. (A formatação de texto enriquecido é uma funcionalidade PRO.)"
+        },
+        {
+          "question": "Como funciona o assistente de escrita com IA?",
+          "answer": "Introduza uma breve nota sobre o que pretende dizer e, em seguida, toque no botão da estrela (✨) no editor. Da primeira vez, ser-lhe-á pedido que aceite o processamento de dados, uma vez que o seu assunto e mensagem são enviados para um serviço de IA para gerar um rascunho. O assistente sugere então um assunto e um corpo de texto — toque em Utilizar para o inserir na sua carta ou em Cancelar para manter o que tinha. (O assistente de IA é uma funcionalidade PRO e poderá não estar disponível em todo o lado.)"
+        },
+        {
+          "question": "Como utilizo os modelos?",
+          "answer": "Os modelos são textos de assunto e corpo reutilizáveis, úteis para cartas que escreve com frequência. Faça a sua gestão em Definições → Modelos e, enquanto escreve uma carta, toque na ação de modelo junto ao campo Assunto para preencher com um modelo guardado. A aplicação inclui também vários modelos incorporados para o ajudar a começar. (Os modelos são uma funcionalidade PRO.)"
+        },
+        {
+          "question": "Como posso adicionar a minha assinatura a uma carta?",
+          "answer": "Pode assinar de duas formas, que também pode combinar: desenhar uma assinatura na área de desenho com o dedo ou uma caneta (é incorporada como imagem) e/ou escrever uma assinatura em texto, como o seu nome. Utilize a opção de alinhamento da assinatura nas definições da carta para a colocar à esquerda ou à direita. (A assinatura desenhada é uma funcionalidade PRO.)"
+        },
+        {
+          "question": "Posso importar endereços dos meus contactos?",
+          "answer": "Sim. Junto aos campos do remetente e do destinatário, toque na ação de contacto para escolher alguém da sua lista de endereços e o respetivo endereço preenche o campo automaticamente. Da primeira vez, ser-lhe-á pedido que conceda a permissão de acesso aos Contactos. (A importação de contactos é uma funcionalidade PRO.)"
+        },
+        {
+          "question": "Porque é que as minhas cartas não estão a sincronizar entre os meus dispositivos?",
+          "answer": "No iPhone e no iPad, as suas cartas, remetentes e modelos sincronizam automaticamente através do iCloud — não há qualquer botão para tocar e as alterações aparecem nos seus outros dispositivos pouco tempo depois. Se algo não estiver a sincronizar, verifique se:",
+          "items": [
+            "Tem sessão iniciada com o mesmo ID Apple em todos os dispositivos.",
+            "O iCloud está ativado em cada dispositivo.",
+            "A aplicação Carta tem autorização para guardar dados no iCloud em cada dispositivo.",
+            "A versão mais recente do iOS está instalada em todos os dispositivos.",
+            "A versão mais recente da aplicação Carta está instalada em todos os dispositivos."
+          ]
+        },
+        {
+          "question": "Que tamanhos de papel e opções de envelope são suportados?",
+          "answer": "Nas definições da carta pode escolher entre papel A4 (210 × 297 mm) e Letter (8,5 × 11 pol.). Encontra também opções para marcas de dobragem, numeração de páginas e posicionamento do endereço do remetente para que fique visível através de um envelope de janela."
+        }
+      ]
+    },
+    {
+      "title": "Assinatura e preços",
+      "questions": [
+        {
+          "question": "A utilização da aplicação Carta é gratuita?",
+          "answer": "A aplicação está disponível gratuitamente, mas existe uma versão PRO com funcionalidades adicionais mediante o pagamento de uma taxa de subscrição."
+        },
+        {
+          "question": "Como posso subscrever a versão PRO da aplicação Carta?",
+          "answer": "Pode facilmente subscrever a versão PRO a partir da aplicação. Basta tocar em qualquer funcionalidade PRO, como definições, remetente, contactos ou modelos, e será apresentado um ecrã de seleção do plano de subscrição."
+        },
+        {
+          "question": "Qual é o custo da versão PRO e como é facturada?",
+          "answer": "O preço da versão PRO pode variar e os detalhes de faturação são fornecidos na aplicação. Verifique as informações de preços da aplicação para obter os detalhes mais exactos."
+        },
+        {
+          "question": "Existe um período de experiência gratuito para a versão PRO?",
+          "answer": "Sim. Da primeira vez que tocar numa funcionalidade PRO, é apresentado o ecrã de subscrição com um período de experiência gratuito (por exemplo, gratuito durante uma semana e, em seguida, faturado de acordo com o plano escolhido). Os preços e as condições do período de experiência são sempre apresentados na sua moeda local."
+        },
+        {
+          "question": "Já subscrevi noutro dispositivo — como posso restaurar a minha compra?",
+          "answer": "No ecrã de subscrição, toque em Restaurar compras. Certifique-se de que tem sessão iniciada com a mesma conta da loja de aplicações (ID Apple ou conta Google) que utilizou na compra original e as suas funcionalidades PRO serão reativadas."
+        },
+        {
+          "question": "Como posso cancelar a minha subscrição PRO?",
+          "answer": "As subscrições são geridas pela loja de aplicações onde efectuou a compra, e não dentro da própria aplicação Carta, pelo que o cancelamento é feito na sua conta da loja. Desative a renovação automática e manterá o PRO até ao final do período de faturação atual. Consulte a página de ajuda da sua loja para obter instruções passo a passo:",
+          "links": [
+            { "label": "Cancelar uma subscrição na App Store (Apple)", "url": "https://support.apple.com/en-us/118428" },
+            { "label": "Cancelar uma subscrição no Google Play", "url": "https://support.google.com/googleplay/answer/7018481" }
+          ]
         }
       ]
     }

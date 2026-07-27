@@ -60,23 +60,6 @@
       ]
     },
     {
-      "title": "Abonnement en prijzen",
-      "questions": [
-        {
-          "question": "Is de Brieven App gratis te gebruiken?",
-          "answer": "De app is gratis beschikbaar, maar er is een PRO-versie met extra functies beschikbaar tegen betaling van een abonnement."
-        },
-        {
-          "question": "Hoe abonneer ik me op de PRO-versie van de Brieven App?",
-          "answer": "Je kunt je eenvoudig abonneren op de PRO-versie vanuit de app. Tik gewoon op een PRO-functie, zoals instellingen, afzender, contactpersonen of sjablonen, en er verschijnt een selectiescherm voor het abonnement."
-        },
-        {
-          "question": "Wat kost de PRO-versie en hoe wordt deze gefactureerd?",
-          "answer": "De prijzen voor de PRO-versie kunnen variëren en factureringsgegevens worden verstrekt in de app. Controleer de prijsinformatie van de app voor de meest nauwkeurige details."
-        }
-      ]
-    },
-    {
       "title": "Gebruik",
       "questions": [
         {
@@ -94,6 +77,74 @@
         {
           "question": "Hoe kan ik een logo toevoegen aan mijn brieven?",
           "answer": "Om een logo aan je brief toe te voegen, kun je de briefpapierfunctie gebruiken. Gebruik het programma van uw voorkeur, zoals Pages of Word, om een PDF te maken met uw logo op de gewenste plaats. Wanneer je de brief bekijkt, tik je op het instellingenpictogram. Zo kun je de PDF met je logo toevoegen als briefpapier. Als je wilt dat het briefpapier automatisch aan alle toekomstige brieven wordt toegevoegd, kun je dit instellen in de instellingen van de app. Maak een afzenderprofiel aan en upload daar je briefpapier PDF. Dit zorgt ervoor dat je logo wordt opgenomen in elke nieuwe brief die je maakt."
+        },
+        {
+          "question": "Hoe kan ik tekst vet, cursief of onderstreept opmaken?",
+          "answer": "Selecteer in de editor de tekst die je wilt wijzigen en tik op de knop Vet, Cursief of Onderstrepen in de opmaakwerkbalk. Heb je een fysiek toetsenbord, dan kun je ook Ctrl + B, Ctrl + I en Ctrl + U gebruiken. Liever een brief zonder opmaak? Schakel dan Alleen tekst in bij de briefinstellingen. (Tekstopmaak is een PRO-functie.)"
+        },
+        {
+          "question": "Hoe werkt de AI-schrijfassistent?",
+          "answer": "Voer een korte notitie in over wat je wilt zeggen en tik daarna op de sterretjesknop (✨) in de editor. De eerste keer wordt je gevraagd akkoord te gaan met de gegevensverwerking, omdat je onderwerp en bericht naar een AI-dienst worden gestuurd om een concept te genereren. De assistent stelt vervolgens een onderwerp en een tekst voor — tik op Gebruiken om het in je brief in te voegen, of op Annuleren om te behouden wat je al had. (De AI-assistent is een PRO-functie en is mogelijk niet overal beschikbaar.)"
+        },
+        {
+          "question": "Hoe gebruik ik sjablonen?",
+          "answer": "Sjablonen zijn herbruikbare onderwerp- en berichtteksten, handig voor brieven die je vaak schrijft. Je beheert ze via Instellingen → Sjablonen, en tijdens het schrijven van een brief tik je op de sjabloonactie naast het onderwerpveld om een opgeslagen sjabloon in te vullen. De app bevat ook verschillende ingebouwde sjablonen om je op weg te helpen. (Sjablonen zijn een PRO-functie.)"
+        },
+        {
+          "question": "Hoe voeg ik mijn handtekening toe aan een brief?",
+          "answer": "Je kunt op twee manieren ondertekenen, en je kunt ze combineren: teken een handtekening op het canvas met je vinger of stylus (deze wordt als afbeelding ingevoegd), en/of typ een teksthandtekening zoals je naam. Gebruik de optie voor de uitlijning van de handtekening in de briefinstellingen om deze links of rechts te plaatsen. (De getekende handtekening is een PRO-functie.)"
+        },
+        {
+          "question": "Kan ik adressen importeren uit mijn contacten?",
+          "answer": "Ja. Tik naast de velden voor afzender en ontvanger op de contactactie om iemand uit je adresboek te kiezen; hun adres wordt dan automatisch in het veld ingevuld. De eerste keer wordt je gevraagd toegang tot je Contacten te verlenen. (Het importeren van contacten is een PRO-functie.)"
+        },
+        {
+          "question": "Waarom worden mijn brieven niet gesynchroniseerd tussen mijn apparaten?",
+          "answer": "Op de iPhone en iPad worden je brieven, afzenders en sjablonen automatisch gesynchroniseerd via iCloud — er is geen knop die je hoeft in te drukken, en wijzigingen verschijnen even later op je andere apparaten. Als iets niet synchroniseert, controleer dan of:",
+          "items": [
+            "Je op alle apparaten bent aangemeld met dezelfde Apple ID.",
+            "iCloud op elk apparaat is ingeschakeld.",
+            "De Brieven App op elk apparaat gegevens mag opslaan in iCloud.",
+            "De nieuwste iOS-versie op alle apparaten is geïnstalleerd.",
+            "De nieuwste versie van de Brieven App op alle apparaten is geïnstalleerd."
+          ]
+        },
+        {
+          "question": "Welke papierformaten en envelopopties worden ondersteund?",
+          "answer": "In de briefinstellingen kun je kiezen tussen A4 (210 × 297 mm) en Letter (8,5 × 11 inch) als papierformaat. Je vindt er ook opties voor vouwmarkeringen, paginanummers en het positioneren van het afzenderadres zodat het zichtbaar is door een venstervelop."
+        }
+      ]
+    },
+    {
+      "title": "Abonnement en prijzen",
+      "questions": [
+        {
+          "question": "Is de Brieven App gratis te gebruiken?",
+          "answer": "De app is gratis beschikbaar, maar er is een PRO-versie met extra functies beschikbaar tegen betaling van een abonnement."
+        },
+        {
+          "question": "Hoe abonneer ik me op de PRO-versie van de Brieven App?",
+          "answer": "Je kunt je eenvoudig abonneren op de PRO-versie vanuit de app. Tik gewoon op een PRO-functie, zoals instellingen, afzender, contactpersonen of sjablonen, en er verschijnt een selectiescherm voor het abonnement."
+        },
+        {
+          "question": "Wat kost de PRO-versie en hoe wordt deze gefactureerd?",
+          "answer": "De prijzen voor de PRO-versie kunnen variëren en factureringsgegevens worden verstrekt in de app. Controleer de prijsinformatie van de app voor de meest nauwkeurige details."
+        },
+        {
+          "question": "Is er een gratis proefperiode voor de PRO-versie?",
+          "answer": "Ja. De eerste keer dat je op een PRO-functie tikt, verschijnt het upgradescherm met een gratis proefperiode (bijvoorbeeld een week gratis, daarna wordt er gefactureerd volgens het abonnement dat je hebt gekozen). De prijzen en de voorwaarden van de proefperiode worden altijd weergegeven in je lokale valuta."
+        },
+        {
+          "question": "Ik heb me al op een ander apparaat geabonneerd — hoe herstel ik mijn aankoop?",
+          "answer": "Tik op het upgradescherm op Aankopen herstellen. Zorg ervoor dat je bent aangemeld met hetzelfde app store-account (Apple ID of Google-account) dat je bij de oorspronkelijke aankoop hebt gebruikt, dan worden je PRO-functies weer geactiveerd."
+        },
+        {
+          "question": "Hoe zeg ik mijn PRO-abonnement op?",
+          "answer": "Abonnementen worden beheerd door de appstore waar je ze hebt gekocht, niet in de Brieven App zelf. Je zegt ze dus op via je storeaccount. Schakel automatische verlenging uit, dan behoud je PRO tot het einde van de huidige factureringsperiode. Raadpleeg de helppagina van je store voor stapsgewijze instructies:",
+          "links": [
+            { "label": "Een abonnement opzeggen in de App Store (Apple)", "url": "https://support.apple.com/en-us/118428" },
+            { "label": "Een abonnement opzeggen in Google Play", "url": "https://support.google.com/googleplay/answer/7018481" }
+          ]
         }
       ]
     }

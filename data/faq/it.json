@@ -60,23 +60,6 @@
       ]
     },
     {
-      "title": "Abbonamento e prezzi",
-      "questions": [
-        {
-          "question": "L'applicazione The Letter è gratuita?",
-          "answer": "L'applicazione è disponibile gratuitamente, ma è disponibile una versione PRO con funzioni aggiuntive a pagamento."
-        },
-        {
-          "question": "Come posso abbonarmi alla versione PRO di L'App Lettera?",
-          "answer": "È possibile abbonarsi facilmente alla versione PRO dall'interno dell'applicazione. È sufficiente toccare una qualsiasi funzione PRO, come le impostazioni, il mittente, i contatti o i modelli, per visualizzare la schermata di selezione del piano di abbonamento."
-        },
-        {
-          "question": "Qual è il costo della versione PRO e come viene fatturata?",
-          "answer": "I prezzi della versione PRO possono variare e i dettagli di fatturazione sono forniti all'interno dell'applicazione. Per i dettagli più precisi, consultare le informazioni sui prezzi dell'applicazione."
-        }
-      ]
-    },
-    {
       "title": "Utilizzo",
       "questions": [
         {
@@ -94,6 +77,74 @@
         {
           "question": "Come posso aggiungere un logo alle mie lettere?",
           "answer": "Per aggiungere un logo alla lettera, è possibile utilizzare la funzione di cancelleria. Utilizzare l'applicazione preferita, come Pages o Word, per creare un PDF che includa il logo nella posizione desiderata. Quando si visualizza la lettera, toccare l'icona delle impostazioni. In questo modo sarà possibile aggiungere il PDF con il logo come carta intestata. Se si desidera che la carta intestata venga aggiunta automaticamente a tutte le lettere future, è possibile impostarla nelle impostazioni dell'applicazione. Creare un profilo di mittente e caricarvi il PDF della carta intestata. In questo modo il vostro logo sarà incluso in ogni nuova lettera creata."
+        },
+        {
+          "question": "Come posso formattare il testo in grassetto, corsivo o sottolineato?",
+          "answer": "Nell'editor, selezionare il testo da modificare e toccare il pulsante Grassetto, Corsivo o Sottolineato nella barra degli strumenti di formattazione. Se si dispone di una tastiera fisica, è possibile usare anche Ctrl + B, Ctrl + I e Ctrl + U. Si preferisce una lettera semplice senza formattazione? Attivare Solo testo nelle impostazioni della lettera. (La formattazione del testo è una funzione PRO.)"
+        },
+        {
+          "question": "Come funziona l'assistente di scrittura AI?",
+          "answer": "Inserire una breve nota su ciò che si desidera scrivere, quindi toccare il pulsante con la stella (✨) nell'editor. La prima volta verrà chiesto di acconsentire al trattamento dei dati, perché l'oggetto e il messaggio vengono inviati a un servizio di intelligenza artificiale per generare una bozza. L'assistente propone quindi un oggetto e un corpo del testo: toccare Usa per inserirlo nella lettera oppure Annulla per mantenere il testo esistente. (L'assistente AI è una funzione PRO e potrebbe non essere disponibile ovunque.)"
+        },
+        {
+          "question": "Come si usano i modelli?",
+          "answer": "I modelli sono testi di oggetto e corpo riutilizzabili, comodi per le lettere che si scrivono spesso. È possibile gestirli in Impostazioni → Modelli e, durante la scrittura di una lettera, toccare l'azione modello accanto al campo Oggetto per inserire un modello salvato. L'applicazione include anche diversi modelli predefiniti per iniziare. (I modelli sono una funzione PRO.)"
+        },
+        {
+          "question": "Come posso aggiungere la mia firma a una lettera?",
+          "answer": "È possibile firmare in due modi, anche combinandoli: disegnare una firma sull'area di disegno con il dito o con uno stilo (viene inserita come immagine) e/o digitare una firma testuale, come il proprio nome. Utilizzare l'opzione di allineamento della firma nelle impostazioni della lettera per posizionarla a sinistra o a destra. (La firma disegnata è una funzione PRO.)"
+        },
+        {
+          "question": "Posso importare gli indirizzi dai miei contatti?",
+          "answer": "Sì. Accanto ai campi del mittente e del destinatario, toccare l'azione contatti per scegliere una persona dalla rubrica e il suo indirizzo compilerà automaticamente il campo. La prima volta verrà chiesto di concedere l'autorizzazione ad accedere ai Contatti. (L'importazione dei contatti è una funzione PRO.)"
+        },
+        {
+          "question": "Perché le mie lettere non si sincronizzano tra i miei dispositivi?",
+          "answer": "Su iPhone e iPad, le lettere, i mittenti e i modelli si sincronizzano automaticamente tramite iCloud: non c'è alcun pulsante da premere e le modifiche compaiono sugli altri dispositivi dopo poco tempo. Se qualcosa non si sincronizza, verificare che:",
+          "items": [
+            "Si abbia effettuato l'accesso con lo stesso Apple ID su tutti i dispositivi.",
+            "iCloud sia abilitato su ogni dispositivo.",
+            "L'App Lettera sia autorizzata a memorizzare i dati in iCloud su ogni dispositivo.",
+            "Sia installata l'ultima versione di iOS su tutti i dispositivi.",
+            "Sia installata l'ultima versione de L'App Lettera su tutti i dispositivi."
+          ]
+        },
+        {
+          "question": "Quali formati carta e opzioni per le buste sono supportati?",
+          "answer": "Nelle impostazioni della lettera è possibile scegliere tra la carta A4 (210 × 297 mm) e Letter (8,5 × 11 in). Sono inoltre disponibili opzioni per i segni di piegatura, i numeri di pagina e il posizionamento dell'indirizzo del mittente in modo che sia visibile attraverso la finestra della busta."
+        }
+      ]
+    },
+    {
+      "title": "Abbonamento e prezzi",
+      "questions": [
+        {
+          "question": "L'applicazione The Letter è gratuita?",
+          "answer": "L'applicazione è disponibile gratuitamente, ma è disponibile una versione PRO con funzioni aggiuntive a pagamento."
+        },
+        {
+          "question": "Come posso abbonarmi alla versione PRO di L'App Lettera?",
+          "answer": "È possibile abbonarsi facilmente alla versione PRO dall'interno dell'applicazione. È sufficiente toccare una qualsiasi funzione PRO, come le impostazioni, il mittente, i contatti o i modelli, per visualizzare la schermata di selezione del piano di abbonamento."
+        },
+        {
+          "question": "Qual è il costo della versione PRO e come viene fatturata?",
+          "answer": "I prezzi della versione PRO possono variare e i dettagli di fatturazione sono forniti all'interno dell'applicazione. Per i dettagli più precisi, consultare le informazioni sui prezzi dell'applicazione."
+        },
+        {
+          "question": "Esiste una prova gratuita per la versione PRO?",
+          "answer": "Sì. La prima volta che si tocca una funzione PRO, viene visualizzata la schermata di upgrade con una prova gratuita (ad esempio, gratis per una settimana e poi fatturata in base al piano scelto). I prezzi e le condizioni della prova sono sempre indicati nella valuta locale."
+        },
+        {
+          "question": "Mi sono già abbonato su un altro dispositivo: come ripristino il mio acquisto?",
+          "answer": "Nella schermata di upgrade, toccare Ripristina acquisti. Assicurarsi di aver effettuato l'accesso con lo stesso account dello store (Apple ID o account Google) utilizzato per l'acquisto originale e le funzioni PRO verranno riattivate."
+        },
+        {
+          "question": "Come posso annullare il mio abbonamento PRO?",
+          "answer": "Gli abbonamenti sono gestiti dallo store da cui è stato effettuato l'acquisto, non all'interno de L'App Lettera, quindi l'annullamento avviene nell'account del proprio store. Disattivando il rinnovo automatico, si conserva la versione PRO fino al termine del periodo di fatturazione in corso. Per istruzioni dettagliate passo dopo passo, consultare la pagina di assistenza del proprio store:",
+          "links": [
+            { "label": "Annullare un abbonamento sull'App Store (Apple)", "url": "https://support.apple.com/en-us/118428" },
+            { "label": "Annullare un abbonamento su Google Play", "url": "https://support.google.com/googleplay/answer/7018481" }
+          ]
         }
       ]
     }

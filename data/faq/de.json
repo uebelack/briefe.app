@@ -60,23 +60,6 @@
       ]
     },
     {
-      "title": "Abonnement und Preisgestaltung",
-      "questions": [
-        {
-          "question": "Ist die Nutzung von der Briefe App kostenlos?",
-          "answer": "Die App ist kostenlos erhältlich, aber es gibt eine PRO-Version mit zusätzlichen Funktionen, die gegen eine Abonnementgebühr erhältlich ist."
-        },
-        {
-          "question": "Wie kann ich die PRO-Version von der Briefe App abonnieren?",
-          "answer": "Sie können die PRO-Version ganz einfach innerhalb der App abonnieren. Tippen Sie einfach auf eine PRO-Funktion, z. B. Einstellungen, Absender, Kontakte oder Vorlagen, und ein Bildschirm zur Auswahl des Abonnementplans wird angezeigt."
-        },
-        {
-          "question": "Wie hoch sind die Kosten für die PRO-Version und wie wird sie abgerechnet?",
-          "answer": "Die Preise für die PRO-Version können variieren, und die Rechnungsdetails werden in der App bereitgestellt. Bitte prüfen Sie die Preisinformationen der App für die genauesten Details."
-        }
-      ]
-    },
-    {
       "title": "Verwendung",
       "questions": [
         {
@@ -94,6 +77,74 @@
         {
           "question": "Wie kann ich ein Logo zu meinen Briefen hinzufügen?",
           "answer": "Um Ihrem Brief ein Logo hinzuzufügen, können Sie die Funktion Briefpapier verwenden. Verwenden Sie Ihre bevorzugte Anwendung, z. B. Pages oder Word, um eine PDF-Datei zu erstellen, die Ihr Logo an der gewünschten Stelle enthält. Tippen Sie bei der Anzeige des Briefs auf das Einstellungssymbol. Dadurch können Sie die PDF-Datei mit Ihrem Logo als Briefpapier hinzufügen. Wenn Sie möchten, dass das Briefpapier automatisch zu allen zukünftigen Briefen hinzugefügt wird, können Sie dies in den Einstellungen der App einrichten. Erstellen Sie ein Absenderprofil und laden Sie dort Ihr Briefpapier-PDF hoch. So wird sichergestellt, dass Ihr Logo in jedem neuen Brief, den Sie erstellen, enthalten ist."
+        },
+        {
+          "question": "Wie kann ich Text fett, kursiv oder unterstrichen formatieren?",
+          "answer": "Markieren Sie im Editor den Text, den Sie ändern möchten, und tippen Sie in der Formatierungsleiste auf die Schaltfläche Fett, Kursiv oder Unterstrichen. Wenn Sie eine Hardware-Tastatur verwenden, können Sie auch Strg + B, Strg + I und Strg + U nutzen. Möchten Sie lieber einen schlichten Brief ganz ohne Formatierung? Aktivieren Sie in den Briefeinstellungen die Option Nur Text. (Die Rich-Text-Formatierung ist eine PRO-Funktion.)"
+        },
+        {
+          "question": "Wie funktioniert der KI-Schreibassistent?",
+          "answer": "Geben Sie eine kurze Notiz dazu ein, was Sie sagen möchten, und tippen Sie im Editor auf die Schaltfläche mit dem Funkeln (✨). Beim ersten Mal werden Sie gebeten, der Datenverarbeitung zuzustimmen, da Ihr Betreff und Ihre Nachricht zur Erstellung eines Entwurfs an einen KI-Dienst gesendet werden. Der Assistent schlägt Ihnen dann einen Betreff und einen Textkörper vor – tippen Sie auf Übernehmen, um ihn in Ihren Brief einzufügen, oder auf Abbrechen, um Ihren bisherigen Text beizubehalten. (Der KI-Assistent ist eine PRO-Funktion und ist möglicherweise nicht überall verfügbar.)"
+        },
+        {
+          "question": "Wie verwende ich Vorlagen?",
+          "answer": "Vorlagen sind wiederverwendbare Betreff- und Textkörpertexte, praktisch für Briefe, die Sie häufig schreiben. Verwalten Sie sie unter Einstellungen → Vorlagen, und tippen Sie beim Schreiben eines Briefes auf die Vorlagen-Aktion neben dem Betreff-Feld, um eine gespeicherte Vorlage einzufügen. Die App enthält außerdem mehrere integrierte Vorlagen für den Einstieg. (Vorlagen sind eine PRO-Funktion.)"
+        },
+        {
+          "question": "Wie kann ich meine Unterschrift zu einem Brief hinzufügen?",
+          "answer": "Sie können auf zwei Arten unterschreiben und diese auch kombinieren: Zeichnen Sie eine Unterschrift mit dem Finger oder einem Stift auf die Zeichenfläche (sie wird als Bild eingebettet) und/oder geben Sie eine Textunterschrift wie Ihren Namen ein. Über die Option zur Ausrichtung der Unterschrift in den Briefeinstellungen können Sie sie links oder rechts platzieren. (Die gezeichnete Unterschrift ist eine PRO-Funktion.)"
+        },
+        {
+          "question": "Kann ich Adressen aus meinen Kontakten importieren?",
+          "answer": "Ja. Tippen Sie neben dem Absender- und Empfängerfeld auf die Kontakt-Aktion, um eine Person aus Ihrem Adressbuch auszuwählen, und deren Adresse wird automatisch in das Feld eingetragen. Beim ersten Mal werden Sie gebeten, die Berechtigung für Kontakte zu erteilen. (Der Import von Kontakten ist eine PRO-Funktion.)"
+        },
+        {
+          "question": "Warum werden meine Briefe nicht zwischen meinen Geräten synchronisiert?",
+          "answer": "Auf iPhone und iPad werden Ihre Briefe, Absender und Vorlagen automatisch über iCloud synchronisiert – es gibt keine Schaltfläche, die Sie drücken müssen, und Änderungen erscheinen kurze Zeit später auf Ihren anderen Geräten. Falls etwas nicht synchronisiert wird, überprüfen Sie bitte, ob:",
+          "items": [
+            "Sie auf allen Geräten mit derselben Apple-ID angemeldet sind.",
+            "iCloud auf jedem Gerät aktiviert ist.",
+            "die Briefe App auf jedem Gerät Daten in iCloud speichern darf.",
+            "auf allen Geräten die neueste iOS-Version installiert ist.",
+            "auf allen Geräten die neueste Version der Briefe App installiert ist."
+          ]
+        },
+        {
+          "question": "Welche Papierformate und Umschlagoptionen werden unterstützt?",
+          "answer": "In den Briefeinstellungen können Sie zwischen den Papierformaten A4 (210 × 297 mm) und Letter (8,5 × 11 Zoll) wählen. Außerdem finden Sie dort Optionen für Falzmarken, Seitenzahlen und die Positionierung der Absenderadresse, sodass sie in einem Fensterumschlag sichtbar ist."
+        }
+      ]
+    },
+    {
+      "title": "Abonnement und Preisgestaltung",
+      "questions": [
+        {
+          "question": "Ist die Nutzung von der Briefe App kostenlos?",
+          "answer": "Die App ist kostenlos erhältlich, aber es gibt eine PRO-Version mit zusätzlichen Funktionen, die gegen eine Abonnementgebühr erhältlich ist."
+        },
+        {
+          "question": "Wie kann ich die PRO-Version von der Briefe App abonnieren?",
+          "answer": "Sie können die PRO-Version ganz einfach innerhalb der App abonnieren. Tippen Sie einfach auf eine PRO-Funktion, z. B. Einstellungen, Absender, Kontakte oder Vorlagen, und ein Bildschirm zur Auswahl des Abonnementplans wird angezeigt."
+        },
+        {
+          "question": "Wie hoch sind die Kosten für die PRO-Version und wie wird sie abgerechnet?",
+          "answer": "Die Preise für die PRO-Version können variieren, und die Rechnungsdetails werden in der App bereitgestellt. Bitte prüfen Sie die Preisinformationen der App für die genauesten Details."
+        },
+        {
+          "question": "Gibt es eine kostenlose Testphase für die PRO-Version?",
+          "answer": "Ja. Wenn Sie zum ersten Mal auf eine PRO-Funktion tippen, erscheint der Upgrade-Bildschirm mit einer kostenlosen Testphase (zum Beispiel eine Woche kostenlos, danach Abrechnung gemäß dem von Ihnen gewählten Plan). Preise und Bedingungen der Testphase werden immer in Ihrer lokalen Währung angezeigt."
+        },
+        {
+          "question": "Ich habe bereits auf einem anderen Gerät abonniert – wie stelle ich meinen Kauf wieder her?",
+          "answer": "Tippen Sie auf dem Upgrade-Bildschirm auf Käufe wiederherstellen. Achten Sie darauf, dass Sie mit demselben App-Store-Konto (Apple-ID oder Google-Konto) angemeldet sind, das Sie für den ursprünglichen Kauf verwendet haben, und Ihre PRO-Funktionen werden wieder aktiviert."
+        },
+        {
+          "question": "Wie kündige ich mein PRO-Abonnement?",
+          "answer": "Abonnements werden über den App-Store abgewickelt, in dem Sie den Kauf getätigt haben, und nicht direkt in der Briefe App selbst. Daher kündigen Sie sie in Ihrem Store-Konto. Deaktivieren Sie die automatische Verlängerung, und Sie behalten PRO bis zum Ende des laufenden Abrechnungszeitraums. Eine Schritt-für-Schritt-Anleitung finden Sie auf der Hilfeseite Ihres Stores:",
+          "links": [
+            { "label": "Abonnement im App Store kündigen (Apple)", "url": "https://support.apple.com/en-us/118428" },
+            { "label": "Abonnement bei Google Play kündigen", "url": "https://support.google.com/googleplay/answer/7018481" }
+          ]
         }
       ]
     }

@@ -60,23 +60,6 @@
       ]
     },
     {
-      "title": "Suscripción y precios",
-      "questions": [
-        {
-          "question": "¿La aplicación The Letter es gratuita?",
-          "answer": "La aplicación está disponible de forma gratuita, pero hay una versión PRO con funciones adicionales disponible por una cuota de suscripción."
-        },
-        {
-          "question": "¿Cómo me suscribo a la versión PRO de la aplicación Cartas?",
-          "answer": "Puedes suscribirte fácilmente a la versión PRO desde la aplicación. Solo tienes que tocar cualquier función PRO, como ajustes, remitente, contactos o plantillas, y aparecerá una pantalla de selección del plan de suscripción."
-        },
-        {
-          "question": "¿Cuánto cuesta la versión PRO y cómo se factura?",
-          "answer": "El precio de la versión PRO puede variar, y los detalles de facturación se proporcionan dentro de la aplicación. Consulta la información de precios de la aplicación para obtener los detalles más precisos."
-        }
-      ]
-    },
-    {
       "title": "Utilización",
       "questions": [
         {
@@ -94,6 +77,74 @@
         {
           "question": "¿Cómo puedo añadir un logotipo a mis cartas?",
           "answer": "Para añadir un logotipo a su carta, puede utilizar la función de papelería. Utilice su aplicación preferida, como Pages o Word, para diseñar un PDF que incluya su logotipo en la posición deseada. Cuando vea la carta, pulse sobre el icono de configuración. Esto le permitirá añadir el PDF con su logotipo como papel de carta. Si quieres que la papelería se añada automáticamente a todas las cartas futuras, puedes configurarlo en los ajustes de la aplicación. Cree un perfil de remitente y cargue allí su PDF de papelería. Así te asegurarás de que tu logotipo aparezca en todas las cartas que crees."
+        },
+        {
+          "question": "¿Cómo puedo poner el texto en negrita, cursiva o subrayado?",
+          "answer": "En el editor, selecciona el texto que quieras modificar y pulsa el botón Negrita, Cursiva o Subrayado en la barra de formato. Si tienes un teclado físico, también puedes usar Ctrl + B, Ctrl + I y Ctrl + U. ¿Prefieres una carta sencilla sin ningún estilo? Activa Solo texto en los ajustes de la carta. (El formato de texto enriquecido es una función PRO.)"
+        },
+        {
+          "question": "¿Cómo funciona el asistente de escritura con IA?",
+          "answer": "Escribe una breve nota sobre lo que quieres decir y pulsa el botón de la chispa (✨) en el editor. La primera vez, se te pedirá que aceptes el tratamiento de datos, ya que tu asunto y tu mensaje se envían a un servicio de IA para generar un borrador. El asistente sugiere entonces un asunto y un cuerpo de texto: pulsa Usar para insertarlo en tu carta o Cancelar para conservar lo que tenías. (El asistente de IA es una función PRO y puede no estar disponible en todas partes.)"
+        },
+        {
+          "question": "¿Cómo se usan las plantillas?",
+          "answer": "Las plantillas son textos reutilizables de asunto y cuerpo, prácticos para las cartas que escribes con frecuencia. Gestiónalas en Ajustes → Plantillas y, mientras redactas una carta, pulsa la acción de plantilla junto al campo Asunto para rellenar una plantilla guardada. La aplicación también incluye varias plantillas integradas para empezar. (Las plantillas son una función PRO.)"
+        },
+        {
+          "question": "¿Cómo puedo añadir mi firma a una carta?",
+          "answer": "Puedes firmar de dos maneras, y combinarlas: dibujar una firma en el lienzo con el dedo o un lápiz óptico (se incrusta como imagen) o escribir una firma de texto, como tu nombre. Usa la opción de alineación de la firma en los ajustes de la carta para colocarla a la izquierda o a la derecha. (La firma dibujada es una función PRO.)"
+        },
+        {
+          "question": "¿Puedo importar direcciones desde mis contactos?",
+          "answer": "Sí. Junto a los campos de remitente y destinatario, pulsa la acción de contacto para elegir a alguien de tu agenda, y su dirección rellenará el campo automáticamente. La primera vez, se te pedirá que concedas el permiso de Contactos. (La importación de contactos es una función PRO.)"
+        },
+        {
+          "question": "¿Por qué no se sincronizan mis cartas entre mis dispositivos?",
+          "answer": "En el iPhone y el iPad, tus cartas, remitentes y plantillas se sincronizan automáticamente a través de iCloud: no hay ningún botón que pulsar, y los cambios aparecen en tus otros dispositivos al cabo de un rato. Si algo no se sincroniza, comprueba que:",
+          "items": [
+            "Has iniciado sesión con el mismo Apple ID en todos los dispositivos.",
+            "iCloud está activado en cada dispositivo.",
+            "La aplicación Cartas tiene permiso para almacenar datos en iCloud en cada dispositivo.",
+            "La última versión de iOS está instalada en todos los dispositivos.",
+            "La última versión de la aplicación Cartas está instalada en todos los dispositivos."
+          ]
+        },
+        {
+          "question": "¿Qué tamaños de papel y opciones de sobre se admiten?",
+          "answer": "En los ajustes de la carta puedes elegir entre papel A4 (210 × 297 mm) y Carta (8,5 × 11 in). También encontrarás opciones para las marcas de plegado, la numeración de páginas y la posición de la dirección del remitente para que se vea a través de un sobre con ventana."
+        }
+      ]
+    },
+    {
+      "title": "Suscripción y precios",
+      "questions": [
+        {
+          "question": "¿La aplicación The Letter es gratuita?",
+          "answer": "La aplicación está disponible de forma gratuita, pero hay una versión PRO con funciones adicionales disponible por una cuota de suscripción."
+        },
+        {
+          "question": "¿Cómo me suscribo a la versión PRO de la aplicación Cartas?",
+          "answer": "Puedes suscribirte fácilmente a la versión PRO desde la aplicación. Solo tienes que tocar cualquier función PRO, como ajustes, remitente, contactos o plantillas, y aparecerá una pantalla de selección del plan de suscripción."
+        },
+        {
+          "question": "¿Cuánto cuesta la versión PRO y cómo se factura?",
+          "answer": "El precio de la versión PRO puede variar, y los detalles de facturación se proporcionan dentro de la aplicación. Consulta la información de precios de la aplicación para obtener los detalles más precisos."
+        },
+        {
+          "question": "¿Hay una prueba gratuita de la versión PRO?",
+          "answer": "Sí. La primera vez que pulses una función PRO, aparecerá la pantalla de mejora con una prueba gratuita (por ejemplo, gratis durante una semana y, después, se factura según el plan que elijas). Los precios y las condiciones de la prueba se muestran siempre en tu moneda local."
+        },
+        {
+          "question": "Ya me suscribí en otro dispositivo, ¿cómo restauro mi compra?",
+          "answer": "En la pantalla de mejora, pulsa Restaurar compras. Asegúrate de haber iniciado sesión con la misma cuenta de la tienda de aplicaciones (Apple ID o cuenta de Google) que utilizaste para la compra original, y tus funciones PRO se reactivarán."
+        },
+        {
+          "question": "¿Cómo cancelo mi suscripción PRO?",
+          "answer": "Las suscripciones las gestiona la tienda de aplicaciones a través de la cual realizaste la compra, no la propia aplicación Cartas, así que debes cancelarlas en tu cuenta de la tienda. Desactiva la renovación automática y conservarás PRO hasta el final del periodo de facturación actual. Consulta la página de ayuda de tu tienda para ver las instrucciones paso a paso:",
+          "links": [
+            { "label": "Cancelar una suscripción en la App Store (Apple)", "url": "https://support.apple.com/en-us/118428" },
+            { "label": "Cancelar una suscripción en Google Play", "url": "https://support.google.com/googleplay/answer/7018481" }
+          ]
         }
       ]
     }

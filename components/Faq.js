@@ -23,20 +23,37 @@ export default function Faq({ locale }) {
       <Section>
         <Container>
           <PageHero title={t("faq.title")} subtitle={t("faq.intro")} />
-          <div className="mt-10">
+          <div className="faq">
             {content.categories.map((category) => (
-              <div key={category.title} className="mb-8">
-                <h2 className="text-2xl font-light tracking-tight mb-4">{category.title}</h2>
-                <Accordion type="single" collapsible className="w-full">
+              <section key={category.title} className="faq-category">
+                <h2 className="faq-category__title">{category.title}</h2>
+                <Accordion type="single" collapsible className="faq-list">
                   {category.questions.map((question) => (
-                    <AccordionItem key={question.question} value={question.question}>
-                      <AccordionTrigger className="text-left">{question.question}</AccordionTrigger>
-                      <AccordionContent>
+                    <AccordionItem
+                      key={question.question}
+                      value={question.question}
+                      className="faq-item"
+                    >
+                      <AccordionTrigger className="faq-question">
+                        {question.question}
+                      </AccordionTrigger>
+                      <AccordionContent className="faq-answer">
                         <p>{question.answer}</p>
                         {question.items && (
-                          <ul className="list-disc pl-6 mt-2">
+                          <ul>
                             {question.items.map((item) => (
                               <li key={item}>{item}</li>
+                            ))}
+                          </ul>
+                        )}
+                        {question.links && (
+                          <ul className="faq-links">
+                            {question.links.map((link) => (
+                              <li key={link.url}>
+                                <a href={link.url} target="_blank" rel="noopener noreferrer">
+                                  {link.label}
+                                </a>
+                              </li>
                             ))}
                           </ul>
                         )}
@@ -44,7 +61,7 @@ export default function Faq({ locale }) {
                     </AccordionItem>
                   ))}
                 </Accordion>
-              </div>
+              </section>
             ))}
           </div>
         </Container>

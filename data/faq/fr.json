@@ -60,23 +60,6 @@
       ]
     },
     {
-      "title": "Abonnement et tarification",
-      "questions": [
-        {
-          "question": "L'utilisation de l'application Lettre est-elle gratuite?",
-          "answer": "L'application est disponible gratuitement, mais une version PRO avec des fonctionnalités supplémentaires est disponible moyennant un abonnement."
-        },
-        {
-          "question": "Comment puis-je m'abonner à la version PRO de l'application Lettre?",
-          "answer": "Vous pouvez facilement vous abonner à la version PRO à partir de l'application. Il vous suffit d'appuyer sur l'une des fonctions PRO, telles que les paramètres, l'expéditeur, les contacts ou les modèles, et un écran de sélection du plan d'abonnement s'affichera."
-        },
-        {
-          "question": "Quel est le coût de la version PRO et comment est-elle facturée?",
-          "answer": "Le prix de la version PRO peut varier et les détails de facturation sont fournis dans l'application. Veuillez consulter les informations tarifaires de l'application pour obtenir les détails les plus précis."
-        }
-      ]
-    },
-    {
       "title": "Utilisation",
       "questions": [
         {
@@ -94,6 +77,74 @@
         {
           "question": "Comment ajouter un logo à mes lettres?",
           "answer": "Pour ajouter un logo à votre lettre, vous pouvez utiliser la fonction de papeterie. Utilisez votre application préférée, telle que Pages ou Word, pour concevoir un PDF qui inclut votre logo à l'endroit souhaité. Lorsque vous visualisez la lettre, appuyez sur l'icône des paramètres. Cela vous permettra d'ajouter le PDF avec votre logo en tant que papier à lettres. Si vous souhaitez que le papier à lettres soit ajouté automatiquement à toutes les lettres futures, vous pouvez le configurer dans les paramètres de l'application. Créez un profil d'expéditeur et téléchargez-y votre PDF de papier à lettres. Vous aurez ainsi la certitude que votre logo est inclus dans chaque nouvelle lettre que vous créez."
+        },
+        {
+          "question": "Comment mettre en forme le texte en gras, en italique ou en souligné?",
+          "answer": "Dans l'éditeur, sélectionnez le texte que vous souhaitez modifier et appuyez sur le bouton Gras, Italique ou Souligné dans la barre d'outils de mise en forme. Si vous disposez d'un clavier physique, vous pouvez également utiliser Ctrl + B, Ctrl + I et Ctrl + U. Vous préférez une lettre sans aucune mise en forme? Activez l'option Texte seul dans les paramètres de la lettre. (La mise en forme du texte enrichi est une fonction PRO.)"
+        },
+        {
+          "question": "Comment fonctionne l'assistant de rédaction IA?",
+          "answer": "Saisissez une brève note sur ce que vous souhaitez exprimer, puis appuyez sur le bouton étincelle (✨) dans l'éditeur. La première fois, il vous sera demandé d'accepter le traitement des données, car votre sujet et votre message sont envoyés à un service d'IA pour générer un brouillon. L'assistant vous propose ensuite un objet et un corps de texte — appuyez sur Utiliser pour l'insérer dans votre lettre, ou sur Annuler pour conserver ce que vous aviez. (L'assistant IA est une fonction PRO et peut ne pas être disponible partout.)"
+        },
+        {
+          "question": "Comment utiliser les modèles?",
+          "answer": "Les modèles sont des objets et des corps de texte réutilisables, pratiques pour les lettres que vous rédigez souvent. Gérez-les dans Paramètres → Modèles, et lorsque vous rédigez une lettre, appuyez sur l'action de modèle située à côté du champ Objet pour insérer un modèle enregistré. L'application inclut également plusieurs modèles prédéfinis pour vous aider à démarrer. (Les modèles sont une fonction PRO.)"
+        },
+        {
+          "question": "Comment ajouter ma signature à une lettre?",
+          "answer": "Vous pouvez signer de deux manières, que vous pouvez combiner : dessinez une signature sur la zone de dessin avec votre doigt ou un stylet (elle est intégrée sous forme d'image), et/ou saisissez une signature textuelle telle que votre nom. Utilisez l'option d'alignement de la signature dans les paramètres de la lettre pour la placer à gauche ou à droite. (La signature dessinée est une fonction PRO.)"
+        },
+        {
+          "question": "Puis-je importer des adresses depuis mes contacts?",
+          "answer": "Oui. À côté des champs de l'expéditeur et du destinataire, appuyez sur l'action de contact pour choisir une personne dans votre carnet d'adresses, et son adresse remplira automatiquement le champ. La première fois, il vous sera demandé d'accorder l'autorisation d'accès aux Contacts. (L'importation de contacts est une fonction PRO.)"
+        },
+        {
+          "question": "Pourquoi mes lettres ne se synchronisent-elles pas entre mes appareils?",
+          "answer": "Sur iPhone et iPad, vos lettres, expéditeurs et modèles se synchronisent automatiquement via iCloud — il n'y a aucun bouton sur lequel appuyer, et les modifications apparaissent sur vos autres appareils peu de temps après. Si quelque chose ne se synchronise pas, vérifiez que :",
+          "items": [
+            "Vous êtes connecté avec le même identifiant Apple sur tous les appareils.",
+            "iCloud est activé sur chaque appareil.",
+            "L'application Lettre est autorisée à stocker des données dans iCloud sur chaque appareil.",
+            "La dernière version d'iOS est installée sur tous les appareils.",
+            "La dernière version de l'application Lettre est installée sur tous les appareils."
+          ]
+        },
+        {
+          "question": "Quels formats de papier et options d'enveloppe sont pris en charge?",
+          "answer": "Dans les paramètres de la lettre, vous pouvez choisir entre le papier A4 (210 × 297 mm) et Letter (8,5 × 11 po). Vous y trouverez également des options pour les marques de pliage, les numéros de page et le positionnement de l'adresse de l'expéditeur afin qu'elle apparaisse à travers une enveloppe à fenêtre."
+        }
+      ]
+    },
+    {
+      "title": "Abonnement et tarification",
+      "questions": [
+        {
+          "question": "L'utilisation de l'application Lettre est-elle gratuite?",
+          "answer": "L'application est disponible gratuitement, mais une version PRO avec des fonctionnalités supplémentaires est disponible moyennant un abonnement."
+        },
+        {
+          "question": "Comment puis-je m'abonner à la version PRO de l'application Lettre?",
+          "answer": "Vous pouvez facilement vous abonner à la version PRO à partir de l'application. Il vous suffit d'appuyer sur l'une des fonctions PRO, telles que les paramètres, l'expéditeur, les contacts ou les modèles, et un écran de sélection du plan d'abonnement s'affichera."
+        },
+        {
+          "question": "Quel est le coût de la version PRO et comment est-elle facturée?",
+          "answer": "Le prix de la version PRO peut varier et les détails de facturation sont fournis dans l'application. Veuillez consulter les informations tarifaires de l'application pour obtenir les détails les plus précis."
+        },
+        {
+          "question": "Existe-t-il une période d'essai gratuite pour la version PRO?",
+          "answer": "Oui. La première fois que vous appuyez sur une fonction PRO, l'écran d'abonnement s'affiche avec une période d'essai gratuite (par exemple, gratuit pendant une semaine, puis facturé selon le plan que vous avez choisi). Les prix et les conditions de l'essai sont toujours indiqués dans votre devise locale."
+        },
+        {
+          "question": "Je me suis déjà abonné sur un autre appareil — comment restaurer mon achat?",
+          "answer": "Sur l'écran d'abonnement, appuyez sur Restaurer les achats. Assurez-vous d'être connecté avec le même compte de boutique d'applications (identifiant Apple ou compte Google) que celui utilisé lors de l'achat initial, et vos fonctions PRO seront réactivées."
+        },
+        {
+          "question": "Comment puis-je résilier mon abonnement PRO?",
+          "answer": "Les abonnements sont gérés par la boutique d'applications sur laquelle vous avez effectué votre achat, et non depuis l'application Lettre elle-même ; vous les résiliez donc dans votre compte de boutique. Désactivez le renouvellement automatique et vous conserverez la version PRO jusqu'à la fin de la période de facturation en cours. Consultez la page d'aide de votre boutique pour des instructions détaillées :",
+          "links": [
+            { "label": "Résilier un abonnement sur l'App Store (Apple)", "url": "https://support.apple.com/en-us/118428" },
+            { "label": "Résilier un abonnement sur Google Play", "url": "https://support.google.com/googleplay/answer/7018481" }
+          ]
         }
       ]
     }

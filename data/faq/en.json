@@ -60,23 +60,6 @@
       ]
     },
     {
-      "title": "Subscription and Pricing",
-      "questions": [
-        {
-          "question": "Is The Letter App free to use?",
-          "answer": "The app is available for free, but there is a PRO version with additional features available for a subscription fee."
-        },
-        {
-          "question": "How do I subscribe to the PRO version of The Letter App?",
-          "answer": "You can easily subscribe to the PRO version from within the app. Simply tap on any PRO feature, such as settings, sender, contacts, or templates, and a subscription plan selection screen will appear."
-        },
-        {
-          "question": "What is the cost of the PRO version, and how is it billed?",
-          "answer": "Pricing for the PRO version may vary, and billing details are provided within the app. Please check the app's pricing information for the most accurate details."
-        }
-      ]
-    },
-    {
       "title": "Usage",
       "questions": [
         {
@@ -94,6 +77,80 @@
         {
           "question": "How can I add a logo to my letters?",
           "answer": "To add a logo to your letter, you can use the stationery feature. Use your preferred application, such as Pages or Word, to design a PDF that includes your logo in the desired position. When viewing the letter, tap on the settings icon. This will allow you to add the PDF with your logo as stationery. If you want the stationery to be added automatically to all future letters, you can set it up in the app settings. Create a sender profile and upload your stationery PDF there. This will ensure that your logo is included in every new letter you create."
+        },
+        {
+          "question": "How can I format text in bold, italic, or underline?",
+          "answer": "In the editor, select the text you want to change and tap the Bold, Italic, or Underline button in the formatting toolbar. If you have a hardware keyboard, you can also use Ctrl + B, Ctrl + I, and Ctrl + U. Prefer a plain letter with no styling? Turn on Text Only in the letter settings. (Rich-text formatting is a PRO feature.)"
+        },
+        {
+          "question": "How does the AI writing assistant work?",
+          "answer": "Enter a short note about what you want to say, then tap the sparkle (✨) button in the editor. The first time, you'll be asked to agree to data processing, because your subject and message are sent to an AI service to generate a draft. The assistant then suggests a subject and body — tap Use to insert it into your letter, or Cancel to keep what you had. (The AI assistant is a PRO feature and may not be available everywhere.)"
+        },
+        {
+          "question": "How do I use templates?",
+          "answer": "Templates are reusable subject and body texts, handy for letters you write often. Manage them under Settings → Templates, and while writing a letter tap the template action next to the Subject field to fill in a saved template. The app also includes several built-in templates to get you started. (Templates are a PRO feature.)"
+        },
+        {
+          "question": "How can I add my signature to a letter?",
+          "answer": "You can sign in two ways, and combine them: draw a signature on the canvas with your finger or stylus (it is embedded as an image), and/or type a text signature such as your name. Use the signature alignment option in the letter settings to place it on the left or right. (The drawn signature is a PRO feature.)"
+        },
+        {
+          "question": "Can I import addresses from my contacts?",
+          "answer": "Yes. Next to the sender and recipient fields, tap the contact action to pick someone from your address book, and their address fills the field automatically. The first time, you'll be asked to grant Contacts permission. (Importing contacts is a PRO feature.)"
+        },
+        {
+          "question": "Why aren't my letters syncing across my devices?",
+          "answer": "On iPhone and iPad, your letters, senders and templates sync automatically over iCloud — there is no button to press, and changes appear on your other devices a short while later. If something isn't syncing, check that:",
+          "items": [
+            "You are signed in with the same Apple ID on all devices.",
+            "iCloud is enabled on each device.",
+            "The Letter App is allowed to store data in iCloud on each device.",
+            "The latest iOS version is installed on all devices.",
+            "The latest version of The Letter App is installed on all devices."
+          ]
+        },
+        {
+          "question": "Which paper sizes and envelope options are supported?",
+          "answer": "In the letter settings you can choose between A4 (210 × 297 mm) and Letter (8.5 × 11 in) paper. You'll also find options for fold marks, page numbers, and positioning the sender address so it shows through a window envelope."
+        }
+      ]
+    },
+    {
+      "title": "Subscription and Pricing",
+      "questions": [
+        {
+          "question": "Is The Letter App free to use?",
+          "answer": "The app is available for free, but there is a PRO version with additional features available for a subscription fee."
+        },
+        {
+          "question": "How do I subscribe to the PRO version of The Letter App?",
+          "answer": "You can easily subscribe to the PRO version from within the app. Simply tap on any PRO feature, such as settings, sender, contacts, or templates, and a subscription plan selection screen will appear."
+        },
+        {
+          "question": "What is the cost of the PRO version, and how is it billed?",
+          "answer": "Pricing for the PRO version may vary, and billing details are provided within the app. Please check the app's pricing information for the most accurate details."
+        },
+        {
+          "question": "Is there a free trial for the PRO version?",
+          "answer": "Yes. The first time you tap a PRO feature, the upgrade screen appears with a free trial (for example, free for one week, then billed according to your chosen plan). Prices and trial terms are always shown in your local currency."
+        },
+        {
+          "question": "I already subscribed on another device — how do I restore my purchase?",
+          "answer": "On the upgrade screen, tap Restore purchases. Make sure you are signed in with the same app store account (Apple ID or Google account) you used for the original purchase, and your PRO features will be reactivated."
+        },
+        {
+          "question": "How do I cancel my PRO subscription?",
+          "answer": "Subscriptions are handled by the app store you purchased through, not inside the Letter App itself, so you cancel them in your store account. Turn off auto-renewal and you'll keep PRO until the end of the current billing period. See your store's help page for step-by-step instructions:",
+          "links": [
+            {
+              "label": "Cancel a subscription on the App Store (Apple)",
+              "url": "https://support.apple.com/en-us/118428"
+            },
+            {
+              "label": "Cancel a subscription on Google Play",
+              "url": "https://support.google.com/googleplay/answer/7018481"
+            }
+          ]
         }
       ]
     }

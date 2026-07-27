@@ -1451,6 +1451,7 @@ h3 {
    Footer
    ------------------------------------------------------------------------- */
 footer {
+  margin-top: clamp(3rem, 6vw, 5rem);
   border-top: 1px solid var(--hairline);
   color: var(--ink-muted);
   font-size: 0.9rem;

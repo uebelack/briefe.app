@@ -12,6 +12,8 @@
 
 @import "./help.css";
 
+@import "./faq.css";
+
 @import "./blog.css";
 
 /* Refined light & airy redesign layer — imported last so it wins. */
