@@ -6,8 +6,14 @@ const features = {
       title: "Features",
       features: [
         {
+          title: "Write Letter",
+          description: "Create, write and edit your letters with ease",
+          icon: "square-pen",
+        },
+        {
           title: "Auto Format",
-          description: "Letters are automatically formatted in a professional manner",
+          description:
+            "Letters and addresses are automatically formatted in a professional, country-specific way",
           icon: "align-justify",
         },
         {
@@ -37,8 +43,7 @@ const features = {
       features: [
         {
           title: "AI Assistant**",
-          description:
-            "Effortlessly refine or create professional letters with AI-powered precision and style",
+          description: "Refine or create professional letters with the AI Assistant",
           icon: "wand-magic-sparkles",
         },
         {
@@ -62,8 +67,9 @@ const features = {
           icon: "file-lines",
         },
         {
-          title: "Layout",
-          description: "Customize the layout of your letters to your specific needs",
+          title: "Layout & Formatting",
+          description:
+            "Customize the layout of your letters and emphasize what matters with bold, italic and underline",
           icon: "gear",
         },
       ],
@@ -76,8 +82,14 @@ const features = {
       title: "Funktionen",
       features: [
         {
+          title: "Brief schreiben",
+          description: "Erstellen, schreiben und bearbeiten Sie Ihre Briefe mit Leichtigkeit",
+          icon: "square-pen",
+        },
+        {
           title: "Autoformat",
-          description: "Briefe werden automatisch professionell formatiert",
+          description:
+            "Briefe und Adressen werden automatisch professionell und länderspezifisch formatiert",
           icon: "align-justify",
         },
         {
@@ -107,8 +119,7 @@ const features = {
       features: [
         {
           title: "KI-Assistent**",
-          description:
-            "Optimieren oder erstellen Sie mühelos professionelle Briefe mit KI-gestützter Präzision und Stil",
+          description: "Verbessern oder erstellen Sie professionelle Briefe mit dem KI-Assistenten",
           icon: "wand-magic-sparkles",
         },
         {
@@ -132,8 +143,9 @@ const features = {
           icon: "file-lines",
         },
         {
-          title: "Layout",
-          description: "Passen Sie die Formatierung Ihrer Briefe an Ihre Bedürfnisse an",
+          title: "Layout & Formatierung",
+          description:
+            "Passen Sie das Layout Ihrer Briefe an und heben Sie Wichtiges mit Fett, Kursiv und Unterstreichung hervor",
           icon: "gear",
         },
       ],
@@ -146,8 +158,14 @@ const features = {
       title: "Functies",
       features: [
         {
+          title: "Brief schrijven",
+          description: "Maak, schrijf en bewerk je brieven met gemak",
+          icon: "square-pen",
+        },
+        {
           title: "Automatische Opmaak",
-          description: "Brieven worden automatisch op professionele wijze opgemaakt",
+          description:
+            "Brieven en adressen worden automatisch professioneel en landspecifiek opgemaakt",
           icon: "align-justify",
         },
         {
@@ -177,8 +195,7 @@ const features = {
       features: [
         {
           title: "AI-assistent**",
-          description:
-            "Verbeter of creëer moeiteloos professionele brieven met AI-gestuurde precisie en stijl",
+          description: "Verfijn of creëer professionele brieven met de AI-assistent",
           icon: "wand-magic-sparkles",
         },
         {
@@ -203,8 +220,9 @@ const features = {
           icon: "file-lines",
         },
         {
-          title: "Indeling",
-          description: "Pas de indeling van je brieven aan aan je specifieke behoeften",
+          title: "Indeling & Opmaak",
+          description:
+            "Pas de indeling van je brieven aan en benadruk wat belangrijk is met vet, cursief en onderstreping",
           icon: "gear",
         },
       ],
@@ -217,8 +235,14 @@ const features = {
       title: "Fonctionnalités",
       features: [
         {
+          title: "Écrire une lettre",
+          description: "Créez, rédigez et modifiez vos lettres en toute simplicité",
+          icon: "square-pen",
+        },
+        {
           title: "Formatage Automatique",
-          description: "Les lettres sont automatiquement formatées de manière professionnelle",
+          description:
+            "Les lettres et les adresses sont automatiquement formatées de manière professionnelle et selon le pays",
           icon: "align-justify",
         },
         {
@@ -249,8 +273,7 @@ const features = {
       features: [
         {
           title: "Assistant IA**",
-          description:
-            "Affinez ou créez facilement des lettres professionnelles avec la précision et le style optimisés par l'IA",
+          description: "Affinez ou créez des lettres professionnelles avec l'assistant IA",
           icon: "wand-magic-sparkles",
         },
         {
@@ -265,8 +288,7 @@ const features = {
         },
         {
           title: "Contacts",
-          description:
-            "Intégrez facilement les adresses de vos contacts depuis votre carnet d'adresses",
+          description: "Intégrez facilement les adresses de votre carnet de contacts",
           icon: "address-book",
         },
         {
@@ -275,8 +297,9 @@ const features = {
           icon: "file-lines",
         },
         {
-          title: "Mise en Page",
-          description: "Personnalisez la mise en page de vos lettres selon vos besoins spécifiques",
+          title: "Mise en page & Format",
+          description:
+            "Personnalisez la mise en page de vos lettres et mettez en valeur l'essentiel en gras, italique et souligné",
           icon: "gear",
         },
       ],
@@ -289,8 +312,14 @@ const features = {
       title: "Caratteristiche",
       features: [
         {
+          title: "Scrivi lettera",
+          description: "Crea, scrivi e modifica le tue lettere con facilità",
+          icon: "square-pen",
+        },
+        {
           title: "Formattazione Auto",
-          description: "Le lettere vengono automaticamente formattate in modo professionale",
+          description:
+            "Lettere e indirizzi vengono formattati automaticamente in modo professionale e specifico per paese",
           icon: "align-justify",
         },
         {
@@ -319,9 +348,8 @@ const features = {
       title: "Funzionalità PRO",
       features: [
         {
-          title: "Assistente AI**",
-          description:
-            "Affina o crea facilmente lettere professionali con la precisione e lo stile offerti dall'IA",
+          title: "Assistente IA**",
+          description: "Affina o crea lettere professionali con l'assistente IA",
           icon: "wand-magic-sparkles",
         },
         {
@@ -345,9 +373,9 @@ const features = {
           icon: "file-lines",
         },
         {
-          title: "Layout",
+          title: "Layout e Formattazione",
           description:
-            "Personalizza il layout delle tue lettere secondo le tue esigenze specifiche",
+            "Personalizza il layout delle tue lettere ed evidenzia ciò che conta con grassetto, corsivo e sottolineato",
           icon: "gear",
         },
       ],
@@ -360,8 +388,14 @@ const features = {
       title: "Características",
       features: [
         {
+          title: "Escribir carta",
+          description: "Crea, escribe y edita tus cartas con facilidad",
+          icon: "square-pen",
+        },
+        {
           title: "Formato Automático",
-          description: "Las cartas se formatean automáticamente",
+          description:
+            "Las cartas y las direcciones se formatean automáticamente de forma profesional y según el país",
           icon: "align-justify",
         },
         {
@@ -390,9 +424,8 @@ const features = {
       title: "Funciones PRO",
       features: [
         {
-          title: "Asistente de IA**",
-          description:
-            "Mejora o crea fácilmente cartas profesionales con precisión y estilo impulsados por IA",
+          title: "Asistente IA**",
+          description: "Refina o crea cartas profesionales con el asistente IA",
           icon: "wand-magic-sparkles",
         },
         {
@@ -416,8 +449,9 @@ const features = {
           icon: "file-lines",
         },
         {
-          title: "Diseño",
-          description: "Personaliza el diseño de tus cartas según tus necesidades específicas",
+          title: "Diseño y Formato",
+          description:
+            "Personaliza el diseño de tus cartas y destaca lo importante con negrita, cursiva y subrayado",
           icon: "gear",
         },
       ],
@@ -430,8 +464,14 @@ const features = {
       title: "Funcionalidades",
       features: [
         {
+          title: "Escrever carta",
+          description: "Crie, escreva e edite as suas cartas com facilidade",
+          icon: "square-pen",
+        },
+        {
           title: "Formatação Automática",
-          description: "As cartas são automaticamente formatadas de forma profissional",
+          description:
+            "As cartas e os endereços são automaticamente formatados de forma profissional e específica do país",
           icon: "align-justify",
         },
         {
@@ -460,9 +500,8 @@ const features = {
       title: "Funcionalidades PRO",
       features: [
         {
-          title: "Assistente AI**",
-          description:
-            "Aprimore ou crie cartas profissionais com precisão e estilo impulsionados por IA",
+          title: "Assistente IA**",
+          description: "Refine ou crie cartas profissionais com o assistente IA",
           icon: "wand-magic-sparkles",
         },
         {
@@ -486,9 +525,9 @@ const features = {
           icon: "file-lines",
         },
         {
-          title: "Layout",
+          title: "Layout e Formatação",
           description:
-            "Personalizar o layout das suas cartas de acordo com as suas necessidades específicas",
+            "Personalize o layout das suas cartas e realce o que importa com negrito, itálico e sublinhado",
           icon: "gear",
         },
       ],
