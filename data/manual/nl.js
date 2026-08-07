@@ -124,17 +124,54 @@ const nl = {
       blocks: [
         {
           type: "p",
-          text: "Als deze functie is ingeschakeld, verschijnt er een **glinster (✨)**-knop in de editor. Die stelt een onderwerp en brieftekst voor je op.",
+          text: "Als deze functie is ingeschakeld, verschijnt er een **glinster (✨)**-knop in de editor. Die stelt een onderwerp en brieftekst voor je op — of herschrijft de tekst die je al hebt getypt.",
         },
         {
           type: "steps",
           items: [
-            "Typ minstens een kort notitie over wat je wilt — een onderwerp en/of een paar aanwijzingen in de tekst.",
+            "Typ minstens een korte notitie over wat je wilt — een onderwerp en/of een paar aanwijzingen in de tekst.",
             "Tik op de **✨**-knop.",
             "**Alleen de eerste keer:** ga akkoord met de *Gegevensverwerking* — je onderwerp en bericht worden naar een AI-dienst gestuurd om het concept te maken. Kies **Accepteren**, **Privacy** of **Weigeren**.",
+            "**Kies wat de assistent moet doen** — het scherm *AI-assistent* vraagt “Wat moet de assistent met je brief doen?” en toont de beschikbare acties (zie hieronder). Tik er een aan.",
             "De assistent toont een *“Je brief wordt geschreven…”*-animatie en presenteert vervolgens een voorgesteld onderwerp en tekst.",
             "Tik op **Gebruiken** om het voorstel in je editor te zetten, of op **Annuleren** om te houden wat je had.",
           ],
+        },
+        {
+          type: "p",
+          text: "**De opties.** Elke optie is een kaart met een pictogram, een naam en een omschrijving van één regel. Tik je op een kaart, dan start de aanvraag meteen — er volgt geen extra bevestiging, dus kies degene die past bij wat je nodig hebt:",
+        },
+        {
+          type: "table",
+          head: ["Optie", "Wat het doet"],
+          rows: [
+            [
+              "**Verbeteren**",
+              "Structuur, helderheid en toon verfijnen met behoud van je bedoeling.",
+            ],
+            [
+              "**Spelling en grammatica**",
+              "Alleen spelling, grammatica en interpunctie corrigeren.",
+            ],
+            ["**Korter**", "Bondiger maken zonder het essentiële te verliezen."],
+            ["**Langer**", "Uitbreiden met passende details en toelichting."],
+            ["**Vereenvoudigen**", "Eenvoudige, begrijpelijke taal gebruiken."],
+            ["**Formeler**", "Herschrijven in een formele, professionele toon."],
+            ["**Vriendelijker**", "Herschrijven in een warme, vriendelijke toon."],
+            ["**Directer**", "Omwegen en opvulling verwijderen om helder en direct te zijn."],
+            [
+              "**Voor mij schrijven**",
+              "Je notities omzetten in een complete, goed gestructureerde brief.",
+            ],
+          ],
+        },
+        {
+          type: "tip",
+          text: "Begin je vanaf nul? Noteer een paar steekwoorden en kies **Voor mij schrijven**. Ben je al tevreden met de inhoud en wil je hem alleen bijschaven? **Spelling en grammatica** verandert het minst, **Verbeteren** is de goede allrounder, en de toonopties (*Formeler*, *Vriendelijker*, *Directer*) herformuleren zonder te veranderen wát je zegt.",
+        },
+        {
+          type: "note",
+          text: "Elke optie werkt op de hele brief — onderwerp en tekst samen — en antwoordt altijd in de taal van de brief. Het resultaat vervangt beide velden zodra je op **Gebruiken** tikt; wil je maar een deel bewaren, kopieer dat dan voordat je accepteert. Je kunt de assistent zo vaak opnieuw uitvoeren als je wilt en elke keer een andere optie kiezen.",
         },
       ],
     },

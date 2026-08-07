@@ -139,6 +139,10 @@
           "answer": "On the upgrade screen, tap Restore purchases. Make sure you are signed in with the same app store account (Apple ID or Google account) you used for the original purchase, and your PRO features will be reactivated."
         },
         {
+          "question": "Can I transfer my purchase or subscription from Apple to Android, or the other way around?",
+          "answer": "No, and there's a good reason for it. Apple and Google run completely separate stores, and each one handles its own billing. There is simply no way to move a subscription or a one-time purchase from the App Store to Google Play, or the other way around. If you switch platforms, just cancel the subscription in your old store so it stops charging you, then subscribe again on your new device. Your letters aren't affected — only the PRO subscription is tied to the store you bought it from. 😉"
+        },
+        {
           "question": "How do I cancel my PRO subscription?",
           "answer": "Subscriptions are handled by the app store you purchased through, not inside the Letter App itself, so you cancel them in your store account. Turn off auto-renewal and you'll keep PRO until the end of the current billing period. See your store's help page for step-by-step instructions:",
           "links": [

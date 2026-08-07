@@ -124,7 +124,7 @@ const it = {
       blocks: [
         {
           type: "p",
-          text: "Se abilitato, nell'editor compare un pulsante a **scintilla (✨)**. Prepara per te una bozza dell'oggetto e del corpo della lettera.",
+          text: "Se abilitato, nell'editor compare un pulsante a **scintilla (✨)**. Prepara per te una bozza dell'oggetto e del corpo della lettera — oppure rielabora il testo che hai già scritto.",
         },
         {
           type: "steps",
@@ -132,9 +132,43 @@ const it = {
             "Scrivi almeno una breve nota su ciò che desideri — un oggetto e/o qualche indicazione nel corpo.",
             "Tocca il pulsante **✨**.",
             "**Solo la prima volta:** accetta il *Trattamento dei dati* — l'oggetto e il messaggio vengono inviati a un servizio AI per generare la bozza. Scegli **Accetta**, **Privacy** o **Rifiuta**.",
+            "**Scegli cosa deve fare l'assistente** — la schermata *Assistente IA* chiede «Cosa deve fare l'assistente con la tua lettera?» ed elenca le azioni disponibili (vedi sotto). Toccane una.",
             "L'assistente mostra un'animazione *“Sto scrivendo la tua lettera…”*, poi propone un oggetto e un corpo suggeriti.",
             "Tocca **Usa** per inserire il suggerimento nel tuo editor, oppure **Annulla** per mantenere quello che avevi.",
           ],
+        },
+        {
+          type: "p",
+          text: "**Le opzioni.** Ogni opzione è una scheda con un'icona, un nome e una descrizione di una riga. Toccando una scheda la richiesta parte subito — non c'è un'ulteriore conferma, quindi scegli quella adatta a ciò che ti serve:",
+        },
+        {
+          type: "table",
+          head: ["Opzione", "Cosa fa"],
+          rows: [
+            ["**Migliora**", "Affina struttura, chiarezza e tono mantenendo l'intento."],
+            [
+              "**Ortografia e grammatica**",
+              "Correggi solo ortografia, grammatica e punteggiatura.",
+            ],
+            ["**Più breve**", "Rendila più concisa senza perdere l'essenziale."],
+            ["**Più lungo**", "Espandi con dettagli e approfondimenti adeguati."],
+            ["**Semplifica**", "Usa un linguaggio semplice e facile da capire."],
+            ["**Più formale**", "Riscrivi con un tono formale e professionale."],
+            ["**Più amichevole**", "Riscrivi con un tono caloroso e cordiale."],
+            ["**Più diretto**", "Elimina giri di parole e riempitivi per essere chiaro e diretto."],
+            [
+              "**Scrivi per me**",
+              "Trasforma i tuoi appunti in una lettera completa e ben strutturata.",
+            ],
+          ],
+        },
+        {
+          type: "tip",
+          text: "Parti da zero? Annota qualche punto e scegli **Scrivi per me**. Il contenuto ti soddisfa già e vuoi solo rifinirlo? **Ortografia e grammatica** è quella che cambia meno, **Migliora** è l'opzione tuttofare e le opzioni di tono (*Più formale*, *Più amichevole*, *Più diretto*) riformulano senza cambiare ciò che dici.",
+        },
+        {
+          type: "note",
+          text: "Ogni opzione lavora sull'intera lettera — oggetto e corpo insieme — e risponde sempre nella lingua della lettera. Il risultato sostituisce entrambi i campi quando tocchi **Usa**: se vuoi conservarne solo una parte, copiala prima di accettare. Puoi rilanciare l'assistente tutte le volte che vuoi e scegliere ogni volta un'opzione diversa.",
         },
       ],
     },

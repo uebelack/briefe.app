@@ -139,6 +139,10 @@
           "answer": "Tippen Sie auf dem Upgrade-Bildschirm auf Käufe wiederherstellen. Achten Sie darauf, dass Sie mit demselben App-Store-Konto (Apple-ID oder Google-Konto) angemeldet sind, das Sie für den ursprünglichen Kauf verwendet haben, und Ihre PRO-Funktionen werden wieder aktiviert."
         },
         {
+          "question": "Kann ich meinen Kauf bzw. mein Abonnement von Apple auf Android übertragen – oder umgekehrt?",
+          "answer": "Nein, und das hat einen guten Grund. Apple und Google betreiben völlig getrennte Stores, und jeder rechnet seine Käufe selbst ab. Es gibt schlicht keine Möglichkeit, ein Abonnement oder einen Einmalkauf vom App Store zu Google Play (oder zurück) zu übertragen. Wenn du die Plattform wechselst, kündige einfach das Abonnement im alten Store, damit dir nichts mehr berechnet wird, und schließe auf dem neuen Gerät ein neues ab. Deine Briefe bleiben davon unberührt – nur das PRO-Abonnement ist an den Store gebunden, in dem du es gekauft hast. 😉"
+        },
+        {
           "question": "Wie kündige ich mein PRO-Abonnement?",
           "answer": "Abonnements werden über den App-Store abgewickelt, in dem Sie den Kauf getätigt haben, und nicht direkt in der Briefe App selbst. Daher kündigen Sie sie in Ihrem Store-Konto. Deaktivieren Sie die automatische Verlängerung, und Sie behalten PRO bis zum Ende des laufenden Abrechnungszeitraums. Eine Schritt-für-Schritt-Anleitung finden Sie auf der Hilfeseite Ihres Stores:",
           "links": [

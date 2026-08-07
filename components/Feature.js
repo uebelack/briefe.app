@@ -1,41 +1,8 @@
 import React from "react";
-import {
-  SquarePen,
-  AlignJustify,
-  MapPin,
-  Printer,
-  ExternalLink,
-  Search,
-  Cloud,
-  WandSparkles,
-  Signature,
-  IdCard,
-  BookUser,
-  LayoutTemplate,
-  Settings,
-  FileText,
-} from "lucide-react";
+import { FileText } from "lucide-react";
 
-// The feature data still uses FontAwesome-style icon names; map them to lucide
-// so we get a single, consistent, crisp icon set (FontAwesome CDN was unused).
-const ICONS = {
-  "square-pen": SquarePen,
-  "align-justify": AlignJustify,
-  "map-pin": MapPin,
-  print: Printer,
-  "arrow-up-right-from-square": ExternalLink,
-  "magnifying-glass": Search,
-  cloud: Cloud,
-  "wand-magic-sparkles": WandSparkles,
-  signature: Signature,
-  "address-card": IdCard,
-  "address-book": BookUser,
-  "file-lines": LayoutTemplate,
-  gear: Settings,
-};
-
-export default function Feature({ icon, title, description, pro = false }) {
-  const Icon = ICONS[icon] ?? FileText;
+// Icons are lucide components supplied directly by the feature data.
+export default function Feature({ icon: Icon = FileText, title, description, pro = false }) {
   return (
     <div className={`feature-card${pro ? " pro" : ""}`}>
       <div className="feature-icon">

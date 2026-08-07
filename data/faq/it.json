@@ -139,6 +139,10 @@
           "answer": "Nella schermata di upgrade, toccare Ripristina acquisti. Assicurarsi di aver effettuato l'accesso con lo stesso account dello store (Apple ID o account Google) utilizzato per l'acquisto originale e le funzioni PRO verranno riattivate."
         },
         {
+          "question": "Posso trasferire il mio acquisto o abbonamento da Apple ad Android, o viceversa?",
+          "answer": "No, e c'è un buon motivo. Apple e Google gestiscono store completamente separati, ciascuno con la propria fatturazione. Non esiste semplicemente alcun modo per spostare un abbonamento o un acquisto singolo dall'App Store a Google Play o viceversa. Se cambi piattaforma, annulla l'abbonamento nello store precedente così da non ricevere più addebiti, quindi abbonati di nuovo sul nuovo dispositivo. Le tue lettere non vengono toccate: solo l'abbonamento PRO è legato allo store in cui l'hai acquistato. 😉"
+        },
+        {
           "question": "Come posso annullare il mio abbonamento PRO?",
           "answer": "Gli abbonamenti sono gestiti dallo store da cui è stato effettuato l'acquisto, non all'interno de L'App Lettera, quindi l'annullamento avviene nell'account del proprio store. Disattivando il rinnovo automatico, si conserva la versione PRO fino al termine del periodo di fatturazione in corso. Per istruzioni dettagliate passo dopo passo, consultare la pagina di assistenza del proprio store:",
           "links": [

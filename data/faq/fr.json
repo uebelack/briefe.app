@@ -139,6 +139,10 @@
           "answer": "Sur l'écran d'abonnement, appuyez sur Restaurer les achats. Assurez-vous d'être connecté avec le même compte de boutique d'applications (identifiant Apple ou compte Google) que celui utilisé lors de l'achat initial, et vos fonctions PRO seront réactivées."
         },
         {
+          "question": "Puis-je transférer mon achat ou mon abonnement d'Apple vers Android, ou inversement ?",
+          "answer": "Non, et pour une bonne raison. Apple et Google exploitent des boutiques totalement distinctes, et chacune gère sa propre facturation. Il n'existe tout simplement aucun moyen de transférer un abonnement ou un achat unique de l'App Store vers Google Play, ni l'inverse. Si vous changez de plateforme, résiliez l'abonnement dans l'ancienne boutique pour ne plus être facturé, puis réabonnez-vous sur votre nouvel appareil. Vos lettres ne sont pas concernées : seul l'abonnement PRO est lié à la boutique où vous l'avez acheté. 😉"
+        },
+        {
           "question": "Comment puis-je résilier mon abonnement PRO?",
           "answer": "Les abonnements sont gérés par la boutique d'applications sur laquelle vous avez effectué votre achat, et non depuis l'application Lettre elle-même ; vous les résiliez donc dans votre compte de boutique. Désactivez le renouvellement automatique et vous conserverez la version PRO jusqu'à la fin de la période de facturation en cours. Consultez la page d'aide de votre boutique pour des instructions détaillées :",
           "links": [

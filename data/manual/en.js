@@ -124,7 +124,7 @@ const en = {
       blocks: [
         {
           type: "p",
-          text: "If enabled, a **sparkle (✨)** button appears in the editor. It drafts a subject and letter body for you.",
+          text: "If enabled, a **sparkle (✨)** button appears in the editor. It drafts a subject and letter body for you — or reworks the text you already wrote.",
         },
         {
           type: "steps",
@@ -132,9 +132,37 @@ const en = {
             "Type at least a short note about what you want — a subject and/or a few instructions in the body.",
             "Tap the **✨** button.",
             "**First time only:** agree to *Data Processing* — your subject and message are sent to an AI service to generate the draft. Choose **Accept**, **Privacy**, or **Decline**.",
+            "**Choose what the assistant should do** — the *AI Assistant* screen asks “What should the assistant do with your letter?” and lists the available actions (see below). Tap one.",
             "The assistant shows a *“Writing your letter…”* animation, then presents a suggested subject and body.",
             "Tap **Use** to drop the suggestion into your editor, or **Cancel** to keep what you had.",
           ],
+        },
+        {
+          type: "p",
+          text: "**The options.** Each option is a card with an icon, a name, and a one-line description. Tapping a card immediately starts that request — there is no extra confirmation, so pick the one that matches what you need:",
+        },
+        {
+          type: "table",
+          head: ["Option", "What it does"],
+          rows: [
+            ["**Improve**", "Refine structure, clarity, and tone while keeping your intent."],
+            ["**Spelling & Grammar**", "Fix spelling, grammar, and punctuation only."],
+            ["**Make Shorter**", "Make it more concise without losing essentials."],
+            ["**Make Longer**", "Expand with appropriate detail and elaboration."],
+            ["**Simplify**", "Use plain, easy-to-understand language."],
+            ["**Make Formal**", "Rewrite in a formal, professional tone."],
+            ["**Make Friendly**", "Rewrite in a warm, friendly tone."],
+            ["**Make Direct**", "Remove hedging and filler to be clear and direct."],
+            ["**Write for Me**", "Turn your notes into a complete, well-structured letter."],
+          ],
+        },
+        {
+          type: "tip",
+          text: "Starting from scratch? Jot down a few bullet points and pick **Write for Me**. Already happy with your content and only want it polished? **Spelling & Grammar** changes the least, **Improve** is the good all-rounder, and the tone options (*Formal*, *Friendly*, *Direct*) rewrite the wording without changing what you're saying.",
+        },
+        {
+          type: "note",
+          text: "Every option runs on the whole letter — subject and body together — and always answers in the letter's language. Whatever comes back replaces both fields when you tap **Use**, so if you only want to keep part of it, copy it out before accepting. You can run the assistant again as often as you like and pick a different option each time.",
         },
       ],
     },

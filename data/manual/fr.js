@@ -127,7 +127,7 @@ const fr = {
       blocks: [
         {
           type: "p",
-          text: "S'il est activé, un bouton **étincelle (✨)** apparaît dans l'éditeur. Il rédige pour vous un objet et un corps de lettre.",
+          text: "S'il est activé, un bouton **étincelle (✨)** apparaît dans l'éditeur. Il rédige pour vous un objet et un corps de lettre — ou retravaille le texte que vous avez déjà écrit.",
         },
         {
           type: "steps",
@@ -135,9 +135,49 @@ const fr = {
             "Saisissez au moins une brève note sur ce que vous souhaitez — un objet et/ou quelques instructions dans le corps.",
             "Appuyez sur le bouton **✨**.",
             "**La première fois uniquement :** acceptez le *Traitement des données* — votre objet et votre message sont envoyés à un service d'IA pour générer le brouillon. Choisissez **Accepter**, **Confidentialité** ou **Refuser**.",
+            "**Choisissez ce que l'assistant doit faire** — l'écran *Assistant IA* demande « Que doit faire l'assistant avec votre lettre ? » et affiche les actions disponibles (voir ci-dessous). Appuyez sur l'une d'elles.",
             "L'assistant affiche une animation *« Rédaction de votre lettre… »*, puis présente un objet et un corps suggérés.",
             "Appuyez sur **Utiliser** pour insérer la suggestion dans votre éditeur, ou sur **Annuler** pour conserver ce que vous aviez.",
           ],
+        },
+        {
+          type: "p",
+          text: "**Les options.** Chaque option est une carte avec une icône, un nom et une description d'une ligne. Appuyer sur une carte lance immédiatement la demande — il n'y a pas de confirmation supplémentaire, choisissez donc celle qui correspond à votre besoin :",
+        },
+        {
+          type: "table",
+          head: ["Option", "Ce qu'elle fait"],
+          rows: [
+            [
+              "**Améliorer**",
+              "Affiner la structure, la clarté et le ton en gardant votre intention.",
+            ],
+            [
+              "**Orthographe et grammaire**",
+              "Corriger uniquement l'orthographe, la grammaire et la ponctuation.",
+            ],
+            ["**Plus court**", "Le rendre plus concis sans perdre l'essentiel."],
+            ["**Plus long**", "Développer avec des détails et des précisions appropriés."],
+            ["**Simplifier**", "Utiliser un langage simple et facile à comprendre."],
+            ["**Plus formel**", "Réécrire sur un ton formel et professionnel."],
+            ["**Plus amical**", "Réécrire sur un ton chaleureux et amical."],
+            [
+              "**Plus direct**",
+              "Supprimer les détours et le remplissage pour être clair et direct.",
+            ],
+            [
+              "**Écrire pour moi**",
+              "Transformer vos notes en une lettre complète et bien structurée.",
+            ],
+          ],
+        },
+        {
+          type: "tip",
+          text: "Vous partez de zéro ? Notez quelques points clés et choisissez **Écrire pour moi**. Votre contenu vous convient déjà et vous voulez seulement le peaufiner ? **Orthographe et grammaire** modifie le moins, **Améliorer** est la bonne option polyvalente, et les options de ton (*Plus formel*, *Plus amical*, *Plus direct*) reformulent sans changer ce que vous dites.",
+        },
+        {
+          type: "note",
+          text: "Chaque option travaille sur la lettre entière — objet et corps ensemble — et répond toujours dans la langue de la lettre. Le résultat remplace les deux champs lorsque vous appuyez sur **Utiliser** ; si vous ne voulez en garder qu'une partie, copiez-la avant d'accepter. Vous pouvez relancer l'assistant autant de fois que vous le souhaitez et choisir une option différente à chaque fois.",
         },
       ],
     },

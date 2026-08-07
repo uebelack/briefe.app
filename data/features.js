@@ -1,3 +1,18 @@
+import {
+  SquarePen,
+  AlignJustify,
+  Printer,
+  ExternalLink,
+  Search,
+  Cloud,
+  WandSparkles,
+  Signature,
+  IdCard,
+  BookUser,
+  LayoutTemplate,
+  Settings,
+} from "lucide-react";
+
 const features = {
   "en-US": {
     overview: "Create and print perfectly formatted letters in no time.",
@@ -8,33 +23,33 @@ const features = {
         {
           title: "Write Letter",
           description: "Create, write and edit your letters with ease",
-          icon: "square-pen",
+          icon: SquarePen,
         },
         {
           title: "Auto Format",
           description:
             "Letters and addresses are automatically formatted in a professional, country-specific way",
-          icon: "align-justify",
+          icon: AlignJustify,
         },
         {
           title: "Print",
           description: "Easily print your letters directly from the app",
-          icon: "print",
+          icon: Printer,
         },
         {
           title: "Share & Export",
           description: "Share your letters digitally or export them as PDF files",
-          icon: "arrow-up-right-from-square",
+          icon: ExternalLink,
         },
         {
           title: "Search",
           description: "The search function makes it easy to find letters quickly and conveniently",
-          icon: "magnifying-glass",
+          icon: Search,
         },
         {
           title: "Storage*",
           description: "Your letters are synchronized across devices using iCloud",
-          icon: "cloud",
+          icon: Cloud,
         },
       ],
     },
@@ -44,33 +59,33 @@ const features = {
         {
           title: "AI Assistant**",
           description: "Refine or create professional letters with the AI Assistant",
-          icon: "wand-magic-sparkles",
+          icon: WandSparkles,
         },
         {
           title: "Signatures",
           description: "Add personal signatures directly within the app",
-          icon: "signature",
+          icon: Signature,
         },
         {
           title: "Sender",
           description: "Enter your sender information once",
-          icon: "address-card",
+          icon: IdCard,
         },
         {
           title: "Contacts",
           description: "Easily incorporate contact addresses from your address book",
-          icon: "address-book",
+          icon: BookUser,
         },
         {
           title: "Templates",
           description: "Utilize a wide range of templates for various occasions",
-          icon: "file-lines",
+          icon: LayoutTemplate,
         },
         {
           title: "Layout & Formatting",
           description:
             "Customize the layout of your letters and emphasize what matters with bold, italic and underline",
-          icon: "gear",
+          icon: Settings,
         },
       ],
     },
@@ -84,33 +99,33 @@ const features = {
         {
           title: "Brief schreiben",
           description: "Erstellen, schreiben und bearbeiten Sie Ihre Briefe mit Leichtigkeit",
-          icon: "square-pen",
+          icon: SquarePen,
         },
         {
           title: "Autoformat",
           description:
             "Briefe und Adressen werden automatisch professionell und länderspezifisch formatiert",
-          icon: "align-justify",
+          icon: AlignJustify,
         },
         {
           title: "Drucken",
           description: "Drucken Sie Ihre Briefe bequem direkt aus der App",
-          icon: "print",
+          icon: Printer,
         },
         {
           title: "Teilen & Exportieren",
           description: "Teilen Sie Ihre Briefe digital oder exportieren Sie sie als PDF-Dateien",
-          icon: "arrow-up-right-from-square",
+          icon: ExternalLink,
         },
         {
           title: "Suche",
           description: "Mit der Suchfunktion finden Sie Ihre Briefe schnell und einfach wieder",
-          icon: "magnifying-glass",
+          icon: Search,
         },
         {
           title: "Speicherung*",
           description: "Ihre Briefe werden über die iCloud geräteübergreifend synchronisiert",
-          icon: "cloud",
+          icon: Cloud,
         },
       ],
     },
@@ -120,33 +135,33 @@ const features = {
         {
           title: "KI-Assistent**",
           description: "Verbessern oder erstellen Sie professionelle Briefe mit dem KI-Assistenten",
-          icon: "wand-magic-sparkles",
+          icon: WandSparkles,
         },
         {
           title: "Unterschriften",
           description: "Fügen Sie persönliche Unterschriften direkt in der App hinzu",
-          icon: "signature",
+          icon: Signature,
         },
         {
           title: "Absender",
           description: "Erfassen Sie einmalig Ihre Absenderinformationen",
-          icon: "address-card",
+          icon: IdCard,
         },
         {
           title: "Kontakte",
           description: "Verwenden Sie Ihre Kontaktadressen direkt aus Ihrem Adressbuch",
-          icon: "address-book",
+          icon: BookUser,
         },
         {
           title: "Templates",
           description: "Nutzen Sie viele Vorlagen für verschiedene Gelegenheiten",
-          icon: "file-lines",
+          icon: LayoutTemplate,
         },
         {
           title: "Layout & Formatierung",
           description:
             "Passen Sie das Layout Ihrer Briefe an und heben Sie Wichtiges mit Fett, Kursiv und Unterstreichung hervor",
-          icon: "gear",
+          icon: Settings,
         },
       ],
     },
@@ -160,33 +175,33 @@ const features = {
         {
           title: "Brief schrijven",
           description: "Maak, schrijf en bewerk je brieven met gemak",
-          icon: "square-pen",
+          icon: SquarePen,
         },
         {
           title: "Automatische Opmaak",
           description:
             "Brieven en adressen worden automatisch professioneel en landspecifiek opgemaakt",
-          icon: "align-justify",
+          icon: AlignJustify,
         },
         {
           title: "Afdrukken",
           description: "Print eenvoudig je brieven rechtstreeks vanuit de app",
-          icon: "print",
+          icon: Printer,
         },
         {
           title: "Delen en Exporteren",
           description: "Deel je brieven digitaal of exporteer ze als PDF-bestanden",
-          icon: "arrow-up-right-from-square",
+          icon: ExternalLink,
         },
         {
           title: "Zoeken",
           description: "Met de zoekfunctie vind je brieven snel en handig",
-          icon: "magnifying-glass",
+          icon: Search,
         },
         {
           title: "Opslag*",
           description: "Je brieven worden gesynchroniseerd over apparaten met iCloud",
-          icon: "cloud",
+          icon: Cloud,
         },
       ],
     },
@@ -196,34 +211,34 @@ const features = {
         {
           title: "AI-assistent**",
           description: "Verfijn of creëer professionele brieven met de AI-assistent",
-          icon: "wand-magic-sparkles",
+          icon: WandSparkles,
         },
         {
           title: "Handtekeningen",
           description: "Voeg persoonlijke handtekeningen rechtstreeks toe in de app",
-          icon: "signature",
+          icon: Signature,
         },
         {
           title: "Afzender",
           description: "Voer je afzenderinformatie eenmalig in",
-          icon: "address-card",
+          icon: IdCard,
         },
         {
           title: "Contacten",
           description: "Incorporeren van contactadressen uit je adresboek is eenvoudig",
-          icon: "address-book",
+          icon: BookUser,
         },
         {
           title: "Sjablonen",
           description:
             "Maak gebruik van een breed scala aan sjablonen voor verschillende gelegenheden",
-          icon: "file-lines",
+          icon: LayoutTemplate,
         },
         {
           title: "Indeling & Opmaak",
           description:
             "Pas de indeling van je brieven aan en benadruk wat belangrijk is met vet, cursief en onderstreping",
-          icon: "gear",
+          icon: Settings,
         },
       ],
     },
@@ -237,34 +252,34 @@ const features = {
         {
           title: "Écrire une lettre",
           description: "Créez, rédigez et modifiez vos lettres en toute simplicité",
-          icon: "square-pen",
+          icon: SquarePen,
         },
         {
           title: "Formatage Automatique",
           description:
             "Les lettres et les adresses sont automatiquement formatées de manière professionnelle et selon le pays",
-          icon: "align-justify",
+          icon: AlignJustify,
         },
         {
           title: "Impression",
           description: "Imprimez facilement vos lettres directement depuis l'application",
-          icon: "print",
+          icon: Printer,
         },
         {
           title: "Partage et Exportation",
           description: "Partagez vos lettres numériquement ou exportez-les au format PDF",
-          icon: "arrow-up-right-from-square",
+          icon: ExternalLink,
         },
         {
           title: "Recherche",
           description:
             "La fonction de recherche facilite la recherche rapide et pratique des lettres",
-          icon: "magnifying-glass",
+          icon: Search,
         },
         {
           title: "Stockage*",
           description: "Vos lettres sont synchronisées sur tous vos appareils grâce à iCloud",
-          icon: "cloud",
+          icon: Cloud,
         },
       ],
     },
@@ -274,33 +289,33 @@ const features = {
         {
           title: "Assistant IA**",
           description: "Affinez ou créez des lettres professionnelles avec l'assistant IA",
-          icon: "wand-magic-sparkles",
+          icon: WandSparkles,
         },
         {
           title: "Signatures",
           description: "Ajoutez des signatures personnelles directement dans l'application",
-          icon: "signature",
+          icon: Signature,
         },
         {
           title: "Expéditeur",
           description: "Entrez vos informations d'expéditeur une seule fois",
-          icon: "address-card",
+          icon: IdCard,
         },
         {
           title: "Contacts",
           description: "Intégrez facilement les adresses de votre carnet de contacts",
-          icon: "address-book",
+          icon: BookUser,
         },
         {
           title: "Modèles",
           description: "Utilisez une large gamme de modèles pour différentes occasions",
-          icon: "file-lines",
+          icon: LayoutTemplate,
         },
         {
           title: "Mise en page & Format",
           description:
             "Personnalisez la mise en page de vos lettres et mettez en valeur l'essentiel en gras, italique et souligné",
-          icon: "gear",
+          icon: Settings,
         },
       ],
     },
@@ -314,33 +329,33 @@ const features = {
         {
           title: "Scrivi lettera",
           description: "Crea, scrivi e modifica le tue lettere con facilità",
-          icon: "square-pen",
+          icon: SquarePen,
         },
         {
           title: "Formattazione Auto",
           description:
             "Lettere e indirizzi vengono formattati automaticamente in modo professionale e specifico per paese",
-          icon: "align-justify",
+          icon: AlignJustify,
         },
         {
           title: "Stampa",
           description: "Stampa facilmente le tue lettere direttamente dall'app",
-          icon: "print",
+          icon: Printer,
         },
         {
           title: "Condividi ed Esporta",
           description: "Condividi digitalmente le tue lettere o esportale in formato PDF",
-          icon: "arrow-up-right-from-square",
+          icon: ExternalLink,
         },
         {
           title: "Ricerca",
           description: "La funzione di ricerca facilita la ricerca delle lettere",
-          icon: "magnifying-glass",
+          icon: Search,
         },
         {
           title: "Archiviazione*",
           description: "Le tue lettere sono sincronizzate su tutti i dispositivi tramite iCloud",
-          icon: "cloud",
+          icon: Cloud,
         },
       ],
     },
@@ -350,33 +365,33 @@ const features = {
         {
           title: "Assistente IA**",
           description: "Affina o crea lettere professionali con l'assistente IA",
-          icon: "wand-magic-sparkles",
+          icon: WandSparkles,
         },
         {
           title: "Firme",
           description: "Aggiungi firme personali direttamente dall'app",
-          icon: "signature",
+          icon: Signature,
         },
         {
           title: "Mittente",
           description: "Inserisci le tue informazioni come mittente una sola volta",
-          icon: "address-card",
+          icon: IdCard,
         },
         {
           title: "Contatti",
           description: "Incorpora facilmente gli indirizzi dei contatti dalla tua rubrica",
-          icon: "address-book",
+          icon: BookUser,
         },
         {
           title: "Modelli",
           description: "Utilizza una vasta gamma di modelli per diverse occasioni",
-          icon: "file-lines",
+          icon: LayoutTemplate,
         },
         {
           title: "Layout e Formattazione",
           description:
             "Personalizza il layout delle tue lettere ed evidenzia ciò che conta con grassetto, corsivo e sottolineato",
-          icon: "gear",
+          icon: Settings,
         },
       ],
     },
@@ -390,33 +405,33 @@ const features = {
         {
           title: "Escribir carta",
           description: "Crea, escribe y edita tus cartas con facilidad",
-          icon: "square-pen",
+          icon: SquarePen,
         },
         {
           title: "Formato Automático",
           description:
             "Las cartas y las direcciones se formatean automáticamente de forma profesional y según el país",
-          icon: "align-justify",
+          icon: AlignJustify,
         },
         {
           title: "Imprimir",
           description: "Imprime fácilmente tus cartas directamente desde la aplicación",
-          icon: "print",
+          icon: Printer,
         },
         {
           title: "Compartir y Exportar",
           description: "Comparte tus cartas digitalmente o exportalas como archivos PDF",
-          icon: "arrow-up-right-from-square",
+          icon: ExternalLink,
         },
         {
           title: "Buscar",
           description: "La función de búsqueda facilita encontrar cartas rápidamente",
-          icon: "magnifying-glass",
+          icon: Search,
         },
         {
           title: "Almacenamiento*",
           description: "Tus cartas se sincronizan en todos tus dispositivos mediante iCloud",
-          icon: "cloud",
+          icon: Cloud,
         },
       ],
     },
@@ -426,33 +441,33 @@ const features = {
         {
           title: "Asistente IA**",
           description: "Refina o crea cartas profesionales con el asistente IA",
-          icon: "wand-magic-sparkles",
+          icon: WandSparkles,
         },
         {
           title: "Firmas",
           description: "Agrega firmas personales directamente dentro de la aplicación",
-          icon: "signature",
+          icon: Signature,
         },
         {
           title: "Remitente",
           description: "Ingresa tu información como remitente una sola vez",
-          icon: "address-card",
+          icon: IdCard,
         },
         {
           title: "Contactos",
           description: "Utiliza los contactos de tu agenda.",
-          icon: "address-book",
+          icon: BookUser,
         },
         {
           title: "Plantillas",
           description: "Utiliza una amplia gama de plantillas para diferentes ocasiones",
-          icon: "file-lines",
+          icon: LayoutTemplate,
         },
         {
           title: "Diseño y Formato",
           description:
             "Personaliza el diseño de tus cartas y destaca lo importante con negrita, cursiva y subrayado",
-          icon: "gear",
+          icon: Settings,
         },
       ],
     },
@@ -466,33 +481,33 @@ const features = {
         {
           title: "Escrever carta",
           description: "Crie, escreva e edite as suas cartas com facilidade",
-          icon: "square-pen",
+          icon: SquarePen,
         },
         {
           title: "Formatação Automática",
           description:
             "As cartas e os endereços são automaticamente formatados de forma profissional e específica do país",
-          icon: "align-justify",
+          icon: AlignJustify,
         },
         {
           title: "Imprimir",
           description: "Imprima facilmente as suas cartas diretamente a partir da aplicação",
-          icon: "print",
+          icon: Printer,
         },
         {
           title: "Partilhar e Exportar",
           description: "Partilhe as suas cartas digitalmente ou exporte-as como ficheiros PDF",
-          icon: "arrow-up-right-from-square",
+          icon: ExternalLink,
         },
         {
           title: "Pesquisa",
           description: "A função de pesquisa facilita a localização rápida e conveniente de cartas",
-          icon: "magnifying-glass",
+          icon: Search,
         },
         {
           title: "Armazenamento*",
           description: "As suas cartas são sincronizadas entre dispositivos através do iCloud",
-          icon: "cloud",
+          icon: Cloud,
         },
       ],
     },
@@ -502,33 +517,33 @@ const features = {
         {
           title: "Assistente IA**",
           description: "Refine ou crie cartas profissionais com o assistente IA",
-          icon: "wand-magic-sparkles",
+          icon: WandSparkles,
         },
         {
           title: "Assinaturas",
           description: "Adicione assinaturas pessoais diretamente na aplicação",
-          icon: "signature",
+          icon: Signature,
         },
         {
           title: "Remetente",
           description: "Introduza as informações do remetente uma vez",
-          icon: "address-card",
+          icon: IdCard,
         },
         {
           title: "Contactos",
           description: "Incorpore facilmente endereços de contactos da sua lista de contactos",
-          icon: "address-book",
+          icon: BookUser,
         },
         {
           title: "Modelos",
           description: "Utilize uma ampla gama de modelos para diversas ocasiões",
-          icon: "file-lines",
+          icon: LayoutTemplate,
         },
         {
           title: "Layout e Formatação",
           description:
             "Personalize o layout das suas cartas e realce o que importa com negrito, itálico e sublinhado",
-          icon: "gear",
+          icon: Settings,
         },
       ],
     },

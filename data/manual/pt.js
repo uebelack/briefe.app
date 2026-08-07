@@ -124,7 +124,7 @@ const pt = {
       blocks: [
         {
           type: "p",
-          text: "Se estiver ativado, aparece um botão de **brilho (✨)** no editor. Ele redige um assunto e o corpo da carta por si.",
+          text: "Se estiver ativado, aparece um botão de **brilho (✨)** no editor. Ele redige um assunto e o corpo da carta por si — ou reformula o texto que já escreveu.",
         },
         {
           type: "steps",
@@ -132,9 +132,40 @@ const pt = {
             "Escreva pelo menos uma pequena nota sobre o que pretende — um assunto e/ou algumas instruções no corpo.",
             "Toque no botão **✨**.",
             "**Apenas na primeira vez:** aceite o *Processamento de dados* — o seu assunto e a sua mensagem são enviados para um serviço de IA para gerar o rascunho. Escolha **Aceitar**, **Privacidade** ou **Recusar**.",
+            "**Escolha o que o assistente deve fazer** — o ecrã *Assistente de IA* pergunta «O que deve o assistente fazer com a sua carta?» e lista as ações disponíveis (ver abaixo). Toque numa delas.",
             "O assistente mostra uma animação *“A escrever a sua carta…”* e depois apresenta um assunto e um corpo sugeridos.",
             "Toque em **Usar** para colocar a sugestão no seu editor, ou em **Cancelar** para manter o que tinha.",
           ],
+        },
+        {
+          type: "p",
+          text: "**As opções.** Cada opção é um cartão com um ícone, um nome e uma descrição de uma linha. Ao tocar num cartão o pedido começa de imediato — não há confirmação adicional, por isso escolha a que corresponde ao que precisa:",
+        },
+        {
+          type: "table",
+          head: ["Opção", "O que faz"],
+          rows: [
+            ["**Melhorar**", "Aperfeiçoar estrutura, clareza e tom mantendo a sua intenção."],
+            ["**Ortografia e gramática**", "Corrigir apenas ortografia, gramática e pontuação."],
+            ["**Mais curto**", "Torná-la mais concisa sem perder o essencial."],
+            ["**Mais longo**", "Expandir com o detalhe e a elaboração adequados."],
+            ["**Simplificar**", "Usar uma linguagem simples e fácil de entender."],
+            ["**Mais formal**", "Reescrever num tom formal e profissional."],
+            ["**Mais amigável**", "Reescrever num tom caloroso e amigável."],
+            ["**Mais direto**", "Remover rodeios e enchimento para ser claro e direto."],
+            [
+              "**Escrever por mim**",
+              "Transformar as suas notas numa carta completa e bem estruturada.",
+            ],
+          ],
+        },
+        {
+          type: "tip",
+          text: "Está a começar do zero? Aponte alguns tópicos e escolha **Escrever por mim**. Já está satisfeito com o conteúdo e só o quer aperfeiçoar? **Ortografia e gramática** é a que menos altera, **Melhorar** é a boa opção para tudo, e as opções de tom (*Mais formal*, *Mais amigável*, *Mais direto*) reformulam sem mudar aquilo que diz.",
+        },
+        {
+          type: "note",
+          text: "Todas as opções trabalham sobre a carta inteira — assunto e corpo em conjunto — e respondem sempre no idioma da carta. O resultado substitui ambos os campos quando toca em **Usar**; se quiser guardar apenas uma parte, copie-a antes de aceitar. Pode voltar a executar o assistente as vezes que quiser e escolher uma opção diferente de cada vez.",
         },
       ],
     },

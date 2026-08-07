@@ -124,7 +124,7 @@ const de = {
       blocks: [
         {
           type: "p",
-          text: "Wenn aktiviert, erscheint im Editor eine **Funkel-Schaltfläche (✨)**. Sie entwirft für Sie einen Betreff und einen Brieftext.",
+          text: "Wenn aktiviert, erscheint im Editor eine **Funkel-Schaltfläche (✨)**. Sie entwirft für Sie einen Betreff und einen Brieftext — oder überarbeitet den Text, den Sie bereits geschrieben haben.",
         },
         {
           type: "steps",
@@ -132,9 +132,40 @@ const de = {
             "Geben Sie zumindest eine kurze Notiz dazu ein, was Sie möchten — einen Betreff und/oder ein paar Anweisungen im Textkörper.",
             "Tippen Sie auf die Schaltfläche **✨**.",
             "**Nur beim ersten Mal:** Stimmen Sie der *Datenverarbeitung* zu — Ihr Betreff und Ihre Nachricht werden an einen KI-Dienst gesendet, um den Entwurf zu erstellen. Wählen Sie **Akzeptieren**, **Datenschutz** oder **Ablehnen**.",
+            "**Wählen Sie, was der Assistent tun soll** — der Bildschirm *KI-Assistent* fragt „Was soll der Assistent mit Ihrem Brief tun?“ und listet die verfügbaren Aktionen auf (siehe unten). Tippen Sie eine an.",
             "Der Assistent zeigt eine Animation *„Ihr Brief wird geschrieben…“* und präsentiert anschließend einen vorgeschlagenen Betreff und Textkörper.",
             "Tippen Sie auf **Übernehmen**, um den Vorschlag in Ihren Editor zu übernehmen, oder auf **Abbrechen**, um Ihren bisherigen Text zu behalten.",
           ],
+        },
+        {
+          type: "p",
+          text: "**Die Optionen.** Jede Option ist eine Karte mit Symbol, Namen und einer einzeiligen Beschreibung. Ein Tippen startet die Anfrage sofort — es gibt keine zusätzliche Bestätigung. Wählen Sie also die Option, die zu Ihrem Vorhaben passt:",
+        },
+        {
+          type: "table",
+          head: ["Option", "Was sie bewirkt"],
+          rows: [
+            ["**Verbessern**", "Struktur, Klarheit und Ton verfeinern und die Absicht bewahren."],
+            [
+              "**Rechtschreibung & Grammatik**",
+              "Nur Rechtschreibung, Grammatik und Zeichensetzung korrigieren.",
+            ],
+            ["**Kürzer**", "Prägnanter machen, ohne Wesentliches zu verlieren."],
+            ["**Länger**", "Mit passenden Details und Ausführungen erweitern."],
+            ["**Vereinfachen**", "Einfache, leicht verständliche Sprache verwenden."],
+            ["**Förmlicher**", "In einem förmlichen, professionellen Ton umschreiben."],
+            ["**Freundlicher**", "In einem warmen, freundlichen Ton umschreiben."],
+            ["**Direkter**", "Umschweife und Füllwörter entfernen, klar und direkt."],
+            ["**Für mich schreiben**", "Aus Ihren Notizen einen vollständigen Brief verfassen."],
+          ],
+        },
+        {
+          type: "tip",
+          text: "Sie fangen bei null an? Notieren Sie ein paar Stichpunkte und wählen Sie **Für mich schreiben**. Der Inhalt steht schon und soll nur poliert werden? **Rechtschreibung & Grammatik** ändert am wenigsten, **Verbessern** ist der gute Allrounder, und die Ton-Optionen (*Förmlicher*, *Freundlicher*, *Direkter*) formulieren um, ohne die Aussage zu verändern.",
+        },
+        {
+          type: "note",
+          text: "Jede Option arbeitet mit dem gesamten Brief — Betreff und Text zusammen — und antwortet immer in der Sprache des Briefs. Das Ergebnis ersetzt beim Tippen auf **Übernehmen** beide Felder. Wenn Sie also nur einen Teil behalten möchten, kopieren Sie ihn vorher heraus. Sie können den Assistenten beliebig oft erneut starten und jedes Mal eine andere Option wählen.",
         },
       ],
     },

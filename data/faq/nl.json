@@ -139,6 +139,10 @@
           "answer": "Tik op het upgradescherm op Aankopen herstellen. Zorg ervoor dat je bent aangemeld met hetzelfde app store-account (Apple ID of Google-account) dat je bij de oorspronkelijke aankoop hebt gebruikt, dan worden je PRO-functies weer geactiveerd."
         },
         {
+          "question": "Kan ik mijn aankoop of abonnement van Apple naar Android overzetten, of andersom?",
+          "answer": "Nee, en daar is een goede reden voor. Apple en Google hebben volledig gescheiden stores, en elke store regelt zijn eigen facturering. Er is simpelweg geen manier om een abonnement of eenmalige aankoop van de App Store naar Google Play (of omgekeerd) over te zetten. Als je van platform wisselt, zeg dan het abonnement in de oude store op zodat je niets meer betaalt, en neem op je nieuwe apparaat opnieuw een abonnement. Je brieven blijven ongemoeid — alleen het PRO-abonnement is gekoppeld aan de store waar je het hebt gekocht. 😉"
+        },
+        {
           "question": "Hoe zeg ik mijn PRO-abonnement op?",
           "answer": "Abonnementen worden beheerd door de appstore waar je ze hebt gekocht, niet in de Brieven App zelf. Je zegt ze dus op via je storeaccount. Schakel automatische verlenging uit, dan behoud je PRO tot het einde van de huidige factureringsperiode. Raadpleeg de helppagina van je store voor stapsgewijze instructies:",
           "links": [

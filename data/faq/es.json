@@ -139,6 +139,10 @@
           "answer": "En la pantalla de mejora, pulsa Restaurar compras. Asegúrate de haber iniciado sesión con la misma cuenta de la tienda de aplicaciones (Apple ID o cuenta de Google) que utilizaste para la compra original, y tus funciones PRO se reactivarán."
         },
         {
+          "question": "¿Puedo transferir mi compra o suscripción de Apple a Android, o al revés?",
+          "answer": "No, y hay una buena razón. Apple y Google gestionan tiendas completamente independientes, y cada una se encarga de su propia facturación. Sencillamente no existe forma de trasladar una suscripción o una compra única de la App Store a Google Play, ni a la inversa. Si cambias de plataforma, cancela la suscripción en la tienda anterior para que deje de cobrarte y vuelve a suscribirte en tu nuevo dispositivo. Tus cartas no se ven afectadas: solo la suscripción PRO está vinculada a la tienda donde la compraste. 😉"
+        },
+        {
           "question": "¿Cómo cancelo mi suscripción PRO?",
           "answer": "Las suscripciones las gestiona la tienda de aplicaciones a través de la cual realizaste la compra, no la propia aplicación Cartas, así que debes cancelarlas en tu cuenta de la tienda. Desactiva la renovación automática y conservarás PRO hasta el final del periodo de facturación actual. Consulta la página de ayuda de tu tienda para ver las instrucciones paso a paso:",
           "links": [
