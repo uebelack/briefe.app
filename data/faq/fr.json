@@ -19,22 +19,22 @@
           "question": "Quelles sont les principales caractéristiques de l'application Lettre?",
           "answer": "L'application Lettre offre les fonctionnalités suivantes :",
           "items": [
-            "Auto Format: Automatically formats your letters professionally.",
-            "Print: Easily print your letters directly from the app.",
-            "Share & Export: Share letters digitally or export them as PDF files.",
-            "Search: Quickly find previously composed letters.",
-            "Storage: Sync your letters across devices using iCloud."
+            "Mise en forme automatique : met automatiquement vos lettres en forme de manière professionnelle.",
+            "Imprimer : imprimez vos lettres directement depuis l'application.",
+            "Partager et exporter : partagez vos lettres numériquement ou exportez-les en fichiers PDF.",
+            "Rechercher : retrouvez rapidement les lettres déjà rédigées.",
+            "Stockage : synchronisez vos lettres entre vos appareils via iCloud."
           ]
         },
         {
           "question": "Quelles sont les fonctionnalités supplémentaires disponibles dans la version PRO de l'application Lettre?",
           "answer": "La version PRO comprend les améliorations suivantes :",
           "items": [
-            "Signatures: Add personal signatures directly within the app.",
-            "Sender: Enter your sender information once for convenience.",
-            "Contacts: Easily incorporate contact addresses from your address book.",
-            "Templates: Access a wide range of templates for various occasions.",
-            "Layout: Customize the layout of your letters to suit your specific needs."
+            "Signatures : ajoutez des signatures personnelles directement dans l'application.",
+            "Expéditeur : saisissez vos informations d'expéditeur une seule fois.",
+            "Contacts : reprenez facilement les adresses de votre carnet d'adresses.",
+            "Modèles : accédez à des modèles pour toutes les occasions.",
+            "Mise en page : personnalisez la mise en page de vos lettres selon vos besoins."
           ]
         },
         {
@@ -84,7 +84,7 @@
         },
         {
           "question": "Comment puis-je ajouter un tableau à une lettre?",
-          "answer": "Les tableaux ne sont malheureusement pas encore pris en charge par l'application Lettre. L'objectif de l'application est de vous permettre de rédiger rapidement et simplement des lettres parfaitement mises en forme : elle n'a pas vocation à remplacer un traitement de texte complet comme Word, Google Docs ou Pages. Nous savons que c'est peu pratique pour les factures comportant des colonnes de chiffres, et nous notons volontiers votre demande pour la suite du développement."
+          "answer": "Les tableaux ne sont malheureusement pas encore pris en charge par l'application Lettre. L'objectif de l'application est de vous permettre de rédiger rapidement et simplement des lettres parfaitement mises en forme : elle n'a pas vocation à remplacer un traitement de texte complet comme Word, Google Docs ou Pages."
         },
         {
           "question": "Comment fonctionne l'assistant de rédaction IA?",

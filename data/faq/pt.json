@@ -19,22 +19,22 @@
           "question": "Quais são as principais características da aplicação Carta?",
           "answer": "A aplicação Carta oferece as seguintes funcionalidades:",
           "items": [
-            "Auto Format: Automatically formats your letters professionally.",
-            "Print: Easily print your letters directly from the app.",
-            "Share & Export: Share letters digitally or export them as PDF files.",
-            "Search: Quickly find previously composed letters.",
-            "Storage: Sync your letters across devices using iCloud."
+            "Formatação automática: formata as suas cartas automaticamente de forma profissional.",
+            "Imprimir: imprima as suas cartas diretamente a partir da aplicação.",
+            "Partilhar e exportar: partilhe as cartas digitalmente ou exporte-as como ficheiros PDF.",
+            "Pesquisar: encontre rapidamente cartas escritas anteriormente.",
+            "Armazenamento: sincronize as suas cartas entre dispositivos através do iCloud."
           ]
         },
         {
           "question": "Que funcionalidades adicionais estão disponíveis na versão PRO da aplicação Carta?",
           "answer": "A versão PRO inclui as seguintes melhorias:",
           "items": [
-            "Signatures: Add personal signatures directly within the app.",
-            "Sender: Enter your sender information once for convenience.",
-            "Contacts: Easily incorporate contact addresses from your address book.",
-            "Templates: Access a wide range of templates for various occasions.",
-            "Layout: Customize the layout of your letters to suit your specific needs."
+            "Assinaturas: junte assinaturas pessoais diretamente na aplicação.",
+            "Remetente: introduza a sua informação de remetente uma só vez.",
+            "Contactos: utilize facilmente endereços da sua agenda de contactos.",
+            "Modelos: aceda a modelos para diversas ocasiões.",
+            "Esquema: personalize o esquema das suas cartas conforme as suas necessidades."
           ]
         },
         {
@@ -84,7 +84,7 @@
         },
         {
           "question": "Como posso adicionar uma tabela a uma carta?",
-          "answer": "De momento, as tabelas não são suportadas pela aplicação Carta. O objetivo da aplicação é permitir-lhe criar cartas perfeitamente formatadas de forma rápida e simples — não pretende substituir um processador de texto completo como o Word, o Google Docs ou o Pages. Sabemos que isso é pouco prático em faturas com colunas de valores e registamos com todo o gosto a sua sugestão para o desenvolvimento futuro."
+          "answer": "De momento, as tabelas não são suportadas pela aplicação Carta. O objetivo da aplicação é permitir-lhe criar cartas perfeitamente formatadas de forma rápida e simples — não pretende substituir um processador de texto completo como o Word, o Google Docs ou o Pages."
         },
         {
           "question": "Como funciona o assistente de escrita com IA?",

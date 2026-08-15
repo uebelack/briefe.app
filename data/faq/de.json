@@ -19,22 +19,22 @@
           "question": "Was sind die wichtigsten Funktionen von der Briefe App?",
           "answer": "Die Briefe App bietet die folgenden Funktionen:",
           "items": [
-            "Auto Format: Automatically formats your letters professionally.",
-            "Print: Easily print your letters directly from the app.",
-            "Share & Export: Share letters digitally or export them as PDF files.",
-            "Search: Quickly find previously composed letters.",
-            "Storage: Sync your letters across devices using iCloud."
+            "Auto-Format: formatiert Ihre Briefe automatisch professionell.",
+            "Drucken: Briefe direkt aus der App ausdrucken.",
+            "Teilen & Exportieren: Briefe digital weitergeben oder als PDF-Dateien exportieren.",
+            "Suche: bereits verfasste Briefe schnell wiederfinden.",
+            "Speicherung: Briefe über iCloud geräteübergreifend synchronisieren."
           ]
         },
         {
           "question": "Welche zusätzlichen Funktionen sind in der PRO-Version von der Briefe App verfügbar?",
           "answer": "Die PRO-Version enthält die folgenden Erweiterungen:",
           "items": [
-            "Signatures: Add personal signatures directly within the app.",
-            "Sender: Enter your sender information once for convenience.",
-            "Contacts: Easily incorporate contact addresses from your address book.",
-            "Templates: Access a wide range of templates for various occasions.",
-            "Layout: Customize the layout of your letters to suit your specific needs."
+            "Unterschriften: handschriftliche/persönliche Unterschriften direkt in der App hinzufügen.",
+            "Absender: Absenderdaten einmal eingeben und wiederverwenden.",
+            "Kontakte: Adressen aus Ihrem Adressbuch übernehmen.",
+            "Vorlagen: wiederverwendbare Briefe für jeden Anlass.",
+            "Layout: das Aussehen Ihrer Briefe an Ihre Bedürfnisse anpassen."
           ]
         },
         {
@@ -84,7 +84,7 @@
         },
         {
           "question": "Wie kann ich eine Tabelle in einen Brief einfügen?",
-          "answer": "Tabellen werden von der Briefe App aktuell leider nicht unterstützt. Das Ziel von Briefe ist es, schnell und einfach perfekt formatierte Briefe zu erstellen – die App soll und will keine vollwertige Textverarbeitung wie Word, Google Docs oder Pages ersetzen. Wir verstehen, dass das bei Rechnungen mit Zahlenkolonnen unpraktisch ist, und nehmen Ihren Wunsch gerne als Anregung für die weitere Entwicklung auf."
+          "answer": "Tabellen werden von der Briefe App aktuell leider nicht unterstützt. Das Ziel von Briefe ist es, schnell und einfach perfekt formatierte Briefe zu erstellen – die App soll und will keine vollwertige Textverarbeitung wie Word, Google Docs oder Pages ersetzen."
         },
         {
           "question": "Wie funktioniert der KI-Schreibassistent?",

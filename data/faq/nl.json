@@ -19,22 +19,22 @@
           "question": "Wat zijn de belangrijkste functies van de Brieven App?",
           "answer": "De Brieven App biedt de volgende functies:",
           "items": [
-            "Auto Format: Automatically formats your letters professionally.",
-            "Print: Easily print your letters directly from the app.",
-            "Share & Export: Share letters digitally or export them as PDF files.",
-            "Search: Quickly find previously composed letters.",
-            "Storage: Sync your letters across devices using iCloud."
+            "Automatische opmaak: maakt je brieven automatisch professioneel op.",
+            "Printen: print je brieven rechtstreeks vanuit de app.",
+            "Delen en exporteren: deel brieven digitaal of exporteer ze als PDF-bestanden.",
+            "Zoeken: vind eerder geschreven brieven snel terug.",
+            "Opslag: synchroniseer je brieven tussen apparaten via iCloud."
           ]
         },
         {
           "question": "Welke extra functies zijn beschikbaar in de PRO-versie van de Brieven App?",
           "answer": "De PRO-versie bevat de volgende verbeteringen:",
           "items": [
-            "Signatures: Add personal signatures directly within the app.",
-            "Sender: Enter your sender information once for convenience.",
-            "Contacts: Easily incorporate contact addresses from your address book.",
-            "Templates: Access a wide range of templates for various occasions.",
-            "Layout: Customize the layout of your letters to suit your specific needs."
+            "Handtekeningen: voeg persoonlijke handtekeningen rechtstreeks in de app toe.",
+            "Afzender: voer je afzendergegevens één keer in.",
+            "Contacten: neem eenvoudig adressen uit je adresboek over.",
+            "Sjablonen: gebruik sjablonen voor uiteenlopende gelegenheden.",
+            "Lay-out: pas de lay-out van je brieven aan je wensen aan."
           ]
         },
         {
@@ -84,7 +84,7 @@
         },
         {
           "question": "Hoe kan ik een tabel aan een brief toevoegen?",
-          "answer": "Tabellen worden op dit moment helaas niet ondersteund door de Brieven App. Het doel van de app is om snel en eenvoudig perfect opgemaakte brieven te maken — de app wil geen volwaardige tekstverwerker zoals Word, Google Docs of Pages vervangen. We begrijpen dat dit onhandig is bij facturen met kolommen met bedragen en nemen uw wens graag mee in de verdere ontwikkeling."
+          "answer": "Tabellen worden op dit moment helaas niet ondersteund door de Brieven App. Het doel van de app is om snel en eenvoudig perfect opgemaakte brieven te maken — de app wil geen volwaardige tekstverwerker zoals Word, Google Docs of Pages vervangen."
         },
         {
           "question": "Hoe werkt de AI-schrijfassistent?",
