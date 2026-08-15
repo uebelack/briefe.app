@@ -83,6 +83,10 @@
           "answer": "Markieren Sie im Editor den Text, den Sie ändern möchten, und tippen Sie in der Formatierungsleiste auf die Schaltfläche Fett, Kursiv oder Unterstrichen. Wenn Sie eine Hardware-Tastatur verwenden, können Sie auch Strg + B, Strg + I und Strg + U nutzen. Möchten Sie lieber einen schlichten Brief ganz ohne Formatierung? Aktivieren Sie in den Briefeinstellungen die Option Nur Text. (Die Rich-Text-Formatierung ist eine PRO-Funktion.)"
         },
         {
+          "question": "Wie kann ich eine Tabelle in einen Brief einfügen?",
+          "answer": "Tabellen werden von der Briefe App aktuell leider nicht unterstützt. Das Ziel von Briefe ist es, schnell und einfach perfekt formatierte Briefe zu erstellen – die App soll und will keine vollwertige Textverarbeitung wie Word, Google Docs oder Pages ersetzen. Wir verstehen, dass das bei Rechnungen mit Zahlenkolonnen unpraktisch ist, und nehmen Ihren Wunsch gerne als Anregung für die weitere Entwicklung auf."
+        },
+        {
           "question": "Wie funktioniert der KI-Schreibassistent?",
           "answer": "Geben Sie eine kurze Notiz dazu ein, was Sie sagen möchten, und tippen Sie im Editor auf die Schaltfläche mit dem Funkeln (✨). Beim ersten Mal werden Sie gebeten, der Datenverarbeitung zuzustimmen, da Ihr Betreff und Ihre Nachricht zur Erstellung eines Entwurfs an einen KI-Dienst gesendet werden. Der Assistent schlägt Ihnen dann einen Betreff und einen Textkörper vor – tippen Sie auf Übernehmen, um ihn in Ihren Brief einzufügen, oder auf Abbrechen, um Ihren bisherigen Text beizubehalten. (Der KI-Assistent ist eine PRO-Funktion und ist möglicherweise nicht überall verfügbar.)"
         },

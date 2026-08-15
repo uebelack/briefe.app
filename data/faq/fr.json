@@ -83,6 +83,10 @@
           "answer": "Dans l'éditeur, sélectionnez le texte que vous souhaitez modifier et appuyez sur le bouton Gras, Italique ou Souligné dans la barre d'outils de mise en forme. Si vous disposez d'un clavier physique, vous pouvez également utiliser Ctrl + B, Ctrl + I et Ctrl + U. Vous préférez une lettre sans aucune mise en forme? Activez l'option Texte seul dans les paramètres de la lettre. (La mise en forme du texte enrichi est une fonction PRO.)"
         },
         {
+          "question": "Comment puis-je ajouter un tableau à une lettre?",
+          "answer": "Les tableaux ne sont malheureusement pas encore pris en charge par l'application Lettre. L'objectif de l'application est de vous permettre de rédiger rapidement et simplement des lettres parfaitement mises en forme : elle n'a pas vocation à remplacer un traitement de texte complet comme Word, Google Docs ou Pages. Nous savons que c'est peu pratique pour les factures comportant des colonnes de chiffres, et nous notons volontiers votre demande pour la suite du développement."
+        },
+        {
           "question": "Comment fonctionne l'assistant de rédaction IA?",
           "answer": "Saisissez une brève note sur ce que vous souhaitez exprimer, puis appuyez sur le bouton étincelle (✨) dans l'éditeur. La première fois, il vous sera demandé d'accepter le traitement des données, car votre sujet et votre message sont envoyés à un service d'IA pour générer un brouillon. L'assistant vous propose ensuite un objet et un corps de texte — appuyez sur Utiliser pour l'insérer dans votre lettre, ou sur Annuler pour conserver ce que vous aviez. (L'assistant IA est une fonction PRO et peut ne pas être disponible partout.)"
         },

@@ -11,1279 +11,2151 @@ exports[`<Help/> should render 1`] = `
       <div
         class="md:container px-4"
       >
-        <h1
-          class="text-3xl font-bold mb-8"
-        >
-          Frequently asked questions
-        </h1>
         <div
-          class="mb-8"
+          class="page-hero"
         >
-          <h2
-            class="text-2xl font-semibold mb-4"
+          <h1
+            class="page-hero__title"
           >
-            General Questions
-          </h2>
-          <div
-            class="flex flex-col w-full"
-            data-orientation="vertical"
-            data-slot="accordion"
-          >
-            <div
-              class="not-last:border-b"
-              data-orientation="vertical"
-              data-slot="accordion-item"
-              data-state="closed"
-            >
-              <h3
-                class="flex"
-                data-orientation="vertical"
-                data-state="closed"
-              >
-                <button
-                  aria-expanded="false"
-                  class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground text-left"
-                  data-orientation="vertical"
-                  data-radix-collection-item=""
-                  data-slot="accordion-trigger"
-                  data-state="closed"
-                  id="radix-_r_0_"
-                  type="button"
-                >
-                  What is The Letter App?
-                  <svg
-                    aria-hidden="true"
-                    class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
-                    data-slot="accordion-trigger-icon"
-                    fill="none"
-                    height="24"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="m6 9 6 6 6-6"
-                    />
-                  </svg>
-                  <svg
-                    aria-hidden="true"
-                    class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
-                    data-slot="accordion-trigger-icon"
-                    fill="none"
-                    height="24"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="m18 15-6-6-6 6"
-                    />
-                  </svg>
-                </button>
-              </h3>
-              <div
-                aria-labelledby="radix-_r_0_"
-                class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
-                data-orientation="vertical"
-                data-slot="accordion-content"
-                data-state="closed"
-                hidden=""
-                id="radix-_r_1_"
-                role="region"
-                style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
-              />
-            </div>
-            <div
-              class="not-last:border-b"
-              data-orientation="vertical"
-              data-slot="accordion-item"
-              data-state="closed"
-            >
-              <h3
-                class="flex"
-                data-orientation="vertical"
-                data-state="closed"
-              >
-                <button
-                  aria-expanded="false"
-                  class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground text-left"
-                  data-orientation="vertical"
-                  data-radix-collection-item=""
-                  data-slot="accordion-trigger"
-                  data-state="closed"
-                  id="radix-_r_2_"
-                  type="button"
-                >
-                  Why should I use The Letter App?
-                  <svg
-                    aria-hidden="true"
-                    class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
-                    data-slot="accordion-trigger-icon"
-                    fill="none"
-                    height="24"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="m6 9 6 6 6-6"
-                    />
-                  </svg>
-                  <svg
-                    aria-hidden="true"
-                    class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
-                    data-slot="accordion-trigger-icon"
-                    fill="none"
-                    height="24"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="m18 15-6-6-6 6"
-                    />
-                  </svg>
-                </button>
-              </h3>
-              <div
-                aria-labelledby="radix-_r_2_"
-                class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
-                data-orientation="vertical"
-                data-slot="accordion-content"
-                data-state="closed"
-                hidden=""
-                id="radix-_r_3_"
-                role="region"
-                style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
-              />
-            </div>
-            <div
-              class="not-last:border-b"
-              data-orientation="vertical"
-              data-slot="accordion-item"
-              data-state="closed"
-            >
-              <h3
-                class="flex"
-                data-orientation="vertical"
-                data-state="closed"
-              >
-                <button
-                  aria-expanded="false"
-                  class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground text-left"
-                  data-orientation="vertical"
-                  data-radix-collection-item=""
-                  data-slot="accordion-trigger"
-                  data-state="closed"
-                  id="radix-_r_4_"
-                  type="button"
-                >
-                  On which devices can I use The Letter App?
-                  <svg
-                    aria-hidden="true"
-                    class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
-                    data-slot="accordion-trigger-icon"
-                    fill="none"
-                    height="24"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="m6 9 6 6 6-6"
-                    />
-                  </svg>
-                  <svg
-                    aria-hidden="true"
-                    class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
-                    data-slot="accordion-trigger-icon"
-                    fill="none"
-                    height="24"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="m18 15-6-6-6 6"
-                    />
-                  </svg>
-                </button>
-              </h3>
-              <div
-                aria-labelledby="radix-_r_4_"
-                class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
-                data-orientation="vertical"
-                data-slot="accordion-content"
-                data-state="closed"
-                hidden=""
-                id="radix-_r_5_"
-                role="region"
-                style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
-              />
-            </div>
-            <div
-              class="not-last:border-b"
-              data-orientation="vertical"
-              data-slot="accordion-item"
-              data-state="closed"
-            >
-              <h3
-                class="flex"
-                data-orientation="vertical"
-                data-state="closed"
-              >
-                <button
-                  aria-expanded="false"
-                  class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground text-left"
-                  data-orientation="vertical"
-                  data-radix-collection-item=""
-                  data-slot="accordion-trigger"
-                  data-state="closed"
-                  id="radix-_r_6_"
-                  type="button"
-                >
-                  What are the key features of The Letter App?
-                  <svg
-                    aria-hidden="true"
-                    class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
-                    data-slot="accordion-trigger-icon"
-                    fill="none"
-                    height="24"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="m6 9 6 6 6-6"
-                    />
-                  </svg>
-                  <svg
-                    aria-hidden="true"
-                    class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
-                    data-slot="accordion-trigger-icon"
-                    fill="none"
-                    height="24"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="m18 15-6-6-6 6"
-                    />
-                  </svg>
-                </button>
-              </h3>
-              <div
-                aria-labelledby="radix-_r_6_"
-                class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
-                data-orientation="vertical"
-                data-slot="accordion-content"
-                data-state="closed"
-                hidden=""
-                id="radix-_r_7_"
-                role="region"
-                style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
-              />
-            </div>
-            <div
-              class="not-last:border-b"
-              data-orientation="vertical"
-              data-slot="accordion-item"
-              data-state="closed"
-            >
-              <h3
-                class="flex"
-                data-orientation="vertical"
-                data-state="closed"
-              >
-                <button
-                  aria-expanded="false"
-                  class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground text-left"
-                  data-orientation="vertical"
-                  data-radix-collection-item=""
-                  data-slot="accordion-trigger"
-                  data-state="closed"
-                  id="radix-_r_8_"
-                  type="button"
-                >
-                  What additional features are available in the PRO version of The Letter App?
-                  <svg
-                    aria-hidden="true"
-                    class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
-                    data-slot="accordion-trigger-icon"
-                    fill="none"
-                    height="24"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="m6 9 6 6 6-6"
-                    />
-                  </svg>
-                  <svg
-                    aria-hidden="true"
-                    class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
-                    data-slot="accordion-trigger-icon"
-                    fill="none"
-                    height="24"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="m18 15-6-6-6 6"
-                    />
-                  </svg>
-                </button>
-              </h3>
-              <div
-                aria-labelledby="radix-_r_8_"
-                class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
-                data-orientation="vertical"
-                data-slot="accordion-content"
-                data-state="closed"
-                hidden=""
-                id="radix-_r_9_"
-                role="region"
-                style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
-              />
-            </div>
-            <div
-              class="not-last:border-b"
-              data-orientation="vertical"
-              data-slot="accordion-item"
-              data-state="closed"
-            >
-              <h3
-                class="flex"
-                data-orientation="vertical"
-                data-state="closed"
-              >
-                <button
-                  aria-expanded="false"
-                  class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground text-left"
-                  data-orientation="vertical"
-                  data-radix-collection-item=""
-                  data-slot="accordion-trigger"
-                  data-state="closed"
-                  id="radix-_r_a_"
-                  type="button"
-                >
-                  How do I create and format a letter using The Letter App?
-                  <svg
-                    aria-hidden="true"
-                    class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
-                    data-slot="accordion-trigger-icon"
-                    fill="none"
-                    height="24"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="m6 9 6 6 6-6"
-                    />
-                  </svg>
-                  <svg
-                    aria-hidden="true"
-                    class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
-                    data-slot="accordion-trigger-icon"
-                    fill="none"
-                    height="24"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="m18 15-6-6-6 6"
-                    />
-                  </svg>
-                </button>
-              </h3>
-              <div
-                aria-labelledby="radix-_r_a_"
-                class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
-                data-orientation="vertical"
-                data-slot="accordion-content"
-                data-state="closed"
-                hidden=""
-                id="radix-_r_b_"
-                role="region"
-                style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
-              />
-            </div>
-            <div
-              class="not-last:border-b"
-              data-orientation="vertical"
-              data-slot="accordion-item"
-              data-state="closed"
-            >
-              <h3
-                class="flex"
-                data-orientation="vertical"
-                data-state="closed"
-              >
-                <button
-                  aria-expanded="false"
-                  class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground text-left"
-                  data-orientation="vertical"
-                  data-radix-collection-item=""
-                  data-slot="accordion-trigger"
-                  data-state="closed"
-                  id="radix-_r_c_"
-                  type="button"
-                >
-                  Can I print letters directly from The Letter App?
-                  <svg
-                    aria-hidden="true"
-                    class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
-                    data-slot="accordion-trigger-icon"
-                    fill="none"
-                    height="24"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="m6 9 6 6 6-6"
-                    />
-                  </svg>
-                  <svg
-                    aria-hidden="true"
-                    class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
-                    data-slot="accordion-trigger-icon"
-                    fill="none"
-                    height="24"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="m18 15-6-6-6 6"
-                    />
-                  </svg>
-                </button>
-              </h3>
-              <div
-                aria-labelledby="radix-_r_c_"
-                class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
-                data-orientation="vertical"
-                data-slot="accordion-content"
-                data-state="closed"
-                hidden=""
-                id="radix-_r_d_"
-                role="region"
-                style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
-              />
-            </div>
-            <div
-              class="not-last:border-b"
-              data-orientation="vertical"
-              data-slot="accordion-item"
-              data-state="closed"
-            >
-              <h3
-                class="flex"
-                data-orientation="vertical"
-                data-state="closed"
-              >
-                <button
-                  aria-expanded="false"
-                  class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground text-left"
-                  data-orientation="vertical"
-                  data-radix-collection-item=""
-                  data-slot="accordion-trigger"
-                  data-state="closed"
-                  id="radix-_r_e_"
-                  type="button"
-                >
-                  Can I share my letters digitally with others?
-                  <svg
-                    aria-hidden="true"
-                    class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
-                    data-slot="accordion-trigger-icon"
-                    fill="none"
-                    height="24"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="m6 9 6 6 6-6"
-                    />
-                  </svg>
-                  <svg
-                    aria-hidden="true"
-                    class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
-                    data-slot="accordion-trigger-icon"
-                    fill="none"
-                    height="24"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="m18 15-6-6-6 6"
-                    />
-                  </svg>
-                </button>
-              </h3>
-              <div
-                aria-labelledby="radix-_r_e_"
-                class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
-                data-orientation="vertical"
-                data-slot="accordion-content"
-                data-state="closed"
-                hidden=""
-                id="radix-_r_f_"
-                role="region"
-                style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
-              />
-            </div>
-            <div
-              class="not-last:border-b"
-              data-orientation="vertical"
-              data-slot="accordion-item"
-              data-state="closed"
-            >
-              <h3
-                class="flex"
-                data-orientation="vertical"
-                data-state="closed"
-              >
-                <button
-                  aria-expanded="false"
-                  class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground text-left"
-                  data-orientation="vertical"
-                  data-radix-collection-item=""
-                  data-slot="accordion-trigger"
-                  data-state="closed"
-                  id="radix-_r_g_"
-                  type="button"
-                >
-                  Are my letters stored securely?
-                  <svg
-                    aria-hidden="true"
-                    class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
-                    data-slot="accordion-trigger-icon"
-                    fill="none"
-                    height="24"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="m6 9 6 6 6-6"
-                    />
-                  </svg>
-                  <svg
-                    aria-hidden="true"
-                    class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
-                    data-slot="accordion-trigger-icon"
-                    fill="none"
-                    height="24"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="m18 15-6-6-6 6"
-                    />
-                  </svg>
-                </button>
-              </h3>
-              <div
-                aria-labelledby="radix-_r_g_"
-                class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
-                data-orientation="vertical"
-                data-slot="accordion-content"
-                data-state="closed"
-                hidden=""
-                id="radix-_r_h_"
-                role="region"
-                style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
-              />
-            </div>
-            <div
-              class="not-last:border-b"
-              data-orientation="vertical"
-              data-slot="accordion-item"
-              data-state="closed"
-            >
-              <h3
-                class="flex"
-                data-orientation="vertical"
-                data-state="closed"
-              >
-                <button
-                  aria-expanded="false"
-                  class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground text-left"
-                  data-orientation="vertical"
-                  data-radix-collection-item=""
-                  data-slot="accordion-trigger"
-                  data-state="closed"
-                  id="radix-_r_i_"
-                  type="button"
-                >
-                  Can I access previously composed letters quickly?
-                  <svg
-                    aria-hidden="true"
-                    class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
-                    data-slot="accordion-trigger-icon"
-                    fill="none"
-                    height="24"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="m6 9 6 6 6-6"
-                    />
-                  </svg>
-                  <svg
-                    aria-hidden="true"
-                    class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
-                    data-slot="accordion-trigger-icon"
-                    fill="none"
-                    height="24"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="m18 15-6-6-6 6"
-                    />
-                  </svg>
-                </button>
-              </h3>
-              <div
-                aria-labelledby="radix-_r_i_"
-                class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
-                data-orientation="vertical"
-                data-slot="accordion-content"
-                data-state="closed"
-                hidden=""
-                id="radix-_r_j_"
-                role="region"
-                style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
-              />
-            </div>
-          </div>
+            Frequently asked questions
+          </h1>
         </div>
         <div
-          class="mb-8"
+          class="faq"
         >
-          <h2
-            class="text-2xl font-semibold mb-4"
+          <section
+            class="faq-category"
           >
-            Subscription and Pricing
-          </h2>
-          <div
-            class="flex flex-col w-full"
-            data-orientation="vertical"
-            data-slot="accordion"
+            <h2
+              class="faq-category__title"
+            >
+              General Questions
+            </h2>
+            <div
+              class="flex w-full flex-col faq-list"
+              data-orientation="vertical"
+              data-slot="accordion"
+            >
+              <div
+                class="not-last:border-b faq-item"
+                data-orientation="vertical"
+                data-slot="accordion-item"
+                data-state="closed"
+              >
+                <h3
+                  class="flex"
+                  data-orientation="vertical"
+                  data-state="closed"
+                >
+                  <button
+                    aria-expanded="false"
+                    class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground faq-question"
+                    data-orientation="vertical"
+                    data-radix-collection-item=""
+                    data-slot="accordion-trigger"
+                    data-state="closed"
+                    id="radix-_r_0_"
+                    type="button"
+                  >
+                    What is The Letter App?
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m18 15-6-6-6 6"
+                      />
+                    </svg>
+                  </button>
+                </h3>
+                <div
+                  aria-labelledby="radix-_r_0_"
+                  class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                  data-orientation="vertical"
+                  data-slot="accordion-content"
+                  data-state="closed"
+                  hidden=""
+                  id="radix-_r_1_"
+                  role="region"
+                  style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+                />
+              </div>
+              <div
+                class="not-last:border-b faq-item"
+                data-orientation="vertical"
+                data-slot="accordion-item"
+                data-state="closed"
+              >
+                <h3
+                  class="flex"
+                  data-orientation="vertical"
+                  data-state="closed"
+                >
+                  <button
+                    aria-expanded="false"
+                    class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground faq-question"
+                    data-orientation="vertical"
+                    data-radix-collection-item=""
+                    data-slot="accordion-trigger"
+                    data-state="closed"
+                    id="radix-_r_2_"
+                    type="button"
+                  >
+                    Why should I use The Letter App?
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m18 15-6-6-6 6"
+                      />
+                    </svg>
+                  </button>
+                </h3>
+                <div
+                  aria-labelledby="radix-_r_2_"
+                  class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                  data-orientation="vertical"
+                  data-slot="accordion-content"
+                  data-state="closed"
+                  hidden=""
+                  id="radix-_r_3_"
+                  role="region"
+                  style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+                />
+              </div>
+              <div
+                class="not-last:border-b faq-item"
+                data-orientation="vertical"
+                data-slot="accordion-item"
+                data-state="closed"
+              >
+                <h3
+                  class="flex"
+                  data-orientation="vertical"
+                  data-state="closed"
+                >
+                  <button
+                    aria-expanded="false"
+                    class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground faq-question"
+                    data-orientation="vertical"
+                    data-radix-collection-item=""
+                    data-slot="accordion-trigger"
+                    data-state="closed"
+                    id="radix-_r_4_"
+                    type="button"
+                  >
+                    On which devices can I use The Letter App?
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m18 15-6-6-6 6"
+                      />
+                    </svg>
+                  </button>
+                </h3>
+                <div
+                  aria-labelledby="radix-_r_4_"
+                  class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                  data-orientation="vertical"
+                  data-slot="accordion-content"
+                  data-state="closed"
+                  hidden=""
+                  id="radix-_r_5_"
+                  role="region"
+                  style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+                />
+              </div>
+              <div
+                class="not-last:border-b faq-item"
+                data-orientation="vertical"
+                data-slot="accordion-item"
+                data-state="closed"
+              >
+                <h3
+                  class="flex"
+                  data-orientation="vertical"
+                  data-state="closed"
+                >
+                  <button
+                    aria-expanded="false"
+                    class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground faq-question"
+                    data-orientation="vertical"
+                    data-radix-collection-item=""
+                    data-slot="accordion-trigger"
+                    data-state="closed"
+                    id="radix-_r_6_"
+                    type="button"
+                  >
+                    What are the key features of The Letter App?
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m18 15-6-6-6 6"
+                      />
+                    </svg>
+                  </button>
+                </h3>
+                <div
+                  aria-labelledby="radix-_r_6_"
+                  class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                  data-orientation="vertical"
+                  data-slot="accordion-content"
+                  data-state="closed"
+                  hidden=""
+                  id="radix-_r_7_"
+                  role="region"
+                  style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+                />
+              </div>
+              <div
+                class="not-last:border-b faq-item"
+                data-orientation="vertical"
+                data-slot="accordion-item"
+                data-state="closed"
+              >
+                <h3
+                  class="flex"
+                  data-orientation="vertical"
+                  data-state="closed"
+                >
+                  <button
+                    aria-expanded="false"
+                    class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground faq-question"
+                    data-orientation="vertical"
+                    data-radix-collection-item=""
+                    data-slot="accordion-trigger"
+                    data-state="closed"
+                    id="radix-_r_8_"
+                    type="button"
+                  >
+                    What additional features are available in the PRO version of The Letter App?
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m18 15-6-6-6 6"
+                      />
+                    </svg>
+                  </button>
+                </h3>
+                <div
+                  aria-labelledby="radix-_r_8_"
+                  class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                  data-orientation="vertical"
+                  data-slot="accordion-content"
+                  data-state="closed"
+                  hidden=""
+                  id="radix-_r_9_"
+                  role="region"
+                  style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+                />
+              </div>
+              <div
+                class="not-last:border-b faq-item"
+                data-orientation="vertical"
+                data-slot="accordion-item"
+                data-state="closed"
+              >
+                <h3
+                  class="flex"
+                  data-orientation="vertical"
+                  data-state="closed"
+                >
+                  <button
+                    aria-expanded="false"
+                    class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground faq-question"
+                    data-orientation="vertical"
+                    data-radix-collection-item=""
+                    data-slot="accordion-trigger"
+                    data-state="closed"
+                    id="radix-_r_a_"
+                    type="button"
+                  >
+                    How do I create and format a letter using The Letter App?
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m18 15-6-6-6 6"
+                      />
+                    </svg>
+                  </button>
+                </h3>
+                <div
+                  aria-labelledby="radix-_r_a_"
+                  class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                  data-orientation="vertical"
+                  data-slot="accordion-content"
+                  data-state="closed"
+                  hidden=""
+                  id="radix-_r_b_"
+                  role="region"
+                  style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+                />
+              </div>
+              <div
+                class="not-last:border-b faq-item"
+                data-orientation="vertical"
+                data-slot="accordion-item"
+                data-state="closed"
+              >
+                <h3
+                  class="flex"
+                  data-orientation="vertical"
+                  data-state="closed"
+                >
+                  <button
+                    aria-expanded="false"
+                    class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground faq-question"
+                    data-orientation="vertical"
+                    data-radix-collection-item=""
+                    data-slot="accordion-trigger"
+                    data-state="closed"
+                    id="radix-_r_c_"
+                    type="button"
+                  >
+                    Can I print letters directly from The Letter App?
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m18 15-6-6-6 6"
+                      />
+                    </svg>
+                  </button>
+                </h3>
+                <div
+                  aria-labelledby="radix-_r_c_"
+                  class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                  data-orientation="vertical"
+                  data-slot="accordion-content"
+                  data-state="closed"
+                  hidden=""
+                  id="radix-_r_d_"
+                  role="region"
+                  style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+                />
+              </div>
+              <div
+                class="not-last:border-b faq-item"
+                data-orientation="vertical"
+                data-slot="accordion-item"
+                data-state="closed"
+              >
+                <h3
+                  class="flex"
+                  data-orientation="vertical"
+                  data-state="closed"
+                >
+                  <button
+                    aria-expanded="false"
+                    class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground faq-question"
+                    data-orientation="vertical"
+                    data-radix-collection-item=""
+                    data-slot="accordion-trigger"
+                    data-state="closed"
+                    id="radix-_r_e_"
+                    type="button"
+                  >
+                    Can I share my letters digitally with others?
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m18 15-6-6-6 6"
+                      />
+                    </svg>
+                  </button>
+                </h3>
+                <div
+                  aria-labelledby="radix-_r_e_"
+                  class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                  data-orientation="vertical"
+                  data-slot="accordion-content"
+                  data-state="closed"
+                  hidden=""
+                  id="radix-_r_f_"
+                  role="region"
+                  style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+                />
+              </div>
+              <div
+                class="not-last:border-b faq-item"
+                data-orientation="vertical"
+                data-slot="accordion-item"
+                data-state="closed"
+              >
+                <h3
+                  class="flex"
+                  data-orientation="vertical"
+                  data-state="closed"
+                >
+                  <button
+                    aria-expanded="false"
+                    class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground faq-question"
+                    data-orientation="vertical"
+                    data-radix-collection-item=""
+                    data-slot="accordion-trigger"
+                    data-state="closed"
+                    id="radix-_r_g_"
+                    type="button"
+                  >
+                    Are my letters stored securely?
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m18 15-6-6-6 6"
+                      />
+                    </svg>
+                  </button>
+                </h3>
+                <div
+                  aria-labelledby="radix-_r_g_"
+                  class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                  data-orientation="vertical"
+                  data-slot="accordion-content"
+                  data-state="closed"
+                  hidden=""
+                  id="radix-_r_h_"
+                  role="region"
+                  style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+                />
+              </div>
+              <div
+                class="not-last:border-b faq-item"
+                data-orientation="vertical"
+                data-slot="accordion-item"
+                data-state="closed"
+              >
+                <h3
+                  class="flex"
+                  data-orientation="vertical"
+                  data-state="closed"
+                >
+                  <button
+                    aria-expanded="false"
+                    class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground faq-question"
+                    data-orientation="vertical"
+                    data-radix-collection-item=""
+                    data-slot="accordion-trigger"
+                    data-state="closed"
+                    id="radix-_r_i_"
+                    type="button"
+                  >
+                    Can I access previously composed letters quickly?
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m18 15-6-6-6 6"
+                      />
+                    </svg>
+                  </button>
+                </h3>
+                <div
+                  aria-labelledby="radix-_r_i_"
+                  class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                  data-orientation="vertical"
+                  data-slot="accordion-content"
+                  data-state="closed"
+                  hidden=""
+                  id="radix-_r_j_"
+                  role="region"
+                  style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+                />
+              </div>
+            </div>
+          </section>
+          <section
+            class="faq-category"
           >
-            <div
-              class="not-last:border-b"
-              data-orientation="vertical"
-              data-slot="accordion-item"
-              data-state="closed"
+            <h2
+              class="faq-category__title"
             >
-              <h3
-                class="flex"
+              Usage
+            </h2>
+            <div
+              class="flex w-full flex-col faq-list"
+              data-orientation="vertical"
+              data-slot="accordion"
+            >
+              <div
+                class="not-last:border-b faq-item"
                 data-orientation="vertical"
+                data-slot="accordion-item"
                 data-state="closed"
               >
-                <button
-                  aria-expanded="false"
-                  class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground text-left"
+                <h3
+                  class="flex"
                   data-orientation="vertical"
-                  data-radix-collection-item=""
-                  data-slot="accordion-trigger"
                   data-state="closed"
-                  id="radix-_r_k_"
-                  type="button"
                 >
-                  Is The Letter App free to use?
-                  <svg
-                    aria-hidden="true"
-                    class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
-                    data-slot="accordion-trigger-icon"
-                    fill="none"
-                    height="24"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
+                  <button
+                    aria-expanded="false"
+                    class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground faq-question"
+                    data-orientation="vertical"
+                    data-radix-collection-item=""
+                    data-slot="accordion-trigger"
+                    data-state="closed"
+                    id="radix-_r_k_"
+                    type="button"
                   >
-                    <path
-                      d="m6 9 6 6 6-6"
-                    />
-                  </svg>
-                  <svg
-                    aria-hidden="true"
-                    class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
-                    data-slot="accordion-trigger-icon"
-                    fill="none"
-                    height="24"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="m18 15-6-6-6 6"
-                    />
-                  </svg>
-                </button>
-              </h3>
+                    How can I change the font of a letter?
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m18 15-6-6-6 6"
+                      />
+                    </svg>
+                  </button>
+                </h3>
+                <div
+                  aria-labelledby="radix-_r_k_"
+                  class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                  data-orientation="vertical"
+                  data-slot="accordion-content"
+                  data-state="closed"
+                  hidden=""
+                  id="radix-_r_l_"
+                  role="region"
+                  style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+                />
+              </div>
               <div
-                aria-labelledby="radix-_r_k_"
-                class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                class="not-last:border-b faq-item"
                 data-orientation="vertical"
-                data-slot="accordion-content"
-                data-state="closed"
-                hidden=""
-                id="radix-_r_l_"
-                role="region"
-                style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
-              />
-            </div>
-            <div
-              class="not-last:border-b"
-              data-orientation="vertical"
-              data-slot="accordion-item"
-              data-state="closed"
-            >
-              <h3
-                class="flex"
-                data-orientation="vertical"
+                data-slot="accordion-item"
                 data-state="closed"
               >
-                <button
-                  aria-expanded="false"
-                  class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground text-left"
+                <h3
+                  class="flex"
                   data-orientation="vertical"
-                  data-radix-collection-item=""
-                  data-slot="accordion-trigger"
                   data-state="closed"
-                  id="radix-_r_m_"
-                  type="button"
                 >
-                  How do I subscribe to the PRO version of The Letter App?
-                  <svg
-                    aria-hidden="true"
-                    class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
-                    data-slot="accordion-trigger-icon"
-                    fill="none"
-                    height="24"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
+                  <button
+                    aria-expanded="false"
+                    class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground faq-question"
+                    data-orientation="vertical"
+                    data-radix-collection-item=""
+                    data-slot="accordion-trigger"
+                    data-state="closed"
+                    id="radix-_r_m_"
+                    type="button"
                   >
-                    <path
-                      d="m6 9 6 6 6-6"
-                    />
-                  </svg>
-                  <svg
-                    aria-hidden="true"
-                    class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
-                    data-slot="accordion-trigger-icon"
-                    fill="none"
-                    height="24"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="m18 15-6-6-6 6"
-                    />
-                  </svg>
-                </button>
-              </h3>
+                    Do I have to enter the sender again for each letter?
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m18 15-6-6-6 6"
+                      />
+                    </svg>
+                  </button>
+                </h3>
+                <div
+                  aria-labelledby="radix-_r_m_"
+                  class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                  data-orientation="vertical"
+                  data-slot="accordion-content"
+                  data-state="closed"
+                  hidden=""
+                  id="radix-_r_n_"
+                  role="region"
+                  style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+                />
+              </div>
               <div
-                aria-labelledby="radix-_r_m_"
-                class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                class="not-last:border-b faq-item"
                 data-orientation="vertical"
-                data-slot="accordion-content"
-                data-state="closed"
-                hidden=""
-                id="radix-_r_n_"
-                role="region"
-                style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
-              />
-            </div>
-            <div
-              class="not-last:border-b"
-              data-orientation="vertical"
-              data-slot="accordion-item"
-              data-state="closed"
-            >
-              <h3
-                class="flex"
-                data-orientation="vertical"
+                data-slot="accordion-item"
                 data-state="closed"
               >
-                <button
-                  aria-expanded="false"
-                  class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground text-left"
+                <h3
+                  class="flex"
                   data-orientation="vertical"
-                  data-radix-collection-item=""
-                  data-slot="accordion-trigger"
                   data-state="closed"
-                  id="radix-_r_o_"
-                  type="button"
                 >
-                  What is the cost of the PRO version, and how is it billed?
-                  <svg
-                    aria-hidden="true"
-                    class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
-                    data-slot="accordion-trigger-icon"
-                    fill="none"
-                    height="24"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
+                  <button
+                    aria-expanded="false"
+                    class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground faq-question"
+                    data-orientation="vertical"
+                    data-radix-collection-item=""
+                    data-slot="accordion-trigger"
+                    data-state="closed"
+                    id="radix-_r_o_"
+                    type="button"
                   >
-                    <path
-                      d="m6 9 6 6 6-6"
-                    />
-                  </svg>
-                  <svg
-                    aria-hidden="true"
-                    class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
-                    data-slot="accordion-trigger-icon"
-                    fill="none"
-                    height="24"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="m18 15-6-6-6 6"
-                    />
-                  </svg>
-                </button>
-              </h3>
+                    How can I adjust the date of the letter?
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m18 15-6-6-6 6"
+                      />
+                    </svg>
+                  </button>
+                </h3>
+                <div
+                  aria-labelledby="radix-_r_o_"
+                  class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                  data-orientation="vertical"
+                  data-slot="accordion-content"
+                  data-state="closed"
+                  hidden=""
+                  id="radix-_r_p_"
+                  role="region"
+                  style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+                />
+              </div>
               <div
-                aria-labelledby="radix-_r_o_"
-                class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                class="not-last:border-b faq-item"
                 data-orientation="vertical"
-                data-slot="accordion-content"
+                data-slot="accordion-item"
                 data-state="closed"
-                hidden=""
-                id="radix-_r_p_"
-                role="region"
-                style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
-              />
+              >
+                <h3
+                  class="flex"
+                  data-orientation="vertical"
+                  data-state="closed"
+                >
+                  <button
+                    aria-expanded="false"
+                    class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground faq-question"
+                    data-orientation="vertical"
+                    data-radix-collection-item=""
+                    data-slot="accordion-trigger"
+                    data-state="closed"
+                    id="radix-_r_q_"
+                    type="button"
+                  >
+                    How can I add a logo to my letters?
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m18 15-6-6-6 6"
+                      />
+                    </svg>
+                  </button>
+                </h3>
+                <div
+                  aria-labelledby="radix-_r_q_"
+                  class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                  data-orientation="vertical"
+                  data-slot="accordion-content"
+                  data-state="closed"
+                  hidden=""
+                  id="radix-_r_r_"
+                  role="region"
+                  style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+                />
+              </div>
+              <div
+                class="not-last:border-b faq-item"
+                data-orientation="vertical"
+                data-slot="accordion-item"
+                data-state="closed"
+              >
+                <h3
+                  class="flex"
+                  data-orientation="vertical"
+                  data-state="closed"
+                >
+                  <button
+                    aria-expanded="false"
+                    class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground faq-question"
+                    data-orientation="vertical"
+                    data-radix-collection-item=""
+                    data-slot="accordion-trigger"
+                    data-state="closed"
+                    id="radix-_r_s_"
+                    type="button"
+                  >
+                    How can I format text in bold, italic, or underline?
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m18 15-6-6-6 6"
+                      />
+                    </svg>
+                  </button>
+                </h3>
+                <div
+                  aria-labelledby="radix-_r_s_"
+                  class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                  data-orientation="vertical"
+                  data-slot="accordion-content"
+                  data-state="closed"
+                  hidden=""
+                  id="radix-_r_t_"
+                  role="region"
+                  style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+                />
+              </div>
+              <div
+                class="not-last:border-b faq-item"
+                data-orientation="vertical"
+                data-slot="accordion-item"
+                data-state="closed"
+              >
+                <h3
+                  class="flex"
+                  data-orientation="vertical"
+                  data-state="closed"
+                >
+                  <button
+                    aria-expanded="false"
+                    class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground faq-question"
+                    data-orientation="vertical"
+                    data-radix-collection-item=""
+                    data-slot="accordion-trigger"
+                    data-state="closed"
+                    id="radix-_r_u_"
+                    type="button"
+                  >
+                    How can I add a table to a letter?
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m18 15-6-6-6 6"
+                      />
+                    </svg>
+                  </button>
+                </h3>
+                <div
+                  aria-labelledby="radix-_r_u_"
+                  class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                  data-orientation="vertical"
+                  data-slot="accordion-content"
+                  data-state="closed"
+                  hidden=""
+                  id="radix-_r_v_"
+                  role="region"
+                  style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+                />
+              </div>
+              <div
+                class="not-last:border-b faq-item"
+                data-orientation="vertical"
+                data-slot="accordion-item"
+                data-state="closed"
+              >
+                <h3
+                  class="flex"
+                  data-orientation="vertical"
+                  data-state="closed"
+                >
+                  <button
+                    aria-expanded="false"
+                    class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground faq-question"
+                    data-orientation="vertical"
+                    data-radix-collection-item=""
+                    data-slot="accordion-trigger"
+                    data-state="closed"
+                    id="radix-_r_10_"
+                    type="button"
+                  >
+                    How does the AI writing assistant work?
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m18 15-6-6-6 6"
+                      />
+                    </svg>
+                  </button>
+                </h3>
+                <div
+                  aria-labelledby="radix-_r_10_"
+                  class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                  data-orientation="vertical"
+                  data-slot="accordion-content"
+                  data-state="closed"
+                  hidden=""
+                  id="radix-_r_11_"
+                  role="region"
+                  style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+                />
+              </div>
+              <div
+                class="not-last:border-b faq-item"
+                data-orientation="vertical"
+                data-slot="accordion-item"
+                data-state="closed"
+              >
+                <h3
+                  class="flex"
+                  data-orientation="vertical"
+                  data-state="closed"
+                >
+                  <button
+                    aria-expanded="false"
+                    class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground faq-question"
+                    data-orientation="vertical"
+                    data-radix-collection-item=""
+                    data-slot="accordion-trigger"
+                    data-state="closed"
+                    id="radix-_r_12_"
+                    type="button"
+                  >
+                    How do I use templates?
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m18 15-6-6-6 6"
+                      />
+                    </svg>
+                  </button>
+                </h3>
+                <div
+                  aria-labelledby="radix-_r_12_"
+                  class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                  data-orientation="vertical"
+                  data-slot="accordion-content"
+                  data-state="closed"
+                  hidden=""
+                  id="radix-_r_13_"
+                  role="region"
+                  style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+                />
+              </div>
+              <div
+                class="not-last:border-b faq-item"
+                data-orientation="vertical"
+                data-slot="accordion-item"
+                data-state="closed"
+              >
+                <h3
+                  class="flex"
+                  data-orientation="vertical"
+                  data-state="closed"
+                >
+                  <button
+                    aria-expanded="false"
+                    class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground faq-question"
+                    data-orientation="vertical"
+                    data-radix-collection-item=""
+                    data-slot="accordion-trigger"
+                    data-state="closed"
+                    id="radix-_r_14_"
+                    type="button"
+                  >
+                    How can I add my signature to a letter?
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m18 15-6-6-6 6"
+                      />
+                    </svg>
+                  </button>
+                </h3>
+                <div
+                  aria-labelledby="radix-_r_14_"
+                  class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                  data-orientation="vertical"
+                  data-slot="accordion-content"
+                  data-state="closed"
+                  hidden=""
+                  id="radix-_r_15_"
+                  role="region"
+                  style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+                />
+              </div>
+              <div
+                class="not-last:border-b faq-item"
+                data-orientation="vertical"
+                data-slot="accordion-item"
+                data-state="closed"
+              >
+                <h3
+                  class="flex"
+                  data-orientation="vertical"
+                  data-state="closed"
+                >
+                  <button
+                    aria-expanded="false"
+                    class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground faq-question"
+                    data-orientation="vertical"
+                    data-radix-collection-item=""
+                    data-slot="accordion-trigger"
+                    data-state="closed"
+                    id="radix-_r_16_"
+                    type="button"
+                  >
+                    Can I import addresses from my contacts?
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m18 15-6-6-6 6"
+                      />
+                    </svg>
+                  </button>
+                </h3>
+                <div
+                  aria-labelledby="radix-_r_16_"
+                  class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                  data-orientation="vertical"
+                  data-slot="accordion-content"
+                  data-state="closed"
+                  hidden=""
+                  id="radix-_r_17_"
+                  role="region"
+                  style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+                />
+              </div>
+              <div
+                class="not-last:border-b faq-item"
+                data-orientation="vertical"
+                data-slot="accordion-item"
+                data-state="closed"
+              >
+                <h3
+                  class="flex"
+                  data-orientation="vertical"
+                  data-state="closed"
+                >
+                  <button
+                    aria-expanded="false"
+                    class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground faq-question"
+                    data-orientation="vertical"
+                    data-radix-collection-item=""
+                    data-slot="accordion-trigger"
+                    data-state="closed"
+                    id="radix-_r_18_"
+                    type="button"
+                  >
+                    Why aren't my letters syncing across my devices?
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m18 15-6-6-6 6"
+                      />
+                    </svg>
+                  </button>
+                </h3>
+                <div
+                  aria-labelledby="radix-_r_18_"
+                  class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                  data-orientation="vertical"
+                  data-slot="accordion-content"
+                  data-state="closed"
+                  hidden=""
+                  id="radix-_r_19_"
+                  role="region"
+                  style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+                />
+              </div>
+              <div
+                class="not-last:border-b faq-item"
+                data-orientation="vertical"
+                data-slot="accordion-item"
+                data-state="closed"
+              >
+                <h3
+                  class="flex"
+                  data-orientation="vertical"
+                  data-state="closed"
+                >
+                  <button
+                    aria-expanded="false"
+                    class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground faq-question"
+                    data-orientation="vertical"
+                    data-radix-collection-item=""
+                    data-slot="accordion-trigger"
+                    data-state="closed"
+                    id="radix-_r_1a_"
+                    type="button"
+                  >
+                    Which paper sizes and envelope options are supported?
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m18 15-6-6-6 6"
+                      />
+                    </svg>
+                  </button>
+                </h3>
+                <div
+                  aria-labelledby="radix-_r_1a_"
+                  class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                  data-orientation="vertical"
+                  data-slot="accordion-content"
+                  data-state="closed"
+                  hidden=""
+                  id="radix-_r_1b_"
+                  role="region"
+                  style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+                />
+              </div>
             </div>
-          </div>
-        </div>
-        <div
-          class="mb-8"
-        >
-          <h2
-            class="text-2xl font-semibold mb-4"
+          </section>
+          <section
+            class="faq-category"
           >
-            Usage
-          </h2>
-          <div
-            class="flex flex-col w-full"
-            data-orientation="vertical"
-            data-slot="accordion"
-          >
-            <div
-              class="not-last:border-b"
-              data-orientation="vertical"
-              data-slot="accordion-item"
-              data-state="closed"
+            <h2
+              class="faq-category__title"
             >
-              <h3
-                class="flex"
+              Subscription and Pricing
+            </h2>
+            <div
+              class="flex w-full flex-col faq-list"
+              data-orientation="vertical"
+              data-slot="accordion"
+            >
+              <div
+                class="not-last:border-b faq-item"
                 data-orientation="vertical"
+                data-slot="accordion-item"
                 data-state="closed"
               >
-                <button
-                  aria-expanded="false"
-                  class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground text-left"
+                <h3
+                  class="flex"
                   data-orientation="vertical"
-                  data-radix-collection-item=""
-                  data-slot="accordion-trigger"
                   data-state="closed"
-                  id="radix-_r_q_"
-                  type="button"
                 >
-                  How can I change the font of a letter?
-                  <svg
-                    aria-hidden="true"
-                    class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
-                    data-slot="accordion-trigger-icon"
-                    fill="none"
-                    height="24"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
+                  <button
+                    aria-expanded="false"
+                    class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground faq-question"
+                    data-orientation="vertical"
+                    data-radix-collection-item=""
+                    data-slot="accordion-trigger"
+                    data-state="closed"
+                    id="radix-_r_1c_"
+                    type="button"
                   >
-                    <path
-                      d="m6 9 6 6 6-6"
-                    />
-                  </svg>
-                  <svg
-                    aria-hidden="true"
-                    class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
-                    data-slot="accordion-trigger-icon"
-                    fill="none"
-                    height="24"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="m18 15-6-6-6 6"
-                    />
-                  </svg>
-                </button>
-              </h3>
+                    Is The Letter App free to use?
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m18 15-6-6-6 6"
+                      />
+                    </svg>
+                  </button>
+                </h3>
+                <div
+                  aria-labelledby="radix-_r_1c_"
+                  class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                  data-orientation="vertical"
+                  data-slot="accordion-content"
+                  data-state="closed"
+                  hidden=""
+                  id="radix-_r_1d_"
+                  role="region"
+                  style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+                />
+              </div>
               <div
-                aria-labelledby="radix-_r_q_"
-                class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                class="not-last:border-b faq-item"
                 data-orientation="vertical"
-                data-slot="accordion-content"
-                data-state="closed"
-                hidden=""
-                id="radix-_r_r_"
-                role="region"
-                style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
-              />
-            </div>
-            <div
-              class="not-last:border-b"
-              data-orientation="vertical"
-              data-slot="accordion-item"
-              data-state="closed"
-            >
-              <h3
-                class="flex"
-                data-orientation="vertical"
+                data-slot="accordion-item"
                 data-state="closed"
               >
-                <button
-                  aria-expanded="false"
-                  class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground text-left"
+                <h3
+                  class="flex"
                   data-orientation="vertical"
-                  data-radix-collection-item=""
-                  data-slot="accordion-trigger"
                   data-state="closed"
-                  id="radix-_r_s_"
-                  type="button"
                 >
-                  Do I have to enter the sender again for each letter?
-                  <svg
-                    aria-hidden="true"
-                    class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
-                    data-slot="accordion-trigger-icon"
-                    fill="none"
-                    height="24"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
+                  <button
+                    aria-expanded="false"
+                    class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground faq-question"
+                    data-orientation="vertical"
+                    data-radix-collection-item=""
+                    data-slot="accordion-trigger"
+                    data-state="closed"
+                    id="radix-_r_1e_"
+                    type="button"
                   >
-                    <path
-                      d="m6 9 6 6 6-6"
-                    />
-                  </svg>
-                  <svg
-                    aria-hidden="true"
-                    class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
-                    data-slot="accordion-trigger-icon"
-                    fill="none"
-                    height="24"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="m18 15-6-6-6 6"
-                    />
-                  </svg>
-                </button>
-              </h3>
+                    How do I subscribe to the PRO version of The Letter App?
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m18 15-6-6-6 6"
+                      />
+                    </svg>
+                  </button>
+                </h3>
+                <div
+                  aria-labelledby="radix-_r_1e_"
+                  class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                  data-orientation="vertical"
+                  data-slot="accordion-content"
+                  data-state="closed"
+                  hidden=""
+                  id="radix-_r_1f_"
+                  role="region"
+                  style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+                />
+              </div>
               <div
-                aria-labelledby="radix-_r_s_"
-                class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                class="not-last:border-b faq-item"
                 data-orientation="vertical"
-                data-slot="accordion-content"
-                data-state="closed"
-                hidden=""
-                id="radix-_r_t_"
-                role="region"
-                style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
-              />
-            </div>
-            <div
-              class="not-last:border-b"
-              data-orientation="vertical"
-              data-slot="accordion-item"
-              data-state="closed"
-            >
-              <h3
-                class="flex"
-                data-orientation="vertical"
+                data-slot="accordion-item"
                 data-state="closed"
               >
-                <button
-                  aria-expanded="false"
-                  class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground text-left"
+                <h3
+                  class="flex"
                   data-orientation="vertical"
-                  data-radix-collection-item=""
-                  data-slot="accordion-trigger"
                   data-state="closed"
-                  id="radix-_r_u_"
-                  type="button"
                 >
-                  How can I adjust the date of the letter?
-                  <svg
-                    aria-hidden="true"
-                    class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
-                    data-slot="accordion-trigger-icon"
-                    fill="none"
-                    height="24"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
+                  <button
+                    aria-expanded="false"
+                    class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground faq-question"
+                    data-orientation="vertical"
+                    data-radix-collection-item=""
+                    data-slot="accordion-trigger"
+                    data-state="closed"
+                    id="radix-_r_1g_"
+                    type="button"
                   >
-                    <path
-                      d="m6 9 6 6 6-6"
-                    />
-                  </svg>
-                  <svg
-                    aria-hidden="true"
-                    class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
-                    data-slot="accordion-trigger-icon"
-                    fill="none"
-                    height="24"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="m18 15-6-6-6 6"
-                    />
-                  </svg>
-                </button>
-              </h3>
+                    What is the cost of the PRO version, and how is it billed?
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m18 15-6-6-6 6"
+                      />
+                    </svg>
+                  </button>
+                </h3>
+                <div
+                  aria-labelledby="radix-_r_1g_"
+                  class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                  data-orientation="vertical"
+                  data-slot="accordion-content"
+                  data-state="closed"
+                  hidden=""
+                  id="radix-_r_1h_"
+                  role="region"
+                  style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+                />
+              </div>
               <div
-                aria-labelledby="radix-_r_u_"
-                class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                class="not-last:border-b faq-item"
                 data-orientation="vertical"
-                data-slot="accordion-content"
-                data-state="closed"
-                hidden=""
-                id="radix-_r_v_"
-                role="region"
-                style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
-              />
-            </div>
-            <div
-              class="not-last:border-b"
-              data-orientation="vertical"
-              data-slot="accordion-item"
-              data-state="closed"
-            >
-              <h3
-                class="flex"
-                data-orientation="vertical"
+                data-slot="accordion-item"
                 data-state="closed"
               >
-                <button
-                  aria-expanded="false"
-                  class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground text-left"
+                <h3
+                  class="flex"
                   data-orientation="vertical"
-                  data-radix-collection-item=""
-                  data-slot="accordion-trigger"
                   data-state="closed"
-                  id="radix-_r_10_"
-                  type="button"
                 >
-                  How can I add a logo to my letters?
-                  <svg
-                    aria-hidden="true"
-                    class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
-                    data-slot="accordion-trigger-icon"
-                    fill="none"
-                    height="24"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
+                  <button
+                    aria-expanded="false"
+                    class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground faq-question"
+                    data-orientation="vertical"
+                    data-radix-collection-item=""
+                    data-slot="accordion-trigger"
+                    data-state="closed"
+                    id="radix-_r_1i_"
+                    type="button"
                   >
-                    <path
-                      d="m6 9 6 6 6-6"
-                    />
-                  </svg>
-                  <svg
-                    aria-hidden="true"
-                    class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
-                    data-slot="accordion-trigger-icon"
-                    fill="none"
-                    height="24"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="m18 15-6-6-6 6"
-                    />
-                  </svg>
-                </button>
-              </h3>
+                    Is there a free trial for the PRO version?
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m18 15-6-6-6 6"
+                      />
+                    </svg>
+                  </button>
+                </h3>
+                <div
+                  aria-labelledby="radix-_r_1i_"
+                  class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                  data-orientation="vertical"
+                  data-slot="accordion-content"
+                  data-state="closed"
+                  hidden=""
+                  id="radix-_r_1j_"
+                  role="region"
+                  style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+                />
+              </div>
               <div
-                aria-labelledby="radix-_r_10_"
-                class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                class="not-last:border-b faq-item"
                 data-orientation="vertical"
-                data-slot="accordion-content"
+                data-slot="accordion-item"
                 data-state="closed"
-                hidden=""
-                id="radix-_r_11_"
-                role="region"
-                style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
-              />
+              >
+                <h3
+                  class="flex"
+                  data-orientation="vertical"
+                  data-state="closed"
+                >
+                  <button
+                    aria-expanded="false"
+                    class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground faq-question"
+                    data-orientation="vertical"
+                    data-radix-collection-item=""
+                    data-slot="accordion-trigger"
+                    data-state="closed"
+                    id="radix-_r_1k_"
+                    type="button"
+                  >
+                    I already subscribed on another device — how do I restore my purchase?
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m18 15-6-6-6 6"
+                      />
+                    </svg>
+                  </button>
+                </h3>
+                <div
+                  aria-labelledby="radix-_r_1k_"
+                  class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                  data-orientation="vertical"
+                  data-slot="accordion-content"
+                  data-state="closed"
+                  hidden=""
+                  id="radix-_r_1l_"
+                  role="region"
+                  style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+                />
+              </div>
+              <div
+                class="not-last:border-b faq-item"
+                data-orientation="vertical"
+                data-slot="accordion-item"
+                data-state="closed"
+              >
+                <h3
+                  class="flex"
+                  data-orientation="vertical"
+                  data-state="closed"
+                >
+                  <button
+                    aria-expanded="false"
+                    class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground faq-question"
+                    data-orientation="vertical"
+                    data-radix-collection-item=""
+                    data-slot="accordion-trigger"
+                    data-state="closed"
+                    id="radix-_r_1m_"
+                    type="button"
+                  >
+                    Can I transfer my purchase or subscription from Apple to Android, or the other way around?
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m18 15-6-6-6 6"
+                      />
+                    </svg>
+                  </button>
+                </h3>
+                <div
+                  aria-labelledby="radix-_r_1m_"
+                  class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                  data-orientation="vertical"
+                  data-slot="accordion-content"
+                  data-state="closed"
+                  hidden=""
+                  id="radix-_r_1n_"
+                  role="region"
+                  style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+                />
+              </div>
+              <div
+                class="not-last:border-b faq-item"
+                data-orientation="vertical"
+                data-slot="accordion-item"
+                data-state="closed"
+              >
+                <h3
+                  class="flex"
+                  data-orientation="vertical"
+                  data-state="closed"
+                >
+                  <button
+                    aria-expanded="false"
+                    class="group/accordion-trigger relative flex flex-1 items-start justify-between rounded-lg border border-transparent py-2.5 text-left text-sm font-medium transition-all outline-none hover:underline focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:after:border-ring disabled:pointer-events-none disabled:opacity-50 **:data-[slot=accordion-trigger-icon]:ml-auto **:data-[slot=accordion-trigger-icon]:size-4 **:data-[slot=accordion-trigger-icon]:text-muted-foreground faq-question"
+                    data-orientation="vertical"
+                    data-radix-collection-item=""
+                    data-slot="accordion-trigger"
+                    data-state="closed"
+                    id="radix-_r_1o_"
+                    type="button"
+                  >
+                    How do I cancel my PRO subscription?
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-down pointer-events-none shrink-0 group-aria-expanded/accordion-trigger:hidden"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m6 9 6 6 6-6"
+                      />
+                    </svg>
+                    <svg
+                      aria-hidden="true"
+                      class="lucide lucide-chevron-up pointer-events-none hidden shrink-0 group-aria-expanded/accordion-trigger:inline"
+                      data-slot="accordion-trigger-icon"
+                      fill="none"
+                      height="24"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="m18 15-6-6-6 6"
+                      />
+                    </svg>
+                  </button>
+                </h3>
+                <div
+                  aria-labelledby="radix-_r_1o_"
+                  class="overflow-hidden text-sm data-open:animate-accordion-down data-closed:animate-accordion-up"
+                  data-orientation="vertical"
+                  data-slot="accordion-content"
+                  data-state="closed"
+                  hidden=""
+                  id="radix-_r_1p_"
+                  role="region"
+                  style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+                />
+              </div>
             </div>
-          </div>
+          </section>
         </div>
       </div>
     </div>

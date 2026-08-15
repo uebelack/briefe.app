@@ -83,6 +83,10 @@
           "answer": "Selecteer in de editor de tekst die je wilt wijzigen en tik op de knop Vet, Cursief of Onderstrepen in de opmaakwerkbalk. Heb je een fysiek toetsenbord, dan kun je ook Ctrl + B, Ctrl + I en Ctrl + U gebruiken. Liever een brief zonder opmaak? Schakel dan Alleen tekst in bij de briefinstellingen. (Tekstopmaak is een PRO-functie.)"
         },
         {
+          "question": "Hoe kan ik een tabel aan een brief toevoegen?",
+          "answer": "Tabellen worden op dit moment helaas niet ondersteund door de Brieven App. Het doel van de app is om snel en eenvoudig perfect opgemaakte brieven te maken — de app wil geen volwaardige tekstverwerker zoals Word, Google Docs of Pages vervangen. We begrijpen dat dit onhandig is bij facturen met kolommen met bedragen en nemen uw wens graag mee in de verdere ontwikkeling."
+        },
+        {
           "question": "Hoe werkt de AI-schrijfassistent?",
           "answer": "Voer een korte notitie in over wat je wilt zeggen en tik daarna op de sterretjesknop (✨) in de editor. De eerste keer wordt je gevraagd akkoord te gaan met de gegevensverwerking, omdat je onderwerp en bericht naar een AI-dienst worden gestuurd om een concept te genereren. De assistent stelt vervolgens een onderwerp en een tekst voor — tik op Gebruiken om het in je brief in te voegen, of op Annuleren om te behouden wat je al had. (De AI-assistent is een PRO-functie en is mogelijk niet overal beschikbaar.)"
         },

@@ -83,6 +83,10 @@
           "answer": "No editor, selecione o texto que pretende alterar e toque no botão Negrito, Itálico ou Sublinhado na barra de formatação. Se tiver um teclado físico, também pode utilizar Ctrl + B, Ctrl + I e Ctrl + U. Prefere uma carta simples, sem qualquer formatação? Ative a opção Apenas texto nas definições da carta. (A formatação de texto enriquecido é uma funcionalidade PRO.)"
         },
         {
+          "question": "Como posso adicionar uma tabela a uma carta?",
+          "answer": "De momento, as tabelas não são suportadas pela aplicação Carta. O objetivo da aplicação é permitir-lhe criar cartas perfeitamente formatadas de forma rápida e simples — não pretende substituir um processador de texto completo como o Word, o Google Docs ou o Pages. Sabemos que isso é pouco prático em faturas com colunas de valores e registamos com todo o gosto a sua sugestão para o desenvolvimento futuro."
+        },
+        {
           "question": "Como funciona o assistente de escrita com IA?",
           "answer": "Introduza uma breve nota sobre o que pretende dizer e, em seguida, toque no botão da estrela (✨) no editor. Da primeira vez, ser-lhe-á pedido que aceite o processamento de dados, uma vez que o seu assunto e mensagem são enviados para um serviço de IA para gerar um rascunho. O assistente sugere então um assunto e um corpo de texto — toque em Utilizar para o inserir na sua carta ou em Cancelar para manter o que tinha. (O assistente de IA é uma funcionalidade PRO e poderá não estar disponível em todo o lado.)"
         },

@@ -83,6 +83,10 @@
           "answer": "In the editor, select the text you want to change and tap the Bold, Italic, or Underline button in the formatting toolbar. If you have a hardware keyboard, you can also use Ctrl + B, Ctrl + I, and Ctrl + U. Prefer a plain letter with no styling? Turn on Text Only in the letter settings. (Rich-text formatting is a PRO feature.)"
         },
         {
+          "question": "How can I add a table to a letter?",
+          "answer": "Tables are currently not supported in The Letter App. The goal of the app is to let you create perfectly formatted letters quickly and easily — it isn't meant to replace a full word processor like Word, Google Docs or Pages. We know this is inconvenient for invoices with columns of figures, and we're happy to take the request on board for future development."
+        },
+        {
           "question": "How does the AI writing assistant work?",
           "answer": "Enter a short note about what you want to say, then tap the sparkle (✨) button in the editor. The first time, you'll be asked to agree to data processing, because your subject and message are sent to an AI service to generate a draft. The assistant then suggests a subject and body — tap Use to insert it into your letter, or Cancel to keep what you had. (The AI assistant is a PRO feature and may not be available everywhere.)"
         },

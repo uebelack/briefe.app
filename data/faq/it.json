@@ -83,6 +83,10 @@
           "answer": "Nell'editor, selezionare il testo da modificare e toccare il pulsante Grassetto, Corsivo o Sottolineato nella barra degli strumenti di formattazione. Se si dispone di una tastiera fisica, è possibile usare anche Ctrl + B, Ctrl + I e Ctrl + U. Si preferisce una lettera semplice senza formattazione? Attivare Solo testo nelle impostazioni della lettera. (La formattazione del testo è una funzione PRO.)"
         },
         {
+          "question": "Come posso aggiungere una tabella a una lettera?",
+          "answer": "Al momento le tabelle non sono supportate da L'App Lettera. L'obiettivo dell'app è permetterti di creare lettere perfettamente formattate in modo rapido e semplice: non vuole sostituire un programma di videoscrittura completo come Word, Google Docs o Pages. Sappiamo che questo è scomodo per le fatture con colonne di importi e prendiamo volentieri nota della richiesta per i prossimi sviluppi."
+        },
+        {
           "question": "Come funziona l'assistente di scrittura AI?",
           "answer": "Inserire una breve nota su ciò che si desidera scrivere, quindi toccare il pulsante con la stella (✨) nell'editor. La prima volta verrà chiesto di acconsentire al trattamento dei dati, perché l'oggetto e il messaggio vengono inviati a un servizio di intelligenza artificiale per generare una bozza. L'assistente propone quindi un oggetto e un corpo del testo: toccare Usa per inserirlo nella lettera oppure Annulla per mantenere il testo esistente. (L'assistente AI è una funzione PRO e potrebbe non essere disponibile ovunque.)"
         },
